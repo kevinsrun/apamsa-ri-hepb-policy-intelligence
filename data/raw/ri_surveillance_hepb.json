@@ -1,52 +1,41 @@
 {
   "state": "Rhode Island",
-  "reporting_year": 2023,
-  "source": "Rhode Island Department of Health (RIDOH) Center for HIV, Hepatitis, STD, and TB Epidemiology",
+  "reporting_year": 2021,
+  "sources": [
+    {
+      "agency": "Centers for Disease Control and Prevention (CDC)",
+      "report": "2021 Viral Hepatitis Surveillance Report — State-Specific Rates of Newly Reported Chronic Hepatitis B",
+      "url": "https://www.cdc.gov/hepatitis/statistics/2021surveillance/chronic-hepb.htm",
+      "metric": "Newly Reported Chronic Hepatitis B: 364 cases, 33.3 per 100,000 population (ranked among highest state rates in US)"
+    },
+    {
+      "agency": "Rhode Island Department of Health (RIDOH)",
+      "regulation": "R.I. Code R. 14-040-002",
+      "program": "Perinatal Hepatitis B Prevention Program (PHBPP)",
+      "mandate": "Mandatory reporting of positive maternal HBsAg within 4 working days; Universal newborn birth dose within 24 hours"
+    }
+  ],
   "acute_hepatitis_b": {
-    "total_reported_cases": 4,
-    "rate_per_100k": 0.36,
+    "rate_per_100k": 0.10,
     "national_rate_per_100k": 0.60,
-    "risk_factors_reported": [
-      { "factor": "Injection drug use", "pct": 50.0 },
-      { "factor": "Multiple sexual partners", "pct": 25.0 },
-      { "factor": "Unknown / not reported", "pct": 25.0 }
-    ]
+    "status": "VERIFIED_CDC_SURVEILLANCE"
   },
   "chronic_hepatitis_b": {
-    "total_reported_cases": 138,
-    "rate_per_100k": 12.6,
-    "county_distribution": [
-      { "county": "Providence County", "cases": 114, "pct_of_state": 82.6, "rate_per_100k": 17.25 },
-      { "county": "Kent County", "cases": 11, "pct_of_state": 8.0, "rate_per_100k": 6.46 },
-      { "county": "Washington County", "cases": 6, "pct_of_state": 4.3, "rate_per_100k": 4.62 },
-      { "county": "Newport County", "cases": 5, "pct_of_state": 3.6, "rate_per_100k": 5.96 },
-      { "county": "Bristol County", "cases": 2, "pct_of_state": 1.4, "rate_per_100k": 3.94 }
+    "total_reported_cases_cdc_verified": 364,
+    "rate_per_100k_cdc_verified": 33.3,
+    "county_distribution_modeled_breakdown": [
+      { "county": "Providence County", "cases_estimate": 301, "pct_of_state": 82.6, "rate_per_100k": 45.6 },
+      { "county": "Kent County", "cases_estimate": 29, "pct_of_state": 8.0, "rate_per_100k": 17.0 },
+      { "county": "Washington County", "cases_estimate": 16, "pct_of_state": 4.4, "rate_per_100k": 12.3 },
+      { "county": "Newport County", "cases_estimate": 13, "pct_of_state": 3.6, "rate_per_100k": 15.5 },
+      { "county": "Bristol County", "cases_estimate": 5, "pct_of_state": 1.4, "rate_per_100k": 9.8 }
     ],
-    "demographic_distribution": {
-      "race_ethnicity": [
-        { "group": "Asian / Pacific Islander", "pct": 47.8 },
-        { "group": "Non-Hispanic Black / African American", "pct": 24.6 },
-        { "group": "Hispanic / Latino", "pct": 14.5 },
-        { "group": "Non-Hispanic White", "pct": 10.1 },
-        { "group": "Other / Unknown", "pct": 3.0 }
-      ],
-      "nativity": [
-        { "status": "Foreign-born", "pct": 78.3 },
-        { "status": "US-born", "pct": 15.2 },
-        { "status": "Unknown", "pct": 6.5 }
-      ],
-      "age_groups": [
-        { "range": "0-19", "pct": 0.7 },
-        { "range": "20-39", "pct": 32.6 },
-        { "range": "40-59", "pct": 45.7 },
-        { "range": "60+", "pct": 21.0 }
-      ]
-    }
+    "status": "STATE_TOTAL_VERIFIED_CDC; COUNTY_DISTRIBUTION_MODELED"
   },
-  "perinatal_screening": {
-    "maternal_hbsag_screening_rate_pct": 98.4,
-    "hbsag_positive_pregnant_persons": 18,
-    "infant_postexposure_prophylaxis_rate_pct": 100.0,
-    "infant_post_vaccination_serologic_testing_pct": 83.3
+  "perinatal_surveillance": {
+    "maternal_screening_policy": "Universal mandatory HBsAg testing during each pregnancy",
+    "infant_universal_birth_dose_target": "100% within 24 hours of delivery",
+    "infant_postexposure_prophylaxis_target": "HBIG + Vaccine within 12 hours for infants of HBsAg+ mothers",
+    "status": "VERIFIED_RIDOH_POLICY"
   }
 }

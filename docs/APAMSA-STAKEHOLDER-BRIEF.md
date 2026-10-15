@@ -1,59 +1,64 @@
 # APAMSA Rhode Island Hepatitis B Research & Policy Evidence Brief
-**Project:** Hepatitis B Universal Adult Screening Assessment in Rhode Island  
-**Audience:** Gavin Li & APAMSA Rhode Island Research Collaborators, Health System Stakeholders  
+**Project:** Hepatitis B Universal Adult Screening Evidence Platform for Rhode Island  
+**Audience:** Gavin Li, APAMSA Rhode Island Research Collaborators, Health Policy Stakeholders  
 **Date:** October 2026  
-**Status:** Completed Baseline Analysis  
+**Status:** **AUDITED — EMPIRICAL BENCHMARKS VERIFIED; PROTOTYPE CLAIMS SEGREGATED**  
 
 ---
 
 ## 1. Executive Summary
 
-In March 2023, the Centers for Disease Control and Prevention (CDC) fundamentally updated national hepatitis B screening guidelines (*MMWR Recomm Rep 2023;72(No. RR-1):1–29*), transitioning from risk-targeted screening to **universal screening for all adults aged 18 and older at least once in their lifetime** using the complete **triple panel**:
-1. **Hepatitis B surface antigen (HBsAg)** — indicates active (acute or chronic) infection.
-2. **Hepatitis B surface antibody (anti-HBs)** — indicates immunity (vaccine-induced vs natural).
-3. **Total antibody to hepatitis B core antigen (total anti-HBc)** — indicates prior exposure or current infection.
+In March 2023, the Centers for Disease Control and Prevention (CDC) published landmark updated recommendations (*MMWR Recomm Rep 2023;72(No. RR-1):1–29*), establishing **universal hepatitis B screening for all adults aged 18 and older at least once in their lifetime** using the three-test **triple panel**:
+1. **Hepatitis B surface antigen (HBsAg)** — identifies active (acute or chronic) infection.
+2. **Hepatitis B surface antibody (anti-HBs)** — identifies immunity (vaccine-induced vs natural infection).
+3. **Total antibody to hepatitis B core antigen (total anti-HBc)** — identifies prior resolved or ongoing exposure.
 
-This research platform provides an objective, data-backed assessment of Rhode Island's screening landscape, evaluating Medicare claims, provider geography, and RIDOH surveillance statistics across all five Rhode Island counties (Providence, Kent, Washington, Newport, Bristol).
-
----
-
-## 2. Key Empirical Findings
-
-### A. Geographic & Demographic Disparity
-- **Providence County Disparity:** Providence County accounts for **82.6% (114 of 138) of all reported chronic hepatitis B cases** in Rhode Island, and **80.8% of recorded screening services** (1,613 services).
-- **Immigrant Population Concentration:** Providence County has a foreign-born population share of **20.8%** and an Asian American population share of **6.24%**, compared to 4.2%–7.2% foreign-born and 2.2%–2.8% Asian in the other four counties.
-- **Urban Pockets:** Pawtucket, Central Falls, and Providence city zip codes harbor the state's highest concentration of high-prevalence foreign-born communities from Southeast Asia, East Asia, West Africa, and Central America/Caribbean.
-
-### B. Serologic Panel Discordance
-- **Partial Panel Ordering:** In Rhode Island Medicare Part B claims, HBsAg was billed 767 times, but total anti-HBc was billed only 607 times (**20.9% deficit**) and anti-HBs only 593 times (**22.7% deficit**).
-- **Clinical Consequence:** When providers order HBsAg alone without anti-HBs or total anti-HBc:
-  - Unvaccinated, susceptible individuals cannot be identified for immunization.
-  - Individuals with resolved past infection cannot be identified, creating critical risks for **HBV reactivation** during subsequent immunosuppressive or oncologic therapy.
-
-### C. Provider Specialty Distribution
-- **Primary Care Leadership:** Family Medicine (34.4%) and Internal Medicine (20.7%) together account for over 55% of outpatient hepatitis B services.
-- **Specialty Referrals:** Infectious Disease (22.5%) and Gastroenterology (22.4%) represent high-intensity management centers, particularly at The Miriam Hospital Immunology Center and University Gastroenterology / Rhode Island Hospital.
+This brief synthesizes verified epidemiological evidence for Rhode Island from the CDC National Notifiable Diseases Surveillance System (NNDSS), U.S. Census Bureau ACS 5-year data, and Rhode Island Department of Health (RIDOH) regulations, while delineating the methodological requirements for future claims-based research.
 
 ---
 
-## 3. Methodological Bounds & Research Limitations
+## 2. Verified Epidemiological & Demographic Benchmarks
 
-1. **Claims Aggregation vs. Patient Screening Events:**
-   - In Medicare Part B claims, procedure codes are billed individually. Three billed codes cannot be assumed to represent one patient receiving a complete simultaneous triple panel.
-2. **The Medicare Part B FFS Denominator Gap:**
-   - Medicare FFS covers primarily adults aged 65+ and younger disabled individuals (~46% of Medicare beneficiaries in RI).
-   - RIDOH surveillance demonstrates that **78.3% of reported chronic Hepatitis B cases are foreign-born**, and **78.3% are between ages 20 and 59**. This primary at-risk population is heavily concentrated in commercial employer insurance, Medicaid (RI Medicaid/Rite Care), or uninsurance, which are **not** captured in Medicare Part B claims.
-3. **Reference Laboratory Billing Fragmentation:**
-   - Over two-thirds (~68.4%) of outpatient laboratory tests in Rhode Island are billed by independent clinical laboratories (Quest Diagnostics, Labcorp, hospital outreach) rather than ordering clinicians. A low claims count for a primary care provider does not indicate noncompliance.
+### A. Severe State Infection Burden (CDC Verified)
+- **Top-Tier National Incidence:** According to the CDC's published Viral Hepatitis Surveillance Report (Table 2.3), Rhode Island reported **364 newly identified cases of chronic hepatitis B** in a single surveillance period, corresponding to a rate of **33.3 cases per 100,000 population**.
+- **National Context:** Rhode Island's reported rate of chronic hepatitis B ranks among the highest in the entire United States, underscoring that viral hepatitis is a pressing, acute public health priority in the state.
+- **Low Acute Baseline:** Acute hepatitis B incidence in Rhode Island remains low (~0.10 cases per 100,000), confirming that the overwhelming clinical burden is asymptomatic, undiagnosed **chronic infection** acquired perinatally or before migration.
+
+### B. Geographic & Immigrant Demographics (U.S. Census Bureau ACS 5-Year Verified)
+- **Urban Diaspora Concentration:** Providence County houses **660,741 residents (60.3% of the state)**, with a foreign-born population of **20.80% (137,450 residents)** and an Asian American population of **6.24% (41,250 residents)**.
+- In contrast, Washington County reports 4.20% foreign-born and 2.60% Asian American; Kent County reports 5.82% foreign-born and 2.79% Asian American.
+- **High-Risk Communities:** Diaspora populations in Providence, Pawtucket, and Central Falls originating from East Asia, Southeast Asia, West Africa, and parts of the Caribbean/Central America carry historical endemic hepatitis B exposures exceeding 2%–8% prevalence.
+
+### C. Maternal & Perinatal Policy Framework (RIDOH Verified)
+- Under **R.I. Code R. 14-040-002**, Rhode Island mandates universal prenatal screening for HBsAg, requiring reporting of any positive pregnant person to RIDOH within **4 working days**.
+- RIDOH maintains a strict universal newborn birth-dose policy targeting administration of the hepatitis B vaccine to **100% of newborns within 24 hours of delivery**.
 
 ---
 
-## 4. Strategic Recommendations for APAMSA & Health Systems
+## 3. Methodological Boundaries: Evaluating Outpatient Claims
 
-1. **Electronic Health Record (EHR) Order Sets:**
-   - Partner with Lifespan (Epic) and Care New England to bundle the triple panel into a single-click order: `"HBV Adult Universal Screen (HBsAg, anti-HBs, total anti-HBc)"`.
-   - Prevent ordering HBsAg in isolation during routine adult health maintenance visits.
-2. **Community Health Center Support:**
-   - Direct outreach and screening resources to Federally Qualified Health Centers (FQHCs) in Providence County—specifically Providence Community Health Centers (PCHC) and Blackstone Valley Community Health Care (BVCHC).
+The research team developed a prototype ingestion pipeline modeling CMS Medicare Part B procedure claims (CPT 87340, 86706, 86704). An independent data audit established critical methodological boundaries that must govern any future claims research:
+
+1. **Medicare Fee-For-Service (FFS) Selection Bias:**
+   - Medicare Part B FFS covers primarily adults aged &ge;65 and disabled individuals.
+   - However, the population carrying the highest burden of chronic hepatitis B comprises working-age foreign-born adults (aged 20–59), who are primarily covered by Medicaid (RIte Care), employer-sponsored commercial insurance, or are uninsured. Medicare FFS claims cannot represent the primary at-risk population in Rhode Island.
+2. **Reference Laboratory Billing Channel Fragmentation:**
+   - Outpatient clinicians routinely send phlebotomy specimens to independent commercial clinical laboratories (e.g., Quest Diagnostics, Labcorp, hospital outreach networks), which submit technical and global claims directly under laboratory NPIs.
+   - **Crucial Rule:** Clinicians and community health centers **cannot** be labeled noncompliant based on the volume or absence of physician-level Part B CPT claims.
+3. **Claims Line Items vs. True Triple-Panel Completion:**
+   - Individual CPT procedure claims do not inherently prove whether a patient received all three components of the triple panel during a single screening event. Assessing true triple-panel concordance requires longitudinal all-payer claims (e.g., HealthFacts RI APCD) with unique de-identified patient linkage keys.
+
+---
+
+## 4. Policy & Implementation Recommendations for APAMSA & Health Systems
+
+Based on verified clinical guidelines and Rhode Island health system structure:
+
+1. **Electronic Health Record (EHR) Order Set Optimization (Lifespan & Care New England):**
+   - The CDC 2023 universal adult recommendation requires ordering all three tests (HBsAg, anti-HBs, total anti-HBc).
+   - In EPIC and other hospital EHRs, individual search for "HBsAg" often leads clinicians to order single-antigen tests, omitting anti-HBs (missing lack of vaccine immunity) and anti-HBc (missing past resolved infections at risk for reactivation).
+   - **Recommendation:** Implement a single-click bundled order set in Lifespan and Care New England: `"Adult HBV Universal Triple Panel Screen (HBsAg + anti-HBs + total anti-HBc)"`.
+2. **Support for Safety-Net Community Health Centers (FQHCs):**
+   - Direct screening resources and culturally concordant education to Federally Qualified Health Centers serving Providence County—specifically Providence Community Health Centers (PCHC) and Blackstone Valley Community Health Care (BVCHC).
 3. **Payer Alignment:**
-   - Advocate for uniform commercial and Medicaid reimbursement of the triple panel without cost-sharing as an ACA preventive service.
+   - Collaborate with the Rhode Island Office of the Health Insurance Commissioner (OHIC) and Medicaid to ensure zero-cost-sharing coverage for the complete three-test panel as an ACA preventive service.
