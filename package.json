@@ -1,0 +1,22 @@
+{
+  "name": "apamsa-ri-hepb",
+  "version": "1.0.0",
+  "description": "APAMSA Rhode Island Hepatitis B Screening Research and Policy Evidence Platform",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/tests/*.test.mjs",
+    "pipeline": "node scripts/run-pipeline.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "keywords": [
+    "apamsa",
+    "hepatitis-b",
+    "rhode-island",
+    "screening",
+    "cdc-guidelines",
+    "health-equity",
+    "epidemiology"
+  ],
+  "author": "Trafalgar Fleet & APAMSA Research Collaboration",
+  "license": "Apache-2.0"
+}
