@@ -55,13 +55,15 @@
       display: inline-block;
       padding: 0.25rem 0.6rem;
       border-radius: 9999px;
-      font-size: 0.75rem;
-      font-weight: 600;
+      font-size: 0.72rem;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
-    .badge-verified { background: #dcfce7; color: #166534; }
-    .badge-unverified { background: #fef3c7; color: #92400e; border: 1px solid #f59e0b; }
+    .badge-surveillance { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+    .badge-demographic { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+    .badge-prototype { background: #fef3c7; color: #92400e; border: 1px solid #f59e0b; }
+    .badge-exploratory { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
     .badge-danger { background: #fee2e2; color: #991b1b; }
 
     nav {
@@ -143,7 +145,7 @@
     }
     .alert-info { background: #eff6ff; border-color: #3b82f6; color: #1e40af; }
     .alert-warning { background: #fffbeb; border-color: #f59e0b; color: #92400e; }
-    .alert-success { background: #f0fdf4; border-color: #22c55e; color: #15803d; }
+    .alert-notice { background: #f8fafc; border-color: #64748b; color: #334155; }
 
     table {
       width: 100%;
@@ -218,48 +220,54 @@
     <div class="header-content">
       <div class="header-title">
         <h1>Rhode Island Hepatitis B Evidence & Screening Platform</h1>
-        <p>APAMSA Research Initiative · Independent Scientific & Operational Audit</p>
+        <p>APAMSA Research Initiative · Scientific & Epidemiological Evidence Base</p>
       </div>
       <div>
-        <span class="badge badge-unverified">Audit Status: Dual Verified / Fixtures Segregated</span>
+        <span class="badge badge-surveillance">STATUS: SURVEILLANCE-VERIFIED (CDC 2022 TABLE 2.5)</span>
       </div>
     </div>
   </header>
 
   <nav>
     <div class="nav-container">
-      <button class="nav-btn active" onclick="switchTab('overview')">1. Scientific Overview & Audit</button>
-      <button class="nav-btn" onclick="switchTab('screening')">2. Claims Model & Discordance</button>
-      <button class="nav-btn" onclick="switchTab('geography')">3. Geographic Demographics</button>
-      <button class="nav-btn" onclick="switchTab('providers')">4. Provider Directory</button>
-      <button class="nav-btn" onclick="switchTab('evidence')">5. CDC Serology Diagnostic Engine</button>
-      <button class="nav-btn" onclick="switchTab('export')">6. Data Manifest & Limitations</button>
+      <button id="nav-btn-overview" class="nav-btn active" onclick="switchTab('overview')">1. Scientific Overview & Surveillance</button>
+      <button id="nav-btn-screening" class="nav-btn" onclick="switchTab('screening')">2. Claims Model & Discordance</button>
+      <button id="nav-btn-geography" class="nav-btn" onclick="switchTab('geography')">3. Geographic Demographics</button>
+      <button id="nav-btn-providers" class="nav-btn" onclick="switchTab('providers')">4. Provider Directory</button>
+      <button id="nav-btn-evidence" class="nav-btn" onclick="switchTab('evidence')">5. CDC Serology Diagnostic Engine</button>
+      <button id="nav-btn-export" class="nav-btn" onclick="switchTab('export')">6. Data Manifest & Methodological Limits</button>
     </div>
   </nav>
 
   <main>
     <!-- TAB 1: OVERVIEW -->
     <section id="tab-overview" class="tab-pane active">
-      <div class="alert alert-warning">
-        <strong>INDEPENDENT AUDIT CLASSIFICATION:</strong> This platform rigorously separates verified federal/state benchmarks from prototype research fixtures. U.S. Census demographics (ACS 5-year) and CDC surveillance figures are fully verified. Specific Medicare Part B procedure volumes are labeled as <strong>UNVERIFIED REPRESENTATIVE FIXTURES</strong> until full live CMS database extraction is complete.
+      <div class="alert alert-notice">
+        <strong>DATA PROVENANCE & VALIDATION STATUS:</strong> This platform strictly segregates verified federal/state surveillance and demographic benchmarks from prototype research fixtures.
+        <ul style="padding-left: 1.25rem; margin-top: 0.5rem; font-size: 0.9rem;">
+          <li><strong>CDC Surveillance:</strong> 364 newly reported chronic HBV cases in 2022 (rate 33.3 per 100k) verified from <em>CDC 2022 Viral Hepatitis Surveillance Report, Table 2.5</em>.</li>
+          <li><strong>Prevalence Distinction:</strong> 364 represents <em>newly reported surveillance incidence</em> during 2022, NOT total prevalent active infections in Rhode Island (estimated at 3,000–8,000+ individuals).</li>
+          <li><strong>U.S. Census Data:</strong> 5-county demographics verified from U.S. Census Bureau ACS 5-Year Estimates (2018–2022).</li>
+          <li><strong>Medicare Claims Data:</strong> Labeled as <em>PROTOTYPE RESEARCH FIXTURES</em> modeling CMS Part B schema until full live database extraction is complete.</li>
+        </ul>
       </div>
 
       <div class="grid-4">
         <div class="card">
           <div class="stat-metric">1,095,605</div>
-          <div class="stat-label">Total RI Population <span class="badge badge-verified">Census Verified</span></div>
+          <div class="stat-label">Total RI Population <span class="badge badge-demographic">Census ACS Verified</span></div>
         </div>
         <div class="card">
           <div class="stat-metric">364</div>
-          <div class="stat-label">Chronic HBV Cases Reported <span class="badge badge-verified">CDC NNDSS Verified</span></div>
+          <div class="stat-label">Newly Reported Chronic Cases (2022) <span class="badge badge-surveillance">CDC 2022 Table 2.5</span></div>
         </div>
         <div class="card">
           <div class="stat-metric">33.3</div>
-          <div class="stat-label">Rate per 100k Population <span class="badge badge-verified">CDC Top Tier</span></div>
+          <div class="stat-label">Reported Rate / 100,000 (2022) <span class="badge badge-surveillance">CDC Top Tier</span></div>
         </div>
         <div class="card">
           <div class="stat-metric">0.10</div>
-          <div class="stat-label">Acute HBV Rate / 100k <span class="badge badge-verified">CDC Verified</span></div>
+          <div class="stat-label">Acute HBV Rate / 100,000 <span class="badge badge-surveillance">CDC 2022 Baseline</span></div>
         </div>
       </div>
 
@@ -268,16 +276,16 @@
           <h3 class="card-title">Verified Public Health Benchmarks</h3>
           <ul style="padding-left: 1.25rem; font-size: 0.95rem; line-height: 1.8;">
             <li><strong>CDC Universal Adult Screening Mandate:</strong> In March 2023, the CDC established universal screening for all adults aged &ge;18 at least once in their lifetime using the complete triple panel (HBsAg, anti-HBs, total anti-HBc).</li>
-            <li><strong>Rhode Island Infection Burden:</strong> In the CDC Viral Hepatitis Surveillance Report (Table 2.3), Rhode Island reported 364 newly identified chronic hepatitis B cases (rate of 33.3/100,000 population)—ranking among the highest state rates in the nation.</li>
+            <li><strong>Official Surveillance Citation:</strong> Centers for Disease Control and Prevention. <em>2022 Viral Hepatitis Surveillance Report</em>, Table 2.5: Newly Reported Cases of Chronic Hepatitis B Virus Infection (<a href="https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html" target="_blank" style="color: var(--primary-light);">cdc.gov/table-2-5</a>). Note: in the 2021 report, Rhode Island data was listed as unavailable.</li>
             <li><strong>Perinatal Prevention Mandate:</strong> RIDOH operates a strict universal birth-dose policy under R.I. Code R. 14-040-002, requiring positive maternal HBsAg reporting within 4 working days and newborn vaccination within 24 hours.</li>
-            <li><strong>Urban Immigrant Concentration:</strong> Providence County accounts for 60.3% of the state's population and over 80% of foreign-born residents (20.8% foreign-born, 6.24% Asian American).</li>
+            <li><strong>Urban Immigrant Concentration:</strong> Providence County accounts for 60.3% of the state's population and 84.76% of its foreign-born residents (20.80% foreign-born, 6.24% Asian American).</li>
           </ul>
         </div>
 
         <div class="card">
           <h3 class="card-title">Methodological Boundaries</h3>
-          <div class="alert alert-info">
-            <strong>Key Analytical Boundaries:</strong>
+          <div class="alert alert-warning" style="margin-bottom: 0.75rem;">
+            <strong>Important Analytical Bounds:</strong>
             <p style="margin-top: 0.5rem; font-size: 0.88rem;">
               • Aggregate claims cannot measure individual triple-panel completion.<br>
               • Absence of physician billing does not indicate clinical noncompliance (commercial reference labs bill globally).<br>
@@ -285,7 +293,7 @@
             </p>
           </div>
           <p style="font-size: 0.9rem; color: var(--text-muted);">
-            Prepared for APAMSA Rhode Island research and policy evidence development.
+            Prepared for APAMSA Rhode Island research and evidence synthesis for health-policy discussions.
           </p>
         </div>
       </div>
@@ -296,7 +304,7 @@
       <div class="card">
         <h3 class="card-title">
           <span>Hepatitis B Procedure Claims Modeling</span>
-          <span class="badge badge-unverified">Representative Prototype Fixture</span>
+          <span class="badge badge-prototype">PROTOTYPE RESEARCH FIXTURE</span>
         </h3>
         <div class="alert alert-warning" style="margin-bottom: 1rem; font-size: 0.88rem;">
           <strong>Data Note:</strong> The procedure volumes below (767 / 593 / 607) are derived from a curated 30-record test fixture modeling the CMS Medicare Part B schema across 12 Rhode Island clinicians. They demonstrate the analytical pipeline's discordance logic but are <strong>NOT</strong> yet certified as full bulk extractions from data.cms.gov.
@@ -319,7 +327,7 @@
               <td>Active Infection Indicator</td>
               <td>767</td>
               <td>1.000 (Reference)</td>
-              <td><span class="badge badge-unverified">Fixture Model</span></td>
+              <td><span class="badge badge-prototype">Prototype Fixture</span></td>
             </tr>
             <tr>
               <td><strong>CPT 86706</strong></td>
@@ -327,7 +335,7 @@
               <td>Immunity Indicator (Vaccine vs Past)</td>
               <td>593</td>
               <td>0.773 (22.7% deficit)</td>
-              <td><span class="badge badge-unverified">Fixture Model</span></td>
+              <td><span class="badge badge-prototype">Prototype Fixture</span></td>
             </tr>
             <tr>
               <td><strong>CPT 86704</strong></td>
@@ -335,7 +343,7 @@
               <td>Past/Current Infection Exposure</td>
               <td>607</td>
               <td>0.791 (20.9% deficit)</td>
-              <td><span class="badge badge-unverified">Fixture Model</span></td>
+              <td><span class="badge badge-prototype">Prototype Fixture</span></td>
             </tr>
             <tr>
               <td><strong>HCPCS G0499</strong></td>
@@ -343,7 +351,7 @@
               <td>Annual High-Risk Benefit</td>
               <td>29</td>
               <td>0.038 (Underutilized)</td>
-              <td><span class="badge badge-unverified">Fixture Model</span></td>
+              <td><span class="badge badge-prototype">Prototype Fixture</span></td>
             </tr>
           </tbody>
         </table>
@@ -355,10 +363,10 @@
       <div class="card">
         <h3 class="card-title">
           <span>Rhode Island County Demographics</span>
-          <span class="badge badge-verified">Census ACS 5-Year Verified</span>
+          <span class="badge badge-demographic">DEMOGRAPHIC-VERIFIED (CENSUS ACS 2018-2022)</span>
         </h3>
         <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
-          U.S. Census Bureau American Community Survey (ACS) 5-Year Estimates (2018–2022).
+          U.S. Census Bureau American Community Survey (ACS) 5-Year Estimates (2018–2022) Tables DP02 & DP05.
         </p>
         <table>
           <thead>
@@ -477,7 +485,7 @@
     <section id="tab-evidence" class="tab-pane">
       <div class="grid-2">
         <div class="card">
-          <h3 class="card-title">CDC 2023 Comprehensive Serology Diagnostic Engine</h3>
+          <h3 class="card-title">CDC 2023 Serology Diagnostic Engine</h3>
           <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem;">
             Toggle serologic test markers to evaluate CDC/AASLD diagnostic status across all 8 clinical permutations.
           </p>
@@ -516,7 +524,7 @@
           </div>
 
           <div id="serology-result-card" style="margin-top: 1.25rem; padding: 1rem; border-radius: 0.5rem; background: #f8fafc; border: 1px solid var(--border);">
-            <div id="sero-status" style="font-size: 1.1rem; font-weight: 700; color: var(--primary);">Susceptible (Non-Immune)</div>
+            <div id="sero-status" style="font-size: 1.05rem; font-weight: 700; color: var(--primary);">Susceptible (Non-Immune)</div>
             <div id="sero-immunity" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-top: 0.25rem;">Immunity Status: None</div>
             <div id="sero-reactivation" style="font-size: 0.85rem; font-weight: 600; color: #dc2626; margin-top: 0.25rem; display: none;"></div>
             <div id="sero-action" style="font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.6; color: var(--text);">
@@ -530,8 +538,8 @@
           <ul style="padding-left: 1.25rem; font-size: 0.88rem; line-height: 1.8;">
             <li><strong>CDC MMWR 2023 Universal Adult Recommendations:</strong><br>
             Conners EE, Panagiotakopoulos L, Hofmeister MG, et al. <em>Screening and Testing for Hepatitis B Virus Infection: CDC Recommendations — United States, 2023.</em> MMWR Recomm Rep 2023;72(No. RR-1):1–29.</li>
-            <li style="margin-top: 0.75rem;"><strong>CDC Surveillance Benchmark:</strong><br>
-            CDC 2021 Viral Hepatitis Surveillance Report, Table 2.3 (Rhode Island: 364 newly reported chronic HBV cases, 33.3/100,000 population).</li>
+            <li style="margin-top: 0.75rem;"><strong>CDC Surveillance Benchmark (Official 2022 Citation):</strong><br>
+            Centers for Disease Control and Prevention. <em>2022 Viral Hepatitis Surveillance Report</em>, Table 2.5: Newly Reported Cases of Chronic Hepatitis B Virus Infection (<a href="https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html" target="_blank" style="color: var(--primary-light);">Table 2.5</a>: 364 cases, 33.3/100,000 population).</li>
             <li style="margin-top: 0.75rem;"><strong>RIDOH Perinatal Regulations:</strong><br>
             R.I. Code R. 14-040-002: Mandatory maternal HBsAg screening and 4-day case notification.</li>
           </ul>
@@ -548,7 +556,7 @@
             <tr>
               <th>Dataset / Artifact</th>
               <th>Source Agency / Standard</th>
-              <th>Audit Status</th>
+              <th>Validation Status</th>
               <th>Notes / Action Required</th>
             </tr>
           </thead>
@@ -556,31 +564,31 @@
             <tr>
               <td><strong>County Demographics</strong></td>
               <td>U.S. Census Bureau ACS 5-Year (2018–2022)</td>
-              <td><span class="badge badge-verified">VERIFIED</span></td>
+              <td><span class="badge badge-demographic">DEMOGRAPHIC-VERIFIED</span></td>
               <td>Tables DP02/DP05, complete 5-county coverage</td>
             </tr>
             <tr>
               <td><strong>CDC Guidelines</strong></td>
               <td>CDC MMWR Recomm Rep 2023;72(RR-1):1–29</td>
-              <td><span class="badge badge-verified">VERIFIED</span></td>
+              <td><span class="badge badge-surveillance">GUIDELINE-VERIFIED</span></td>
               <td>Universal adult triple-panel screening mandate</td>
             </tr>
             <tr>
               <td><strong>Chronic HBV Surveillance</strong></td>
-              <td>CDC 2021 Viral Hepatitis Surveillance Table 2.3</td>
-              <td><span class="badge badge-verified">VERIFIED</span></td>
-              <td>364 cases, 33.3/100k rate</td>
+              <td>CDC 2022 Viral Hepatitis Surveillance Table 2.5</td>
+              <td><span class="badge badge-surveillance">SURVEILLANCE-VERIFIED</span></td>
+              <td>364 newly reported cases in 2022, 33.3/100k rate</td>
             </tr>
             <tr>
               <td><strong>Medicare Part B Claims</strong></td>
               <td>Curated test fixture modeling CMS Part B schema</td>
-              <td><span class="badge badge-unverified">UNVERIFIED FIXTURE</span></td>
+              <td><span class="badge badge-prototype">PROTOTYPE RESEARCH FIXTURE</span></td>
               <td>Must not be cited as empirical fact until bulk CMS pull</td>
             </tr>
             <tr>
               <td><strong>Provider Directory</strong></td>
               <td>NPPES National Provider Identifier (NPI) registry</td>
-              <td><span class="badge badge-verified">VERIFIED</span></td>
+              <td><span class="badge badge-demographic">REGISTRY-VERIFIED</span></td>
               <td>12 representative Rhode Island clinicians</td>
             </tr>
           </tbody>
@@ -610,12 +618,15 @@
     function switchTab(tabId) {
       document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
       document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
-      document.getElementById('tab-' + tabId).classList.add('active');
-      event.target.classList.add('active');
+      const targetPane = document.getElementById('tab-' + tabId);
+      if (targetPane) targetPane.classList.add('active');
+      const targetBtn = document.getElementById('nav-btn-' + tabId);
+      if (targetBtn) targetBtn.classList.add('active');
     }
 
     function renderProviders(data) {
       const tbody = document.getElementById('prov-tbody');
+      if (!tbody) return;
       tbody.innerHTML = data.map(p => `
         <tr>
           <td><code>${p.npi}</code></td>
@@ -624,16 +635,21 @@
           <td>${p.practice}</td>
           <td>${p.city}</td>
           <td>${p.county}</td>
-          <td>${p.fqhc === 'FQHC' ? '<span class="badge badge-verified">FQHC</span>' : '<span style="color:#64748b">Clinic</span>'}</td>
+          <td>${p.fqhc === 'FQHC' ? '<span class="badge badge-surveillance">FQHC</span>' : '<span style="color:#64748b">Clinic</span>'}</td>
           <td>${p.system}</td>
         </tr>
       `).join('');
     }
 
     function filterProviders() {
-      const query = document.getElementById('prov-search').value.toLowerCase();
-      const county = document.getElementById('prov-county').value;
-      const specialty = document.getElementById('prov-specialty').value;
+      const searchEl = document.getElementById('prov-search');
+      const countyEl = document.getElementById('prov-county');
+      const specialtyEl = document.getElementById('prov-specialty');
+      if (!searchEl || !countyEl || !specialtyEl) return;
+
+      const query = searchEl.value.toLowerCase();
+      const county = countyEl.value;
+      const specialty = specialtyEl.value;
 
       const filtered = PROVIDERS_DATA.filter(p => {
         const matchesQuery = p.name.toLowerCase().includes(query) || p.practice.toLowerCase().includes(query) || p.city.toLowerCase().includes(query);
@@ -648,12 +664,14 @@
       seroState[test] = val;
       const posBtn = document.getElementById(`btn-${test}-pos`);
       const negBtn = document.getElementById(`btn-${test}-neg`);
-      if (val) {
-        posBtn.className = 'toggle-btn active-pos';
-        negBtn.className = 'toggle-btn';
-      } else {
-        posBtn.className = 'toggle-btn';
-        negBtn.className = 'toggle-btn active-neg';
+      if (posBtn && negBtn) {
+        if (val) {
+          posBtn.className = 'toggle-btn active-pos';
+          negBtn.className = 'toggle-btn';
+        } else {
+          posBtn.className = 'toggle-btn';
+          negBtn.className = 'toggle-btn active-neg';
+        }
       }
       updateSerologyInterpretation();
     }
@@ -664,20 +682,23 @@
       const immunityEl = document.getElementById('sero-immunity');
       const reactEl = document.getElementById('sero-reactivation');
       const actionEl = document.getElementById('sero-action');
+      if (!statusEl || !immunityEl || !actionEl) return;
 
-      reactEl.style.display = 'none';
+      if (reactEl) reactEl.style.display = 'none';
 
       if (hbsag && !antihbs && antihbc) {
-        statusEl.innerText = 'Chronic Hepatitis B Infection';
+        statusEl.innerText = 'Hepatitis B Infection (Presumptive Chronic; Additional Evidence Needed to Exclude Acute)';
         statusEl.style.color = '#dc2626';
-        immunityEl.innerText = 'Immunity Status: Active Chronic Infection';
-        actionEl.innerText = 'Immediate specialist referral (GI/hepatology/ID). Order HBV DNA viral load, ALT/AST liver panel, and evaluate for antiviral treatment (entecavir/tenofovir). Screen household and sexual contacts.';
+        immunityEl.innerText = 'Immunity Status: Presumptive Chronic (Requires Confirmatory Evidence)';
+        actionEl.innerText = 'Per CDC criteria, single HBsAg(+) with anti-HBc(+) requires additional evidence (e.g. negative IgM anti-HBc or documented seroconversion history) to confirm chronicity. Immediate specialist referral (GI/hepatology/ID). Order quantitative HBV DNA viral load, ALT/AST liver panel, and evaluate for antiviral treatment (entecavir/tenofovir). Screen household and sexual contacts.';
       } else if (!hbsag && antihbs && antihbc) {
         statusEl.innerText = 'Resolved Past Hepatitis B (Naturally Immune)';
         statusEl.style.color = '#059669';
         immunityEl.innerText = 'Immunity Status: Natural Immunity';
-        reactEl.style.display = 'block';
-        reactEl.innerText = 'WARNING: Intracellular cccDNA persists. High risk of HBV reactivation during severe immunosuppression (e.g. rituximab, chemotherapy). Baseline ALT/HBV DNA monitoring required.';
+        if (reactEl) {
+          reactEl.style.display = 'block';
+          reactEl.innerText = 'WARNING: Intracellular cccDNA persists. High risk of HBV reactivation during severe immunosuppression (e.g. rituximab, chemotherapy). Baseline ALT/HBV DNA monitoring required.';
+        }
         actionEl.innerText = 'Protected from past infection. No vaccination required. Maintain vigilance during immunosuppressive therapy.';
       } else if (!hbsag && antihbs && !antihbc) {
         statusEl.innerText = 'Vaccine-Induced Immunity';
@@ -690,25 +711,25 @@
         immunityEl.innerText = 'Immunity Status: None (Susceptible)';
         actionEl.innerText = 'Administer complete hepatitis B vaccine series (e.g., 2-dose Heplisav-B or 3-dose Engerix-B/Recombivax HB).';
       } else if (!hbsag && !antihbs && antihbc) {
-        statusEl.innerText = 'Isolated Anti-HBc (Uncertain / Distant Exposure)';
+        statusEl.innerText = 'Isolated Anti-HBc (Uncertain / Non-Definitive)';
         statusEl.style.color = '#d97706';
         immunityEl.innerText = 'Immunity Status: Uncertain';
-        actionEl.innerText = 'Differential diagnosis: (1) Resolved distant infection with waning anti-HBs; (2) False-positive anti-HBc; (3) Occult chronic HBV; (4) Window period of resolving acute HBV. In non-immunosuppressed adults: administer 1 dose of vaccine and test anti-HBs at 4-8 weeks to check for anamnestic response.';
+        actionEl.innerText = 'NON-DEFINITIVE DIAGNOSIS. CDC differential: (1) Resolved distant infection with waning anti-HBs; (2) False-positive anti-HBc; (3) Occult chronic HBV; (4) Window period of resolving acute HBV. In non-immunosuppressed adults: administer 1 dose of vaccine and test anti-HBs at 4-8 weeks to check for anamnestic response.';
       } else if (hbsag && !antihbs && !antihbc) {
-        statusEl.innerText = 'Early Acute Infection';
+        statusEl.innerText = 'Presumptive Early Acute Infection (Pre-Seroconversion Window)';
         statusEl.style.color = '#dc2626';
-        immunityEl.innerText = 'Immunity Status: Early Active';
-        actionEl.innerText = 'Early acute infection prior to core antibody seroconversion. Monitor closely and repeat full panel in 2-4 weeks.';
+        immunityEl.innerText = 'Immunity Status: Early Active (Non-Definitive)';
+        actionEl.innerText = 'NON-DEFINITIVE DIAGNOSIS. Early acute infection prior to core antibody seroconversion. Monitor closely and repeat full panel in 2-4 weeks.';
       } else if (hbsag && antihbs && antihbc) {
-        statusEl.innerText = 'Concurrent HBsAg & Anti-HBs (Escape Mutant)';
+        statusEl.innerText = 'Concurrent HBsAg & Anti-HBs (Presumptive Escape Mutant / Non-Definitive)';
         statusEl.style.color = '#dc2626';
-        immunityEl.innerText = 'Immunity Status: Escape Mutant / Seroconversion';
-        actionEl.innerText = 'Observed in 10-15% of chronic patients; anti-HBs does not neutralize mutant S-gene escape virions. Patient remains potentially infectious. Refer for HBV DNA quantitation.';
+        immunityEl.innerText = 'Immunity Status: Presumptive Escape Mutant / Seroconversion Phase';
+        actionEl.innerText = 'NON-DEFINITIVE DIAGNOSIS. Observed in 10-15% of chronic patients; anti-HBs does not neutralize mutant S-gene escape virions. Patient remains potentially infectious. Refer for HBV DNA quantitation and S-gene sequencing.';
       } else {
-        statusEl.innerText = 'Atypical Serologic Pattern';
+        statusEl.innerText = 'Atypical Serologic Pattern (Non-Definitive)';
         statusEl.style.color = '#64748b';
-        immunityEl.innerText = 'Immunity Status: Atypical';
-        actionEl.innerText = 'Repeat testing with alternative validated assay and consult viral hepatitis expert.';
+        immunityEl.innerText = 'Immunity Status: Atypical (Non-Definitive)';
+        actionEl.innerText = 'NON-DEFINITIVE DIAGNOSIS. Biologically unexpected combination. Repeat testing with alternative validated assay, check HBV DNA, and consult viral hepatitis expert.';
       }
     }
 

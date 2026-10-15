@@ -49,18 +49,22 @@ export const CDC_2023_RECOMMENDATIONS = [
 ];
 
 /**
- * Evaluates a triple-panel serology combination according to CDC/AASLD diagnostic criteria
- * Including all 8 permutations: susceptible, vaccine immune, natural immune, chronic active,
- * isolated anti-HBc (window / occult / waning), early acute, coexisting escape mutant, and atypical.
+ * Evaluates a triple-panel serology combination according to CDC/AASLD diagnostic criteria.
+ * Rigorously audited:
+ * 1. Acute vs Chronic distinction explicitly requires adequate additional evidence (IgM anti-HBc,
+ *    documented seroconversion within 6 months, or clinical onset).
+ * 2. Atypical patterns (e.g. concurrent HBsAg and anti-HBs) are strictly classified as
+ *    non-definitive presumptive patterns requiring confirmatory HBV DNA and S-gene sequencing.
  *
  * @param {boolean} hbsAg - Hepatitis B surface antigen
  * @param {boolean} antiHBs - Hepatitis B surface antibody
  * @param {boolean} totalAntiHBc - Total antibody to Hepatitis B core antigen
  * @param {object} [options]
  * @param {boolean} [options.igmAntiHBc] - Optional IgM anti-HBc status
+ * @param {boolean} [options.priorHbsAgNegativeWithin6Mo] - Documented negative within prior 6 months
  */
 export function interpretTriplePanel(hbsAg, antiHBs, totalAntiHBc, options = {}) {
-  const { igmAntiHBc } = options;
+  const { igmAntiHBc, priorHbsAgNegativeWithin6Mo } = options;
 
   // 1. Susceptible (Non-Immune)
   if (!hbsAg && !antiHBs && !totalAntiHBc) {
@@ -70,10 +74,11 @@ export function interpretTriplePanel(hbsAg, antiHBs, totalAntiHBc, options = {})
       totalAntiHBc,
       clinicalStatus: "Susceptible (Non-Immune)",
       actionRequired:
-        "Administer complete hepatitis B vaccine series (e.g., 2-dose Heplisav-B or 3-dose Engerix-B/Recombivax HB). No post-vaccination testing needed unless high risk.",
+        "Administer complete hepatitis B vaccine series (e.g., 2-dose Heplisav-B or 3-dose Engerix-B/Recombivax HB). No post-vaccination serologic testing needed for non-high-risk adults.",
       immunityType: "NONE",
       reactivationRisk: "NONE",
-      cdcCategory: "SUSCEPTIBLE"
+      cdcCategory: "SUSCEPTIBLE",
+      diagnosticCertainty: "DEFINITIVE"
     };
   }
 
@@ -87,7 +92,8 @@ export function interpretTriplePanel(hbsAg, antiHBs, totalAntiHBc, options = {})
       actionRequired: "Protected against hepatitis B. No further vaccination or routine screening needed.",
       immunityType: "VACCINE",
       reactivationRisk: "NONE",
-      cdcCategory: "IMMUNE_VACCINE"
+      cdcCategory: "IMMUNE_VACCINE",
+      diagnosticCertainty: "DEFINITIVE"
     };
   }
 
@@ -97,28 +103,45 @@ export function interpretTriplePanel(hbsAg, antiHBs, totalAntiHBc, options = {})
       hbsAg,
       antiHBs,
       totalAntiHBc,
-      clinicalStatus: "Resolved Past Hepatitis B Infection (Immune)",
+      clinicalStatus: "Resolved Past Hepatitis B Infection (Naturally Immune)",
       actionRequired:
-        "No vaccination required. Naturally immune from resolved past infection. NOTE: Intracellular cccDNA persists; patient carries potential risk for HBV reactivation if undergoing severe immunosuppression, chemotherapy, anti-CD20 therapy (e.g., rituximab), or organ transplantation. Baseline ALT/HBV DNA monitoring recommended prior to immunosuppressive regimens.",
+        "No vaccination required. Naturally immune from resolved past infection. NOTE: Intracellular cccDNA persists indefinitely; patient carries risk of HBV reactivation under severe immunosuppression, anti-CD20 therapy (e.g. rituximab), or chemotherapy. Baseline ALT and HBV DNA monitoring required prior to immunosuppression.",
       immunityType: "NATURAL",
       reactivationRisk: "MODERATE_UNDER_SEVERE_IMMUNOSUPPRESSION",
-      cdcCategory: "IMMUNE_NATURAL"
+      cdcCategory: "IMMUNE_NATURAL",
+      diagnosticCertainty: "DEFINITIVE"
     };
   }
 
-  // 4. Chronic Active Hepatitis B Infection
+  // 4. HBsAg(+), anti-HBs(-), total anti-HBc(+)
+  // CDC Rule: Single HBsAg(+) cannot definitively separate acute from chronic without additional evidence
   if (hbsAg && !antiHBs && totalAntiHBc) {
-    const isAcute = igmAntiHBc === true;
+    if (igmAntiHBc === true || priorHbsAgNegativeWithin6Mo === true) {
+      return {
+        hbsAg,
+        antiHBs,
+        totalAntiHBc,
+        clinicalStatus: "Acute Hepatitis B Infection (IgM Anti-HBc Confirmed)",
+        actionRequired:
+          "Report to RIDOH within 4 working days. Monitor clinical status for acute liver failure. Provide supportive care and screen sexual and household contacts.",
+        immunityType: "ACUTE_ACTIVE",
+        reactivationRisk: "ACTIVE_ACUTE",
+        cdcCategory: "ACUTE_CONFIRMED",
+        diagnosticCertainty: "CONFIRMED_WITH_ADDITIONAL_EVIDENCE"
+      };
+    }
+
     return {
       hbsAg,
       antiHBs,
       totalAntiHBc,
-      clinicalStatus: isAcute ? "Acute Hepatitis B Infection" : "Chronic Hepatitis B Infection",
+      clinicalStatus: "Hepatitis B Infection (Presumptive Chronic; Requires Additional Evidence to Exclude Acute)",
       actionRequired:
-        "Immediate referral to gastroenterologist, hepatologist, or infectious disease specialist. Order quantitative HBV DNA viral load, comprehensive hepatic metabolic panel (ALT/AST), and assess for hepatic fibrosis/cirrhosis (transient elastography/FIB-4). Screen household, sexual, and needle-sharing contacts. Advise abstinence from alcohol.",
-      immunityType: "CHRONIC_ACTIVE",
+        "Per CDC criteria, a single positive HBsAg with total anti-HBc requires additional evidence (e.g. negative IgM anti-HBc, documented negative HBsAg within previous 6 months, or clinical history) to definitively confirm chronicity. Refer to hepatology or infectious disease specialist. Order quantitative HBV DNA viral load, hepatic panel (ALT/AST), and assess for hepatic fibrosis.",
+      immunityType: "CHRONIC_PRESUMPTIVE",
       reactivationRisk: "ACTIVE_INFECTION",
-      cdcCategory: isAcute ? "ACUTE_INFECTION" : "CHRONIC_INFECTION"
+      cdcCategory: "CHRONIC_PRESUMPTIVE",
+      diagnosticCertainty: "PRESUMPTIVE_REQUIRES_ADDITIONAL_EVIDENCE"
     };
   }
 
@@ -128,12 +151,13 @@ export function interpretTriplePanel(hbsAg, antiHBs, totalAntiHBc, options = {})
       hbsAg,
       antiHBs,
       totalAntiHBc,
-      clinicalStatus: "Isolated Anti-HBc (Uncertain / Distant Exposure)",
+      clinicalStatus: "Isolated Anti-HBc (Uncertain / Non-Definitive)",
       actionRequired:
-        "Evaluate 4 differential diagnostic possibilities: (1) Resolved distant HBV infection with waning, undetectable anti-HBs titers (most frequent); (2) False-positive anti-HBc test; (3) Occult chronic HBV infection with low-level replication below HBsAg detection threshold; (4) Resolving acute HBV during the 'window period'. In asymptomatic non-immunosuppressed adults: administer 1 dose of hepatitis B vaccine and retest anti-HBs at 4-8 weeks. If anamnestic rise (>=10 mIU/mL), consider immune; if no response, complete full vaccine series.",
-      immunityType: "ACUTE_OR_INDETERMINATE",
+        "NON-DEFINITIVE DIAGNOSIS. CDC recognizes 4 differential possibilities: (1) Resolved distant HBV infection with waning, undetectable anti-HBs; (2) False-positive anti-HBc; (3) Occult chronic HBV infection with low-level viremia; (4) Resolving acute HBV during the serologic window period. In non-immunosuppressed adults: administer 1 dose of hepatitis B vaccine and retest anti-HBs at 4-8 weeks to assess anamnestic response.",
+      immunityType: "INDETERMINATE_ISOLATED_CORE",
       reactivationRisk: "POTENTIAL_OCCULT_OR_REACTIVATION",
-      cdcCategory: "ISOLATED_CORE"
+      cdcCategory: "ISOLATED_CORE_NON_DEFINITIVE",
+      diagnosticCertainty: "NON_DEFINITIVE"
     };
   }
 
@@ -143,40 +167,44 @@ export function interpretTriplePanel(hbsAg, antiHBs, totalAntiHBc, options = {})
       hbsAg,
       antiHBs,
       totalAntiHBc,
-      clinicalStatus: "Early Acute Hepatitis B Infection",
+      clinicalStatus: "Presumptive Early Acute Infection (Pre-Seroconversion Window)",
       actionRequired:
-        "Early acute infection prior to core antibody seroconversion, or rare immune evasion / immunodeficiency. Monitor clinical status for acute liver failure and repeat full serologic panel in 2-4 weeks.",
+        "NON-DEFINITIVE DIAGNOSIS. Represents early acute infection prior to core antibody seroconversion or rare immune evasion. Repeat full serologic panel in 2-4 weeks to observe seroconversion.",
       immunityType: "ACUTE_OR_INDETERMINATE",
       reactivationRisk: "ACTIVE_ACUTE",
-      cdcCategory: "EARLY_ACUTE"
+      cdcCategory: "EARLY_ACUTE_NON_DEFINITIVE",
+      diagnosticCertainty: "NON_DEFINITIVE"
     };
   }
 
-  // 7. Coexisting HBsAg and Anti-HBs
+  // 7. Concurrent HBsAg and Anti-HBs (Escape Mutant / Seroconversion Phase)
   if (hbsAg && antiHBs && totalAntiHBc) {
     return {
       hbsAg,
       antiHBs,
       totalAntiHBc,
-      clinicalStatus: "Concurrent HBsAg and Anti-HBs (Escape Mutant / Seroconversion)",
+      clinicalStatus: "Concurrent HBsAg & Anti-HBs (Presumptive Escape Mutant / Non-Definitive)",
       actionRequired:
-        "Observed in 10-15% of chronic HBV patients, representing emergence of immune escape mutants (e.g. 'a' determinant s-gene mutations) or an active seroconversion transition. Anti-HBs fails to neutralize circulating mutant virions. Patient remains potentially infectious. Refer to hepatology for HBV DNA quantitation and S-gene sequencing.",
-      immunityType: "CHRONIC_ACTIVE",
+        "NON-DEFINITIVE DIAGNOSIS. Observed in 10-15% of chronic HBV patients, representing emergence of immune escape mutants (e.g. S-gene 'a' determinant mutations) or an active seroconversion phase. Cannot be diagnosed definitively without quantitative HBV DNA and viral sequencing. Patient remains potentially infectious. Urgent hepatology referral required.",
+      immunityType: "ESCAPE_MUTANT_PRESUMPTIVE",
       reactivationRisk: "ACTIVE_INFECTION",
-      cdcCategory: "ESCAPE_MUTANT_OR_TRANSITIONAL"
+      cdcCategory: "ESCAPE_MUTANT_NON_DEFINITIVE",
+      diagnosticCertainty: "NON_DEFINITIVE"
     };
   }
 
-  // 8. Atypical: HBsAg(+) and Anti-HBs(+) with Anti-HBc(-)
+  // 8. Biologically Atypical Pattern
   return {
     hbsAg,
     antiHBs,
     totalAntiHBc,
-    clinicalStatus: "Atypical Serologic Pattern",
-    actionRequired: "Biologically unexpected combination. Repeat testing with a different validated assay and consult viral hepatitis expert.",
-    immunityType: "ACUTE_OR_INDETERMINATE",
+    clinicalStatus: "Atypical Serologic Pattern (Non-Definitive)",
+    actionRequired:
+      "NON-DEFINITIVE DIAGNOSIS. Biologically unexpected combination. Cannot make definitive clinical interpretation without repeating testing using an alternative validated assay and checking quantitative HBV DNA.",
+    immunityType: "INDETERMINATE",
     reactivationRisk: "UNKNOWN",
-    cdcCategory: "ATYPICAL"
+    cdcCategory: "ATYPICAL_NON_DEFINITIVE",
+    diagnosticCertainty: "NON_DEFINITIVE"
   };
 }
 

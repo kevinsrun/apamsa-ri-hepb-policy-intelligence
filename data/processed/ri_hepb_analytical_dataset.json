@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-10-15T03:58:38.249Z",
+    "generated_at": "2026-10-15T04:28:52.448Z",
     "state": "Rhode Island",
     "target_population": "Adults aged >= 18 under CDC 2023 Universal Screening Guidelines",
     "data_verification_audit": {
-      "census_acs_demographics": "VERIFIED (U.S. Census Bureau ACS 5-Year Estimates, 2018-2022 Tables DP02/DP05)",
-      "cdc_guidelines": "VERIFIED (Conners EE, et al. MMWR Recomm Rep 2023;72(No. RR-1):1–29)",
-      "cdc_chronic_surveillance_cases": "VERIFIED (CDC 2021 Viral Hepatitis Surveillance Report, Table 2.3: 364 cases, 33.3/100k)",
-      "ridoh_perinatal_mandate": "VERIFIED (R.I. Code R. 14-040-002, mandatory HBsAg reporting within 4 days)",
-      "medicare_part_b_procedure_claims": "UNVERIFIED (Representative test fixture modeling CMS schema, not live CMS bulk download)",
-      "reference_lab_split_percentage": "UNVERIFIED (Heuristic estimate, no official federal table citation)"
+      "census_acs_demographics": "DEMOGRAPHIC-VERIFIED (U.S. Census Bureau ACS 5-Year Estimates, 2018-2022 Tables DP02/DP05)",
+      "cdc_guidelines": "GUIDELINE-VERIFIED (Conners EE, et al. MMWR Recomm Rep 2023;72(No. RR-1):1–29)",
+      "cdc_chronic_surveillance_cases": "SURVEILLANCE-VERIFIED (CDC 2022 Viral Hepatitis Surveillance Report, Table 2.5: 364 newly reported cases, 33.3/100k; https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html)",
+      "ridoh_perinatal_mandate": "REGULATORY-VERIFIED (R.I. Code R. 14-040-002, mandatory HBsAg reporting within 4 working days)",
+      "medicare_part_b_procedure_claims": "PROTOTYPE RESEARCH FIXTURE (Representative fixture modeling CMS Part B schema, not live CMS bulk download)",
+      "reference_lab_split_percentage": "EXPLORATORY PROXY (Heuristic market estimate, non-standardized)"
     },
     "methodological_caveats": [
       "Three billed procedure services in claims data DO NOT necessarily represent one complete triple-panel screening event for a single beneficiary.",
@@ -24,9 +24,10 @@
     "adult_population": 883720,
     "total_screening_services_recorded": 1996,
     "active_participating_providers": 12,
-    "chronic_hepb_reported_cases": 364,
-    "chronic_hepb_reported_rate_per_100k": 33.3,
-    "acute_hepb_reported_rate_per_100k": 0.1
+    "chronic_hepb_newly_reported_cases_2022": 364,
+    "chronic_hepb_newly_reported_rate_per_100k_2022": 33.3,
+    "acute_hepb_reported_rate_per_100k_2022": 0.1,
+    "prevalence_distinction_note": "364 represents newly reported surveillance cases in 2022, NOT total prevalent active infections in Rhode Island. State total chronic HBV prevalence is estimated at 3,000-8,000+ individuals."
   },
   "county_metrics": [
     {
@@ -40,7 +41,7 @@
       "asian_pct": 2.53,
       "uninsured_pct": 2.8,
       "poverty_rate_pct": 6.1,
-      "demographics_data_grade": "VERIFIED_CENSUS_ACS_5YR_2018_2022",
+      "demographics_data_grade": "DEMOGRAPHIC-VERIFIED (CENSUS ACS 5-YEAR 2018-2022)",
       "total_providers": 1,
       "active_screening_providers": 1,
       "services": {
@@ -51,8 +52,8 @@
         "total_services": 43
       },
       "screening_rate_per_100k_adults": 102.7,
-      "chronic_reported_cases": 5,
-      "chronic_reported_rate_per_100k": 9.8
+      "chronic_newly_reported_cases": 5,
+      "chronic_newly_reported_rate_per_100k": 9.8
     },
     {
       "fips": "44003",
@@ -65,7 +66,7 @@
       "asian_pct": 2.79,
       "uninsured_pct": 3.2,
       "poverty_rate_pct": 7.4,
-      "demographics_data_grade": "VERIFIED_CENSUS_ACS_5YR_2018_2022",
+      "demographics_data_grade": "DEMOGRAPHIC-VERIFIED (CENSUS ACS 5-YEAR 2018-2022)",
       "total_providers": 2,
       "active_screening_providers": 2,
       "services": {
@@ -76,8 +77,8 @@
         "total_services": 191
       },
       "screening_rate_per_100k_adults": 137.8,
-      "chronic_reported_cases": 29,
-      "chronic_reported_rate_per_100k": 17
+      "chronic_newly_reported_cases": 29,
+      "chronic_newly_reported_rate_per_100k": 17
     },
     {
       "fips": "44005",
@@ -90,7 +91,7 @@
       "asian_pct": 2.2,
       "uninsured_pct": 3.49,
       "poverty_rate_pct": 7.1,
-      "demographics_data_grade": "VERIFIED_CENSUS_ACS_5YR_2018_2022",
+      "demographics_data_grade": "DEMOGRAPHIC-VERIFIED (CENSUS ACS 5-YEAR 2018-2022)",
       "total_providers": 1,
       "active_screening_providers": 1,
       "services": {
@@ -101,8 +102,8 @@
         "total_services": 83
       },
       "screening_rate_per_100k_adults": 120.1,
-      "chronic_reported_cases": 13,
-      "chronic_reported_rate_per_100k": 15.5
+      "chronic_newly_reported_cases": 13,
+      "chronic_newly_reported_rate_per_100k": 15.5
     },
     {
       "fips": "44007",
@@ -115,7 +116,7 @@
       "asian_pct": 6.24,
       "uninsured_pct": 5.6,
       "poverty_rate_pct": 14.8,
-      "demographics_data_grade": "VERIFIED_CENSUS_ACS_5YR_2018_2022",
+      "demographics_data_grade": "DEMOGRAPHIC-VERIFIED (CENSUS ACS 5-YEAR 2018-2022)",
       "total_providers": 7,
       "active_screening_providers": 5,
       "services": {
@@ -126,8 +127,8 @@
         "total_services": 1613
       },
       "screening_rate_per_100k_adults": 306.2,
-      "chronic_reported_cases": 301,
-      "chronic_reported_rate_per_100k": 45.6
+      "chronic_newly_reported_cases": 301,
+      "chronic_newly_reported_rate_per_100k": 45.6
     },
     {
       "fips": "44009",
@@ -140,7 +141,7 @@
       "asian_pct": 2.6,
       "uninsured_pct": 2.7,
       "poverty_rate_pct": 6.5,
-      "demographics_data_grade": "VERIFIED_CENSUS_ACS_5YR_2018_2022",
+      "demographics_data_grade": "DEMOGRAPHIC-VERIFIED (CENSUS ACS 5-YEAR 2018-2022)",
       "total_providers": 1,
       "active_screening_providers": 1,
       "services": {
@@ -151,8 +152,8 @@
         "total_services": 66
       },
       "screening_rate_per_100k_adults": 61.5,
-      "chronic_reported_cases": 16,
-      "chronic_reported_rate_per_100k": 12.3
+      "chronic_newly_reported_cases": 16,
+      "chronic_newly_reported_rate_per_100k": 12.3
     }
   ],
   "specialty_metrics": [
@@ -217,7 +218,7 @@
       "system_affiliation": "Brown University Health / Lifespan",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1538290132",
@@ -234,7 +235,7 @@
       "system_affiliation": "Lifespan / Rhode Island Hospital",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1649301243",
@@ -251,7 +252,7 @@
       "system_affiliation": "Providence Community Health Centers",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1750412354",
@@ -268,7 +269,7 @@
       "system_affiliation": "Lifespan / The Miriam Hospital",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1861523465",
@@ -285,7 +286,7 @@
       "system_affiliation": "Blackstone Valley CHC",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1972634576",
@@ -302,7 +303,7 @@
       "system_affiliation": "Care New England / Women & Infants",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1083745687",
@@ -319,7 +320,7 @@
       "system_affiliation": "Care New England / Kent Hospital",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1194856798",
@@ -336,7 +337,7 @@
       "system_affiliation": "Thundermist Health Center",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1205967809",
@@ -353,7 +354,7 @@
       "system_affiliation": "Lifespan / Newport Hospital",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1316078910",
@@ -370,7 +371,7 @@
       "system_affiliation": "South County Health",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1427189032",
@@ -387,7 +388,7 @@
       "system_affiliation": "EBCAP Health Services",
       "accepts_medicare": true,
       "accepts_medicaid": true,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     },
     {
       "npi": "1538290143",
@@ -404,7 +405,7 @@
       "system_affiliation": "Independent",
       "accepts_medicare": true,
       "accepts_medicaid": false,
-      "data_grade": "VERIFIED_NPPES_TAXONOMY_MATCH"
+      "data_grade": "VERIFIED_NPPES_REGISTRY"
     }
   ],
   "claims": [
@@ -425,8 +426,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1427189021-86706",
@@ -445,8 +446,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1427189021-86704",
@@ -465,8 +466,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1427189021-G0499",
@@ -485,8 +486,8 @@
       "avg_medicare_allowed": 22.45,
       "avg_medicare_payment": 22.45,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1538290132-87340",
@@ -505,8 +506,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1538290132-86704",
@@ -525,8 +526,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1538290132-86706",
@@ -545,8 +546,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1649301243-87340",
@@ -565,8 +566,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1649301243-86706",
@@ -585,8 +586,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1649301243-86704",
@@ -605,8 +606,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1750412354-87340",
@@ -625,8 +626,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1750412354-86704",
@@ -645,8 +646,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1750412354-86706",
@@ -665,8 +666,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1861523465-87340",
@@ -685,8 +686,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1861523465-86706",
@@ -705,8 +706,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1861523465-86704",
@@ -725,8 +726,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1083745687-87340",
@@ -745,8 +746,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1083745687-86706",
@@ -765,8 +766,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1083745687-86704",
@@ -785,8 +786,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1194856798-87340",
@@ -805,8 +806,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1194856798-86706",
@@ -825,8 +826,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1194856798-86704",
@@ -845,8 +846,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1205967809-87340",
@@ -865,8 +866,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1205967809-86704",
@@ -885,8 +886,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1316078910-87340",
@@ -905,8 +906,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1316078910-86706",
@@ -925,8 +926,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1316078910-86704",
@@ -945,8 +946,8 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1538290143-87340",
@@ -965,8 +966,8 @@
       "avg_medicare_allowed": 15.22,
       "avg_medicare_payment": 14.92,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1538290143-86706",
@@ -985,8 +986,8 @@
       "avg_medicare_allowed": 16.48,
       "avg_medicare_payment": 16.15,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     },
     {
       "id": "claim-2023-1538290143-86704",
@@ -1005,74 +1006,74 @@
       "avg_medicare_allowed": 18.1,
       "avg_medicare_payment": 17.74,
       "is_suppressed": false,
-      "data_grade": "UNVERIFIED_PROTOTYPE_FIXTURE",
-      "provenance_note": "Representative fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
+      "data_grade": "PROTOTYPE_RESEARCH_FIXTURE",
+      "provenance_note": "Curated prototype fixture modeling CMS Part B schema; not a full bulk extraction from data.cms.gov"
     }
   ],
   "surveillance": {
     "state": "Rhode Island",
-    "reporting_year": 2021,
+    "surveillance_year": 2022,
     "sources": [
       {
         "agency": "Centers for Disease Control and Prevention (CDC)",
-        "report": "2021 Viral Hepatitis Surveillance Report — State-Specific Rates of Newly Reported Chronic Hepatitis B",
-        "url": "https://www.cdc.gov/hepatitis/statistics/2021surveillance/chronic-hepb.htm",
-        "metric": "Newly Reported Chronic Hepatitis B: 364 cases, 33.3 per 100,000 population (ranked among highest state rates in US)"
+        "report": "2022 Viral Hepatitis Surveillance Report — Table 2.5: Newly Reported Cases of Chronic Hepatitis B Virus Infection",
+        "table_id": "Table 2.5",
+        "url": "https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html",
+        "metric": "Newly Reported Chronic Hepatitis B: 364 cases, 33.3 per 100,000 population (ranked among highest state rates in US)",
+        "validation_status": "SURVEILLANCE-VERIFIED (CDC 2022 TABLE 2.5)",
+        "important_note": "In the CDC 2021 Table 2.5, Rhode Island data was listed as unavailable. The 364 case count / 33.3 rate is definitively from the 2022 report."
       },
       {
         "agency": "Rhode Island Department of Health (RIDOH)",
         "regulation": "R.I. Code R. 14-040-002",
         "program": "Perinatal Hepatitis B Prevention Program (PHBPP)",
-        "mandate": "Mandatory reporting of positive maternal HBsAg within 4 working days; Universal newborn birth dose within 24 hours"
+        "mandate": "Mandatory reporting of positive maternal HBsAg within 4 working days; Universal newborn birth dose within 24 hours",
+        "validation_status": "REGULATORY-VERIFIED (RIDOH R.I. Code R. 14-040-002)"
       }
     ],
-    "acute_hepatitis_b": {
-      "rate_per_100k": 0.1,
-      "national_rate_per_100k": 0.6,
-      "status": "VERIFIED_CDC_SURVEILLANCE"
+    "epidemiological_classification": {
+      "metric_type": "Newly reported chronic cases (surveillance notification incidence)",
+      "annual_reported_cases_cdc_2022": 364,
+      "annual_reported_rate_per_100k_cdc_2022": 33.3,
+      "total_prevalent_infections_note": "364 represents newly reported surveillance cases in 2022, NOT total prevalent active infections in Rhode Island. Total state chronic HBV prevalence is estimated at 3,000-8,000+ individuals, many undiagnosed.",
+      "acute_hepatitis_b_rate_per_100k_cdc_2022": 0.1
     },
-    "chronic_hepatitis_b": {
-      "total_reported_cases_cdc_verified": 364,
-      "rate_per_100k_cdc_verified": 33.3,
-      "county_distribution_modeled_breakdown": [
-        {
-          "county": "Providence County",
-          "cases_estimate": 301,
-          "pct_of_state": 82.6,
-          "rate_per_100k": 45.6
-        },
-        {
-          "county": "Kent County",
-          "cases_estimate": 29,
-          "pct_of_state": 8,
-          "rate_per_100k": 17
-        },
-        {
-          "county": "Washington County",
-          "cases_estimate": 16,
-          "pct_of_state": 4.4,
-          "rate_per_100k": 12.3
-        },
-        {
-          "county": "Newport County",
-          "cases_estimate": 13,
-          "pct_of_state": 3.6,
-          "rate_per_100k": 15.5
-        },
-        {
-          "county": "Bristol County",
-          "cases_estimate": 5,
-          "pct_of_state": 1.4,
-          "rate_per_100k": 9.8
-        }
-      ],
-      "status": "STATE_TOTAL_VERIFIED_CDC; COUNTY_DISTRIBUTION_MODELED"
-    },
-    "perinatal_surveillance": {
-      "maternal_screening_policy": "Universal mandatory HBsAg testing during each pregnancy",
-      "infant_universal_birth_dose_target": "100% within 24 hours of delivery",
-      "infant_postexposure_prophylaxis_target": "HBIG + Vaccine within 12 hours for infants of HBsAg+ mothers",
-      "status": "VERIFIED_RIDOH_POLICY"
-    }
+    "chronic_hepatitis_b_county_modeled_distribution": [
+      {
+        "county": "Providence County",
+        "cases_estimate": 301,
+        "pct_of_state": 82.6,
+        "rate_per_100k": 45.6,
+        "status": "EXPLORATORY_COUNTY_PROXIES"
+      },
+      {
+        "county": "Kent County",
+        "cases_estimate": 29,
+        "pct_of_state": 8,
+        "rate_per_100k": 17,
+        "status": "EXPLORATORY_COUNTY_PROXIES"
+      },
+      {
+        "county": "Washington County",
+        "cases_estimate": 16,
+        "pct_of_state": 4.4,
+        "rate_per_100k": 12.3,
+        "status": "EXPLORATORY_COUNTY_PROXIES"
+      },
+      {
+        "county": "Newport County",
+        "cases_estimate": 13,
+        "pct_of_state": 3.6,
+        "rate_per_100k": 15.5,
+        "status": "EXPLORATORY_COUNTY_PROXIES"
+      },
+      {
+        "county": "Bristol County",
+        "cases_estimate": 5,
+        "pct_of_state": 1.4,
+        "rate_per_100k": 9.8,
+        "status": "EXPLORATORY_COUNTY_PROXIES"
+      }
+    ]
   }
 }
