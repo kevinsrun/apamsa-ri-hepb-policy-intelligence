@@ -17,7 +17,7 @@ export const CDC_2023_RECOMMENDATIONS = [
     targetPopulation: "All adults aged 18 years and older at least once in their lifetime",
     recommendedTests: ["HBsAg", "anti-HBs", "total anti-HBc"],
     rationale:
-      "Universal adult screening replaces risk-based screening alone, which failed to identify up to 67% of chronic infections due to stigma, lack of disclosure, and asymptomatic disease progression. Initial triple-panel testing identifies active infection, resolved natural immunity, vaccine-induced immunity, and susceptibility.",
+      "Universal adult screening complements risk assessment and reduces dependence on disclosure of risk factors. Initial triple-panel testing identifies active infection, resolved natural immunity, vaccine-induced immunity, and susceptibility.",
     citation:
       "Conners EE, et al. MMWR Recomm Rep 2023;72(No. RR-1):1–25.",
   },
@@ -61,7 +61,7 @@ export function interpretTriplePanel(hbsAg, antiHBs, totalAntiHBc, options = {})
     else if(key==='altMultipleUln'){if(!Number.isFinite(options[key]) || options[key]<0)throw new TypeError('Invalid ALT multiple');}
     else throw new TypeError('Unsupported clinical option');
   }
-  const {igmAntiHBc,priorHbsAgNegativeWithin6Mo,hbsAgPersistentAtLeast6Months,knownPriorHbv,hbvDnaDetected,recentHbig,vaccinationSeriesComplete}=options;
+  const {igmAntiHBc,priorHbsAgNegativeWithin6Mo,hbsAgPersistentAtLeast6Months,hbvDnaDetected,recentHbig,vaccinationSeriesComplete}=options;
   const result=(clinicalStatus,cdcCategory,actionRequired,immunityType='INDETERMINATE',reactivationRisk='UNKNOWN',diagnosticCertainty='NON_DEFINITIVE')=>({hbsAg,antiHBs,totalAntiHBc,clinicalStatus,cdcCategory,actionRequired,immunityType,reactivationRisk,diagnosticCertainty,
     clinicalUse:'Educational pattern only; confirm results and history with a clinician. Not an autonomous diagnosis or treatment recommendation.',
     sourceUrls:['https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm','https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html']});

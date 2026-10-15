@@ -1,0 +1,248 @@
+{"command":["/Users/sadius/engineering-fleet-dual-command/.fleet/state/independent-dual-acceptance/toolchain/node-v22.23.3-darwin-arm64/bin/node","--test","src/tests/hepb.test.mjs"],"url":"http://127.0.0.1:50691"}
+TAP version 13
+# Subtest: CDC typical pattern 000
+ok 1 - CDC typical pattern 000
+  ---
+  duration_ms: 0.810709
+  type: 'test'
+  ...
+# Subtest: CDC typical pattern 001
+ok 2 - CDC typical pattern 001
+  ---
+  duration_ms: 0.115584
+  type: 'test'
+  ...
+# Subtest: CDC typical pattern 010
+ok 3 - CDC typical pattern 010
+  ---
+  duration_ms: 0.033542
+  type: 'test'
+  ...
+# Subtest: CDC typical pattern 011
+ok 4 - CDC typical pattern 011
+  ---
+  duration_ms: 0.027083
+  type: 'test'
+  ...
+# Subtest: CDC typical pattern 100
+ok 5 - CDC typical pattern 100
+  ---
+  duration_ms: 0.072959
+  type: 'test'
+  ...
+# Subtest: CDC typical pattern 101
+ok 6 - CDC typical pattern 101
+  ---
+  duration_ms: 0.027125
+  type: 'test'
+  ...
+# Subtest: CDC typical pattern 110
+ok 7 - CDC typical pattern 110
+  ---
+  duration_ms: 0.061375
+  type: 'test'
+  ...
+# Subtest: CDC typical pattern 111
+ok 8 - CDC typical pattern 111
+  ---
+  duration_ms: 0.022875
+  type: 'test'
+  ...
+# Subtest: 2023 adult triple-panel recommendation
+ok 9 - 2023 adult triple-panel recommendation
+  ---
+  duration_ms: 0.360542
+  type: 'test'
+  ...
+# Subtest: negative IgM is pattern not longitudinal proof
+ok 10 - negative IgM is pattern not longitudinal proof
+  ---
+  duration_ms: 0.197292
+  type: 'test'
+  ...
+# Subtest: recent negative HBsAg supports recent seroconversion
+ok 11 - recent negative HBsAg supports recent seroconversion
+  ---
+  duration_ms: 0.104791
+  type: 'test'
+  ...
+# Subtest: ALT >10x does not establish chronicity
+ok 12 - ALT >10x does not establish chronicity
+  ---
+  duration_ms: 0.025625
+  type: 'test'
+  ...
+# Subtest: IgM positive can be acute or flare
+ok 13 - IgM positive can be acute or flare
+  ---
+  duration_ms: 0.017125
+  type: 'test'
+  ...
+# Subtest: persistence at least 6 months supports chronicity
+ok 14 - persistence at least 6 months supports chronicity
+  ---
+  duration_ms: 0.015417
+  type: 'test'
+  ...
+# Subtest: persistent HBsAg with IgM can be chronic flare
+ok 15 - persistent HBsAg with IgM can be chronic flare
+  ---
+  duration_ms: 0.014625
+  type: 'test'
+  ...
+# Subtest: contradictory dated history is not resolved by guessing
+ok 16 - contradictory dated history is not resolved by guessing
+  ---
+  duration_ms: 0.015709
+  type: 'test'
+  ...
+# Subtest: isolated core avoids blanket challenge vaccine
+ok 17 - isolated core avoids blanket challenge vaccine
+  ---
+  duration_ms: 0.050583
+  type: 'test'
+  ...
+# Subtest: coincident Ag/Ab not mutation diagnosis
+ok 18 - coincident Ag/Ab not mutation diagnosis
+  ---
+  duration_ms: 0.019708
+  type: 'test'
+  ...
+# Subtest: window period IgM pattern
+ok 19 - window period IgM pattern
+  ---
+  duration_ms: 0.0175
+  type: 'test'
+  ...
+# Subtest: HBsAg negative DNA positive needs phase review
+ok 20 - HBsAg negative DNA positive needs phase review
+  ---
+  duration_ms: 0.017292
+  type: 'test'
+  ...
+# Subtest: HBIG passive antibody caveat
+ok 21 - HBIG passive antibody caveat
+  ---
+  duration_ms: 0.018708
+  type: 'test'
+  ...
+# Subtest: negative antibodies not automatic revaccination of prior vaccinees
+ok 22 - negative antibodies not automatic revaccination of prior vaccinees
+  ---
+  duration_ms: 0.017625
+  type: 'test'
+  ...
+# Subtest: IgM cannot be silently accepted with negative total core
+ok 23 - IgM cannot be silently accepted with negative total core
+  ---
+  duration_ms: 0.01575
+  type: 'test'
+  ...
+# Subtest: reject nonboolean marker null
+ok 24 - reject nonboolean marker null
+  ---
+  duration_ms: 0.112041
+  type: 'test'
+  ...
+# Subtest: reject nonboolean marker 0
+ok 25 - reject nonboolean marker 0
+  ---
+  duration_ms: 0.017834
+  type: 'test'
+  ...
+# Subtest: reject nonboolean marker "false"
+ok 26 - reject nonboolean marker "false"
+  ---
+  duration_ms: 0.016541
+  type: 'test'
+  ...
+# Subtest: reject nonboolean marker undefined
+ok 27 - reject nonboolean marker undefined
+  ---
+  duration_ms: 0.01625
+  type: 'test'
+  ...
+# Subtest: reject nonboolean marker []
+ok 28 - reject nonboolean marker []
+  ---
+  duration_ms: 0.015875
+  type: 'test'
+  ...
+# Subtest: reject nonboolean marker {}
+ok 29 - reject nonboolean marker {}
+  ---
+  duration_ms: 0.01575
+  type: 'test'
+  ...
+# Subtest: reject malformed optional input {"igmAntiHBc":"false"}
+ok 30 - reject malformed optional input {"igmAntiHBc":"false"}
+  ---
+  duration_ms: 0.025041
+  type: 'test'
+  ...
+# Subtest: reject malformed optional input {"altMultipleUln":-1}
+ok 31 - reject malformed optional input {"altMultipleUln":-1}
+  ---
+  duration_ms: 0.020625
+  type: 'test'
+  ...
+# Subtest: reject malformed optional input {"altMultipleUln":null}
+ok 32 - reject malformed optional input {"altMultipleUln":null}
+  ---
+  duration_ms: 0.051167
+  type: 'test'
+  ...
+# Subtest: reject malformed optional input {"unknown":true}
+ok 33 - reject malformed optional input {"unknown":true}
+  ---
+  duration_ms: 0.018833
+  type: 'test'
+  ...
+# Subtest: reject malformed optional input null
+ok 34 - reject malformed optional input null
+  ---
+  duration_ms: 0.0165
+  type: 'test'
+  ...
+# Subtest: reject malformed optional input []
+ok 35 - reject malformed optional input []
+  ---
+  duration_ms: 0.272833
+  type: 'test'
+  ...
+# Subtest: pipeline only releases source-backed historical count/rate
+ok 36 - pipeline only releases source-backed historical count/rate
+  ---
+  duration_ms: 6.808
+  type: 'test'
+  ...
+# Subtest: providers, claims, population, county allocation withheld from active dataset
+ok 37 - providers, claims, population, county allocation withheld from active dataset
+  ---
+  duration_ms: 0.52325
+  type: 'test'
+  ...
+# Subtest: analytics cannot infer clinical noncompliance from fixtures
+ok 38 - analytics cannot infer clinical noncompliance from fixtures
+  ---
+  duration_ms: 0.676667
+  type: 'test'
+  ...
+1..38
+# tests 38
+# suites 0
+# pass 38
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 42.056833
+{"command":["/Users/sadius/engineering-fleet-dual-command/.fleet/state/independent-dual-acceptance/toolchain/node-v22.23.3-darwin-arm64/bin/node","scripts/test-browser-interactions.mjs"],"url":"http://127.0.0.1:50691"}
+HTTP check 1: / 200
+HTTP check 2: /api/data 200
+HTTP check 3: /.git/config 404
+HTTP check 4: /data/raw/ri_providers_nppes.json 404
+HTTP check 5: /package.json 404
+HTTP check 6: /../package.json 404
+HTTP check 7: /missing 404
+HTTP/API assertions: 10/10; no browser interactions claimed.
