@@ -1,0 +1,34 @@
+Browser 1: actual API count reaches rendered overview
+Browser 2: actual API rate reaches rendered overview
+Browser 3: navigate overview
+Browser 4: navigate screening
+Browser 5: navigate geography
+Browser 6: navigate providers
+Browser 7: navigate evidence
+Browser 8: navigate export
+Browser 9: unverified provider cannot be searched as referral
+Browser 10: fake clinician absent from rendered application
+Browser 11: county rankings withheld outside evidence tab
+Browser 12: rendered serology negative/negative/negative → SUSCEPTIBLE
+Browser 13: rendered serology negative/negative/positive → ISOLATED_CORE_NON_DEFINITIVE
+Browser 14: rendered serology negative/positive/negative → IMMUNE_VACCINE
+Browser 15: rendered serology negative/positive/positive → IMMUNE_NATURAL
+Browser 16: rendered serology positive/negative/negative → ISOLATED_HBSAG_NON_DEFINITIVE
+Browser 17: rendered serology positive/negative/positive → INFECTION_PHASE_UNDETERMINED
+Browser 18: rendered serology positive/positive/negative → ATYPICAL_NON_DEFINITIVE
+Browser 19: rendered serology positive/positive/positive → CONCURRENT_MARKERS_NON_DEFINITIVE
+Browser 20: negative IgM is typical pattern, not confirmed chronicity
+Browser 21: recent negative HBsAg is not proof of chronicity
+Browser 22: ALT >10x is not chronicity clock
+Browser 23: dated persistence supports chronicity
+Browser 24: contradictory longitudinal history rejected
+Browser 25: actual browser download matches API including warnings/provenance
+Browser 26: download excludes quarantined identities and claims; labels historical age
+Browser 27: real missing processed file returns 503
+Browser 28: failure clears data and disables export
+Browser 29: failure removes previously rendered measurements
+Browser 30: recovery after real source restoration
+Browser 31: controlled missing source metadata fails closed
+Browser 32: mobile viewport has no horizontal overflow
+Browser 33: no unhandled browser JavaScript errors
+{"status":"passed","checks":33,"browser":"153.0.8010.12","url":"http://127.0.0.1:50774","errors":[],"simulation":"only missing-source-metadata route was controlled; other requests used real local backend"}

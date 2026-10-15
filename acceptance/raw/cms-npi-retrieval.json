@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/NationalProvIdentStand/Downloads/NPIcheckdigit.pdf",
+  "retrievedAt": "2026-10-15T13:40:24.970090+00:00",
+  "httpStatus": 200,
+  "contentType": "application/pdf",
+  "lastModified": "Fri, 13 Sep 2019 19:03:31 GMT",
+  "sha256": "4c5cbea23c6859735383b523e861ae168e6bf078027d4ec65d77db4073d5cfd3",
+  "path": "acceptance/raw/cms-npi-check-digit.pdf"
+}

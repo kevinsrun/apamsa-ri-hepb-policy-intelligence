@@ -11,5 +11,6 @@
   },
   "cases": 364,
   "rate": 33.3,
-  "extractor": "openpyxl load_workbook(data_only=True), stripped numeric cells C42/D42"
+  "extractor": "openpyxl load_workbook(data_only=True), stripped numeric cells C42/D42",
+  "retrievedAtBasis": "Approximate local capture timestamp from file mtime after download; not a provider-signed retrieval receipt or source last-modified time."
 }

@@ -585,8 +585,8 @@
     },
     {
       "path": "acceptance/raw/cdc2022-extraction.json",
-      "sha256": "be3c97561eb298649e085575fd8a20cbf1897a060dcf76613478cece537c6f52",
-      "bytes": 478
+      "sha256": "65937c96f204dc0fb0cc0f25ccb787c7b6f6ae8a4ca1af9d63ab7128e28acda9",
+      "bytes": 641
     },
     {
       "path": "acceptance/raw/cdc2022-table-2.5.xlsx",
@@ -597,6 +597,16 @@
       "path": "acceptance/raw/cdc2023-screening.html",
       "sha256": "92f366da85e8f8ae9dc37a27b734c1a907795c839f1ce8de18c26723e538c398",
       "bytes": 297625
+    },
+    {
+      "path": "acceptance/raw/cms-npi-check-digit.pdf",
+      "sha256": "4c5cbea23c6859735383b523e861ae168e6bf078027d4ec65d77db4073d5cfd3",
+      "bytes": 24804
+    },
+    {
+      "path": "acceptance/raw/cms-npi-retrieval.json",
+      "sha256": "d66ac246b402694bf8e7e3337d257ecd621ccd1848e00ea5a52067cff6bd9035",
+      "bytes": 434
     },
     {
       "path": "acceptance/raw/nppes-1205967809.json",
