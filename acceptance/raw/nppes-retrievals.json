@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://npiregistry.cms.hhs.gov/api/?number=1649301243&version=2.1",
+    "httpStatus": 200,
+    "retrievedAt": "2026-10-15T13:13:42.039463+00:00",
+    "path": "acceptance/raw/nppes-1649301243.json",
+    "sha256": "d1d2693d18cee969861c1a7dc0b4023108b4a7567745f4a875ed0f8b0d8973ee"
+  },
+  {
+    "url": "https://npiregistry.cms.hhs.gov/api/?number=1205967809&version=2.1",
+    "httpStatus": 200,
+    "retrievedAt": "2026-10-15T13:13:42.118173+00:00",
+    "path": "acceptance/raw/nppes-1205967809.json",
+    "sha256": "422115ab360af899c269602bb7fe6565e3032ed19474186cfa03247d0ef35a30"
+  },
+  {
+    "url": "https://npiregistry.cms.hhs.gov/api/?number=1538290143&version=2.1",
+    "httpStatus": 200,
+    "retrievedAt": "2026-10-15T13:13:42.221165+00:00",
+    "path": "acceptance/raw/nppes-1538290143.json",
+    "sha256": "e56d90031733656568cdbae2f0aea25a2688fc95065fed6173ef8b01a7b3cb72"
+  }
+]

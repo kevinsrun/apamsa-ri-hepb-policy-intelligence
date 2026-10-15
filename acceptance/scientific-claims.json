@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "scope": "independent forensic reproduction; null means unavailable, not zero",
+  "claims": [
+    {
+      "claim": "Medicare procedure 87340",
+      "claimed": 767,
+      "reproduced": 767,
+      "classification": "PROTOTYPE",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "local CMS-schema fixture, not original CMS download",
+      "field": "line_srvc_cnt",
+      "unit": "billed procedure services",
+      "numerator": 767,
+      "denominator": null,
+      "filters": "hcpcs_code == 87340; all fixture years/providers",
+      "formula": "sum(line_srvc_cnt)",
+      "note": "No original source URL/publication or authoritative extraction; cannot infer patient panels, noncompliance or screening prevalence."
+    },
+    {
+      "claim": "Medicare procedure 86704",
+      "claimed": 607,
+      "reproduced": 607,
+      "classification": "PROTOTYPE",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "local CMS-schema fixture, not original CMS download",
+      "field": "line_srvc_cnt",
+      "unit": "billed procedure services",
+      "numerator": 607,
+      "denominator": null,
+      "filters": "hcpcs_code == 86704; all fixture years/providers",
+      "formula": "sum(line_srvc_cnt)",
+      "note": "No original source URL/publication or authoritative extraction; cannot infer patient panels, noncompliance or screening prevalence."
+    },
+    {
+      "claim": "Medicare procedure 86706",
+      "claimed": 593,
+      "reproduced": 593,
+      "classification": "PROTOTYPE",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "local CMS-schema fixture, not original CMS download",
+      "field": "line_srvc_cnt",
+      "unit": "billed procedure services",
+      "numerator": 593,
+      "denominator": null,
+      "filters": "hcpcs_code == 86706; all fixture years/providers",
+      "formula": "sum(line_srvc_cnt)",
+      "note": "No original source URL/publication or authoritative extraction; cannot infer patient panels, noncompliance or screening prevalence."
+    },
+    {
+      "claim": "foreign-born case share",
+      "claimed": 78.3,
+      "reproduced": null,
+      "classification": "UNVERIFIED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": null,
+      "field": null,
+      "unit": null,
+      "numerator": null,
+      "denominator": null,
+      "filters": null,
+      "formula": null,
+      "note": "No RIDOH numerator, denominator, original table or measured extraction; previously admitted heuristic."
+    },
+    {
+      "claim": "independent-lab billing share",
+      "claimed": 68.4,
+      "reproduced": null,
+      "classification": "UNVERIFIED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": null,
+      "field": null,
+      "unit": null,
+      "numerator": null,
+      "denominator": null,
+      "filters": null,
+      "formula": null,
+      "note": "Heuristic market estimate without observed claims denominator."
+    },
+    {
+      "claim": "chronic HBV cases",
+      "claimed": 138,
+      "reproduced": null,
+      "classification": "UNVERIFIED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": 2023,
+      "table": null,
+      "field": null,
+      "unit": null,
+      "numerator": null,
+      "denominator": null,
+      "filters": null,
+      "formula": null,
+      "note": "Alleged 2023 RIDOH count; source/table absent; distinct year/definition not established."
+    },
+    {
+      "claim": "perinatal screening percent",
+      "claimed": 98.4,
+      "reproduced": null,
+      "classification": "UNVERIFIED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": null,
+      "field": null,
+      "unit": null,
+      "numerator": null,
+      "denominator": null,
+      "filters": null,
+      "formula": null,
+      "note": "No original cohort, screened pregnancies or eligible-pregnancy denominator."
+    },
+    {
+      "claim": "statewide prevalent infections",
+      "claimed": "3,000–8,000+",
+      "reproduced": null,
+      "classification": "UNVERIFIED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": null,
+      "field": null,
+      "unit": null,
+      "numerator": null,
+      "denominator": null,
+      "filters": null,
+      "formula": null,
+      "note": "Unsupported estimate; not derivable from yearly chronic notifications."
+    },
+    {
+      "claim": "newly reported chronic cases 2022",
+      "claimed": 364,
+      "reproduced": 364,
+      "classification": "VERIFIED",
+      "sourceUrl": "https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html",
+      "publicationYear": 2024,
+      "datasetYear": 2022,
+      "table": "Table 2.5 / Tab2.5 / B42 C42",
+      "field": "Newly reported chronic HBV cases",
+      "unit": "cases",
+      "numerator": 364,
+      "denominator": null,
+      "filters": "Rhode Island row",
+      "formula": "int(strip(C42))",
+      "note": "Notifications, not infections newly acquired during 2022 or total prevalent infections."
+    },
+    {
+      "claim": "newly reported chronic rate",
+      "claimed": 33.3,
+      "reproduced": 33.3,
+      "classification": "VERIFIED",
+      "sourceUrl": "https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html",
+      "publicationYear": 2024,
+      "datasetYear": 2022,
+      "table": "Table 2.5 / D42",
+      "field": "Rate per 100,000 population",
+      "unit": "cases / 100,000",
+      "numerator": 364,
+      "denominator": null,
+      "filters": "Rhode Island row",
+      "formula": "float(strip(D42))",
+      "note": "Exact population denominator is not in this table; rounded rate does not reconstruct exact denominator."
+    },
+    {
+      "claim": "acute rate",
+      "claimed": 0.1,
+      "reproduced": null,
+      "classification": "UNVERIFIED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": null,
+      "field": null,
+      "unit": null,
+      "numerator": null,
+      "denominator": null,
+      "filters": null,
+      "formula": null,
+      "note": "Not verified by chronic Table 2.5; active value removed."
+    },
+    {
+      "claim": "Providence foreign-born",
+      "claimed": 137408,
+      "reproduced": 137450,
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "local demographics fixture; claimed ACS DP02 not authenticated",
+      "field": "foreign_born_population",
+      "unit": "persons",
+      "numerator": 137450,
+      "denominator": null,
+      "filters": "Providence county",
+      "formula": "selected county or sum(foreign_born_population)",
+      "note": "Contradicted by local fixture only; authoritative ACS truth remains UNVERIFIED. Public Census API returned HTML Missing Key despite status 200; no private key sought."
+    },
+    {
+      "claim": "state foreign-born",
+      "claimed": 162114,
+      "reproduced": 162155,
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "local demographics fixture; claimed ACS DP02 not authenticated",
+      "field": "foreign_born_population",
+      "unit": "persons",
+      "numerator": 162155,
+      "denominator": null,
+      "filters": "five RI counties",
+      "formula": "selected county or sum(foreign_born_population)",
+      "note": "Contradicted by local fixture only; authoritative ACS truth remains UNVERIFIED. Public Census API returned HTML Missing Key despite status 200; no private key sought."
+    },
+    {
+      "claim": "Providence concentration",
+      "claimed": 84.76,
+      "reproduced": {
+        "claimed_inputs_pct": 84.76010708513762,
+        "fixture_inputs_pct": 84.76457710215534
+      },
+      "classification": "DERIVED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "unverified demographic inputs",
+      "field": null,
+      "unit": "percent",
+      "numerator": 137450,
+      "denominator": 162155,
+      "filters": "five counties",
+      "formula": "Providence foreign-born / statewide foreign-born * 100",
+      "note": "Arithmetic only. Claimed rounded result is reproducible, but not source-verified."
+    },
+    {
+      "claim": "five-county population total",
+      "claimed": 1095605,
+      "reproduced": 1095605,
+      "classification": "DERIVED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "local demographics; claimed ACS 2018–2022 DP05, not authenticated",
+      "field": "total_population",
+      "unit": "persons",
+      "numerator": 1095605,
+      "denominator": null,
+      "filters": "five RI counties",
+      "formula": "sum(total_population)",
+      "note": "Fixture sum, not verified Census estimate."
+    },
+    {
+      "claim": "Providence County need score",
+      "claimed": null,
+      "reproduced": 16.43,
+      "classification": "ESTIMATED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "unvalidated local demographic proxy",
+      "field": "foreign_born_pct, asian_pct",
+      "unit": "arbitrary index",
+      "numerator": null,
+      "denominator": null,
+      "filters": "Providence County",
+      "formula": "round(0.7 * foreign_born_pct + 0.3 * asian_pct, 2)",
+      "note": "Arbitrary weights, unverified inputs; not a clinically validated need score or equitable screening prioritization."
+    },
+    {
+      "claim": "Washington County need score",
+      "claimed": null,
+      "reproduced": 3.72,
+      "classification": "ESTIMATED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "unvalidated local demographic proxy",
+      "field": "foreign_born_pct, asian_pct",
+      "unit": "arbitrary index",
+      "numerator": null,
+      "denominator": null,
+      "filters": "Washington County",
+      "formula": "round(0.7 * foreign_born_pct + 0.3 * asian_pct, 2)",
+      "note": "Arbitrary weights, unverified inputs; not a clinically validated need score or equitable screening prioritization."
+    },
+    {
+      "claim": "provider NPI 1427189021",
+      "claimed": "Dr. Sarah Chen, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. Sarah Chen, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1538290132",
+      "claimed": "Dr. Marcus Vance, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. Marcus Vance, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1649301243",
+      "claimed": "Dr. Linh Nguyen, MD",
+      "reproduced": {
+        "checksumValid": true,
+        "claimedName": "Dr. Linh Nguyen, MD",
+        "identityVerified": false,
+        "resultCount": 0,
+        "actualNames": []
+      },
+      "classification": "UNVERIFIED",
+      "sourceUrl": "https://npiregistry.cms.hhs.gov/api/?number=1649301243&version=2.1",
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPPES Registry API v2.1",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1750412354",
+      "claimed": "Dr. Elena Rostova, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. Elena Rostova, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1861523465",
+      "claimed": "Dr. Carlos Mendez, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. Carlos Mendez, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1972634576",
+      "claimed": "Dr. Patricia Hopkins, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. Patricia Hopkins, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1083745687",
+      "claimed": "Dr. David Miller, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. David Miller, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1194856798",
+      "claimed": "Dr. Rebecca Taylor, DO",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. Rebecca Taylor, DO",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1205967809",
+      "claimed": "Dr. Robert Sullivan, MD",
+      "reproduced": {
+        "checksumValid": true,
+        "claimedName": "Dr. Robert Sullivan, MD",
+        "identityVerified": false,
+        "resultCount": 1,
+        "actualNames": [
+          "OZARK VALLEYS COMMUNITY SERVICES, INC."
+        ]
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": "https://npiregistry.cms.hhs.gov/api/?number=1205967809&version=2.1",
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPPES Registry API v2.1",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1316078910",
+      "claimed": "Dr. James O'Connor, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. James O'Connor, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1427189032",
+      "claimed": "Dr. Anita Desai, MD",
+      "reproduced": {
+        "checksumValid": false,
+        "claimedName": "Dr. Anita Desai, MD",
+        "identityVerified": false
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": null,
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPI checksum with 80840 prefix",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    },
+    {
+      "claim": "provider NPI 1538290143",
+      "claimed": "Dr. Brian Walsh, MD",
+      "reproduced": {
+        "checksumValid": true,
+        "claimedName": "Dr. Brian Walsh, MD",
+        "identityVerified": false,
+        "resultCount": 1,
+        "actualNames": [
+          "CHARLES SMITH"
+        ]
+      },
+      "classification": "CONTRADICTED",
+      "sourceUrl": "https://npiregistry.cms.hhs.gov/api/?number=1538290143&version=2.1",
+      "publicationYear": null,
+      "datasetYear": null,
+      "table": "NPPES Registry API v2.1",
+      "field": "number/basic identity",
+      "unit": "provider identity",
+      "numerator": null,
+      "denominator": null,
+      "filters": "exact number, then name match; RI location needed for valid match",
+      "formula": "Luhn(80840 + NPI) then authoritative identity comparison",
+      "note": "Checksum alone never verifies identity. No-result is not proof of nonexistence. All claimed identities withheld."
+    }
+  ],
+  "inputs": [
+    {
+      "path": "acceptance/raw/acs2022-dp02-counties.json",
+      "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+      "bytes": 8531
+    },
+    {
+      "path": "acceptance/raw/acs2022-dp02-state.json",
+      "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+      "bytes": 8531
+    },
+    {
+      "path": "acceptance/raw/acs2022-dp05-counties.json",
+      "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+      "bytes": 8531
+    },
+    {
+      "path": "acceptance/raw/cdc-surveillance-guidance.html",
+      "sha256": "324dcedc32fe48699162d2165843f2a74c9e18168bdf07dea36fd4940169a467",
+      "bytes": 215326
+    },
+    {
+      "path": "acceptance/raw/cdc2022-chronic.html",
+      "sha256": "829911476b402a4314da7c5f3786aa097a934c8c0f65f9070eb6d388c880a62c",
+      "bytes": 48114
+    },
+    {
+      "path": "acceptance/raw/cdc2022-extraction.json",
+      "sha256": "be3c97561eb298649e085575fd8a20cbf1897a060dcf76613478cece537c6f52",
+      "bytes": 478
+    },
+    {
+      "path": "acceptance/raw/cdc2022-table-2.5.xlsx",
+      "sha256": "c7d8b93ec3c63df6878d3fda607622210c688bac829b6562dae2dec8f945f834",
+      "bytes": 13511
+    },
+    {
+      "path": "acceptance/raw/cdc2023-screening.html",
+      "sha256": "92f366da85e8f8ae9dc37a27b734c1a907795c839f1ce8de18c26723e538c398",
+      "bytes": 297625
+    },
+    {
+      "path": "acceptance/raw/nppes-1205967809.json",
+      "sha256": "422115ab360af899c269602bb7fe6565e3032ed19474186cfa03247d0ef35a30",
+      "bytes": 1692
+    },
+    {
+      "path": "acceptance/raw/nppes-1538290143.json",
+      "sha256": "e56d90031733656568cdbae2f0aea25a2688fc95065fed6173ef8b01a7b3cb72",
+      "bytes": 1284
+    },
+    {
+      "path": "acceptance/raw/nppes-1649301243.json",
+      "sha256": "d1d2693d18cee969861c1a7dc0b4023108b4a7567745f4a875ed0f8b0d8973ee",
+      "bytes": 31
+    },
+    {
+      "path": "acceptance/raw/nppes-retrievals.json",
+      "sha256": "027075dd4548f733761a5e1717824ad033b9d2e3d8d9af15a8fe08df5fc05596",
+      "bytes": 906
+    },
+    {
+      "path": "acceptance/raw/source-retrievals.json",
+      "sha256": "4ba4c70c25e897147dee8df070bdab1b74b033f256d291e3856012233f697d5f",
+      "bytes": 4006
+    },
+    {
+      "path": "data/raw/cms_medicare_ri_hepb_services.json",
+      "sha256": "15f184f272a0c0735029a85bb6339286bc787ebf6a51100eed93c9bcf48b2282",
+      "bytes": 17907
+    },
+    {
+      "path": "data/raw/ri_county_demographics.json",
+      "sha256": "3f0bf8dd0ab00ad85b128db1647f6d0a6edaf30d24a499a683194dd9d39f0431",
+      "bytes": 2336
+    },
+    {
+      "path": "data/raw/ri_providers_nppes.json",
+      "sha256": "8e1350301159142d46932a431ffa190a3336a9f3b2b7a50af8fe6e1bac14a4b7",
+      "bytes": 5749
+    },
+    {
+      "path": "data/raw/ri_surveillance_hepb.json",
+      "sha256": "2832b897372806dbf16eb382f2ddf58ee48cad296ce3e9e7e13d3d4962fb1a7e",
+      "bytes": 2499
+    }
+  ]
+}

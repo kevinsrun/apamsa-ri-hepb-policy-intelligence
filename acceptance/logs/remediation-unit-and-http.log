@@ -1,0 +1,56 @@
+{"command":["/opt/homebrew/Cellar/node/26.11.1_1/bin/node","--test","src/tests/hepb.test.mjs"],"url":"http://127.0.0.1:50223"}
+✔ CDC typical pattern 000 (0.512542ms)
+✔ CDC typical pattern 001 (0.052ms)
+✔ CDC typical pattern 010 (0.028666ms)
+✔ CDC typical pattern 011 (0.032875ms)
+✔ CDC typical pattern 100 (0.031459ms)
+✔ CDC typical pattern 101 (0.031041ms)
+✔ CDC typical pattern 110 (0.030959ms)
+✔ CDC typical pattern 111 (0.024166ms)
+✔ 2023 adult triple-panel recommendation (0.278375ms)
+✔ negative IgM is pattern not longitudinal proof (0.065208ms)
+✔ recent negative HBsAg supports recent seroconversion (0.047834ms)
+✔ ALT >10x does not establish chronicity (0.026833ms)
+✔ IgM positive can be acute or flare (0.018958ms)
+✔ persistence at least 6 months supports chronicity (0.023875ms)
+✔ persistent HBsAg with IgM can be chronic flare (0.015416ms)
+✔ contradictory dated history is not resolved by guessing (0.021084ms)
+✔ isolated core avoids blanket challenge vaccine (0.079375ms)
+✔ coincident Ag/Ab not mutation diagnosis (0.027917ms)
+✔ window period IgM pattern (0.01825ms)
+✔ HBsAg negative DNA positive needs phase review (0.017584ms)
+✔ HBIG passive antibody caveat (0.017375ms)
+✔ negative antibodies not automatic revaccination of prior vaccinees (0.016ms)
+✔ IgM cannot be silently accepted with negative total core (0.015375ms)
+✔ reject nonboolean marker null (0.099459ms)
+✔ reject nonboolean marker 0 (0.011625ms)
+✔ reject nonboolean marker "false" (0.010167ms)
+✔ reject nonboolean marker undefined (0.009375ms)
+✔ reject nonboolean marker [] (0.009417ms)
+✔ reject nonboolean marker {} (0.010958ms)
+✔ reject malformed optional input {"igmAntiHBc":"false"} (0.023584ms)
+✔ reject malformed optional input {"altMultipleUln":-1} (0.012708ms)
+✔ reject malformed optional input {"altMultipleUln":null} (0.01225ms)
+✔ reject malformed optional input {"unknown":true} (0.018542ms)
+✔ reject malformed optional input null (0.011041ms)
+✔ reject malformed optional input [] (0.011666ms)
+✔ pipeline only releases source-backed historical count/rate (4.239042ms)
+✔ providers, claims, population, county allocation withheld from active dataset (1.133042ms)
+✔ analytics cannot infer clinical noncompliance from fixtures (0.188ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55.345625
+{"command":["/opt/homebrew/Cellar/node/26.11.1_1/bin/node","scripts/test-browser-interactions.mjs"],"url":"http://127.0.0.1:50223"}
+HTTP check 1: / 200
+HTTP check 2: /api/data 200
+HTTP check 3: /.git/config 404
+HTTP check 4: /data/raw/ri_providers_nppes.json 404
+HTTP check 5: /package.json 404
+HTTP check 6: /../package.json 404
+HTTP check 7: /missing 404
+HTTP/API assertions: 10/10; no browser interactions claimed.

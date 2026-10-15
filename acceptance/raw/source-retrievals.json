@@ -1,0 +1,98 @@
+[
+  {
+    "id": "acs2022-dp02-counties",
+    "url": "https://api.census.gov/data/2022/acs/acs5/profile?get=NAME,DP02_0001E,DP02_0094E,DP02_0094PE&for=county:*&in=state:44",
+    "finalUrl": "https://api.census.gov/data/missing_key.html",
+    "retrievedAt": "2026-10-15T13:09:45.232128+00:00",
+    "httpStatus": 200,
+    "headers": {
+      "ETag": "W/\"8531-1785258964369\"",
+      "Last-Modified": "Tue, 28 Jul 2026 17:16:04 GMT",
+      "Content-Type": "text/html",
+      "Date": "Thu, 15 Oct 2026 13:09:44 GMT"
+    },
+    "path": "acceptance/raw/acs2022-dp02-counties.json",
+    "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+    "bytes": 8531,
+    "validation": "UNAVAILABLE: HTTP200 HTML Missing Key is not a Census dataset",
+    "datasetParsed": false
+  },
+  {
+    "id": "acs2022-dp05-counties",
+    "url": "https://api.census.gov/data/2022/acs/acs5/profile?get=NAME,DP05_0001E,DP05_0002E,DP05_0018E,DP05_0044E,DP05_0044PE&for=county:*&in=state:44",
+    "finalUrl": "https://api.census.gov/data/missing_key.html",
+    "retrievedAt": "2026-10-15T13:09:45.721859+00:00",
+    "httpStatus": 200,
+    "headers": {
+      "ETag": "W/\"8531-1785258963403\"",
+      "Last-Modified": "Tue, 28 Jul 2026 17:16:03 GMT",
+      "Content-Type": "text/html",
+      "Date": "Thu, 15 Oct 2026 13:09:45 GMT"
+    },
+    "path": "acceptance/raw/acs2022-dp05-counties.json",
+    "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+    "bytes": 8531,
+    "validation": "UNAVAILABLE: HTTP200 HTML Missing Key is not a Census dataset",
+    "datasetParsed": false
+  },
+  {
+    "id": "acs2022-dp02-state",
+    "url": "https://api.census.gov/data/2022/acs/acs5/profile?get=NAME,DP02_0094E,DP02_0094PE&for=state:44",
+    "finalUrl": "https://api.census.gov/data/missing_key.html",
+    "retrievedAt": "2026-10-15T13:09:46.533378+00:00",
+    "httpStatus": 200,
+    "headers": {
+      "ETag": "W/\"8531-1785258966246\"",
+      "Last-Modified": "Tue, 28 Jul 2026 17:16:06 GMT",
+      "Content-Type": "text/html",
+      "Date": "Thu, 15 Oct 2026 13:09:46 GMT"
+    },
+    "path": "acceptance/raw/acs2022-dp02-state.json",
+    "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+    "bytes": 8531,
+    "validation": "UNAVAILABLE: HTTP200 HTML Missing Key is not a Census dataset",
+    "datasetParsed": false
+  },
+  {
+    "id": "cdc2022-chronic",
+    "url": "https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html",
+    "finalUrl": "https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html",
+    "retrievedAt": "2026-10-15T13:09:47.512356+00:00",
+    "httpStatus": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "Date": "Thu, 15 Oct 2026 13:09:47 GMT"
+    },
+    "path": "acceptance/raw/cdc2022-chronic.html",
+    "sha256": "829911476b402a4314da7c5f3786aa097a934c8c0f65f9070eb6d388c880a62c",
+    "bytes": 48114
+  },
+  {
+    "id": "cdc2023-screening",
+    "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm",
+    "finalUrl": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm",
+    "retrievedAt": "2026-10-15T13:09:49.045834+00:00",
+    "httpStatus": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "Date": "Thu, 15 Oct 2026 13:09:49 GMT"
+    },
+    "path": "acceptance/raw/cdc2023-screening.html",
+    "sha256": "92f366da85e8f8ae9dc37a27b734c1a907795c839f1ce8de18c26723e538c398",
+    "bytes": 297625
+  },
+  {
+    "id": "cdc-surveillance-guidance",
+    "url": "https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html",
+    "finalUrl": "https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html",
+    "retrievedAt": "2026-10-15T13:09:50.918395+00:00",
+    "httpStatus": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "Date": "Thu, 15 Oct 2026 13:09:50 GMT"
+    },
+    "path": "acceptance/raw/cdc-surveillance-guidance.html",
+    "sha256": "324dcedc32fe48699162d2165843f2a74c9e18168bdf07dea36fd4940169a467",
+    "bytes": 215326
+  }
+]

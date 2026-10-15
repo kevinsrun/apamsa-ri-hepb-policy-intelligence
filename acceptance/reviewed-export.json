@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "schemaVersion": 2,
+    "generated_at": "2026-10-15T13:19:20.472Z",
+    "state": "Rhode Island",
+    "purpose": "Research evidence review only; not clinical decision support or a current provider directory.",
+    "sourceStatus": "HISTORICAL_NOT_CURRENT",
+    "sources": [
+      {
+        "url": "https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html",
+        "publicationYear": 2024,
+        "datasetYear": 2022,
+        "table": "2.5",
+        "sheet": "Tab2.5",
+        "cells": [
+          "B42",
+          "C42",
+          "D42"
+        ],
+        "sha256": "c7d8b93ec3c63df6878d3fda607622210c688bac829b6562dae2dec8f945f834",
+        "retrievedAt": "2026-10-15T13:11:13.330554+00:00",
+        "classification": "VERIFIED",
+        "freshness": "HISTORICAL_NOT_CURRENT"
+      }
+    ],
+    "warnings": [
+      "2022 surveillance is historical, not current prevalence or incidence of newly acquired infection.",
+      "CMS procedure counts are prototype fixtures, not observed CMS utilization; no clinical practice conclusions are supported.",
+      "ACS demographics, demographic risk scores, lab market estimates and provider identities are quarantined pending authoritative extraction.",
+      "138 cases, 98.4% perinatal screening, 78.3%, 68.4%, and prevalence 3,000–8,000+ are not verified."
+    ]
+  },
+  "statewide_summary": {
+    "chronic_hepb_newly_reported_cases_2022": 364,
+    "chronic_hepb_newly_reported_rate_per_100k_2022": 33.3,
+    "acute_hepb_reported_rate_per_100k_2022": null,
+    "total_population": null,
+    "adult_population": null,
+    "total_screening_services_recorded": null,
+    "active_participating_providers": 0,
+    "prevalence_distinction_note": "Newly reported chronic cases are not total prevalent infections or new-infection incidence. Statewide prevalence not established here.",
+    "provenance": {
+      "url": "https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html",
+      "publicationYear": 2024,
+      "datasetYear": 2022,
+      "table": "2.5",
+      "sheet": "Tab2.5",
+      "cells": [
+        "B42",
+        "C42",
+        "D42"
+      ],
+      "sha256": "c7d8b93ec3c63df6878d3fda607622210c688bac829b6562dae2dec8f945f834",
+      "retrievedAt": "2026-10-15T13:11:13.330554+00:00",
+      "classification": "VERIFIED",
+      "freshness": "HISTORICAL_NOT_CURRENT"
+    }
+  },
+  "providers": [],
+  "claims": [],
+  "county_metrics": [],
+  "specialty_metrics": [],
+  "quarantine": {
+    "providerRecords": 12,
+    "providerStatus": "CONTRADICTED_OR_UNVERIFIED_IDENTITIES",
+    "demographicStatus": "UNVERIFIED",
+    "claimsStatus": "PROTOTYPE",
+    "modeledCountyStatus": "ESTIMATED_UNVALIDATED",
+    "originalInputs": [
+      "ri_county_demographics.json",
+      "ri_providers_nppes.json",
+      "cms_medicare_ri_hepb_services.json",
+      "ri_surveillance_hepb.json"
+    ],
+    "instructions": "Inspect versioned raw inputs and SCIENTIFIC-PROVENANCE-AUDIT.md; not a referral, screening or resource-allocation dataset."
+  }
+}

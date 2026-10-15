@@ -1,191 +1,46 @@
-import { describe, it } from 'node:test';
-import assert from 'node:assert';
-import http from 'node:http';
-import { interpretTriplePanel, CDC_2023_RECOMMENDATIONS, HEPB_CODES } from '../clinical/guidelines.mjs';
-import { runIngestionPipeline } from '../pipeline/ingest.mjs';
-import { analyzeScreeningData } from '../analysis/analytics.mjs';
-
-describe('Clinical Evidence & Guidelines Engine (All 8 Permutations)', () => {
-  it('contains CDC 2023 universal adult screening recommendation', () => {
-    const universal = CDC_2023_RECOMMENDATIONS.find(r => r.recommendationType === 'UNIVERSAL_ADULT');
-    assert.ok(universal, 'Universal adult recommendation should exist');
-    assert.strictEqual(universal.publicationYear, 2023);
-    assert.deepStrictEqual(universal.recommendedTests, ['HBsAg', 'anti-HBs', 'total anti-HBc']);
-  });
-
-  it('1. correctly interprets susceptible individuals', () => {
-    const res = interpretTriplePanel(false, false, false);
-    assert.strictEqual(res.cdcCategory, 'SUSCEPTIBLE');
-    assert.strictEqual(res.immunityType, 'NONE');
-    assert.strictEqual(res.clinicalStatus, 'Susceptible (Non-Immune)');
-    assert.strictEqual(res.diagnosticCertainty, 'DEFINITIVE');
-    assert.match(res.actionRequired, /vaccine series/i);
-  });
-
-  it('2. correctly interprets vaccine-induced immunity', () => {
-    const res = interpretTriplePanel(false, true, false);
-    assert.strictEqual(res.cdcCategory, 'IMMUNE_VACCINE');
-    assert.strictEqual(res.immunityType, 'VACCINE');
-    assert.strictEqual(res.clinicalStatus, 'Vaccine-Induced Immunity');
-    assert.strictEqual(res.diagnosticCertainty, 'DEFINITIVE');
-  });
-
-  it('3. correctly interprets resolved natural immunity and flags reactivation risk', () => {
-    const res = interpretTriplePanel(false, true, true);
-    assert.strictEqual(res.cdcCategory, 'IMMUNE_NATURAL');
-    assert.strictEqual(res.immunityType, 'NATURAL');
-    assert.strictEqual(res.reactivationRisk, 'MODERATE_UNDER_SEVERE_IMMUNOSUPPRESSION');
-    assert.strictEqual(res.diagnosticCertainty, 'DEFINITIVE');
-    assert.match(res.actionRequired, /cccDNA/i);
-  });
-
-  it('4. correctly interprets presumptive chronic HBV and notes additional evidence needed', () => {
-    const res = interpretTriplePanel(true, false, true);
-    assert.strictEqual(res.cdcCategory, 'CHRONIC_PRESUMPTIVE');
-    assert.strictEqual(res.immunityType, 'CHRONIC_PRESUMPTIVE');
-    assert.strictEqual(res.diagnosticCertainty, 'PRESUMPTIVE_REQUIRES_ADDITIONAL_EVIDENCE');
-    assert.match(res.actionRequired, /additional evidence/i);
-  });
-
-  it('5. correctly interprets acute hepatitis B when IgM anti-HBc is positive', () => {
-    const res = interpretTriplePanel(true, false, true, { igmAntiHBc: true });
-    assert.strictEqual(res.cdcCategory, 'ACUTE_CONFIRMED');
-    assert.strictEqual(res.clinicalStatus, 'Acute Hepatitis B Infection (IgM Anti-HBc Confirmed)');
-    assert.strictEqual(res.diagnosticCertainty, 'CONFIRMED_WITH_ADDITIONAL_EVIDENCE');
-  });
-
-  it('6. correctly interprets isolated anti-HBc with non-definitive status', () => {
-    const res = interpretTriplePanel(false, false, true);
-    assert.strictEqual(res.cdcCategory, 'ISOLATED_CORE_NON_DEFINITIVE');
-    assert.strictEqual(res.diagnosticCertainty, 'NON_DEFINITIVE');
-    assert.match(res.actionRequired, /NON-DEFINITIVE/i);
-    assert.match(res.actionRequired, /waning/i);
-  });
-
-  it('7. correctly interprets early acute infection prior to core seroconversion', () => {
-    const res = interpretTriplePanel(true, false, false);
-    assert.strictEqual(res.cdcCategory, 'EARLY_ACUTE_NON_DEFINITIVE');
-    assert.strictEqual(res.diagnosticCertainty, 'NON_DEFINITIVE');
-    assert.match(res.actionRequired, /NON-DEFINITIVE/i);
-  });
-
-  it('8. correctly interprets concurrent HBsAg and anti-HBs as non-definitive escape mutant', () => {
-    const res = interpretTriplePanel(true, true, true);
-    assert.strictEqual(res.cdcCategory, 'ESCAPE_MUTANT_NON_DEFINITIVE');
-    assert.strictEqual(res.diagnosticCertainty, 'NON_DEFINITIVE');
-    assert.match(res.actionRequired, /NON-DEFINITIVE/i);
-  });
-
-  it('9. correctly handles biologically atypical pattern', () => {
-    const res = interpretTriplePanel(true, true, false);
-    assert.strictEqual(res.cdcCategory, 'ATYPICAL_NON_DEFINITIVE');
-    assert.strictEqual(res.diagnosticCertainty, 'NON_DEFINITIVE');
-    assert.match(res.actionRequired, /NON-DEFINITIVE/i);
-  });
-
-  it('10. correctly maps all CPT and HCPCS codes', () => {
-    assert.strictEqual(HEPB_CODES['87340'].panel_component, 'hbsag');
-    assert.strictEqual(HEPB_CODES['86706'].panel_component, 'antihbs');
-    assert.strictEqual(HEPB_CODES['86704'].panel_component, 'antihbc_total');
-    assert.strictEqual(HEPB_CODES['G0499'].panel_component, 'medicare_screen');
-  });
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {interpretTriplePanel,CDC_2023_RECOMMENDATIONS} from '../clinical/guidelines.mjs';
+import {runIngestionPipeline} from '../pipeline/ingest.mjs';
+import {analyzeScreeningData} from '../analysis/analytics.mjs';
+const patterns=[
+ [false,false,false,'SUSCEPTIBLE'],[false,false,true,'ISOLATED_CORE_NON_DEFINITIVE'],
+ [false,true,false,'IMMUNE_VACCINE'],[false,true,true,'IMMUNE_NATURAL'],
+ [true,false,false,'ISOLATED_HBSAG_NON_DEFINITIVE'],[true,false,true,'INFECTION_PHASE_UNDETERMINED'],
+ [true,true,false,'ATYPICAL_NON_DEFINITIVE'],[true,true,true,'CONCURRENT_MARKERS_NON_DEFINITIVE'],
+];
+for(const [a,b,c,category] of patterns)test(`CDC typical pattern ${+a}${+b}${+c}`,()=>{
+ const r=interpretTriplePanel(a,b,c);assert.equal(r.cdcCategory,category);
+ assert.match(r.clinicalUse,/not an autonomous diagnosis/i);assert.equal(r.sourceUrls.length,2);assert.notEqual(r.diagnosticCertainty,'DEFINITIVE');
 });
-
-describe('Data Ingestion & Integrity Audits', () => {
-  it('11. ingests Rhode Island datasets and validates county FIPS', async () => {
-    const dataset = await runIngestionPipeline();
-    const validFips = new Set(['44001', '44003', '44005', '44007', '44009']);
-    for (const c of dataset.county_metrics) {
-      assert.ok(validFips.has(c.fips), `FIPS ${c.fips} should be valid RI FIPS`);
-    }
-  });
-
-  it('12. validates Census ACS population sum equals state total', async () => {
-    const dataset = await runIngestionPipeline();
-    const sumCountyPop = dataset.county_metrics.reduce((a, b) => a + b.total_population, 0);
-    assert.strictEqual(sumCountyPop, dataset.statewide_summary.total_population);
-    assert.strictEqual(sumCountyPop, 1095605);
-  });
-
-  it('13. validates verified CDC 2022 Table 2.5 surveillance benchmarks', async () => {
-    const dataset = await runIngestionPipeline();
-    assert.strictEqual(dataset.statewide_summary.chronic_hepb_newly_reported_cases_2022, 364);
-    assert.strictEqual(dataset.statewide_summary.chronic_hepb_newly_reported_rate_per_100k_2022, 33.3);
-    assert.strictEqual(dataset.statewide_summary.acute_hepb_reported_rate_per_100k_2022, 0.10);
-  });
-
-  it('14. verifies all claims are explicitly tagged with data_grade PROTOTYPE_RESEARCH_FIXTURE', async () => {
-    const dataset = await runIngestionPipeline();
-    for (const claim of dataset.claims) {
-      assert.strictEqual(claim.data_grade, 'PROTOTYPE_RESEARCH_FIXTURE');
-    }
-  });
-
-  it('15. verifies all 12 providers have valid 10-digit NPIs', async () => {
-    const dataset = await runIngestionPipeline();
-    assert.strictEqual(dataset.providers.length, 12);
-    for (const p of dataset.providers) {
-      assert.strictEqual(p.npi.length, 10);
-      assert.ok(/^\d{10}$/.test(p.npi));
-    }
-  });
+test('2023 adult triple-panel recommendation',()=>assert.deepEqual(CDC_2023_RECOMMENDATIONS[0].recommendedTests,['HBsAg','anti-HBs','total anti-HBc']));
+for(const [name,options,expected] of [
+ ['negative IgM is pattern not longitudinal proof',{igmAntiHBc:false},'CHRONIC_PATTERN'],
+ ['recent negative HBsAg supports recent seroconversion',{priorHbsAgNegativeWithin6Mo:true},'ACUTE_POSSIBLE'],
+ ['ALT >10x does not establish chronicity',{altMultipleUln:11},'INFECTION_PHASE_UNDETERMINED'],
+ ['IgM positive can be acute or flare',{igmAntiHBc:true},'ACUTE_POSSIBLE'],
+ ['persistence at least 6 months supports chronicity',{hbsAgPersistentAtLeast6Months:true},'CHRONIC_LONGITUDINAL'],
+ ['persistent HBsAg with IgM can be chronic flare',{hbsAgPersistentAtLeast6Months:true,igmAntiHBc:true},'CHRONIC_LONGITUDINAL'],
+ ['contradictory dated history is not resolved by guessing',{hbsAgPersistentAtLeast6Months:true,priorHbsAgNegativeWithin6Mo:true},'DISCORDANT_HISTORY'],
+])test(name,()=>assert.equal(interpretTriplePanel(true,false,true,options).cdcCategory,expected));
+test('isolated core avoids blanket challenge vaccine',()=>assert.doesNotMatch(interpretTriplePanel(false,false,true).actionRequired,/one dose|1 dose|4.?8 weeks/i));
+test('coincident Ag/Ab not mutation diagnosis',()=>assert.match(interpretTriplePanel(true,true,true).actionRequired,/not a mutation diagnosis/));
+test('window period IgM pattern',()=>assert.equal(interpretTriplePanel(false,false,true,{igmAntiHBc:true}).cdcCategory,'RESOLVING_ACUTE_POSSIBLE'));
+test('HBsAg negative DNA positive needs phase review',()=>assert.equal(interpretTriplePanel(false,false,true,{hbvDnaDetected:true}).cdcCategory,'DNA_POSITIVE_HBSAG_NEGATIVE'));
+test('HBIG passive antibody caveat',()=>assert.match(interpretTriplePanel(false,true,false,{recentHbig:true}).clinicalStatus,/passive/));
+test('negative antibodies not automatic revaccination of prior vaccinees',()=>assert.match(interpretTriplePanel(false,false,false).actionRequired,/not automatic revaccination/));
+test('IgM cannot be silently accepted with negative total core',()=>assert.equal(interpretTriplePanel(true,false,false,{igmAntiHBc:true}).cdcCategory,'DISCORDANT_HISTORY'));
+for(const input of [null,0,'false',undefined,[],{}])test(`reject nonboolean marker ${JSON.stringify(input)}`,()=>assert.throws(()=>interpretTriplePanel(input,false,false),TypeError));
+for(const options of [{igmAntiHBc:'false'},{altMultipleUln:-1},{altMultipleUln:Infinity},{unknown:true},null,[]])test(`reject malformed optional input ${JSON.stringify(options)}`,()=>assert.throws(()=>interpretTriplePanel(true,false,true,options),TypeError));
+test('pipeline only releases source-backed historical count/rate',async()=>{
+ const d=await runIngestionPipeline({persist:false});assert.equal(d.metadata.schemaVersion,2);assert.equal(d.statewide_summary.chronic_hepb_newly_reported_cases_2022,364);assert.equal(d.statewide_summary.chronic_hepb_newly_reported_rate_per_100k_2022,33.3);
+ assert.equal(d.metadata.sourceStatus,'HISTORICAL_NOT_CURRENT');assert.equal(d.metadata.sources[0].datasetYear,2022);assert.equal(d.statewide_summary.acute_hepb_reported_rate_per_100k_2022,null);
 });
-
-describe('Quantitative Analytics & Discordance Engine', () => {
-  it('16. correctly computes panel discordance ratios', async () => {
-    const dataset = await runIngestionPipeline();
-    const analytics = analyzeScreeningData(dataset);
-
-    assert.ok(analytics.panelDiscordance);
-    assert.ok(analytics.panelDiscordance.hbsag_volume > 0);
-    assert.ok(analytics.panelDiscordance.antihbs_to_hbsag_ratio < 1.0);
-    assert.ok(analytics.panelDiscordance.antihbc_to_hbsag_ratio < 1.0);
-  });
-
-  it('17. verifies Providence County has highest demographic need score', async () => {
-    const dataset = await runIngestionPipeline();
-    const analytics = analyzeScreeningData(dataset);
-    assert.strictEqual(analytics.countyDisparities[0].county, 'Providence County');
-  });
-
-  it('18. verifies measurement limitations and prevalence distinction are documented', async () => {
-    const dataset = await runIngestionPipeline();
-    const analytics = analyzeScreeningData(dataset);
-    assert.ok(analytics.measurementLimitations.coverage_gap);
-    assert.ok(analytics.measurementLimitations.billing_channel_fragmentation);
-    assert.ok(dataset.statewide_summary.prevalence_distinction_note);
-  });
+test('providers, claims, population, county allocation withheld from active dataset',async()=>{
+ const d=await runIngestionPipeline({persist:false});for(const key of ['providers','claims','county_metrics','specialty_metrics'])assert.deepEqual(d[key],[]);
+ assert.equal(d.statewide_summary.total_population,null);assert.equal(d.quarantine.providerRecords,12);
+ assert.doesNotMatch(JSON.stringify(d),/VERIFIED_NPPES|DEMOGRAPHIC-VERIFIED|Dr\. Sarah Chen/);
 });
-
-describe('Live Web Server & REST API Verification', () => {
-  function fetchHttp(path) {
-    return new Promise((resolve, reject) => {
-      http.get(`http://localhost:3000${path}`, res => {
-        let body = '';
-        res.on('data', chunk => body += chunk);
-        res.on('end', () => resolve({ status: res.statusCode, headers: res.headers, body }));
-      }).on('error', reject);
-    });
-  }
-
-  it('19. serves web application HTML with 200 OK and utf-8 charset', async () => {
-    const res = await fetchHttp('/');
-    assert.strictEqual(res.status, 200);
-    assert.match(res.headers['content-type'], /text\/html/);
-    assert.match(res.body, /Rhode Island Hepatitis B Evidence & Screening Platform/);
-  });
-
-  it('20. serves /api/data with valid JSON and CDC 2022 Table 2.5 metadata', async () => {
-    const res = await fetchHttp('/api/data');
-    assert.strictEqual(res.status, 200);
-    assert.match(res.headers['content-type'], /application\/json/);
-    const parsed = JSON.parse(res.body);
-    assert.strictEqual(parsed.metadata.state, 'Rhode Island');
-    assert.strictEqual(parsed.statewide_summary.chronic_hepb_newly_reported_cases_2022, 364);
-  });
-
-  it('21. returns 404 for nonexistent routes', async () => {
-    const res = await fetchHttp('/api/nonexistent-endpoint-123');
-    assert.strictEqual(res.status, 404);
-  });
+test('analytics cannot infer clinical noncompliance from fixtures',async()=>{
+ const a=analyzeScreeningData(await runIngestionPipeline({persist:false}));assert.equal(a.panelDiscordance,null);assert.deepEqual(a.countyDisparities,[]);assert.throws(()=>analyzeScreeningData({}),/Unreviewed/);
 });

@@ -1,0 +1,286 @@
+{"command":["/opt/homebrew/Cellar/node/26.11.1_1/bin/node","--test","src/tests/hepb.test.mjs"],"url":"http://127.0.0.1:50175"}
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.313Z...
+▶ Clinical Evidence & Guidelines Engine (All 8 Permutations)
+  ✔ contains CDC 2023 universal adult screening recommendation (0.5235ms)
+  ✖ 1. correctly interprets susceptible individuals (0.459542ms)
+  ✖ 2. correctly interprets vaccine-induced immunity (0.080084ms)
+  ✖ 3. correctly interprets resolved natural immunity and flags reactivation risk (0.061417ms)
+  ✖ 4. correctly interprets presumptive chronic HBV and notes additional evidence needed (0.048625ms)
+  ✖ 5. correctly interprets acute hepatitis B when IgM anti-HBc is positive (0.053417ms)
+  ✖ 6. correctly interprets isolated anti-HBc with non-definitive status (0.374958ms)
+  ✖ 7. correctly interprets early acute infection prior to core seroconversion (0.077875ms)
+  ✖ 8. correctly interprets concurrent HBsAg and anti-HBs as non-definitive escape mutant (0.070458ms)
+  ✖ 9. correctly handles biologically atypical pattern (0.101834ms)
+  ✔ 10. correctly maps all CPT and HCPCS codes (0.04175ms)
+✖ Clinical Evidence & Guidelines Engine (All 8 Permutations) (2.613167ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.321Z...
+▶ Data Ingestion & Integrity Audits
+  ✔ 11. ingests Rhode Island datasets and validates county FIPS (7.506958ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.321Z...
+  ✔ 12. validates Census ACS population sum equals state total (0.528583ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.322Z...
+  ✔ 13. validates verified CDC 2022 Table 2.5 surveillance benchmarks (0.515167ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.322Z...
+  ✔ 14. verifies all claims are explicitly tagged with data_grade PROTOTYPE_RESEARCH_FIXTURE (0.427583ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.323Z...
+  ✔ 15. verifies all 12 providers have valid 10-digit NPIs (0.415667ms)
+✔ Data Ingestion & Integrity Audits (9.534583ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.323Z...
+▶ Quantitative Analytics & Discordance Engine
+  ✔ 16. correctly computes panel discordance ratios (0.5725ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+[Pipeline] Starting Hepatitis B Data Ingestion & Transformation at 2026-10-15T13:18:08.324Z...
+  ✔ 17. verifies Providence County has highest demographic need score (0.569541ms)
+[Pipeline] Processed dataset successfully updated with CDC 2022 Table 2.5 data across 5 counties.
+  ✔ 18. verifies measurement limitations and prevalence distinction are documented (0.384125ms)
+✔ Quantitative Analytics & Discordance Engine (1.595916ms)
+▶ Live Web Server & REST API Verification
+  ✔ 19. serves web application HTML with 200 OK and utf-8 charset (4.3315ms)
+  ✔ 20. serves /api/data with valid JSON and CDC 2022 Table 2.5 metadata (0.546875ms)
+  ✔ 21. returns 404 for nonexistent routes (0.322959ms)
+✔ Live Web Server & REST API Verification (5.279458ms)
+ℹ tests 22
+ℹ suites 4
+ℹ pass 13
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 72.932208
+
+✖ failing tests:
+
+test at src/tests/hepb.test.mjs:16:3
+✖ 1. correctly interprets susceptible individuals (0.459542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'NONE_DETECTED'
+  - 'NONE'
+         ^
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:19:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Promise.all (index 0)
+      at async Suite.run (node:internal/test_runner/test:1905:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'NONE_DETECTED',
+    expected: 'NONE',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:25:3
+✖ 2. correctly interprets vaccine-induced immunity (0.080084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'VACCINE_OR_PASSIVE'
+  - 'VACCINE'
+            ^
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:28:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'VACCINE_OR_PASSIVE',
+    expected: 'VACCINE',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:33:3
+✖ 3. correctly interprets resolved natural immunity and flags reactivation risk (0.061417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'POTENTIAL_UNDER_IMMUNOSUPPRESSION'
+  - 'MODERATE_UNDER_SEVERE_IMMUNOSUPPRESSION'
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:37:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'POTENTIAL_UNDER_IMMUNOSUPPRESSION',
+    expected: 'MODERATE_UNDER_SEVERE_IMMUNOSUPPRESSION',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:42:3
+✖ 4. correctly interprets presumptive chronic HBV and notes additional evidence needed (0.048625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'INFECTION_PHASE_UNDETERMINED'
+  - 'CHRONIC_PRESUMPTIVE'
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:44:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'INFECTION_PHASE_UNDETERMINED',
+    expected: 'CHRONIC_PRESUMPTIVE',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:50:3
+✖ 5. correctly interprets acute hepatitis B when IgM anti-HBc is positive (0.053417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'ACUTE_POSSIBLE'
+  - 'ACUTE_CONFIRMED'
+           ^
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:52:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'ACUTE_POSSIBLE',
+    expected: 'ACUTE_CONFIRMED',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:57:3
+✖ 6. correctly interprets isolated anti-HBc with non-definitive status (0.374958ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /NON-DEFINITIVE/i. Input:
+  
+  'Consider waning anti-HBs after past infection, false positive, occult infection, acute window period or assay-undetected variants. Review risk/immune status; repeat anti-HBc when a false positive is plausible, and assess HBV DNA particularly with immunosuppression. Vaccinate if shown susceptible; no blanket vaccine-challenge protocol is implied.'
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:61:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Consider waning anti-HBs after past infection, false positive, occult infection, acute window period or assay-undetected variants. Review risk/immune status; repeat anti-HBc when a false positive is plausible, and assess HBV DNA particularly with immunosuppression. Vaccinate if shown susceptible; no blanket vaccine-challenge protocol is implied.',
+    expected: /NON-DEFINITIVE/i,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:65:3
+✖ 7. correctly interprets early acute infection prior to core seroconversion (0.077875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'ISOLATED_HBSAG_NON_DEFINITIVE'
+  - 'EARLY_ACUTE_NON_DEFINITIVE'
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:67:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'ISOLATED_HBSAG_NON_DEFINITIVE',
+    expected: 'EARLY_ACUTE_NON_DEFINITIVE',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:72:3
+✖ 8. correctly interprets concurrent HBsAg and anti-HBs as non-definitive escape mutant (0.070458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'CONCURRENT_MARKERS_NON_DEFINITIVE'
+  - 'ESCAPE_MUTANT_NON_DEFINITIVE'
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:74:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'CONCURRENT_MARKERS_NON_DEFINITIVE',
+    expected: 'ESCAPE_MUTANT_NON_DEFINITIVE',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at src/tests/hepb.test.mjs:79:3
+✖ 9. correctly handles biologically atypical pattern (0.101834ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /NON-DEFINITIVE/i. Input:
+  
+  'Repeat/confirm tests, review recent vaccination/HBIG and assay effects, assess HBV DNA and consult a clinician.'
+  
+      at TestContext.<anonymous> (file:///Users/sadius/apamsa-ri-hepb-codex-acceptance/src/tests/hepb.test.mjs:83:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Suite.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Suite.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Repeat/confirm tests, review recent vaccination/HBIG and assay effects, assess HBV DNA and consult a clinician.',
+    expected: /NON-DEFINITIVE/i,
+    operator: 'match',
+    diff: 'simple'
+  }
+{"command":["/opt/homebrew/Cellar/node/26.11.1_1/bin/node","scripts/test-browser-interactions.mjs"],"url":"http://127.0.0.1:50175"}
+[Browser Test] Beginning Real Browser & DOM Interaction Verification...
+
+[Interaction 1] HTTP Status: 200 text/html; charset=utf-8
+[Interaction 2] Scoped Validation Status Badge: PRESENT
+[Interaction 2] Self-certified hype labels removed: VERIFIED REMOVED
+[Interaction 3] CDC 2022 Table 2.5 URL: VERIFIED
+[Interaction 3] Prevalence vs Incident Distinction: VERIFIED
+[Interaction 4] All 6 interactive navigation tabs and buttons: VERIFIED
+[Interaction 5] Provider Dataset verified: 12 providers
+[Interaction 5a] Search 'Chen' filter: found 1 provider (Expected 1: Dr. Sarah Chen)
+[Interaction 5b] Filter 'Kent County': found 2 providers (Expected 2)
+[Interaction 5c] Filter 'Gastroenterology': found 2 specialists (Expected 2)
+[Interaction 6] Live DOM Serology Engine 8-Permutation Logic: VERIFIED
+[Interaction 7] 404 Error State HTTP: 404 (Expected 404)
+[Interaction 8] REST API Metadata: VERIFIED
+
+============================================================
+  Browser & DOM Interaction Test Summary: 10 / 10 PASSED
+============================================================
+

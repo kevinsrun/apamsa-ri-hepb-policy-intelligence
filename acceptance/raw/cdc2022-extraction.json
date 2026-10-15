@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cdc.gov/hepatitis-surveillance-2022/media/files/xlsx/table-2.5.xlsx",
+  "retrievedAt": "2026-10-15T13:11:13.330554+00:00",
+  "sha256": "c7d8b93ec3c63df6878d3fda607622210c688bac829b6562dae2dec8f945f834",
+  "sheet": "Tab2.5",
+  "state": "Rhode Island",
+  "cells": {
+    "B42": "Rhode Island",
+    "C42": "364",
+    "D42": "33.3"
+  },
+  "cases": 364,
+  "rate": 33.3,
+  "extractor": "openpyxl load_workbook(data_only=True), stripped numeric cells C42/D42"
+}

@@ -4,9 +4,11 @@
   "description": "APAMSA Rhode Island Hepatitis B Screening Research and Policy Evidence Platform",
   "type": "module",
   "scripts": {
-    "test": "node --test src/tests/*.test.mjs",
-    "pipeline": "node scripts/run-pipeline.mjs",
-    "serve": "node scripts/serve.mjs"
+    "test": "node scripts/acceptance-run-tests.mjs",
+    "pipeline": "node src/pipeline/ingest.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test:unit": "node --test src/tests/*.test.mjs",
+    "test:browser": "node scripts/acceptance-browser.mjs"
   },
   "keywords": [
     "apamsa",
