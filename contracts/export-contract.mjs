@@ -11,3 +11,5 @@ assert.throws(()=>claimsToTsv([valid,{...valid}]));assert.throws(()=>claimsToTsv
 console.log('Research export contract: passed source eligibility, schema, null, duplicate, URL and spreadsheet-injection checks');
 
 const{readFile}=await import('node:fs/promises');const real=JSON.parse(await readFile('data/processed/policy-intelligence.json','utf8'));assert.equal(claimsToTsv(real.claims).trimEnd().split('\n').length,8,'real active findings must export while descriptive historical values are excluded');assert.equal(claimsToTsv(real.claims,{includeHistory:true}).trimEnd().split('\n').length,37,'explicit audit export preserves all 36 historical/active records');
+
+const structured={...history,id:'structured',value:{checksumValid:false,claimedName:'Historical only',actualNames:[]}};assert.ok(claimsToTsv([structured],{includeHistory:true}).includes(JSON.stringify(structured.value)));assert.equal(claimsToTsv([structured]).trimEnd().split('\n').length,1);assert.throws(()=>claimsToTsv([{...structured,value:{bad:Infinity}}],{includeHistory:true}));assert.throws(()=>claimsToTsv([{...valid,value:{bad:'active must stay quantitative'}}]));
