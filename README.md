@@ -17,7 +17,7 @@ Install Python `openpyxl` and `pypdf` in a separate environment; the captured en
 - `npm test`: existing science and HTTP checks.
 - `npm run test:policy`: claim lineage, source hashes, policy/brief exclusion and real API failure checks.
 - `node scripts/policy-browser.mjs`: real Chromium interaction tests; use an existing Playwright installation via `APAMSA_PLAYWRIGHT_MODULE` if needed. Does not install browsers.
-- `node contracts/export-contract.mjs`: pending feature acceptance contract for the separately scoped Fleet export task. It fails until the new module is delivered; the baseline on this development branch is explicitly experimental.
+- `node scripts/run-export-confined.mjs`: macOS deny-default, read-only execution of the pending feature acceptance contract for the separately scoped Fleet export task. It fails until the new module is delivered; the baseline on this development branch is explicitly experimental.
 
 `data/processed/policy-intelligence.json` is the clean research registry; `data/evidence/` contains original public source captures and retrieval manifests. `acceptance/scientific-claims.json` preserves disputed history. See [policy landscape](docs/dual-mandate/policy-landscape.md) and [preliminary options](docs/dual-mandate/policy-options.md).
 

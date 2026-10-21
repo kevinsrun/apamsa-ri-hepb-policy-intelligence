@@ -40,10 +40,10 @@
       },
       {
         "id": "export-contract",
-        "label": "Independent new research export contract",
+        "label": "OS-confined independent research export contract",
         "command": "node",
         "args": [
-          "contracts/export-contract.mjs"
+          "scripts/run-export-confined.mjs"
         ],
         "required": true
       }
