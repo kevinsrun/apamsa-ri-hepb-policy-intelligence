@@ -8,6 +8,6 @@
   ],
   "contextPaths": [
     "src/policy/export-contract.md",
-    "src/policy/brief.mjs"
+    "src/policy/export.mjs"
   ]
 }
