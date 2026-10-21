@@ -20,6 +20,67 @@ function cell(value, field) {
   return /^\s*[=+\-@]/u.test(text) ? `'${text}` : text;
 }
 
+function validateJson(value, ancestors) {
+  if (value === null || typeof value === 'string' || typeof value === 'boolean') return;
+  if (typeof value === 'number') {
+    if (!Number.isFinite(value)) throw new TypeError('Nonfinite value');
+    return;
+  }
+  if (typeof value !== 'object') throw new TypeError('Invalid historical value');
+  if (ancestors.has(value)) throw new TypeError('Cyclic historical value');
+
+  const isArray = Array.isArray(value);
+  if (!isArray && Object.getPrototypeOf(value) !== Object.prototype &&
+      Object.getPrototypeOf(value) !== null) {
+    throw new TypeError('Invalid historical value');
+  }
+
+  ancestors.add(value);
+  try {
+    const descriptors = Object.getOwnPropertyDescriptors(value);
+    if (isArray) {
+      for (let index = 0; index < value.length; index += 1) {
+        const descriptor = descriptors[index];
+        if (!descriptor || !Object.hasOwn(descriptor, 'value')) {
+          throw new TypeError('Invalid historical value');
+        }
+        validateJson(descriptor.value, ancestors);
+      }
+      if (Reflect.ownKeys(value).length !== value.length + 1) {
+        throw new TypeError('Invalid historical value');
+      }
+    } else {
+      for (const key of Reflect.ownKeys(value)) {
+        if (typeof key !== 'string') throw new TypeError('Invalid historical value');
+        const descriptor = descriptors[key];
+        if (!descriptor.enumerable || !Object.hasOwn(descriptor, 'value')) {
+          throw new TypeError('Invalid historical value');
+        }
+        validateJson(descriptor.value, ancestors);
+      }
+    }
+  } finally {
+    ancestors.delete(value);
+  }
+}
+
+function valueCell(value, active) {
+  if (value == null) return '';
+  if (active) {
+    if (typeof value !== 'number' || !Number.isFinite(value)) {
+      throw new TypeError('Invalid quantitative value');
+    }
+    return cell(value, 'value');
+  }
+  if (typeof value === 'string' || typeof value === 'number') return cell(value, 'value');
+  if (!Array.isArray(value) &&
+      (typeof value !== 'object' || value === null)) {
+    throw new TypeError('Invalid historical value');
+  }
+  validateJson(value, new Set());
+  return cell(JSON.stringify(value), 'value');
+}
+
 function sourceUrl(value) {
   if (value == null || value === '') return '';
   if (typeof value !== 'string' || /[\s\\()<>"'\u0000-\u001f\u007f]/u.test(value)) {
@@ -75,21 +136,16 @@ export function claimsToTsv(claims, options = {}) {
     if (claim.eligibleForBrief != null && typeof claim.eligibleForBrief !== 'boolean') {
       throw new TypeError('Invalid brief eligibility');
     }
-    if (claim.value != null && (typeof claim.value !== 'number' || !Number.isFinite(claim.value))) {
-      throw new TypeError('Invalid quantitative value');
-    }
 
-    // Validate exported fields even when this record is excluded from the default view.
+    const active = claim.eligibleForBrief === true && verifiedStatuses.has(claim.status);
+    if (!includeHistory && !active) continue;
+
     const fields = columns.map(field => {
+      if (field === 'value') return valueCell(claim.value, active);
       if (field === 'limitations') return limitationsCell(claim.limitations);
-      if (field === 'sourceUrl') return cell(claim.sourceUrl, field);
+      if (field === 'sourceUrl') return sourceUrl(claim.sourceUrl);
       return cell(claim[field], field);
     });
-
-    if (!includeHistory && !(claim.eligibleForBrief === true && verifiedStatuses.has(claim.status))) {
-      continue;
-    }
-    fields[9] = sourceUrl(claim.sourceUrl);
     rows.push(fields.join('\t'));
   }
 
