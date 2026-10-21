@@ -8,6 +8,7 @@ const routes = new Map([
   ['/policy', ['src/web/policy.html','text/html; charset=utf-8']],
   ['/src/web/policy.css', ['src/web/policy.css','text/css; charset=utf-8']],
   ['/src/web/policy-app.mjs', ['src/web/policy-app.mjs','text/javascript; charset=utf-8']],
+  ['/src/policy/export.mjs', ['src/policy/export.mjs','text/javascript; charset=utf-8']],
   ['/src/policy/brief.mjs', ['src/policy/brief.mjs','text/javascript; charset=utf-8']],
   ['/api/policy', ['data/processed/policy-intelligence.json','application/json; charset=utf-8']],
   ['/index.html', ['src/web/index.html','text/html; charset=utf-8']],

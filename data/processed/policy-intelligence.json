@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "purpose": "Internal policy research; draft materials only; no clinical or referral use",
-  "builtAt": "2026-10-21T02:37:29.366340+00:00",
+  "builtAt": "2026-10-21T14:43:07.795562+00:00",
   "researchBaseline": "a0d3036b11675c89dcfc8c2390709a7dcd119bdf",
   "sources": [
     {
@@ -2292,9 +2292,9 @@
       "id": "fleet-dispatch",
       "front": "B",
       "objective": "Bounded real research engineering through Fleet",
-      "status": "AWAITING_ADMISSION",
-      "detail": "Budget approved: <=3 subscription invocations. Existing isolation and token controls still required.",
-      "executor": "Only freshly eligible configured provider may execute"
+      "status": "LIVE_VERIFIED_WITH_RETAINED_FAILURES",
+      "detail": "Three real Codex invocations: first delivered PR #2 but missed real-data integration; second rejected by independent verification; reserved recovery delivered PR #6 at 3b6edc251920445558d9088175a5ceb16eeea373. A separate quota admission suspended before inference. Budget exhausted; no further inference.",
+      "executor": "Fleet scheduler, pinned 288af82; Codex gpt-6-sol; Codex desktop independent final review"
     }
   ],
   "gaps": [

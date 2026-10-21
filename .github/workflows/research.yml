@@ -1,0 +1,24 @@
+name: Research integrity
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-policy.txt
+      - run: python scripts/check-policy-reproduction.py
+      - run: npm test
+      - run: npm run test:policy
+      # Hosted runner has no provider credentials; native macOS confinement is
+      # separately exercised by Fleet's local independent acceptance launcher.
+      - run: node contracts/export-contract.mjs
+      - run: node scripts/export-policy.mjs && git diff --exit-code -- docs/dual-mandate
