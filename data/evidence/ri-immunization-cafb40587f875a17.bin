@@ -1,0 +1,1691 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class="qh__t__misquamicut">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://health.ri.gov/immunization" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org); Commerce 3" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="57x57" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon" sizes="192x192" href="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/icons/apple-touch-icon-192x192.png" />
+<link rel="alternate" hreflang="en" href="https://health.ri.gov/immunization" />
+
+          <title>Immunization | Department of Health</title>
+    
+    
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" media="all" href="/sites/g/files/xkgbur1006/files/css/css_HTNOM3pJAE-ARHUcHCzrZhX7T7_i27oqhXGwc1zNSZI.css?delta=0&amp;language=en&amp;theme=ecms&amp;include=eJyNU9Fy3DAI_CH3PGk_iEEStpUgoREoOffriy9N-1BN5x5sj5bFLAtCVTLI9ZWiSV-j6u0FfsB3f6LwKNU_1TBX6gv-y714L09yMcgwKFTHNMoM75k-FCwXUsPSQBvGXPcZPdAMTTNwk9GfErgN16DZCJSwxwMCS3ybMQ9CtgNMWo46I-SCO0HEZlnqlMFYk_cG7SL2HIJUCBjf9i6jTvsoMkPrZdlGlBQ6YYIinSAIJ_AC_3OwjhKok3OMmsvouHdsx4za0gZeBwwDcK5TS5qkiOqgWzyNdylyuTEL9q0pNFFzrVO3jO4GHznZVJ8dneipEVs2JndmFvvcvk5F3n0DRnhwl0Bm1IHuLs_N2jL7UdedvALyEtn_dK6-seqD1CW6_WvqoyHf8BXvn0CVXpDzT1ooFk9mCcjf1E6-huO9Xa5-pf0-LozndWFS1uiK-rlKJe9x-TMq_cr4i9xGbSNw1oPSoqePtqwBlZZHc-vj7YuUBtMvUKeSHQ" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xkgbur1006/files/css/css_qcK7owzW6EqX6HPQWWOXa6ldjYRGM-gpQhDtpdXDoQA.css?delta=1&amp;language=en&amp;theme=ecms&amp;include=eJyNU9Fy3DAI_CH3PGk_iEEStpUgoREoOffriy9N-1BN5x5sj5bFLAtCVTLI9ZWiSV-j6u0FfsB3f6LwKNU_1TBX6gv-y714L09yMcgwKFTHNMoM75k-FCwXUsPSQBvGXPcZPdAMTTNwk9GfErgN16DZCJSwxwMCS3ybMQ9CtgNMWo46I-SCO0HEZlnqlMFYk_cG7SL2HIJUCBjf9i6jTvsoMkPrZdlGlBQ6YYIinSAIJ_AC_3OwjhKok3OMmsvouHdsx4za0gZeBwwDcK5TS5qkiOqgWzyNdylyuTEL9q0pNFFzrVO3jO4GHznZVJ8dneipEVs2JndmFvvcvk5F3n0DRnhwl0Bm1IHuLs_N2jL7UdedvALyEtn_dK6-seqD1CW6_WvqoyHf8BXvn0CVXpDzT1ooFk9mCcjf1E6-huO9Xa5-pf0-LozndWFS1uiK-rlKJe9x-TMq_cr4i9xGbSNw1oPSoqePtqwBlZZHc-vj7YuUBtMvUKeSHQ" />
+<link rel="stylesheet" media="all" href="/sites/g/files/xkgbur1006/files/css/css_rJur0brEuMVEhyjhPPVRD9u3FCjGXeWsFBv9IIihkCU.css?delta=2&amp;language=en&amp;theme=ecms&amp;include=eJyNU9Fy3DAI_CH3PGk_iEEStpUgoREoOffriy9N-1BN5x5sj5bFLAtCVTLI9ZWiSV-j6u0FfsB3f6LwKNU_1TBX6gv-y714L09yMcgwKFTHNMoM75k-FCwXUsPSQBvGXPcZPdAMTTNwk9GfErgN16DZCJSwxwMCS3ybMQ9CtgNMWo46I-SCO0HEZlnqlMFYk_cG7SL2HIJUCBjf9i6jTvsoMkPrZdlGlBQ6YYIinSAIJ_AC_3OwjhKok3OMmsvouHdsx4za0gZeBwwDcK5TS5qkiOqgWzyNdylyuTEL9q0pNFFzrVO3jO4GHznZVJ8dneipEVs2JndmFvvcvk5F3n0DRnhwl0Bm1IHuLs_N2jL7UdedvALyEtn_dK6-seqD1CW6_WvqoyHf8BXvn0CVXpDzT1ooFk9mCcjf1E6-huO9Xa5-pf0-LozndWFS1uiK-rlKJe9x-TMq_cr4i9xGbSNw1oPSoqePtqwBlZZHc-vj7YuUBtMvUKeSHQ" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/20241","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"G-Z1P92HL9E3","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJyNlGFynDAMhS8Ey6Q9kEe2BXhjWx5L3uz29BXQJk1qMvsDGMsfSHp6BphRTMhXdEJ1csyXF_PT_NDLUWwp6yMLhIx1gP_ZjXt5kgVLTUzC3Lq7MZpbwDc2EhKyQCqGC7iQlx5usRf1veBMrT5V4Ny0Bg6ChhGqW42N5F575IoQZTVCJTjuASHBgsZBkUC5S0TIXnszZQNrsJayseBel0otd_tI1IvmTbIZ0bOpCN4kqmgsRW80wXcK5pYsVlRGsGgZFZYKZe2hxc9G8xgBa2LIXUkKeQesQZW4u18p0aZGb7POhU0hFq21q5bgXcxb8NKtT9aK-NSIJUhEVaa3d7ivYqKbOqDZnf0KXtUmcNubtCiC1eBdC1cZ5xB1ydOCmhvi4KK--pjUy6wj5sHpYCZHqVDGLHxBl3gc7TY0V3UWJ8DR1fjRVR9bpELmCIInQIixsUL7CPpIQh9gVP-nEyDrAOfg9m_weJyOPvlup9FB9SfQccpGlToFOWO0HBXpOCzfMcfHzghyAeK4efdsEILAWD-1eEK2jVNTHGbdmUw1QQy_cNiQSX8PfmNcDUV4UO9umSdfW4F4-bMcFqJFzSiwTIvevq4vcIX752AaIjy2n6gP7NSl9TFpZeqQ4V1v_pvlI3JpuTQbA6_oB37ocU-T1WaH3fDTfj-S_RtI5FvE3zNNY_Q","theme":"ecms","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search-site":true},"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-5B38VSD"]},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":true,"extNofollow":true,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":true,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"0","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:76236f98c6db60b6305513595470dbd1d1fef7d093f093bbaa67b75136fc48e1":{"view_name":"topics_resources","view_display_id":"block_1","view_args":"20241","view_path":"\/node\/20241","view_base_path":null,"view_dom_id":"76236f98c6db60b6305513595470dbd1d1fef7d093f093bbaa67b75136fc48e1","pager_element":0},"views_dom_id:5098b449c11c38e0bbe4f349c931c2e34040157e1b7623d5b98ad007bb5a9d4b":{"view_name":"topics_data","view_display_id":"block_1","view_args":"20241","view_path":"\/node\/20241","view_base_path":null,"view_dom_id":"5098b449c11c38e0bbe4f349c931c2e34040157e1b7623d5b98ad007bb5a9d4b","pager_element":0}}},"user":{"uid":0,"permissionsHash":"f2ce5796d9891b9452d03c819029fbff0f6f71bac918a569ddd1ca2df9621f3d"}}</script>
+<script src="/profiles/contrib/ecms_profile/ecms_base/themes/custom/ecms/assets/vendor/fontfaceobserver.js?v=2.0.4"></script>
+<script src="/sites/g/files/xkgbur1006/files/js/js_lqpwTIYYMQopwH0W-XVT_WDSSTA_cnnK63pCMg8sxAg.js?scope=header&amp;delta=1&amp;language=en&amp;theme=ecms&amp;include=eJx1jksOgzAMRC-Uz5EiE0xqCHYUG8rxC6ibVmIz0nsziwFVtEQ8YzbpcdYwwU5Z2A1ohj3h0URxTBPVEzUWZOxQXZaOMcvahJFNA-ZVvS_WgbWC4cOAxWiiDEbC6ocqeXlYbordn-eMuKi7XHwhjJfMnZqd7rBKvMSxbw1q-KIrIqViMiixnPHPAWY4fuXqdsK3xjvv_gN29mwQ"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tn84iy"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tn84iy"></script>
+
+
+    <script type="text/javascript">
+      (function() {
+        document.documentElement.className += " wf-inactive";
+
+        // Optimization for Notifications
+        if(sessionStorage.getItem('siteNotificationsHidden')) {
+          document.documentElement.classList.add("notifications-hidden");
+        }
+
+        const cookies = document.cookie.split(';');
+        var lightSetting = false;
+        for (let i = 0; i < cookies.length; i++) {
+
+          // Check for Light Mode preference
+          if (cookies[i].indexOf('lightMode=dark') !== -1) {
+            // set a cookie to save the setting
+            document.cookie = "lightMode=dark;max-age=31536000;path=/;samesite=strict;domain=.ri.gov";
+            document.documentElement.className += " dark";
+            lightSetting = true;
+          } else if (cookies[i].indexOf('lightMode=light') !== -1) {
+            document.cookie = "lightMode=light;max-age=31536000;path=/;samesite=strict;domain=.ri.gov";
+            document.documentElement.className += " light";
+            lightSetting = true;
+
+            // Check for Font size preference
+          } else if (cookies[i].indexOf('fontSizeModifier') !== -1) {
+            let fontSizeCookieString = cookies[i];
+            // get the value
+            let fontSizeModifier = fontSizeCookieString.split('=');
+            let fontSizeModifierValue = fontSizeModifier[1];
+            document.cookie = "fontSizeModifier="+fontSizeModifierValue+";max-age=31536000;path=/;samesite=strict;domain=.ri.gov";
+            document.documentElement.style.setProperty('--fontSizeModifier', fontSizeModifierValue);
+
+            // Check for Line-height preference
+          } else if (cookies[i].indexOf('lineHeightModifier') !== -1) {
+            let lineHeightCookieString = cookies[i];
+            // get the value
+            let lineHeightModifier = lineHeightCookieString.split('=');
+            let lineHeightModifierValue = lineHeightModifier[1];
+            document.cookie = "lineHeightModifier="+lineHeightModifierValue+";max-age=31536000;path=/;samesite=strict;domain=.ri.gov";
+            document.documentElement.style.setProperty('--lineHeightModifier', lineHeightModifierValue);
+
+            // Check for word space preference
+          } else if (cookies[i].indexOf('wordSpaceModifier') !== -1) {
+            let wordSpaceCookieString = cookies[i];
+            // get the value
+            let wordSpaceModifier = wordSpaceCookieString.split('=');
+            let wordSpaceModifierValue = wordSpaceModifier[1];
+            document.cookie = "wordSpaceModifier="+wordSpaceModifierValue+";max-age=31536000;path=/;samesite=strict;domain=.ri.gov";
+            document.documentElement.style.setProperty('--wordSpaceModifier', wordSpaceModifierValue);
+          }
+
+        } // end for
+
+        if (lightSetting == false) {
+          document.cookie = "lightMode=auto;max-age=31536000;path=/;samesite=strict;domain=.ri.gov";
+        }
+
+        // set initial var for support of variable fonts
+        // starting with true since most browsers support them now
+        var vfSupport = true;
+
+        // Check for browser support of variable fonts
+        var vfSupport = "CSS" in window && "supports" in CSS && CSS.supports("(font-variation-settings: normal)");
+        // should return true if the browser supports variable fonts
+        //console.log('vfSupport: '+vfSupport);
+
+        // Optimization for Repeat Views
+        if( sessionStorage.foutFontsLoaded ) {
+          document.documentElement.classList.remove("wf-inactive");
+          document.documentElement.classList.add("wf-active");
+          return;
+        }
+
+        if( vfSupport == true ) { // Check for variable fonts
+          var fontA = new FontFaceObserver('Roboto Slab VF', {
+            weight: 400,
+            style: 'normal'
+          });
+          var fontB = new FontFaceObserver('Work Sans VF', {
+            weight: 400,
+            style: 'normal'
+          });
+          var fontC = new FontFaceObserver('Work Sans VF', {
+            weight: 400,
+            style: 'italic'
+          });
+
+          Promise.all([fontA.load(), fontB.load(), fontC.load()]).then(function () {
+            document.documentElement.classList.remove("wf-inactive");
+            document.documentElement.classList.add("wf-active");
+
+            // Optimization for Repeat Views
+            sessionStorage.foutFontsLoaded = true;
+          });
+        } else { // Else check for static web fonts
+          var fontA = new FontFaceObserver('Roboto Slab', {
+            weight: 'normal',
+            style: 'normal'
+          });
+          var fontB = new FontFaceObserver('Roboto Slab', {
+            weight: 'bold',
+            style: 'normal'
+          });
+          var fontC = new FontFaceObserver('Work Sans', {
+            weight: 'normal',
+            style: 'normal'
+          });
+          var fontD = new FontFaceObserver('Work Sans', {
+            weight: 'bold',
+            style: 'normal'
+          });
+          var fontE = new FontFaceObserver('Work Sans', {
+            weight: 'normal',
+            style: 'italic'
+          });
+          var fontF = new FontFaceObserver('Work Sans', {
+            weight: 'bold',
+            style: 'italic'
+          });
+
+          Promise.all([fontA.load(), fontB.load(), fontC.load(), fontD.load(), fontE.load(), fontF.load()]).then(function () {
+            document.documentElement.classList.remove("wf-inactive");
+            document.documentElement.classList.add("wf-active");
+
+            // Optimization for Repeat Views
+            sessionStorage.foutFontsLoaded = true;
+          });
+        }
+      })();
+    </script>
+  </head>
+  <body class="path-node page-node-type-topic">
+
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B38VSD"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="qh-layout qh-layout--sidebar">
+
+      <div class="qh-layout__emergency-notification">
+      
+  <div id="block-ecms-views-block-emergency-notification-block-1" class="block block-views block-views-blockemergency-notification-block-1">
+  
+    
+      <div class="views-element-container"><div class="view view-emergency-notification view-id-emergency_notification view-display-id-block_1 js-view-dom-id-b4b7c6058ac4ef32e0992368f39d3623bee40135b18d5d6b9f43ca2dc228857b">
+  
+    
+      
+  
+          </div>
+</div>
+
+  </div>
+
+
+    </div>
+  
+  <header class="qh__page-header">
+    <div class="qh__global-header">
+      <div class="qh__global-header__wrapper qh__global-header__wrapper--multiple-region">
+        <p class="qh__fs-st qh__global-header__tagline">Official State of Rhode Island website</p>
+
+        <div class="qh__global-header__settings">
+                      <div class="qh__global-header__blocks">
+              
+  <div id="block-ecms-pdfsinnewtab" class="block block-block-content block-block-content752aaf9d-7275-43dd-97aa-bb6f198fcdac">
+  
+    
+          <div class="paragraph paragraph--type--embed paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-embed-content field--type-text-long field--label-hidden field__item"><script>
+document.addEventListener('DOMContentLoaded', function() {
+
+const pdfLinks = document.querySelectorAll('a[href$=".pdf"]');
+
+
+pdfLinks.forEach(link => {
+link.setAttribute('target', '_blank');
+});
+
+
+
+});
+</script></div>
+      
+      </div>
+
+
+  </div>
+
+
+            </div>
+          
+          <div class="qh__settings-menu">
+      <div class="qh__u__btn-as-text qh__language-menu__wrapper">
+    
+  <div id="block-ecms-gtranslate" class="block block-gtranslate block-gtranslate-block">
+  
+    
+      
+<div class="qh__language-menu">
+    <button id="js__gtranslate__toggle" class="qh__u__btn-as-text qh__language-menu__toggle" aria-expanded="false" aria-controls="js__gtranslate__list">
+    <span class="qh__language-menu__icon" aria-hidden="true">
+      <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__globe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" style="enable-background:new 0 0 44 44"><path class="qh__icon__path qh__icon__globe__path" d="M22 10c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm9.3 7.4h-4c-.4-2.1-1.2-4-2.1-5.3 2.7.9 4.9 2.8 6.1 5.3zm-5 4.6c0 1.1-.1 2.1-.2 3.1H18c-.1-1-.2-2-.2-3.1s.1-2.1.2-3.1h8.1c.1 1 .2 2 .2 3.1zM22 11.5c1.3 0 3 2.1 3.8 5.8h-7.6c.8-3.6 2.5-5.8 3.8-5.8zm-3.3.6c-.9 1.3-1.7 3.1-2.1 5.3h-4c1.3-2.5 3.5-4.4 6.1-5.3zM11.5 22c0-1.1.2-2.1.5-3.1h4.4c-.1 1-.2 2-.2 3.1s.1 2.1.2 3.1H12c-.3-1-.5-2-.5-3.1zm1.2 4.6h4c.4 2.1 1.2 4 2.1 5.3-2.7-.9-4.9-2.8-6.1-5.3zm9.3 5.9c-1.3 0-3-2.1-3.8-5.8h7.6c-.8 3.6-2.5 5.8-3.8 5.8zm3.3-.6c.9-1.3 1.7-3.1 2.1-5.3h4c-1.3 2.5-3.5 4.4-6.1 5.3zm2.3-6.8c.1-1 .2-2 .2-3.1s-.1-2.1-.2-3.1H32c.3 1 .5 2 .5 3.1s-.2 2.1-.5 3.1h-4.4z"/></svg>
+    </span><span class="qh__language-menu__text js__text__hidden">Select Language</span>  </button>
+  <div id="js__gtranslate__list" class="qh__language-menu__list" aria-labelledby="js__gtranslate__toggle">
+    <div class="gtranslate_wrapper"></div><script>window.gtranslateSettings = {"switcher_horizontal_position":"left","switcher_vertical_position":"bottom","horizontal_position":"inline","vertical_position":"inline","float_switcher_open_direction":"top","switcher_open_direction":"bottom","default_language":"en","native_language_names":1,"detect_browser_language":0,"add_new_line":1,"select_language_label":"Select Language","flag_size":32,"flag_style":"2d","globe_size":60,"alt_flags":[],"wrapper_selector":".gtranslate_wrapper","url_structure":"none","custom_domains":null,"languages":["en","ar","zh-CN","zh-TW","fr","it","pl","pt-pt","es","vi","ht","km"],"custom_css":""}</script><script>(function(){var js = document.createElement('script');js.setAttribute('src', '/modules/contrib/gtranslate/js/ln.js');js.setAttribute('data-gt-orig-url', '/immunization');js.setAttribute('data-gt-orig-domain', 'health.ri.gov');document.body.appendChild(js);})();</script>
+  </div>
+</div>
+
+  </div>
+
+
+  </div>
+      <button id="js__user-settings__toggle" class="qh__u__btn-as-text qh__settings-menu__toggle" aria-expanded="false" aria-controls="js__user-settings__list">
+    <span class="qh__settings-menu__icon" aria-hidden="true">
+      <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__cog" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44"><path class="qh__icon__path qh__icon__cog__path" d="M30.8 22c0-.7-.1-1.6-.1-1.6l2.9-1.7s-.5-1.6-1.2-2.8c-.7-1.2-1.7-2.3-1.7-2.3l-2.9 1.7s-.8-.6-1.3-1l-1.5-.6v-3.4s-1.4-.4-2.9-.4-3 .4-3 .4v3.4s-1 .4-1.4.7c-.6.2-1.4.8-1.4.8l-2.9-1.6s-1 1.1-1.7 2.3c-.7 1.2-1.2 2.8-1.2 2.8l2.9 1.7s-.1 1-.1 1.6.1 1.6.1 1.6l-2.9 1.7s.5 1.6 1.2 2.8c.7 1.2 1.7 2.3 1.7 2.3l2.9-1.7s.8.6 1.3 1 1.4.7 1.4.7v3.4s1.4.4 2.9.4c1.4 0 2.9-.4 2.9-.4v-3.4s1-.4 1.4-.7c.5-.4 1.3-1 1.3-1l2.9 1.7s1-1.1 1.7-2.3c.7-1.2 1.2-2.8 1.2-2.8l-2.9-1.7c.2 0 .4-.9.4-1.6zM22 27.4c-3 0-5.4-2.4-5.4-5.4s2.4-5.4 5.4-5.4 5.4 2.4 5.4 5.4-2.4 5.4-5.4 5.4z"/></svg>
+    </span><span class="qh__settings-menu__text js__text__hidden">Settings</span>  </button>
+  <ul id="js__user-settings__list" class="qh-u__list-reset qh__settings-menu__list" aria-labelledby="js__user-settings__toggle">
+    <li id="qh-lightmode" class="settings__lightmode">
+      <label class="qh__settings-menu__label">Color scheme:</label>
+      <span class="visually-hidden">Change the visual color theme between light or dark modes</span>
+      <div class="qh__settings-menu__boolean">
+        <button id="light_mode_switch" class="qh__fs-st qh__u__btn-as-text toggle-lightmode switch">Switch</button>
+        <button id="light_mode_reset" class="qh__fs-st qh__u__btn-as-text toggle-lightmode auto">Use system preference</button>
+      </div>
+    </li>
+    <li id="qh-fontsize" class="settings__fontsize">
+      <label class="qh__settings-menu__label" for="font_size_modifier">Font size:</label>
+      <span class="visually-hidden">Adjust the font size from the system default to a larger size</span>
+      <div class="qh__settings-menu__slider">
+        <div class="qh__form__input__range">
+          <input type="range" min="1" max="3" value="1" step="0.1" name="size" id="font_size_modifier" />
+        </div>
+        <div class="qh__fs-st settings__fontsize--value low" aria-hidden="true">Original</div>
+        <div class="qh__fs-st settings__fontsize--value high" aria-hidden="true">Larger</div>
+      </div>
+    </li>
+    <li id="qh-lineheight" class="settings__lineheight">
+      <label class="qh__settings-menu__label" for="line_height_modifier">Line spacing:</label>
+      <span class="visually-hidden">Adjust the space between lines of text from the system default to a larger size</span>
+      <div class="qh__settings-menu__slider">
+        <div class="qh__form__input__range">
+          <input type="range" min="1" max="3" value="1" step="0.1" name="lineheight" id="line_height_modifier" />
+        </div>
+        <div class="qh__fs-st settings__lineheight--value low" aria-hidden="true">Original</div>
+        <div class="qh__fs-st settings__lineheight--value high" aria-hidden="true">More</div>
+      </div>
+    </li>
+    <li id="qh-wordspace" class="settings__wordspace">
+      <label class="qh__settings-menu__label" for="word_space_modifier">Word spacing:</label>
+      <span class="visually-hidden">Adjust the space between words from the system default to a larger size</span>
+      <div class="qh__settings-menu__slider">
+        <div class="qh__form__input__range">
+          <input type="range" min="0" max="2" value="1" step="0.1" name="wordspace" id="word_space_modifier" />
+        </div>
+        <div class="qh__fs-st settings__wordspace--value low" aria-hidden="true">Original</div>
+        <div class="qh__fs-st settings__wordspace--value high" aria-hidden="true">More</div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="qh__page-header__wrapper">
+        
+
+<div class="qh__site-branding">
+  <div class="qh__site-branding__inner">
+    <a href="/" class="qh__site-branding__link" rel="home" aria-label="Go to the homepage of the Department of Health for the State of Rhode Island.">
+      <span class="qh__site-branding__logo ">
+              <img src="/sites/g/files/xkgbur1006/files/RIDOH-logo-clear.png" alt="" />
+            </span>
+    </a>
+
+          <span class="qh__site-branding__name">
+              <span class="qh__fs-st qh__site-branding__name__top-line">State of Rhode Island</span>
+              <span class="qh__h1 qh__site-branding__name__main-line">Department of Health</span>
+              <span class="qh__fs-base qh__site-branding__name__bottom-line"></span>
+            </span>
+      </div>
+</div>
+
+      <div id="js__search-social" class="qh__page-header__inner">
+        
+  
+
+<div
+   id="js__site-search"   class="qh__site-search"
+  role="search"
+  >
+  <form class="ecms-search-block-form" data-drupal-selector="ecms-search-block-form" action="/immunization" method="post" id="ecms-search-block-form" accept-charset="UTF-8">
+  <input type="text" aria-label="Search" class="qh__site-search__query form-text required" data-drupal-selector="edit-search-input" id="edit-search-input" name="search_input" value="" size="60" maxlength="128" placeholder="Search the site" required="required" />
+<input autocomplete="off" data-drupal-selector="form-cknjtnp4w8e9vg-vz7gsjz8o8lqg-06wwovdfy4et9k" type="hidden" name="form_build_id" value="form-CkNJtNp4W8e9VG_vz7gsjz8o8lQg-06WwOvdfY4eT9k" />
+<input data-drupal-selector="edit-ecms-search-block-form" type="hidden" name="form_id" value="ecms_search_block_form" />
+
+
+<button
+        class="qh__site-search__submit form-submit js-form-submit"
+        type="submit"
+        data-drupal-selector=""
+        id="edit-submit"
+>
+  <span class="qh__icon">
+    <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__search qh__icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44"><path class="qh__icon__search__path qh__icon__path" d="M34.8 34.8l-6.2-6.2h-.9l-.2-.2c1.6-1.9 2.6-4.3 2.6-6.9 0-5.8-4.7-10.6-10.6-10.6S9 15.7 9 21.6s4.7 10.6 10.6 10.6c2.6 0 5.1-1 6.9-2.6l.2.2v.9l6.2 6.2c.2.2.6.2.9 0l1.1-1.1c.2-.4.2-.8-.1-1zm-15.2-5.1c-4.5 0-8.1-3.6-8.1-8.1s3.6-8.1 8.1-8.1 8.1 3.6 8.1 8.1-3.6 8.1-8.1 8.1z"/></svg>
+  </span>
+    <span class="visually-hidden">Submit</span>
+</button>
+
+
+
+</form>
+
+</div>
+
+
+    
+  
+    <nav id="js__social-links" class="qh__social-links" aria-label="Social Media">
+    <ul class="qh__social-links__list qh__u__no-external">
+              <li class="qh__social-links__item">
+          <a href="https://www.ri.gov/rss/8/pressrelease.rss" class="qh__social-links__link" rel="external">
+            <span class="qh__icon">
+                              <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__feed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44"><path class="qh__icon__path qh__icon__feed__path" d="M16.9 30.6c0 1.9-1.5 3.4-3.4 3.4S10 32.5 10 30.6s1.5-3.4 3.4-3.4 3.5 1.5 3.5 3.4zm9.4 2.5c-.4-8.3-7.1-14.9-15.4-15.4-.5 0-.9.4-.9.9v2.6c0 .5.3.8.8.9 6 .4 10.8 5.2 11.2 11.2 0 .4.4.8.9.8h2.6c.4-.1.8-.5.8-1zm7.7 0C33.5 20.6 23.5 10.5 10.9 10c-.5 0-.9.4-.9.9v2.6c0 .5.4.8.8.9 10.2.4 18.5 8.6 18.9 18.9 0 .5.4.8.9.8h2.6c.4-.1.8-.5.8-1z"/></svg>
+                          </span>
+             <span class="visually-hidden">View our RSS feed</span>
+          </a>
+        </li>
+              <li class="qh__social-links__item">
+          <a href="https://twitter.com/rihealth" class="qh__social-links__link" rel="external">
+            <span class="qh__icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" aria-label="X Logo" fill="none">
+  <path class="qh__icon__path qh__icon__xlogo__path"
+        d="M11,11 L17.1,11 L22.72,19.1 L29.65,11 L31.4,11 L23.5,20.25 L32.4,33 L26.2,33 L20.15,24.2 L12.6,33 L10.75,33 L19.3,23 Z
+           M13.45,12.25 L16.35,12.25 L30,32 L27.25,32 Z"
+        fill="#000" mask="url(#myMaskX)"/>
+  <mask id="myMaskX">
+    <polygon points="11,11 17.1,11 22.72,19.1 29.65,11 31.4,11 23.5,20.25 32.4,33 26.2,33 20.15,24.2 12.6,33 10.75,33 19.3,23" fill="white"/>
+    <polygon points="13.45,12.25 16.35,12.25 30,32 27.25,32" fill="black"/>
+  </mask>
+</svg>
+                          </span>
+             <span class="visually-hidden">Follow us on Twitter</span>
+          </a>
+        </li>
+              <li class="qh__social-links__item">
+          <a href="https://www.facebook.com/HealthRI" class="qh__social-links__link" rel="external">
+            <span class="qh__icon">
+                              <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44"><path class="qh__icon__path qh__icon__facebook__path" d="M33 10H11c-.5 0-1 .5-1 1v22c0 .5.5 1 1 1h8.9v-8.2h-3.4V22h3.4v-2.9c0-3.3 2-5.2 5-5.2 1.5 0 3 .3 3 .3v3.3h-1.7c-1.7 0-2.2 1-2.2 2.1V22h3.7l-.6 3.8H24V34h9c.5 0 1-.5 1-1V11c0-.5-.5-1-1-1z"/></svg>
+                          </span>
+             <span class="visually-hidden">Follow us on Facebook</span>
+          </a>
+        </li>
+              <li class="qh__social-links__item">
+          <a href="https://www.instagram.com/ridohealth/" class="qh__social-links__link" rel="external">
+            <span class="qh__icon">
+                              <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44"><path class="qh__icon__path qh__icon__instagram__path" d="M22 15.8c-3.4 0-6.2 2.7-6.2 6.2s2.7 6.2 6.2 6.2 6.2-2.7 6.2-6.2-2.8-6.2-6.2-6.2zM22 26c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm7.8-10.4c0 .8-.6 1.4-1.4 1.4-.8 0-1.4-.6-1.4-1.4s.6-1.4 1.4-1.4c.8 0 1.4.6 1.4 1.4zm4.1 1.5c-.1-1.9-.5-3.6-1.9-5s-3.1-1.8-5-1.9c-2-.1-7.9-.1-9.9 0-1.9.1-3.6.5-5 1.9s-1.8 3.1-1.9 5c-.1 2-.1 7.9 0 9.9.1 1.9.5 3.6 1.9 5s3.1 1.8 5 1.9c2 .1 7.9.1 9.9 0 1.9-.1 3.6-.5 5-1.9s1.8-3.1 1.9-5c.1-2 .1-8 0-9.9zm-2.5 12c-.4 1-1.2 1.9-2.3 2.3-1.6.6-5.3.5-7.1.5s-5.5.1-7.1-.5c-1-.4-1.9-1.2-2.3-2.3-.6-1.6-.5-5.3-.5-7.1s-.1-5.5.5-7.1c.4-1 1.2-1.9 2.3-2.3 1.6-.6 5.3-.5 7.1-.5s5.5-.1 7.1.5c1 .4 1.9 1.2 2.3 2.3.6 1.6.5 5.3.5 7.1s.1 5.5-.5 7.1z"/></svg>
+                          </span>
+             <span class="visually-hidden">Follow us on Instagram</span>
+          </a>
+        </li>
+              <li class="qh__social-links__item">
+          <a href="https://www.linkedin.com/company/rhode-island-department-of-health/" class="qh__social-links__link" rel="external">
+            <span class="qh__icon">
+                              <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44"><path class="qh__icon__path qh__icon__linkedin__path" d="M33 10H11c-.5 0-1 .5-1 1v22c0 .5.5 1 1 1h22c.5 0 1-.5 1-1V11c0-.5-.5-1-1-1zM17.3 30.6h-3.6V19.1h3.6v11.5zm-1.8-13c-1.1 0-2.1-.9-2.1-2.1 0-1.1.9-2.1 2.1-2.1 1.1 0 2.1.9 2.1 2.1-.1 1.1-1 2.1-2.1 2.1zm15.1 13H27V25c0-1.3 0-3-1.8-3-1.9 0-2.1 1.4-2.1 2.9v5.7h-3.6V19.1h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2z"/></svg>
+                          </span>
+             <span class="visually-hidden">Follow us on LinkedIn</span>
+          </a>
+        </li>
+              <li class="qh__social-links__item">
+          <a href="https://www.youtube.com/user/ridohealth/" class="qh__social-links__link" rel="external">
+            <span class="qh__icon">
+                              <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__youtube" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44"><path class="qh__icon__path qh__icon__youtube__path" d="M35.4 15.2c-.3-1.2-1.3-2.2-2.5-2.5-2.1-.5-10.9-.5-10.9-.5s-8.8 0-10.9.6c-1.2.3-2.2 1.3-2.5 2.5C8 17.4 8 22 8 22s0 4.6.6 6.8c.3 1.2 1.3 2.1 2.5 2.5 2.2.6 10.9.6 10.9.6s8.8 0 10.9-.6c1.2-.3 2.2-1.2 2.5-2.5.6-2.2.6-6.8.6-6.8s0-4.6-.6-6.8zm-16.3 11v-8.3l7.3 4.2-7.3 4.1z"/></svg>
+                          </span>
+             <span class="visually-hidden">Follow us on YouTube</span>
+          </a>
+        </li>
+              <li class="qh__social-links__item">
+          <a href="https://publichealthri.buzzsprout.com/" class="qh__social-links__link" rel="external">
+            <span class="qh__icon">
+                              <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__file-generic" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 44 44" style="enable-background:new 0 0 44 44" xml:space="preserve"><path class="qh__icon__path qh__icon__file-generic__path" d="M25.5 10H25v6h6v-.5L25.5 10z"/><path class="qh__icon__path qh__icon__file-generic__path" d="M24 10H13v24h18V17h-2v15H15V12h9v-2z"/></svg>
+                          </span>
+             <span class="visually-hidden">Public Health Out Loud</span>
+          </a>
+        </li>
+            </ul>
+  </nav>
+
+
+<div id="block-ecms-views-block-doh-site-search-block-1" class="block block-views block-views-blockdoh-site-search-block-1">
+  
+    
+      <div class="views-element-container"><div class="ecms-search-block-form view view-doh-site-search view-id-doh_site_search view-display-id-block_1 js-view-dom-id-ae40b1caeff9341a380c4210329a86d34b8a66728b02f96ef9abc7bd99aeba27">
+  
+    
+        <div class="view-filters">
+      <form class="views-exposed-form bef-exposed-form" data-drupal-selector="views-exposed-form-doh-site-search-block-1" action="/search-site" method="get" id="views-exposed-form-doh-site-search-block-1" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search-api-fulltext form-item-search-api-fulltext">
+      
+        <input data-drupal-selector="edit-search-api-fulltext" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value="" size="30" maxlength="128" placeholder="Search the site" class="form-text" />
+
+        </div>
+
+<input data-drupal-selector="edit-submit-doh-site-search" type="submit" id="edit-submit-doh-site-search" value="Search" class="button js-form-submit form-submit" />
+
+
+</div>
+
+</form>
+
+    </div>
+    
+      <div class="view-empty qh__prose--headings-only">
+      
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+
+      </div>
+    </div>
+  </header>
+  
+  
+
+  
+  
+
+<div class="qh__notifications-block" role="banner">
+  <div class="qh__notifications-block__wrapper">
+
+    <div class="qh__notifications-block__header">
+      <?xml version="1.0" encoding="utf-8"?><svg class="qh__icon__svg qh__icon__alarm-bell" xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 48 48"><path class="qh__icon__path qh__icon__alarm-bell__path" d="M28.4 4.8L27 3.4l-3.7 3.7 1.4 1.4 3.7-3.7zM6.3 12H1v2h5.2v-2zm2.4-4.9L5 3.4 3.6 4.8l3.7 3.7 1.4-1.4zM16 28c1.7 0 3-1.3 3-3h-6c0 1.7 1.3 3 3 3zm9.7-16v2H31v-2h-5.3zm-2.2 1.8c0-3.6-2.5-6.5-6-7.3v-1c0-.8-.6-1.5-1.5-1.5-.8 0-1.5.6-1.5 1.5v1.1c-3.4.7-6 3.6-6 7.3 0 4.8-1.7 6.2-2.6 7.2-.3.3-.4.6-.4 1 0 .8.6 1.5 1.5 1.5h18c.9 0 1.5-.7 1.5-1.5 0-.4-.1-.7-.4-1-.9-1.1-2.6-2.5-2.6-7.3zM8.7 21.3c1-1.3 2.1-3.5 2.1-7.5 0-2.9 2.3-5.2 5.2-5.2 2.9 0 5.2 2.3 5.2 5.2 0 4 1.1 6.2 2.1 7.5H8.7z"/></svg>
+      <p class="qh__notifications-block__title"><strong>Agency Announcements</strong></p>
+      <button
+        aria-expanded="true"
+        class="qh__btn qh__btn--small js__expand-collapse"
+        aria-controls="details-notifications"
+        data-id="notifications"
+        id="summary-notifications"
+        data-text-true="Hide "
+        data-text-false="Show "
+        >Alerts
+      </button>
+    </div>
+
+    <div
+      id="details-notifications"
+      role="region"
+      aria-labelledby="summary-notifications"
+      class="qh__notifications-block__content js__qh-accordion-panel js__aria-expanded"
+      >
+      
+<article class="qh__teaser-notification">
+  <div class="qh__teaser-notification__excerpt">
+    <h4><span class="field field--name-title field--type-string field--label-hidden">Scam Alert: Scammers Spoofing RIDOH State Phone Numbers</span>
+</h4>
+    <p>The Department of Health has&nbsp;gotten reports of scammers using Rhode Island State Government Phone numbers. If you receive a call from a RIDOH phone number and you are not sure if it is from our department, please hang up and call us back directly at 401-222-5960. We’re happy to assist you.</p><p>The Office of the Attorney General has great resources to help you identify scams: <a href="https://riag.ri.gov/scams"><strong>https://riag.ri.gov/scams</strong></a></p>
+  </div>
+</article>
+
+
+    </div>
+  </div>
+</div>
+
+
+    
+  
+  <nav class="qh__breadcrumb" aria-label="Page Breadcrumb">
+    <div class="qh__breadcrumb__wrapper">
+
+      <ol class="qh__breadcrumb__list">
+              <li class="qh__fs-st qh__breadcrumb__item qh__breadcrumb__list--home">
+                      <a class="qh__breadcrumb__page" href="/">Home</a>
+                  </li>
+              <li class="qh__fs-st qh__breadcrumb__item ">
+                      <span class="qh__breadcrumb__page">Immunization</span>
+                  </li>
+            </ol>
+
+    </div>
+  </nav>
+
+
+
+
+
+  
+
+  
+
+  <main id="main-content" tabindex="-1">
+          <div class="qh-layout__grid">
+        
+        <div class="qh-layout__content">
+          
+  
+
+          
+  <div data-drupal-messages-fallback class="hidden"></div>
+
+<article class="qh__prose node node--type-topic node--view-mode-full">
+
+      <h1>Immunization</h1>
+  
+    
+    <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div class="qh__prose block block-layout-builder block-field-blocknodetopicfield-page-content-components">
+  
+    
+        
+
+  
+
+          
+
+                          
+
+          
+  
+
+<figure class="qh__media-item qh__media-img small right">
+            <a href=/sites/g/files/xkgbur1006/files/2025-07/vaccine-guide.pdf title="A Guide to Vaccines: Your Pathway to Lifelong Protection">
+          <img srcset="/sites/g/files/xkgbur1006/files/styles/max_325x325/public/2025-07/guide-to-vaccines.png?itok=N33kLY-_ 247w, /sites/g/files/xkgbur1006/files/styles/max_650x650/public/2025-07/guide-to-vaccines.png?itok=FejZ9JG2 494w, /sites/g/files/xkgbur1006/files/styles/max_1300x1300/public/2025-07/guide-to-vaccines.png?itok=q0pzSFWy 607w" sizes="(min-width: 1290px) 1290px, 100vw" width="247" height="325" src="/sites/g/files/xkgbur1006/files/styles/max_325x325/public/2025-07/guide-to-vaccines.png?itok=N33kLY-_" alt="A Guide to Vaccines: Your Pathway to Lifelong Protection" loading="lazy" />
+
+
+      </a>
+      
+  
+  
+      <figcaption>A Guide to Vaccines: Your Pathway to Lifelong Protection</figcaption>
+  </figure>
+
+
+
+
+  
+
+  
+
+            <p>Rhode Island's statewide vaccine policies are grounded in the best available science, data, and evidence-based public health practice. Vaccines are the best way to prevent serious illness and death from many <a href="https://health.ri.gov/diseases">infectious diseases</a>. They protect people by preparing their immune systems to recognize and fight <a href="https://health.ri.gov/diseases#summary-28711">vaccine preventable diseases</a>. They also protect communities by reducing the spread of illness.</p>
+<p><a href="http://www.fda.gov/">The Food and Drug Administration</a> adheres to rigorous testing standards before licensing vaccines to ensure <a href="/immunization/about/safety/">vaccine safety</a>. Leaders in the fields of medicine and public health recommend vaccines for children, adolescents, and adults to prevent disease.</p>
+<p>Learn more about the right vaccines for you and your family in RIDOH's <a href="https://health.ri.gov/sites/g/files/xkgbur1006/files/2025-07/vaccine-guide.pdf">A Guide to Vaccines: Your Pathway to Lifelong Protection</a> (<a href="/sites/g/files/xkgbur1006/files/2025-11/vaccine-guide-es.pdf">Spanish</a>).</p>
+<p>&nbsp;</p>
+
+      
+
+  
+
+  
+
+            <h2>What You Should Do</h2>
+<h3>Parents</h3>
+<p>Make sure your children are up to date on all the American Academy of Pediatrics' (AAP's) <a href="https://downloads.aap.org/AAP/PDF/AAP-Immunization-Schedule.pdf">recommended vaccinations for children and adolescents</a>. <a href="/sites/g/files/xkgbur1006/files/2026-02/child-immunization-schedule-public.pdf">Rhode Island’s recommended childhood immunization schedule</a>&nbsp;mirrors the AAP recommendations. Ask your children’s pediatrician about vaccinations at each visit.</p>
+<p>Children without doctors who are uninsured can be vaccinated at the <a href="/immunization/services/asthenis-public-health-hub">Asthenis Public Health Hub</a>. Older children can also be immunized through <a href="/programs/detail.php?pgm_id=1010">Vaccinate Before You Graduate</a>, a catch-up program run at Rhode Island middle and high schools.</p>
+<p>Explore more <a href="/immunization/information/parents">immunization information for parents</a> and <a href="/immunization/information/pregnant-people">immunization information for pregnant people</a>.&nbsp;</p>
+<h3>Adults</h3>
+<p>Several factors determine what immunizations adults need. Speak with a healthcare professional or review the American Academy of Family Physicians' <a href="https://www.aafp.org/clinical-insights/immunizations-and-vaccines/immunizations-schedules-resources">recommended vaccinations for adults</a> to know what immunizations you need.</p>
+<h3>Travelers</h3>
+<p>If you are planning to travel outside of the United States, you can get recommended vaccines at <a href="https://health.ri.gov/for/travelers/">travel clinics</a>.</p>
+<h3>People Who Will Be in Contact with Infants</h3>
+<p>Adults and adolescents who will be around infants should be up to date on all vaccines. This can include parents, siblings, grandparents, babysitters, and other childcare providers. Infants are too young to be fully immunized, but you can help protect them from certain illnesses by only letting them come into contact with people who are vaccinated. Infants can get very sick from diseases such as <a href="/diseases/vaccinepreventable/?parm=12">pertussis</a>, <a href="/hepatitis-viral/hepatitis-b">hepatitis B</a>, <a href="/infectious-diseases/measles">measles</a>, <a href="/flu-influenza">flu</a>, <a href="/covid-19-coronavirus">COVID-19</a>, and <a href="/infectious-diseases/rsv">respiratory syncytial virus (RSV)</a>.&nbsp;</p>
+
+      
+
+    <div class="paragraph paragraph--type--embed paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-embed-content field--type-text-long field--label-hidden field__item"><div id="vaccine-clinic"></div>
+<br></div>
+      
+      </div>
+
+  
+
+  
+
+
+                          
+
+          
+  
+
+<figure class="qh__media-item qh__media-img medium right">
+              <img srcset="/sites/g/files/xkgbur1006/files/styles/max_325x325/public/2025-04/small-state-big-deal-banner.png?itok=yTqT3Dd5 325w, /sites/g/files/xkgbur1006/files/styles/max_650x650/public/2025-04/small-state-big-deal-banner.png?itok=cdqPb9BD 650w, /sites/g/files/xkgbur1006/files/styles/max_1300x1300/public/2025-04/small-state-big-deal-banner.png?itok=NAkfL0mR 1200w" sizes="(min-width: 1290px) 1290px, 100vw" width="325" height="108" src="/sites/g/files/xkgbur1006/files/styles/max_325x325/public/2025-04/small-state-big-deal-banner.png?itok=yTqT3Dd5" alt="Small State Big Deal" loading="lazy" />
+
+
+      
+  
+  
+  </figure>
+
+
+
+
+  
+
+  
+
+            <h2>Where You Can Find Vaccine Clinics and Programs</h2>
+<p>You can find local vaccine clinics and programs in these places:</p>
+<ul>
+<li><a href="/immunization/services/asthenis-public-health-hub"><strong>Asthenis Public Health Hub</strong></a><strong>:</strong> Offers a range of vaccinations for children and adults.</li>
+<li><a href="https://health.ri.gov/programs/detail.php?pgm_id=1010"><strong>Vaccinate Before You Graduate</strong></a><strong>:</strong> A program designed to ensure middle and high school students are up-to-date on their vaccines.</li>
+<li><a href="https://www.vaxassist.com/"><strong>VaxAssist</strong></a><strong>: </strong>Find COVID-19, flu, RSV, and pneumococcal pneumonia vaccines based on your location and vaccine type.</li>
+</ul>
+
+      
+
+  
+
+  
+
+            <h3>Community Clinics</h3>
+<p>2026-2027 vaccination clinics are held at schools in the late afternoon and evening and are open to the entire community. You can currently register for <a href="/flu-influenza">flu</a> vaccine and&nbsp;<a href="/covid-19-coronavirus">COVID-19</a> vaccine, which will be available at these clinics for people age 3 and older. <a href="https://www.thewellcomp.com/Registrations/chooseschool.aspx">Register for school and community clinic vaccinations at schoolflu.com</a>.&nbsp;</p>
+<ul>
+<li>It's safe to get both vaccines at the same visit</li>
+<li>No insurance required</li>
+<li>No out-of-pocket cost for vaccination</li>
+<li>You can get the 2026-2027 COVID-19 vaccine even if you haven't gotten a COVID-19 vaccine in the past&nbsp;</li>
+</ul>
+<p>You must pre-register to guarantee an appointment. You can select any available timeslot as a placeholder. Walk-ins are accepted on a limited basis, as resources allow.</p>
+<p>&nbsp;</p>
+
+      
+
+  
+
+  
+
+            <h2>What We Are Doing</h2>
+<p>Rhode Island provides healthcare professionals with all recommended routine vaccines for children. Rhode Island also provides healthcare professionals with most recommended vaccines for adults. Although some healthcare professionals may charge patients small fees to give them vaccines, Rhode Island gives these vaccines to healthcare professionals free of charge.</p>
+<p>The Rhode Island Department of Health also works with mass immunizers, schools, healthcare professionals, and many others to make vaccines available in the community.</p>
+<p>&nbsp;</p>
+
+      
+
+  
+<div class="qh__paragraph qh__paragraph__column-container">
+    
+
+
+  
+
+<div  data-component-id="ecms:paragraph-card" class="qh__card qh__tc__primary--light">
+      <h3 class="qh__card__title">Immunization Programs</h3>
+  
+    
+
+  
+
+            <ul>
+<li><a href="https://health.ri.gov/immunization/ridoh-programs/adult-immunization-program" hreflang="en">Adult Immunization Program</a></li>
+<li><a href="https://health.ri.gov/immunization/ridoh-programs/childhood-immunization-program" hreflang="en">Childhood Immunization Program</a></li>
+<li><a href="https://health.ri.gov/immunization/immunization-office" hreflang="en">Immunization, Office of</a></li>
+<li><a href="/immunization/immunization-quality-improvement-program">Immunization Quality Improvement Program</a></li>
+<li><a href="https://health.ri.gov/immunization/ridoh-programs/perinatal-hepatitis-prevention-program" hreflang="en">Perinatal Hepatitis Prevention Program</a></li>
+<li><a href="https://health.ri.gov/immunization/rhode-island-child-and-adult-immunization-registry-ricair" hreflang="en">Rhode Island Child and Adult Immunization Registry (RICAIR)</a></li>
+</ul>
+
+      
+
+
+</div>
+
+
+  
+
+
+  
+
+<div  data-component-id="ecms:paragraph-card" class="qh__card qh__tc__primary--light">
+      <h3 class="qh__card__title">Immunization Services</h3>
+  
+    
+
+  
+
+            <ul>
+<li><a href="/immunization/services/asthenis-public-health-hub" hreflang="en">Asthenis Public Health Hub</a></li>
+<li><a href="https://health.ri.gov/immunization/ridoh-programs/vaccinate-you-graduate-vbyg-program" hreflang="en">Vaccinate Before You Graduate (VBYG)</a></li>
+</ul>
+
+      
+
+
+</div>
+
+
+
+</div>
+
+
+
+  </div>
+
+    </div>
+  </div>
+
+<div class="qh__t__none">
+  <div class="qh-layout-section--col-size-100 qh-layout-section qh-layout-section--col-count-1">
+          <div  class="qh-layout-section__col qh-layout-section__col--first">
+        <div class="views-element-container block block-views block-views-blocktopic-related-pages-what-you-need-to-know-block-1">
+  
+    
+      <div><div class="view view-topic-related-pages-what-you-need-to-know view-id-topic_related_pages_what_you_need_to_know view-display-id-block_1 js-view-dom-id-6f5e563191362603c1dce90286f9dc6c8f2a44f392ebce636cd71b592c2e79c3">
+  
+    
+      <div class="view-header qh__prose--headings-only">
+      <h2>What You Need to Know</h2>
+
+    </div>
+      
+      <div class="view-content">
+          <div class="views-view-grid horizontal cols-3 clearfix">
+            <div class="views-row clearfix row-1">
+                  <div class="views-col col-1" style="width: 33.333333333333%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-pages"><h3 class="field-content"><a href="/toolkits/what-to-know-about-health" hreflang="en">&quot;What to Know About Health&quot; Fact Sheets</a></h3></span><div class="views-field views-field-field-basic-page-body"><p class="field-content"><p></p></p></div><div class="views-field views-field-field-toolkit-description"><div class="field-content"><p>The Rhode Island Department of Health (RIDOH) partnered with Dorcas International Institute of Rhode Island to help educate Rhode Islanders about key health topics and community resources.</p></div></div></div>
+</div>
+                  <div class="views-col col-2" style="width: 33.333333333333%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-pages"><h3 class="field-content"><a href="/medical-records/promoting-interoperability-program-pip" hreflang="en">Electronic Public Health Reporting and Promoting Interoperability</a></h3></span><div class="views-field views-field-field-basic-page-body"><p class="field-content"><p>The Centers for Medicare and Medicaid Services (CMS) incentivizes providers and facilities to successfully demonstrate Meaningful Use of certified electronic health record (EHR) technology (CEHRT)…</p></div><div class="views-field views-field-field-toolkit-description"><div class="field-content"></div></div></div>
+</div>
+                  <div class="views-col col-3" style="width: 33.333333333333%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-pages"><h3 class="field-content"><a href="/immunization/immunization-records" hreflang="en">Immunization Records</a></h3></span><div class="views-field views-field-field-basic-page-body"><p class="field-content"><p>Learn about how to request a copy of immunization records.</p>
+</p></div><div class="views-field views-field-field-toolkit-description"><div class="field-content"></div></div></div>
+</div>
+              </div>
+          <div class="views-row clearfix row-2">
+                  <div class="views-col col-1" style="width: 33.333333333333%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-pages"><h3 class="field-content"><a href="/infectious-diseases" hreflang="en">Infectious Diseases</a></h3></span><div class="views-field views-field-field-basic-page-body"><p class="field-content"><p>Infectious diseases are illnesses caused by organisms such as bacteria, viruses, fungi or parasites. </p></p></div><div class="views-field views-field-field-toolkit-description"><div class="field-content"></div></div></div>
+</div>
+                  <div class="views-col col-2" style="width: 33.333333333333%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-pages"><h3 class="field-content"><a href="/immunization/vaccine-funding-and-selection" hreflang="en">Vaccine Funding and Selection</a></h3></span><div class="views-field views-field-field-basic-page-body"><p class="field-content"><p><a href="https://webserver.rilegislature.gov/Statutes/TITLE23/23-1/23-1-44.htm"><span>Rhode Island law</span></a><span>&nbsp;requires the Rhode Island Department of Health (RIDOH) to provide…</p></div><div class="views-field views-field-field-toolkit-description"><div class="field-content"></div></div></div>
+</div>
+                  <div class="views-col col-3" style="width: 33.333333333333%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-pages"><h3 class="field-content"><a href="/immunization/vaccine-safety" hreflang="en">Vaccine Safety</a></h3></span><div class="views-field views-field-field-basic-page-body"><p class="field-content"><p>Vaccines are the best way to prevent serious illness and death from many infectious diseases.</p></p></div><div class="views-field views-field-field-toolkit-description"><div class="field-content"></div></div></div>
+</div>
+              </div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="views-element-container block block-views block-views-blocktopic-related-pages-information-for-block-1">
+  
+    
+      <div><div class="view view-topic-related-pages-information-for view-id-topic_related_pages_information_for view-display-id-block_1 js-view-dom-id-da2a5476b3d5be69490860fd71417a004140b937d0c6453905cdb2c45364792f">
+  
+    
+      <div class="view-header qh__prose--headings-only">
+      <h2>Information For</h2>
+
+    </div>
+      
+      <div class="view-content">
+          <div class="views-view-grid horizontal cols-2 clearfix">
+            <div class="views-row clearfix row-1">
+                  <div class="views-col col-1" style="width: 50%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-audience-icon"><span class="field-content">anchor-small.svg<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+  <path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z"></path>
+</svg></span></span><span class="views-field views-field-field-pages"><h4 class="field-content"><a href="/immunization/information/adults" hreflang="en">Immunization Information for Adults</a></h4></span><div class="views-field views-field-field-basic-page-body"><div class="field-content qh__teaser-promotion__text"><p>As we age, our bodies may not fight off illness as effectively. Vaccines are a safe and effective way to protect against illnesses that can lead to hospitalization or even death. The vaccines you need depend on your age, health, and lifestyle, such as your job or travel plans.</p>
+</div></div></div>
+</div>
+                  <div class="views-col col-2" style="width: 50%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-audience-icon"><span class="field-content">alarm-bell.svg<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+  <path d="M96 128V70.2c0-13.3 8.3-25.3 20.8-30l96-36c7.2-2.7 15.2-2.7 22.5 0l96 36c12.5 4.7 20.8 16.6 20.8 30V128h-.3c.2 2.6 .3 5.3 .3 8v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V136c0-2.7 .1-5.4 .3-8H96zm48 48c0 44.2 35.8 80 80 80s80-35.8 80-80V160H144v16zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7H30.7C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6zM208 48V64H192c-4.4 0-8 3.6-8 8V88c0 4.4 3.6 8 8 8h16v16c0 4.4 3.6 8 8 8h16c4.4 0 8-3.6 8-8V96h16c4.4 0 8-3.6 8-8V72c0-4.4-3.6-8-8-8H240V48c0-4.4-3.6-8-8-8H216c-4.4 0-8 3.6-8 8z"></path>
+</svg></span></span><span class="views-field views-field-field-pages"><h4 class="field-content"><a href="/immunization/information/healthcare-professionals" hreflang="en">Immunization Information for Healthcare Professionals</a></h4></span><div class="views-field views-field-field-basic-page-body"><div class="field-content qh__teaser-promotion__text"><p>The Rhode Island State-Supplied Vaccine (SSV) program provides vaccines to healthcare professionals to immunize people of all ages. Review details about available vaccines, including recommended ages and dosing.</p>
+</div></div></div>
+</div>
+              </div>
+          <div class="views-row clearfix row-2">
+                  <div class="views-col col-1" style="width: 50%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-audience-icon"><span class="field-content">anchor-small.svg<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+  <path d="M96 128V70.2c0-13.3 8.3-25.3 20.8-30l96-36c7.2-2.7 15.2-2.7 22.5 0l96 36c12.5 4.7 20.8 16.6 20.8 30V128h-.3c.2 2.6 .3 5.3 .3 8v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V136c0-2.7 .1-5.4 .3-8H96zm48 48c0 44.2 35.8 80 80 80s80-35.8 80-80V160H144v16zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7H30.7C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6zM208 48V64H192c-4.4 0-8 3.6-8 8V88c0 4.4 3.6 8 8 8h16v16c0 4.4 3.6 8 8 8h16c4.4 0 8-3.6 8-8V96h16c4.4 0 8-3.6 8-8V72c0-4.4-3.6-8-8-8H240V48c0-4.4-3.6-8-8-8H216c-4.4 0-8 3.6-8 8z"></path>
+</svg></span></span><span class="views-field views-field-field-pages"><h4 class="field-content"><a href="/immunization/information/healthcare-workers" hreflang="en">Immunization Information for Healthcare Workers</a></h4></span><div class="views-field views-field-field-basic-page-body"><div class="field-content qh__teaser-promotion__text"><p>At certain healthcare facilities in Rhode Island, the State requires healthcare workers&nbsp;to be immunized against certain diseases.</p>
+</div></div></div>
+</div>
+                  <div class="views-col col-2" style="width: 50%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-audience-icon"><span class="field-content">anchor-small.svg<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path d="M271.9 4.2c-9.8-5.6-21.9-5.6-31.8 0l-224 128C6.2 137.9 0 148.5 0 160V480c0 17.7 14.3 32 32 32s32-14.3 32-32V178.6L256 68.9 448 178.6V480c0 17.7 14.3 32 32 32s32-14.3 32-32V160c0-11.5-6.2-22.1-16.1-27.8l-224-128zM256 208a40 40 0 1 0 0-80 40 40 0 1 0 0 80zm-8 280V400h16v88c0 13.3 10.7 24 24 24s24-10.7 24-24V313.5l26.9 49.9c6.3 11.7 20.8 16 32.5 9.8s16-20.8 9.8-32.5l-37.9-70.3c-15.3-28.5-45.1-46.3-77.5-46.3H246.2c-32.4 0-62.1 17.8-77.5 46.3l-37.9 70.3c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8L200 313.5V488c0 13.3 10.7 24 24 24s24-10.7 24-24z"></path>
+</svg></span></span><span class="views-field views-field-field-pages"><h4 class="field-content"><a href="/immunization/information/parents" hreflang="en">Immunization Information for Parents</a></h4></span><div class="views-field views-field-field-basic-page-body"><div class="field-content qh__teaser-promotion__text"><p>The immunizations your children get can protect them from vaccine-preventable diseases. Vaccines protect children by providing them with immunity before they are exposed to these diseases.</p>
+</div></div></div>
+</div>
+              </div>
+          <div class="views-row clearfix row-3">
+                  <div class="views-col col-1" style="width: 50%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-audience-icon"><span class="field-content">anchor-small.svg<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path d="M256 192H.1C2.7 117.9 41.3 52.9 99 14.1c13.3-8.9 30.8-4.3 39.9 8.8L256 192zm128-32c0-35.3 28.7-64 64-64h32c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0v64c0 25.2-5.8 50.2-17 73.5s-27.8 44.5-48.6 62.3s-45.5 32-72.7 41.6S253.4 416 224 416s-58.5-5-85.7-14.6s-51.9-23.8-72.7-41.6s-37.3-39-48.6-62.3S0 249.2 0 224l224 0 160 0V160zM80 416a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm240 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z"></path>
+</svg></span></span><span class="views-field views-field-field-pages"><h4 class="field-content"><a href="/immunization/information/pregnant-people" hreflang="en">Immunization Information for Pregnant People</a></h4></span><div class="views-field views-field-field-basic-page-body"><div class="field-content qh__teaser-promotion__text"><p>Vaccines help keep you and your growing family healthy. It’s important to make sure your immunizations are up to date.</p>
+</div></div></div>
+</div>
+                  <div class="views-col col-2" style="width: 50%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-audience-icon"><span class="field-content">anchor-small.svg<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+  <path d="M337.8 5.4C327-1.8 313-1.8 302.2 5.4L166.3 96H48C21.5 96 0 117.5 0 144V464c0 26.5 21.5 48 48 48H256V416c0-35.3 28.7-64 64-64s64 28.7 64 64v96H592c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7L337.8 5.4zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V208zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V336zM232 176a88 88 0 1 1 176 0 88 88 0 1 1 -176 0zm88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H336V144c0-8.8-7.2-16-16-16z"></path>
+</svg></span></span><span class="views-field views-field-field-pages"><h4 class="field-content"><a href="/immunization/information/schools-and-child-care-facilities-and-workers" hreflang="en">Immunization Information for Schools and Child Care Facilities and Workers</a></h4></span><div class="views-field views-field-field-basic-page-body"><div class="field-content qh__teaser-promotion__text"><p>School students and children and workers in child care facilities are required to be vaccinated against certain diseases in Rhode Island.</p>
+</div></div></div>
+</div>
+              </div>
+          <div class="views-row clearfix row-4">
+                  <div class="views-col col-1" style="width: 50%;"><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-audience-icon"><span class="field-content">anchor-small.svg<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <path d="M14 5h2v14H4V5h2V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1zm3 0h1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1V5zM3 5v14H2a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h1zm5-1v1h4V4H8z"></path>
+</svg></span></span><span class="views-field views-field-field-pages"><h4 class="field-content"><a href="/immunization/information/travelers" hreflang="en">Information for Travelers and Travel Hosts</a></h4></span><div class="views-field views-field-field-basic-page-body"><div class="field-content qh__teaser-promotion__text"><p>When <a href="https://wwwnc.cdc.gov/travel/page/travel-vaccines">traveling</a> outside of the United States for vacation, work, or to provide humanitarian aid overseas, always check the <a href="ht"></a></p></div></div></div>
+</div>
+              </div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+      </div>
+      </div>
+</div>
+<div class="qh__t__coffee-milk">
+  <div class="qh-layout-section--col-size-50-50 qh-layout-section qh-layout-section--col-count-2">
+
+    
+          <div  class="qh-layout-section__col qh-layout-section__col--second">
+        <div class="views-element-container block block-views block-views-blocktopi-block-1">
+  
+    
+      <div><div class="view view-topi view-id-topi view-display-id-block_1 js-view-dom-id-e928e5bfe0f3454ae7f62e979c2bad7101115c5ff87ed048f9df0254b3e95cc9">
+  
+    
+      
+      <div class="view-content">
+      <div class="qh__prose--headings-only">
+  <h2 class="views-field views-field-field-label"><div class="field-content">Regulations</div></h2><div class="views-field views-field-field-content"><div class="field-content item-list"><p><a href="https://rules.sos.ri.gov/regulations/index/active?search=&amp;keywords=Immunization&amp;agencies=216&amp;sortby=relevance&amp;order=desc">Regulations</a></p>
+</div></div></div>
+<div class="qh__prose--headings-only">
+  <h2 class="views-field views-field-field-label"><div class="field-content">Partners</div></h2><div class="views-field views-field-field-content"><div class="field-content item-list"><p><a href="https://www.aap.org/immunization">American Academy of Pediatrics</a><a href="https://aafp.org/vaccines">American Academy of Family Physicians</a><a href="https://www.acog.org/topics/immunization">American College of Obstetricians &amp; Gynecologists</a></p>
+</div></div></div>
+<div class="qh__prose--headings-only">
+  <h2 class="views-field views-field-field-label"><div class="field-content">Diseases</div></h2><div class="views-field views-field-field-content"><div class="field-content item-list"><p><a href="/diseases#summary-28711">Vaccine Preventable Diseases</a><a href="/diseases/respiratory-viruses#data">Respiratory Virus Data</a></p>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+      </div>
+      </div>
+</div>
+<div class="qh__t__none">
+  <div class="qh-layout-section--col-size-75-25 qh-layout-section qh-layout-section--col-count-2">
+
+          <div  class="qh-layout-section__col qh-layout-section__col--first">
+        <div class="views-element-container block block-views block-views-blocktopics-data-block-1">
+  
+    
+      <div><div class="view view-topics-data view-id-topics_data view-display-id-block_1 js-view-dom-id-5098b449c11c38e0bbe4f349c931c2e34040157e1b7623d5b98ad007bb5a9d4b">
+  
+    
+      <div class="view-header qh__prose--headings-only">
+      <h2>Data</h2>
+<!--
+
+<div id="js-filters">
+
+
+
+<div id="product-select">
+<legend>
+<p >Health Topics</p>
+</legend>
+ <select id="products">
+        <option value="">Any</option>
+    </select>
+</div>
+</div>
+
+
+
+<script>
+window.addEventListener('load', function () {
+const listItems = document.querySelectorAll('.view-all-data-pages span'); 
+const textArray = [];
+
+listItems.forEach(item => {
+  textArray.push(item.textContent);
+});
+
+console.log(textArray);
+
+const selectElement = document.getElementById('products');
+const list = textArray;
+
+list.forEach(item => {
+  const option = document.createElement('option');
+  option.value = item;
+  option.text = item;
+  selectElement.add(option);
+});
+
+})
+</script>
+
+
+<script>
+window.addEventListener('load', function () {
+
+  const selectElement = document.getElementById("products");
+    const searchBox = document.getElementById("edit-title");
+    
+    selectElement.addEventListener("change", function() {
+      searchBox.value = selectElement.value;
+    });
+})
+</script>
+
+-->
+
+
+    </div>
+      
+      <div class="view-content">
+          <div class="views-view-grid horizontal cols-3 clearfix">
+            <div class="views-row clearfix row-1">
+                  <div class="views-col col-1" style="width: 33.333333333333%;"><div class="qh__prose--headings-only">
+  <div class="views-field views-field-field-thumbnail-image"><div class="field-content">  <img loading="lazy" src="/sites/g/files/xkgbur1006/files/2026-09/immunization-2026-data.png" width="1316" height="812" alt="Rhode Island Immunization Data" />
+
+</div></div><div class="views-field views-field-field-external-link"><h4 class="field-content"><a href="https://ricair-data-rihealth.hub.arcgis.com/pages/flu">Immunization Data</a></h4></div><div class="views-field views-field-field-intro-text"><div class="field-content qh__teaser-promotion__text">Online, interactive Rhode Island flu and COVID-19 immunization data.</div></div></div>
+</div>
+              </div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+      </div>
+    
+          <div  class="qh-layout-section__col qh-layout-section__col--second">
+        <div class="block block-layout-builder block-field-blocknodetopicfield-ad-hoc-content">
+  
+    
+          <div class="paragraph paragraph--type--ad-hoc-content paragraph--view-mode--default">
+            
+
+  
+
+            <h2>We can help you...</h2>
+<ul>
+<li><a href="#vaccine-clinic">Find a Vaccine Clinic</a></li>
+<li><a href="https://health.ri.gov/immunization/about/records/">Request your Immunization Records</a></li>
+</ul>
+
+      
+
+
+      </div>
+
+
+  </div>
+
+      </div>
+      </div>
+</div>
+
+<div class="qh__t__none">
+  <div class="qh-layout-section--col-size-100 qh-layout-section qh-layout-section--col-count-1">
+          <div  class="qh-layout-section__col qh-layout-section__col--first">
+        <div class="views-element-container block block-views block-views-blocktopics-resources-block-1">
+  
+    
+      <div><div class="view view-topics-resources view-id-topics_resources view-display-id-block_1 js-view-dom-id-76236f98c6db60b6305513595470dbd1d1fef7d093f093bbaa67b75136fc48e1">
+  
+    
+      <div class="view-header qh__prose--headings-only">
+      <h2>Resources</h2>
+
+<script>
+
+window.addEventListener('DOMContentLoaded',function () {
+
+var testContainer = document.querySelector('.view-topics-resources');
+    var viewContent = testContainer.querySelector('.view-content'); 
+   
+
+function sortDivsByH3() {
+  const container = viewContent; // Replace with your container ID
+  const divs = Array.from(container.children);
+
+  divs.sort((a, b) => {
+    const h3A = a.querySelector('h3').textContent;
+    const h3B = b.querySelector('h3').textContent;
+    return h3A.localeCompare(h3B); // Case-insensitive sorting
+  });
+
+  divs.forEach(div => container.appendChild(div));
+}
+
+sortDivsByH3(); 
+
+
+// Get all the list items
+const listItems = testContainer.querySelectorAll('li');
+// Create a Set to store unique values
+const uniqueValues = new Set();
+// Iterate through the list items
+listItems.forEach(item => {
+  const textContent = item.textContent.trim();
+  // If the text content is not already in the Set, add it
+  if (!uniqueValues.has(textContent)) {
+    uniqueValues.add(textContent);
+  } else {
+    // If it's a duplicate, remove the list item
+    item.remove();
+  }
+});
+
+
+});   
+
+</script>
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+      <h3>Issue or Policy Briefs</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/issuebriefs/prams-flu-brief.pdf">Pregnancy and Flu Vaccination</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"> (2025)</span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Booklets</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/materialbyothers/AGiftForLily.pdf">A Gift For Lily</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-07/vaccine-guide.pdf">A Guide to Vaccines: Your Pathway to Lifelong Protection</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-11/vaccine-guide-es.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-07/vaccine-guide.pdf">A Guide to Vaccines: Your Pathway to Lifelong Protection</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-11/vaccine-guide-es.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-07/vaccine-guide.pdf">A Guide to Vaccines: Your Pathway to Lifelong Protection</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-11/vaccine-guide-es.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-11/2025.11.06_Immunization-Quality-Improvement-Brochure.pdf">SSV Quality Improvement Program Brochure (11x17 folded)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Flyers</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2026-05/HepB-BirthDose-Flyer.pdf">A Lifetime of Protection - Hepatitis B Vaccine Birth Dose</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2026-05/HepB-BirthDose-Flyer-ES.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-10/adolescent-immunization-schedule.pdf">Adolescent Immunization Schedule: At a Glance (English and Spanish)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/guidance/GetVaccinatedforHepatitisAandBPrevention.pdf">Get Vaccinated for Hepatitis A and B Prevention</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2026-01/hpv-vax.pdf">HPV Vaccine Infographic</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2026-01/hpv-vax-es.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-07/rsv-vaccine-chart.pdf">Immunizations to Protect Against Severe Respiratory Syncytial Virus (RSV)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-08/rsv-vaccine-chart-es.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-10/GradeK-VaxRequirements.pdf">Kindergarten Vaccine Requirements</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-10/GradeK-VaxRequirements-ES.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-10/measles-not-just-rash.pdf">Measles: It Isn&#039;t Just a Little Rash</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2026-06/measles-not-just-rash-es.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/factsheets/Get-Vaccinated-During-Pregnancy.pdf">Protect Mom and Baby: Get Vaccinated During Pregnancy</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/otherlanguages/spanish/publications/factsheets/Get-Vaccinated-During-Pregnancy.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2026-05/Adult_IMZ_Flyer.pdf">Stay Protected. Stay on Track. For your 20s, 30s, and 40s—vaccines protect you, too!</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2026-05/Adult_IMZ_Flyer-ES.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-10/asthma-vaccine.pdf">Vaccines for adults and children with asthma (English and Spanish)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/guidelines/vaccines-for-older-adults.pdf">Vaccines for older adults: Stay protected! (English and Spanish)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-11/what-to-know-about-vaccines.pdf">What to Know about Vaccines</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="https://health.ri.gov/sites/g/files/xkgbur1006/files/2025-12/what-to-know-about-vaccines-ES.pdf">Spanish</a>) (<a href="https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-01/what-to-know-about-vaccines-PT.pdf">Portuguese</a>) (<a href="https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-01/what-to-know-about-vaccines-CVC.pdf">Cape Verdean Creole</a>) (<a href="https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-01/what-to-know-about-vaccines-HC.pdf">Haitian Creole</a>) (<a href="https://health.ri.gov/sites/g/files/xkgbur1006/files/2026-02/what-to-know-about-vaccines-KM.pdf">Khmer</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/flyers/fall-vaccines.pdf">What You Need to Know About Fall-Winter Vaccines</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/otherlanguages/spanish/publications/flyers/fall-vaccines.pdf">Spanish</a>)</div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Forms | Medical</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/records/AdultVaccineAdministration.pdf">Adult Vaccine Administration Record</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/immunization/BirthingHospitalVaccineAdministrationRecord.pdf">Birthing Hospital Vaccine Administration Record</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/request/immunization-release.pdf">RICAIR Immunization Record Release Form</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-01/RICAIR_Immunization_Record_Release_Form_Portuguese.pdf">Portuguese</a>) (<a href="/sites/g/files/xkgbur1006/files/2025-01/RICAIR_Immunization_Record_Release_Form_Spanish.pdf">Spanish</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/consent/SchoolDataReleaseToKIDSNET.pdf">School Data Release to KIDSNET</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/otherlanguages/spanish/forms/consent/SchoolDataReleaseToKIDSNET.pdf">Spanish</a>) (<a href="/sites/g/files/xkgbur1006/files/2024-12/SchoolDataReleaseToKIDSNET.pdf">Cape Verdean Creole</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/school/Physical.pdf">School Physical</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Forms | Exemption</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/exemption/MedicalImmunizationExemptionCertificateForChildcareWorkers.pdf">Childcare workers - Medical Exemption Certificate</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/exemption/MedicalImmunizationExemptionCertificateForSchools.pdf">Daycare, preschool, school, and college - Medical Exemption Certificate</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-03/medical-immunization-exemption-certificate-schools-es.pdf">Spanish</a>) (<a href="/sites/g/files/xkgbur1006/files/2025-03/medical-immunization-exemption-certificate-schools-pt.pdf">Portuguese</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/exemption/ReligiousImmunizationExemptionCertificateForSchools.pdf">Daycare, preschool, school, and college - Religious Exemption Certificate</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-03/religious-immunization-exemption-certificate-schools-es.pdf">Spanish</a>) (<a href="/sites/g/files/xkgbur1006/files/2025-03/religious-immunization-exemption-certificate-schools-pt.pdf">Portuguese</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/exemption/TemporaryImmunizationExemptionCertificateForSchools.pdf">Daycare, preschool, school, and college - Temporary Exemption Certificate</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-03/temporary-immunization-exemption-certificate-schools-es.pdf">Spanish</a>) (<a href="/sites/g/files/xkgbur1006/files/2025-03/temporary-immunization-exemption-certificate-schools-pt.pdf">Portuguese</a>)</div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/exemption/MedicalImmunizationExemptionCertificateForHealthcareFacilities.pdf">Medical Immunization Exemption Certificate for Use in Healthcare Facilities</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Policy, Protocols, Requirements</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/guides/Data-Logger-Auditing.pdf">Data Logger Auditing</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-03/data-logger-overview.pdf">Data Logger Overview</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/policies/ImmunizationProgramFraudAndAbuse.pdf">Immunization Fraud and Abuse</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-03/influenza-reservation-modification-request.pdf">Influenza Product Reservation Modification Request Form</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/instructions/ReturningInfluenzaVaccine.pdf">Returning Influenza Vaccine</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/definitions/coding-vfc-funding-source.pdf">Rhode Island Codes for VFC and Funding Source Capture and Reporting</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/registration/RICAIR-KIDSNET-Onboarding-Questionnaire.docx">RICAIR/KIDSNET Onboarding Questionnaire</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/forms/registration/RICAIR-KIDSNET-Onboarding-Questionnaire.docx">RICAIR/KIDSNET Onboarding Questionnaire</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-11/2025.11.04_IMZ_QI-Poster.pdf">SSV Quality Improvement Program Cycles</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/instructions/ImmunizeForLifeEnrollment.pdf">State-Supplied Vaccine (SSV) Program Enrollment Instructions</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-03/ssv-workshop.pdf">State-Supplied Vaccine (SSV) Workshop</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-03/temperature-excursion-response-worksheet.pdf">Temperature Excursion Response Worksheet</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/guides/VaccineStandAloneRefrigeratorsAndFreezers.pdf">Vaccine Stand Alone Refrigerators and Freezers</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/guides/VaccineStorageAndHandling.pdf">Vaccine Storage and Handling</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-03/pack-out-transport.pdf">Vaccine Storage and Transport: Pack Out</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-03/vfc-eligibility-values.pdf">VFC Eligibility Values</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Posters</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-08/hcw-flu-vaccine-flyer.pdf">Healthcare Worker Flu Vaccine Poster</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content">(<a href="/sites/g/files/xkgbur1006/files/2025-08/hcw-flu-vaccine-flyer-es.pdf">Spanish</a>)</div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Guidance, Recommendations | Toolkits</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-08/healthcare-worker-immunization-toolkit.pdf">Healthcare Worker Immunization Toolkit</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Palm Cards</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-03/recognize-overdose-palm-cards.pdf">How to Recognize an Overdose</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Requirements</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/requirements/ImmunizationKindergartenRequirements.pdf">Immunization Kindergarten Requirements</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/requirements/Immunization7thGradeRequirements.pdf">Immunization Seventh Grade Requirements</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Guidance, Recommendations</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-08/pediatric-adult-state-supplied-vaccines.pdf">Pediatric and Adult State Supplied Vaccine</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-12/adult-immunization-schedule.pdf">Rhode Island Recommended Adult Immunization Schedule (SSV providers)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/guidelines/RecommendedChildhoodImmunizationSchedule.pdf">Rhode Island Recommended Childhood Immunization Schedule (SSV providers)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2026-02/child-immunization-schedule-public.pdf">Rhode Island’s Recommended Childhood Immunization Schedule (public)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/2025-09/covid-19-vaccine-guidance.pdf">RIDOH Interim Guidance for the 2025-2026 COVID-19 Vaccine</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+<div class="item-list">
+      <h3>Data</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-media-file"><span class="field-content"><a href="/sites/g/files/xkgbur1006/files/publications/datareports/RI-Immunizations-Trends-n-Goals-2012-2023.pdf">Rhode Island Immunizations: Trends and Goals (2012-present)</a></span></span><span class="views-field views-field-field-date-covered-1"><span class="field-content"></span></span><div class="views-field views-field-field-translations"><div class="field-content"></div></div></div>
+</li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="views-element-container block block-views block-views-blocktopic-external-resources-block-1">
+  
+    
+      <div><div class="topic-external-links view view-topic-external-resources view-id-topic_external_resources view-display-id-block_1 js-view-dom-id-931e04a187630d9189380b38ffa1e463b24a3a5a71934ea28fc401bb767358b0">
+  
+    
+      <div class="view-header qh__prose--headings-only">
+      <h2>External Resources</h2>
+<script>
+
+window.addEventListener('DOMContentLoaded',function () {
+
+var testContainer = document.querySelector('.topic-external-links');
+    var viewContent = testContainer.querySelector('.view-content'); 
+   
+
+function sortDivsByH3() {
+  const container = viewContent; // Replace with your container ID
+  const divs = Array.from(container.children);
+
+  divs.sort((a, b) => {
+    const h3A = a.querySelector('h3').textContent;
+    const h3B = b.querySelector('h3').textContent;
+    return h3A.localeCompare(h3B); // Case-insensitive sorting
+  });
+
+  divs.forEach(div => container.appendChild(div));
+}
+
+sortDivsByH3(); 
+
+
+// Get all the list items
+const listItems = testContainer.querySelectorAll('li');
+// Create a Set to store unique values
+const uniqueValues = new Set();
+// Iterate through the list items
+listItems.forEach(item => {
+  const textContent = item.textContent.trim();
+  // If the text content is not already in the Set, add it
+  if (!uniqueValues.has(textContent)) {
+    uniqueValues.add(textContent);
+  } else {
+    // If it's a duplicate, remove the list item
+    item.remove();
+  }
+});
+
+
+});   
+
+</script>
+    </div>
+      
+      <div class="view-content">
+      <div class="item-list">
+      <h3>Web Pages</h3>
+  
+  <ul>
+
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://www.aafp.org/family-physician/patient-care/prevention-wellness/immunizations-vaccines.html
+">Immunizations and Vaccines | American Academy of Family Physicians</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://www.aap.org/en/patient-care/immunizations/
+">Immunizations | American Academy of Pediatrics</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://www.immunize.org/
+">Immunize.org</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://www.unity4teenvax.org/
+">Real Facts on Vax | Unity Consortium</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://www.chop.edu/vaccine-education-center
+">Vaccine Education Center | Children&#039;s Hospital of Philadelphia</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://vaxintegrity.cidrap.umn.edu/
+">Vaccine Integrity Project, Center for Infectious Disease Research and Policy | University of Minnesota</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://vaxintegrity.cidrap.umn.edu/
+">Vaccine Integrity Project, Center for Infectious Disease Research and Policy | University of Minnesota</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+          <li><div class="qh__prose--headings-only">
+  <span class="views-field views-field-field-external-link"><span class="field-content"><a href="https://www.ama-assn.org/topics/vaccines-vaccinations-immunizations
+">Vaccines, Vaccinations and Immunizations | American Medical Association</a></span></span><span class="views-field views-field-field-date-covered"><span class="field-content"></span></span></div>
+</li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+      </div>
+      </div>
+</div>
+
+
+</article>
+
+
+        </div>
+
+                  <aside class="qh-layout__sidebar-middle">
+            
+
+          </aside>
+        
+                  <aside class="qh-layout__sidebar-bottom">
+            
+
+          </aside>
+              </div>
+    
+    
+
+  </main>
+
+  <footer class="qh__site-footer " aria-label="Department Contact Information and Related State Links">
+  
+  
+  <div class="qh__site-footer__inner no-divider">
+    
+    <div class="qh__site-footer__content">
+      <div class="qh__site-footer__column qh__site-footer__first">
+        <p><strong>Department of Health</strong></p>
+<p>3 Capitol Hill<br>Providence,&nbsp;RI&nbsp;02908<br><a style="min-height:unset;" href="/contact/">Email us</a>&nbsp;<br><a style="min-height:unset;" href="/contact/">Directions</a><br>Phone: 401-222-5960<br>After Hours Phone: 401-276-8046<br>RI Relay 711<br><a style="min-height:unset;" href="/contact/">Contact us</a><br><br>Monday - Friday<br>8:30 AM - 4:30 PM<br><a style="min-height:unset;" href="/food/">Food Protection 8:30 AM - 4 PM</a>&nbsp;<br><a style="min-height:unset;" href="/healthy-homes/healthy-homes-and-environment-center">Healthy Homes and Environment 8:30 AM - 4 PM</a>&nbsp;<br><a style="min-height:unset;" href="/contact#parking">Parking restrictions until 3 PM</a></p>
+<p><a style="min-height:unset;" href="/about-us/social-media-comment-policy">Social Media Comment Policy</a></p>
+<p><a style="min-height:unset;" href="https://rigov.sharepoint.com/sites/DOH">FOR EMPLOYEES</a></p>
+
+      </div>
+      <div class="qh__site-footer__column qh__site-footer__second">
+        <p><strong>Center for Vital Records</strong></p>
+<p>Simpson Hall<br>6 Harrington Road<br>Cranston,&nbsp;RI&nbsp;02920<br><a style="min-height:unset;" href="/contact/">Email us</a><br>Phone: 401-222-5960<br>After Hours Phone: 401-276-8046<br>RI Relay 711</p>
+<p>Monday - Friday<br><a style="min-height:unset;" href="/records/">Vital Records 7:30 AM - 3:30 PM</a></p>
+
+      </div>
+      <div class="qh__site-footer__column qh__site-footer__third">
+        <p><strong>State Health Laboratories</strong></p>
+<p>150 Richmond Street, Suite 100&nbsp;<br>Providence, RI 02903<br><a style="min-height:unset;" href="/contact/">Email us</a>&nbsp;<br>Phone: 401-222-5600<br>RI Relay 711<strong>&nbsp;</strong></p>
+<p>Monday - Friday<br>8:30 AM - 4:30 PM</p>
+
+      </div>
+      <div class="qh__site-footer__column qh__site-footer__fourth">
+        <p><strong>Office of State Medical Examiners</strong></p>
+<p>900 Highland Corporate Drive,&nbsp;<br>Building 3, Cumberland, RI 02864<br><a style="min-height:unset;" href="/contact/">Email us</a>&nbsp;<br>Phone: 401-222-5500<br>RI Relay 711<strong>&nbsp;</strong></p>
+<p>Monday - Friday<br>8:30 AM - 4:30 PM</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="qh__site-footer__copyright">
+    <div class="qh__site-footer__inner">
+      <div class="qh__site-footer__copyright__content">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 326 312.9" style="enable-background:new 0 0 326 312.9;" xml:space="preserve">
+<style type="text/css">
+	.svg-seal0{fill:#F7D34F;stroke:#293557;stroke-width:1;}
+	.svg-seal1{fill:#FFFFFF;stroke:#293557;stroke-width:1;}
+	.svg-seal2{fill:#293557;}
+	.svg-seal3{fill:none;stroke:#293557;stroke-width:1;}
+	.svg-seal4{fill:#FFFFFF;}
+	.svg-seal5{fill:none;stroke:#293557;stroke-width:1;}
+</style>
+<g>
+	<g>
+		<path class="svg-seal0" d="M142.5,52c0,0-0.8-6.8-6.8-14.3"/>
+		<path class="svg-seal1" d="M122.2,40c0,0-21.1,4.5-27.1,7.5c-8.5,4.3-16.6,3.8-30.9,7.5c-14.3,3.8-61.8-0.8-61.8-0.8l30.9,20.3
+			L10.7,98.7c0,0,18.1-9,38.4-12.1s35.4-3.8,47.5-10.6s25.6-10.6,35.4-12.1c7-1.1,11.2-7.1,10.2-11.7c-1.4-6.1-6.4-17.2-10.6-22.9
+			C131.6,29.5,132.2,37.6,122.2,40z"/>
+		<path class="svg-seal2" d="M142.2,52.4c0-7.5-10.4-25.6-14.8-33.4s-4.9,17.3-4.9,23.2C122.5,49.7,137.9,44.5,142.2,52.4z"/>
+		<path class="svg-seal0" d="M182.3,52c0,0,0.8-6.8,6.8-14.3"/>
+		<path class="svg-seal1" d="M202.6,40c0,0,21.1,4.5,27.1,7.5c8.5,4.3,16.6,3.8,30.9,7.5c14.3,3.8,61.8-0.8,61.8-0.8l-30.9,20.3l22.6,24.1
+			c0,0-18.1-9-38.4-12.1s-35.4-3.8-47.5-10.6s-25.6-10.6-35.4-12.1c-7-1.1-11.2-7.1-10.2-11.7c1.4-6.1,6.4-17.2,10.6-22.9
+			C193.2,29.5,192.6,37.6,202.6,40z"/>
+		<path class="svg-seal2" d="M182.6,52.4c0-7.5,10.4-25.6,14.8-33.4s4.9,17.3,4.9,23.2C202.3,49.7,187,44.5,182.6,52.4z"/>
+		<path class="svg-seal1" d="M162.4,3.4c22,0,33.4,4,39.9,7.1s11.4,7,9.8,11.5s-9.8,21.6-9.8,21.6s-23-11.3-39.9-11.3
+			s-39.9,11.3-39.9,11.3s-8.1-17-9.8-21.6s3.2-8.4,9.8-11.5C129.1,7.5,140.4,3.4,162.4,3.4z"/>
+	</g>
+	<path class="svg-seal3" d="M162.9,68.6c3.8,0,7.2,4.2,7.2,4.2s0.8-4.2,8.4-4.2c13.9,0,24.9,13.5,32.1,13.5c7.2,0,14.4-3.4,14.4-3.4
+		l17.7,26.6c0,0-15.2,10.6-15.2,28.7s19.8,36.7,19.8,67.1s-24.1,38.4-33.8,38.4c-6.8,0-12.7-0.8-12.7-0.8s2.3,9.4-11.4,14.4
+		c-22.4,8-22.8,15.2-26.6,15.2s-4.2-7.2-26.6-15.2c-13.7-4.9-11.4-14.4-11.4-14.4s-5.9,0.8-12.7,0.8c-9.7,0-33.8-8-33.8-38.4
+		s19.8-49,19.8-67.1s-15.2-28.7-15.2-28.7l17.7-26.6c0,0,7.2,3.4,14.3,3.4c7.2,0,18.2-13.5,32.1-13.5c7.6,0,8.4,4.2,8.4,4.2
+		S159.1,68.6,162.9,68.6z"/>
+	<path class="svg-seal2" d="M167.1,76.6c0,0,1.3,3.4,5.1,5.1c2.8,1.2,5.5,1.7,7.2-0.4c1.7-2.1-2.1-4.2-1.3-6.3c0.9-2.1,2.5-3.4,6.3-1.7
+		c3.8,1.7,4.6,5.5,3.8,7.2s-5.9,1.7-5.9,3.8s2.1,5.5,6.3,5.5c3.4,0,9.7-5.5,9.7-5.5s4.6,6.8,13.5,6.8c5.1,0,4.6-6.3,4.6-6.3l5.5-1.7
+		l15.2,21.5c0,0-14.4,8-14.4,29.1s19.8,38.8,19.8,68.4s-27,33.8-30.4,33.8c-12.7,0-13.7-4.4-16.5-2.1c-2.5,2.1,1.3,9.7-4.6,13.5
+		c-5.9,3.8-17.7,6.1-21.1,8.4c-4.2,2.9-7.6,8-7.6,8s-3.4-5.1-7.6-8c-3.4-2.4-15.2-4.6-21.1-8.4s-2.1-11.4-4.6-13.5
+		c-2.8-2.3-3.8,2.1-16.5,2.1c-3.4,0-30.4-4.2-30.4-33.8s19.8-47.3,19.8-68.4c0-21.1-14.3-29.1-14.3-29.1L103,82.9l5.5,1.7
+		c0,0-0.4,6.3,4.6,6.3c8.9,0,13.5-6.8,13.5-6.8s6.3,5.5,9.7,5.5c4.2,0,6.3-3.4,6.3-5.5s-5.1-2.1-5.9-3.8c-0.8-1.7,0-5.5,3.8-7.2
+		s5.5-0.4,6.3,1.7s-2.9,4.2-1.3,6.3c1.7,2.1,4.4,1.7,7.2,0.4c3.8-1.7,5.1-5.1,5.1-5.1s2.5,2.1,4.6,2.1
+		C164.6,78.7,167.1,76.6,167.1,76.6z"/>
+	<g>
+		<path class="svg-seal4" d="M162.9,121.4c6,0,7.3-6.1,7.3-6.1c-2.9-0.2-3.6-0.2-3.6-0.2s-0.6-14.1-0.6-16.6s0-6.8-3.1-6.8
+			s-3.1,4.2-3.1,6.8s-0.6,16.6-0.6,16.6s-0.6,0-3.5,0.2C155.7,115.4,156.9,121.4,162.9,121.4z"/>
+		<path class="svg-seal4" d="M162.9,129c8.2,0,14.9-6.7,14.9-14.9c0-6.5-4.1-12-9.9-14l0.2,6.3c2.5,1.7,4.1,4.5,4.1,7.7
+			c0,5.1-4.2,9.3-9.3,9.3c-5.1,0-9.3-4.2-9.3-9.3c0-3.2,1.6-6,4-7.6l0.2-6.4c-5.7,2.1-9.8,7.6-9.8,14C148,122.4,154.7,129,162.9,129
+			z"/>
+		<path class="svg-seal4" d="M172.9,128.1l30.2-1.8c7.3-0.8,7.3-8.3-0.6-8.9c-1.9-0.1-13.1-0.8-22.6-1.4
+			C179.5,121,176.8,125.3,172.9,128.1z"/>
+		<path class="svg-seal4" d="M212.4,176.5c-0.3-3.4-3.7-5.9-6.2-0.6s-9,12.7-12.4,15.5c-3.4,2.8,2.2,5.4,2.2,5.4s-6.8,7.6-12.4,10.7
+			c-5.6,3.1-15.5,4.5-15.5,4.5l-1.1-81.2c-1.4,0.4-2.8,0.6-4.3,0.6s-2.9-0.2-4.2-0.6l-1.1,81.2c0,0-9.9-1.4-15.5-4.5
+			c-5.6-3.1-12.4-10.7-12.4-10.7s5.6-2.5,2.2-5.4s-9.8-10.1-12.4-15.5c-2.5-5.3-5.9-2.8-6.2,0.6c-0.3,3.4,0,22.8,1.7,27
+			c1.7,4.2,4.2,3.9,6.8,0c0,0,6.2,6.8,16.9,11.8c10.7,5.1,16.3,7.9,18.6,10.4s3.9,5.6,5.6,5.6s3.4-3.1,5.6-5.6s7.9-5.4,18.6-10.4
+			s16.9-11.8,16.9-11.8c2.5,3.9,5.1,4.2,6.8,0C212.4,199.3,212.7,179.9,212.4,176.5z"/>
+		<path class="svg-seal4" d="M122.7,126.3l30.2,1.8c-3.9-2.8-6.6-7.1-7.1-12.1c-9.4,0.6-20.7,1.3-22.6,1.4
+			C115.4,118,115.4,125.5,122.7,126.3z"/>
+	</g>
+	<g>
+		<line class="svg-seal5" x1="135" y1="260" x2="130.5" y2="273.5"/>
+		<path class="svg-seal1" d="M124.8,288.2c-1.5-3.4-6.9-5.9-12.9-7.9c-7.5-2.5-18.3-1.5-37.9-3s-29.4-13.6-43.7-15.8S5.4,250.2,5.4,250.2
+			l33.9-2.3C17.5,238.9,13,220,13,220s14.3,11.3,21.9,13.6s24.9,3.8,31.6,9.8s25.6,9.8,36.2,8.3s31.6,3,32.4,8.3L124.8,288.2z"/>
+		<path class="svg-seal2" d="M135,260c-1.7,5-12.8-0.3-15.8,6c-3.1,6.3,5.6,22.2,5.6,22.2L135,260z"/>
+		<line class="svg-seal5" x1="189.8" y1="260" x2="194.3" y2="273.5"/>
+		<path class="svg-seal1" d="M200.1,288.2c1.5-3.4,6.9-5.9,12.9-7.9c7.5-2.5,18.3-1.5,37.9-3s29.4-13.6,43.7-15.8
+			c14.3-2.3,24.9-11.3,24.9-11.3l-33.9-2.3c21.9-9,26.4-27.9,26.4-27.9s-14.3,11.3-21.9,13.6c-7.5,2.3-24.9,3.8-31.6,9.8
+			c-6.8,6-25.6,9.8-36.2,8.3c-10.6-1.5-31.6,3-32.4,8.3L200.1,288.2z"/>
+		<path class="svg-seal2" d="M189.8,260c1.7,5,12.8-0.3,15.8,6s-5.6,22.2-5.6,22.2L189.8,260z"/>
+		<path class="svg-seal1" d="M205.6,266c0,0,9.8,19.6,9.8,23.4c0,3.8-24.7,21.1-53,21.1s-53-17.3-53-21.1c0-3.8,9.8-23.4,9.8-23.4
+			s13.2,14.3,43.2,14.3S205.6,266,205.6,266z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="svg-seal2" d="M132.4,30.4l-4.2-14.5l5.1-1.5c1.3-0.4,2.2-0.5,2.9-0.4s1.2,0.4,1.8,1s0.9,1.3,1.2,2.1c0.3,1.1,0.3,2.1,0,3
+			c-0.3,0.9-1,1.5-1.9,2c0.6,0.2,1.2,0.5,1.6,0.8c0.5,0.3,1.1,1,2.1,2l2.3,2.4l-2.9,0.8l-2.7-2.6c-1-1-1.6-1.5-1.9-1.8
+			c-0.3-0.2-0.6-0.4-0.9-0.4c-0.3,0-0.7,0-1.2,0.2l-0.5,0.1l1.8,6.1L132.4,30.4z M132.4,21.3l1.8-0.5c1.1-0.3,1.8-0.6,2-0.8
+			c0.3-0.2,0.4-0.4,0.6-0.8c0.1-0.3,0.1-0.8-0.1-1.2c-0.1-0.5-0.3-0.8-0.6-1c-0.3-0.2-0.6-0.4-0.9-0.4c-0.2,0-0.9,0.1-2,0.5
+			l-1.9,0.5L132.4,21.3z"/>
+		<path class="svg-seal2" d="M145,27l-1.9-15l2.5-0.3l0.7,5.9l4.9-0.6l-0.7-5.9l2.5-0.3l1.9,15l-2.5,0.3l-0.8-6.6l-4.9,0.6l0.8,6.5L145,27
+			z"/>
+		<path class="svg-seal2" d="M157.5,18.1c0-1.8,0.3-3.3,0.9-4.4s1.3-2,2.1-2.6c0.9-0.6,1.9-0.8,3.1-0.8c1.8,0,3.2,0.7,4.3,2.1
+			s1.6,3.3,1.6,5.8c0,2.5-0.6,4.5-1.9,5.9c-1.1,1.2-2.5,1.9-4.2,1.8c-1.8,0-3.2-0.7-4.2-1.9C158.1,22.5,157.5,20.6,157.5,18.1z
+			 M160.1,18c0,1.7,0.3,3,0.9,3.9c0.6,0.9,1.5,1.3,2.4,1.3c1,0,1.8-0.4,2.5-1.3s1-2.2,1-4c0-1.8-0.3-3.1-0.9-3.9
+			c-0.6-0.9-1.4-1.3-2.4-1.3s-1.9,0.4-2.5,1.2C160.5,15,160.1,16.3,160.1,18z"/>
+		<path class="svg-seal2" d="M174.4,11.1l4.5,0.8c1.1,0.2,2,0.5,2.5,0.8c0.5,0.4,1,0.9,1.4,1.6c0.4,0.7,0.6,1.5,0.7,2.5s0,2.2-0.2,3.6
+			c-0.2,1.3-0.6,2.4-1,3.3c-0.5,0.9-1,1.6-1.5,2.1c-0.5,0.5-1.1,0.8-1.8,1c-0.7,0.2-1.5,0.2-2.5,0l-4.6-0.8L174.4,11.1z M176.5,14.1
+			l-1.7,9.8l1.9,0.3c0.8,0.1,1.4,0.2,1.8,0.1c0.4-0.1,0.7-0.3,1-0.5s0.6-0.7,0.8-1.3c0.3-0.6,0.5-1.5,0.7-2.5c0.2-1.1,0.3-2,0.2-2.6
+			c0-0.7-0.2-1.2-0.4-1.6c-0.3-0.4-0.6-0.7-1.1-0.9c-0.3-0.1-1-0.3-2-0.5L176.5,14.1z"/>
+		<path class="svg-seal2" d="M184.6,28.5l4.9-14.3l8.7,3l-0.8,2.4l-6.3-2.2l-1.1,3.2l5.9,2l-0.8,2.4l-5.9-2l-1.3,3.9l6.5,2.3l-0.8,2.4
+			L184.6,28.5z"/>
+	</g>
+	<g>
+		<path class="svg-seal2" d="M127.5,295.7l5.8-15.1l2.7,1l-2.3,6l5.4,2.1l2.3-6l2.7,1l-5.8,15.1l-2.7-1l2.5-6.6l-5.4-2.1l-2.5,6.6
+			L127.5,295.7z"/>
+		<path class="svg-seal2" d="M147.8,294c0.2-1.9,0.6-3.5,1.4-4.7c0.7-1.2,1.6-2,2.7-2.5c1.1-0.5,2.3-0.7,3.8-0.6c2.1,0.2,3.7,1.1,4.9,2.6
+			c1.2,1.6,1.6,3.7,1.4,6.4c-0.2,2.7-1.1,4.7-2.7,6.1c-1.3,1.2-3.1,1.8-5.1,1.5c-2.1-0.2-3.7-1-4.8-2.5
+			C148,298.8,147.5,296.6,147.8,294z M150.8,294.2c-0.2,1.9,0.1,3.3,0.8,4.3s1.6,1.5,2.8,1.7c1.1,0.1,2.1-0.3,3-1.1
+			c0.8-0.9,1.4-2.2,1.5-4.1c0.2-1.9-0.1-3.3-0.7-4.2c-0.7-1-1.6-1.5-2.8-1.6c-1.2-0.1-2.2,0.2-3,1.1
+			C151.5,290.9,151,292.3,150.8,294.2z"/>
+		<path class="svg-seal2" d="M169.6,302.8l-2.6-16l4.7-0.8c1.7-0.3,2.9-0.4,3.4-0.3c0.9,0.1,1.7,0.5,2.4,1.2s1.1,1.7,1.3,3
+			c0.2,1.1,0.1,2.2-0.2,3c-0.4,0.9-0.9,1.5-1.5,1.9c-0.7,0.4-1.9,0.8-3.6,1.1l-1.9,0.3l1,6L169.6,302.8z M170.4,289.1l0.7,4.5
+			l1.6-0.3c1.1-0.2,1.8-0.4,2.2-0.6c0.4-0.2,0.6-0.5,0.8-0.9s0.2-0.9,0.2-1.4c-0.1-0.5-0.3-1-0.6-1.3s-0.7-0.5-1.1-0.6
+			s-1.2,0-2.4,0.2L170.4,289.1z"/>
+		<path class="svg-seal2" d="M189.1,298.4l-6.7-14.7l9.9-4.5l1.1,2.5l-7.2,3.3l1.5,3.3l6.7-3l1.1,2.5l-6.7,3l1.8,4l7.4-3.4l1.1,2.5
+			L189.1,298.4z"/>
+	</g>
+	<g>
+		<g>
+			<path class="svg-seal2" d="M40,75.1l2.2-0.5c0.5,1.9,1.4,2.8,2.7,2.6c0.7-0.1,1.2-0.3,1.5-0.8c0.3-0.4,0.5-0.9,0.4-1.5
+				c0-0.3-0.1-0.6-0.3-0.8s-0.4-0.4-0.7-0.5c-0.3-0.1-1-0.3-2.1-0.5c-1-0.2-1.7-0.5-2.2-0.8c-0.5-0.3-0.9-0.8-1.2-1.4
+				s-0.5-1.2-0.6-1.9c-0.1-0.8,0-1.6,0.2-2.3c0.3-0.7,0.7-1.2,1.2-1.6c0.5-0.4,1.3-0.7,2.1-0.8c1.3-0.2,2.4,0.1,3.2,0.8
+				c0.8,0.7,1.3,1.8,1.5,3.2l-2.2,0.4c-0.2-0.8-0.5-1.3-0.8-1.6s-0.8-0.4-1.5-0.3c-0.6,0.1-1,0.3-1.3,0.6s-0.4,0.7-0.4,1.1
+				c0,0.4,0.2,0.7,0.6,1s1,0.5,2.1,0.7c1.2,0.2,2,0.5,2.6,0.9c0.5,0.3,1,0.8,1.3,1.4c0.3,0.6,0.6,1.3,0.7,2.2
+				c0.2,1.3-0.1,2.4-0.7,3.4s-1.7,1.5-3.2,1.7C42.4,80.1,40.7,78.5,40,75.1z"/>
+			<path class="svg-seal2" d="M55.2,78.2l-1.9-12.4L50,66.3l-0.4-2.5l8.8-1.3l0.4,2.5l-3.3,0.5l1.9,12.4L55.2,78.2z"/>
+			<path class="svg-seal2" d="M72.1,75.2l-2.4,0.4l-1.6-3.2l-4.4,0.8l-0.3,3.5l-2.3,0.4l1.5-15.6l2.3-0.4L72.1,75.2z M66.9,70.1l-2.6-5.2
+				L64,70.7L66.9,70.1z"/>
+			<path class="svg-seal2" d="M75.9,74.3l-2.8-12.2l-3.2,0.7l-0.6-2.5l8.6-1.9l0.6,2.5l-3.2,0.7l2.8,12.2L75.9,74.3z"/>
+			<path class="svg-seal2" d="M83.9,72.5l-3.9-14.6l8-2.1l0.7,2.5l-5.8,1.5l0.9,3.2l5.4-1.4l0.7,2.5l-5.4,1.4l1.1,4l6-1.6l0.7,2.5
+				L83.9,72.5z"/>
+			<path class="svg-seal2" d="M97.7,60.9c-0.6-1.7-0.8-3.2-0.7-4.4c0.1-1.3,0.4-2.3,1-3.1c0.6-0.8,1.3-1.3,2.4-1.7c1.5-0.5,3-0.3,4.3,0.7
+				c1.4,1,2.5,2.6,3.3,5c0.8,2.4,0.9,4.4,0.4,6.1c-0.5,1.5-1.5,2.5-3,3c-1.5,0.5-2.9,0.3-4.2-0.6C99.6,64.9,98.5,63.2,97.7,60.9z
+				 M99.9,60.1c0.6,1.7,1.2,2.8,2.1,3.4c0.8,0.6,1.7,0.8,2.5,0.5c0.8-0.3,1.4-0.9,1.7-1.9s0.1-2.3-0.4-4c-0.6-1.7-1.2-2.8-2-3.4
+				c-0.8-0.6-1.6-0.8-2.5-0.5c-0.9,0.3-1.4,0.9-1.7,1.9C99.2,57,99.3,58.4,99.9,60.1z"/>
+			<path class="svg-seal2" d="M113.2,63.4l-5.4-14.1l7.1-2.8l0.9,2.4l-5,1.9l1.3,3.3l4.4-1.7l0.9,2.4l-4.4,1.7l2.3,6L113.2,63.4z"/>
+		</g>
+	</g>
+	<g>
+		<path class="svg-seal2" d="M212.1,63.5l5.2-14.2l2.3,0.8l-5.2,14.2L212.1,63.5z"/>
+		<path class="svg-seal2" d="M218.9,60.7l2.4,0.5c-0.4,1.9,0.2,3.1,1.6,3.6c0.7,0.2,1.3,0.2,1.9,0c0.5-0.2,0.9-0.6,1.1-1.2
+			c0.1-0.3,0.1-0.6,0.1-0.9c-0.1-0.3-0.2-0.5-0.5-0.8c-0.2-0.2-0.9-0.7-1.9-1.5c-0.9-0.6-1.5-1.2-1.9-1.7s-0.6-1.1-0.6-1.8
+			c-0.1-0.7,0-1.3,0.2-2c0.3-0.8,0.7-1.4,1.2-1.9s1.2-0.8,1.9-0.9c0.7-0.1,1.6,0,2.5,0.3c1.4,0.5,2.3,1.2,2.9,2.2s0.6,2.2,0.2,3.6
+			l-2.4-0.7c0.1-0.8,0.1-1.4-0.1-1.8s-0.7-0.7-1.3-1c-0.6-0.2-1.2-0.2-1.6-0.1c-0.4,0.2-0.7,0.4-0.9,0.8c-0.1,0.4-0.1,0.8,0.1,1.1
+			s0.9,0.9,1.9,1.6c1.1,0.7,1.8,1.4,2.2,2s0.6,1.2,0.7,1.9s0,1.5-0.3,2.3c-0.4,1.2-1.1,2.2-2.2,2.8s-2.4,0.6-4,0.1
+			C219.1,66.3,218.1,64.1,218.9,60.7z"/>
+		<path class="svg-seal2" d="M230.2,69.6l4.2-14.4l2.4,0.7l-3.5,11.9l6,1.8l-0.7,2.4L230.2,69.6z"/>
+		<path class="svg-seal2" d="M252.6,75.6l-2.6-0.7l-0.2-3.6l-4.8-1.2l-1.8,3.1l-2.6-0.6l8.3-13.5l2.6,0.6L252.6,75.6z M249.5,68.7
+			l-0.3-5.8l-3,5L249.5,68.7z"/>
+		<path class="svg-seal2" d="M255.4,76.2l2.9-14.8l2.4,0.5l3.1,10.9l1.9-9.9l2.3,0.4L265,78.1l-2.5-0.5l-3-10.6l-1.9,9.7L255.4,76.2z"/>
+		<path class="svg-seal2" d="M271.1,63.8l4.5,0.6c1.1,0.2,2,0.4,2.5,0.7c0.5,0.3,1,0.8,1.4,1.5s0.7,1.5,0.8,2.5s0.1,2.2,0,3.7
+			c-0.2,1.3-0.5,2.4-0.9,3.3s-0.9,1.6-1.4,2.1s-1.1,0.8-1.8,1.1c-0.7,0.2-1.5,0.2-2.5,0.1l-4.6-0.6L271.1,63.8z M273.3,66.6
+			l-1.3,9.9l1.9,0.2c0.8,0.1,1.4,0.1,1.8,0s0.7-0.3,1-0.6s0.5-0.7,0.8-1.4s0.4-1.5,0.6-2.6c0.1-1.1,0.2-2,0.1-2.7s-0.2-1.2-0.5-1.6
+			s-0.6-0.7-1.1-0.9c-0.3-0.1-1-0.3-2-0.4L273.3,66.6z"/>
+	</g>
+</g>
+</svg>
+        <p>
+          © 2026
+          RI.gov. This page last updated on October 14th, 2026. <a href="https://www.ri.gov/policies/">Accessibility, data, and privacy policies</a> | <a href="#top">Top of page</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</div>
+  </div>
+
+    
+    <script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/g/files/xkgbur1006/files/js/js_K9mVQ7gRd-EVtYJp1d0trhd8eQHeMYJnblV9LILHDX0.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=ecms&amp;include=eJx1jksOgzAMRC-Uz5EiE0xqCHYUG8rxC6ibVmIz0nsziwFVtEQ8YzbpcdYwwU5Z2A1ohj3h0URxTBPVEzUWZOxQXZaOMcvahJFNA-ZVvS_WgbWC4cOAxWiiDEbC6ocqeXlYbordn-eMuKi7XHwhjJfMnZqd7rBKvMSxbw1q-KIrIqViMiixnPHPAWY4fuXqdsK3xjvv_gN29mwQ"></script>
+
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4dcd6c668f409a2',t:'MTc5MjU0OTgxMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

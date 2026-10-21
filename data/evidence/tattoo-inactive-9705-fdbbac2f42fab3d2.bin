@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tattoo Artists and Tattoo Parlors (216-RICR-40-10-15) - Rhode Island Department of State</title>
+
+    
+    <link rel="shortcut icon" type="image/ico" href="/Content/Images/logo.jpg" />
+    
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="/Content/Site.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-3.6.0.min.js"></script>
+
+    
+    
+    <script src="/Scripts/dataTables/jquery.dataTables.min.js"></script>
+    <script src="/Scripts/dataTables/dataTables.responsive.min.js"></script>
+
+
+    <script src="/Scripts/bootstrap.min.js"></script>
+    
+    
+    <link rel="shortcut icon" type="image/ico" href="/Content/Images/logo.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css files -->
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700.css' media='screen' />
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700.css' media='screen' />
+
+    <link href="/Content/themes/sos_front/css/combined.min.css" rel="stylesheet" />
+    <link href="/Content/themes/sos_front/css/mod.min.css" rel="stylesheet" />
+    <link href="/Content/themes/sos_front/css/layout.css" rel="stylesheet" />
+    <link href="/Content/themes/sos_front/css/styling.css" rel="stylesheet" />
+
+
+    <style>
+        .panel-custom-public {
+            margin-right: 4%;
+            margin-left: 4%;
+            width: 92%;
+            border: 0px;
+            box-shadow: 0px 0px 0px #c9c9c9;
+        }
+
+        .body-content {
+            background-color: white;
+        }
+    </style>
+
+    <script src="/Scripts/common.js"></script>
+</head>
+<body>
+    
+
+<div role="banner" id="site-header" style="background:#205493" >
+    <div id="site-disclaimer-banner">
+        <div class="row">
+            <div id="site-official" class="small-12 medium-6 columns">
+                <div class="v-align-block">
+                    <a href="" title="Rhode Island state website.">
+                        <img class="v-align-image" src="/Content/Images/statecoabw-footer.png" alt="Image of the Rhode Island coat of arms.">
+                        <div class="v-align-text">
+                            <div class="v-align-text-line">
+                                An Official Rhode Island State Website.
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="site-banner" class="row column hide-for-small-only ">
+        <div class="small-10 medium-9 large-9 columns v-align-block site-title-block">
+            <a href="/Admin/Login" title="Back to the Secretary of State homepage.">
+                
+                <img id="site-logo" class="v-align-image" src=/Content/images/WebCoa.png alt="An image of Gregg M. Amore with the Rhode Island coat of arms in the background.">
+                <div id="site-title" class="v-align-text">
+                    <div class="v-align-text-line agency-name">
+                        Rhode Island Department of State
+                    </div>
+                    <div class="v-align-text-line agency-head-name">
+                        Gregg M. Amore
+                    </div>
+                    <div class="v-align-text-line agency-head-title">
+                        Secretary of State
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="large-3 columns" id="google_translate_element">
+            <div class="large-3 columns" title="Google Translate" id="google_translate_element"></div>
+            
+        </div>
+    </div>
+    <!-- SITE NAVIGATION -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+            <div class="top-bar" style="padding-left: 0;">
+                <div class="row column">
+                    <div class="navbar-header">
+                        
+                        <button class="menu-icon" type="button" data-toggle="collapse" data-target="#myNavbar"></button>
+                        <div class="title-bar-title">Menu</div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar" style="background: #112e51;">
+                        <div>
+                            <ul class="vertical menu medium-horizontal dropdown PublicHeader" data-responsive-menu="drilldown medium-dropdown" role="menubar" data-dropdown-menu="gyqcis-dropdown-menu" data-mutate="83wlrr-responsive-menu">
+                                
+                                <li role="menuitem">
+                                    <a href="https://www.sos.ri.gov/divisions/business-services" title="Business Services homepage.">Business Services</a>
+                                </li>
+                                <li role="menuitem"><a href="https://vote.sos.ri.gov" title="Elections homepage.">Elections</a></li>
+                                <li role="menuitem"><a href="https://www.sos.ri.gov/divisions/civics-and-education" title="Civics and Education homepage.">Civics and Education</a></li>
+                                <li role="menuitem"><a href="http://www.sos.ri.gov/divisions/open-government-center" title="Open Government homepage.">Open Government</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav role="navigation" id="site-breadcrumbs" class="show-for-medium">
+            <div class="row column">
+                <ol class="breadcrumbs">
+                    <li>You are here:</li>
+                    <li><a href="https://www.sos.ri.gov">Home</a></li>
+                    <li><a href="https://www.sos.ri.gov/divisions/open-government-center">Open Government</a></li>
+                    
+                    <li><a href="https://www.sos.ri.gov/divisions/open-government-center/rules-and-regulations">Rules and Regulations</a></li>
+                    <li><a href="/Organizations">Code of Regulations</a></li>
+                </ol>
+            </div>
+        </nav>
+    </nav>
+</div>
+
+<style>
+
+    .PublicHeader {
+        font-family: "Arial","Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 17.6px;
+    }
+</style>
+
+<script type="text/javascript" alt="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', autoDisplay: false }, 'google_translate_element');
+    }
+</script>
+    <div class="row column">
+        <div class="row column">
+            
+
+
+<div role="main" id="site-content" tabindex="0">
+    <div class="row column">
+            <h1>Tattoo Artists and Tattoo Parlors (216-RICR-40-10-15)</h1>
+        <hr>
+        <div class="small-12 medium-9 columns">
+
+            <div>
+                <h3>
+
+                    <!--  Do not show the chapter and subchapter for old regulations (XXX)  -->
+                        <span class="ricr_label label">216-RICR-40-10-15</span>
+                        <span class="                            secondary
+ label">
+                            <strong>
+                                INACTIVE RULE
+                            </strong>
+                        </span>
+                </h3>
+            </div>
+
+
+            
+
+                <!-- Nav tabs -->
+                <ul class="tabs" data-tabs="w6pedt-tabs" id="example-tabs" role="tablist">
+                        <li role="presentation" class="tabs-title active"><a href="#first" aria-controls="first" role="tab" data-toggle="tab">Regulation Text</a></li>
+                    <li class="tabs-title" role="presentation"><a href="#second" aria-controls="second" role="tab" data-toggle="tab">Overview</a></li>
+                    <li class="tabs-title
+            "
+                        role="presentation"><a href="#third" aria-controls="third" role="tab" data-toggle="tab">Regulation</a></li>
+                    <li class="tabs-title" role="presentation"><a href="#four" aria-controls="four" role="tab" data-toggle="tab">History</a></li>
+                    <li class="tabs-title" role="presentation"><a href="#five" aria-controls="five" role="tab" data-toggle="tab">Rulemaking Documents</a></li>
+                </ul>
+
+            <!-- Tab panes -->
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="first">
+                                <div class="row">
+                                    <span>To view the official Final Regulation for accessibility and readability, click Download Regulation:</span>
+                                    <a style="cursor:pointer;color:white;" href="https://risos-apa-production-public.s3.amazonaws.com/DOH/REG_9705_20180806191124.pdf" class="medium button float-right">
+                                        <i class="fa fa-file-pdf-o" aria-hidden="true">
+                                            <b style="color:white;"> Download Regulation</b>
+                                        </i>
+                                    </a>
+                                </div>
+                        <!-- Generated by LibreOffice -->
+
+<style>
+    section.doc-block p { font-family: 'Arial', serif; margin-bottom: 0.1in; direction: ltr; line-height: 120%; text-align: left; widows: 2; orphans: 2 }
+    p.ctl { font-family: 'Arial' }
+    h1 { margin-bottom: 0.04in; direction: ltr; text-align: left; widows: 2; orphans: 2 }
+    h1.western { font-family: 'Arial', serif; font-size: 16pt }
+    h1.cjk { font-size: 16pt }
+    h1.ctl { font-family: 'Arial'; font-size: 16pt }
+    h1.ricr-heading-1-western { font-family: 'Arial', serif; font-size: 14pt; cursor: pointer; }
+    h1.ricr-heading-1-western+section.doc-block { display: none; }
+    h1.ricr-heading-1-cjk { font-size: 14pt }
+    h1.ricr-heading-1-ctl { font-family: 'Arial'; font-size: 16pt }
+    h1.ricr-part-western { font-family: 'Arial', serif; font-size: 12pt; font-weight: normal }
+    h1.ricr-part-cjk { font-size: 12pt; font-weight: normal }
+    h1.ricr-part-ctl { font-family: 'Arial'; font-size: 16pt }
+</style>
+<script type='text/javascript'>
+    function toggleShow(elm) {
+        $(elm).next().slideToggle('fast');
+    }
+</script>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western">15.1	Authority</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">	These regulations are
+promulgated pursuant to the authority conferred under R.I. Gen. Laws
+&sect;&sect; <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-39.HTM">23-1-39</a>(a)
+and 23-1-39(b), and are established for the purpose of adopting
+minimum requirements for the registration of tattoo artists and
+tattoo parlors in this state.</font></p>
+</section>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western">15.2	Incorporated Materials</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%"><a name="_Ref477946064"></a>
+<font size="3" style="font-size: 12pt">	These regulations hereby
+adopt and incorporate 29 C.F.R. &sect; 1910.1030 (1994) by reference, not
+including any further editions or amendments thereof and only to the
+extent that the provisions therein are not inconsistent with these
+regulations.</font></p>
+</section>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western">15.3	Definitions</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	Wherever used in these
+rules and regulations, the terms listed below shall be construed as
+follows:</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	&quot;Act&quot; means R.I.
+Gen. Laws &sect; <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-39.HTM">23-1-39</a>,
+entitled &quot;Tattooing and/or Body Piercing&quot;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	&ldquo;Apprentice&rdquo; means a
+trainee tattoo/permanent makeup artist working under the supervision
+of a Rhode Island licensed tattoo/permanent makeup artist within a
+Rhode Island licensed tattoo parlor.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	&quot;Aseptic technique&quot;
+means the practice of preventing the transmission of infectious
+agents into the human body by using standard aseptic procedures.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	&quot;Communicable disease&quot;
+means any disease caused by an infectious agent which may be
+transmitted directly or indirectly from one individual to another.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">5.	&quot;Director&quot; means
+the Director of the Rhode Island Department of Health.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">6.	&quot;Division&quot; means
+the Division of Customer Services at the Rhode Island Department of
+Health.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">7.	&quot;Person&quot; means
+any individual, trust or estate, partnership, corporation (including
+but not limited to associations, joint stock companies,) state, or
+political subdivision or instrumentality of the state.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">8.	&quot;Registration agency&quot;
+means the Rhode Island Department of Health.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">9.	&ldquo;Repigmentation&rdquo; means
+recoloration of the skin as a result of the following:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	Dermabrasion, chemical
+peels, removal or resolution of birthmarks, vitiligo or other skin
+conditions which result in the loss of melanin to the skin;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	Scars as a result of
+surgical procedures, such as cosmetic facial surgery, mole or wart
+removal, cauterization, etc.;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	Recoloration to burn grafts
+and other skin irregularities as a result of burns or photo- damage;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">d.	Recreation of an areola or
+nipple, following mastectomy; or</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">e.	Irregularly pigmented skin
+which may require cheek blush or other blending of pigments into the
+skin to camouflage.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">10.	&quot;Tattoo&quot; means
+to mark or color the skin by introduction of non-toxic dyes or
+pigments into the skin. For the purposes of these rules and
+regulations, &ldquo;tattooing&rdquo; includes cosmetic procedures such as eye
+lining, lip lining, microblading, or repigmentation, as defined in
+this Part.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">11.	&quot;Tattoo artist&quot;
+means an individual who is registered in this state to practice
+tattooing or permanent makeup<font color="#c00000"> </font>in
+accordance with the requirements of this Part.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">12.	&quot;Tattoo parlor/shop&quot;
+means any establishment operated by any person for the purpose of
+offering or conducting tattooing and/or permanent makeup procedures.</font></p>
+</section>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western">15.4	Registration Requirements for
+Tattoo/Permanent Makeup<font color="#c00000"> </font>Artists</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">	Pursuant to R.I. Gen. Laws &sect;
+<a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-39.HTM">23-1-39</a>,
+no person shall engage in the practice of tattooing or hold
+himself/herself as a tattoo artist in this state unless he/she is
+registered in this state under the statutory and regulatory
+provisions of this Part. Provided, that physicians duly licensed to
+practice medicine in the state of Rhode Island under the provisions
+of R.I. Gen Laws Chapter <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE5/5-37/INDEX.HTM">5-37</a>,
+shall be exempt from this registration requirement. However, a
+physician engaged in the practice of tattooing in his/her private
+office shall be required to register the site as a tattoo parlor/shop
+and meet the requirements of &sect; 15.5 of this Part.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.4.1</font><font color="#000000">	</font>Qualifications</b></font></p>
+<p style="margin-left: 0.5in;  margin-bottom: 0.14in; line-height: 108%">
+<font size="3" style="font-size: 12pt">A.	Any applicant seeking
+registration in this state must:</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Be over 18 years of age;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	Be of good moral character;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	Demonstrate knowledge of
+aseptic tattooing technique via inspection, as indicated in &sect; 15.4.3
+of this Part; and</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	Have completed an
+apprenticeship program as outlined in this Part or has shown
+equivalent documentation of education/experience in the art of
+tattooing/permanent makeup.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%"><a name="_Ref477943041"></a>
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.</font><font color="#000000">4.2	</font>Application
+and Registration Fee</b></font></p>
+<p style="margin-left: 0.5in;  margin-bottom: 0.14in; line-height: 108%">
+<font size="3" style="font-size: 12pt">A.	Application for
+registration shall be made on forms provided by the Division
+including, if applicable, a request for inspection form, which shall
+be completed and submitted to the Division. Such application shall be
+accompanied by the following documents:</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	For U.S citizens: a
+certified copy of birth certificate; </font>
+</p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	For non-U.S. citizens:
+proof of lawful entry into the United States and proof of lawful
+eligibility for employment in the United States;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	A registration fee as set
+forth in the rules and regulations pertaining to the Fee Structure
+for Licensing, Laboratory and Administrative Services Provided by the
+Department of Health (Part 10-05-2 of this Title);</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	A recent identification
+photograph of the applicant, head and shoulders, front view,
+approximately 2x3 inches in size; and,</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">5.	A completed &quot;Inspection
+Request&quot; form.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	Said inspection will be
+completed within ninety (90) days of application.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	Any applicant who has not
+previously been issued a registration by the registration agency will
+be required to submit to a technique inspection, as set forth in &sect;
+15.4.3 of this Part, before a registration shall be issued.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%"><a name="_Ref468287344"></a>
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.4.3	</font>Registration
+of Tattoo/ Permanent Makeup<font color="#c00000"> </font>Artists and
+Apprentices</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	By Examination</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Applicants<font color="#c00000">
+</font>and apprentices who have completed an apprenticeship program,
+seeking registration as a tattoo/permanent makeup<font color="#ff0000">
+</font>artist, shall be required to demonstrate aseptic tattooing
+technique via an examination administered by the registration agency,
+to test the applicant's fitness to engage in the practice of
+tattooing/permanent makeup. Such examination shall test the
+applicant's knowledge and practices of infection control and such
+other areas as may be deemed necessary, and shall be administered
+upon completion and review of the application.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	Applicants who have not
+satisfactorily met the application requirements of this Part relating
+to the examination described in &sect; 15.4.3(A)(1) of this Part will be
+given two (2) additional opportunities to demonstrate tattooing
+technique. Failure to meet all technique requirements will result in
+denial of registration.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	Applicants wishing to
+reapply for registration may do so after a six (6) month waiting
+period between attempts at the examination.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	Apprenticeships</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Persons wishing to begin an
+apprenticeship program at an established tattoo parlor must register
+with the registration agency within thirty (30) days of beginning a
+tattoo parlor&rsquo;s apprenticeship training program.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	A tattoo parlor&rsquo;s
+apprenticeship training program must span eighteen (18) months from
+the apprentice registration date and should be inclusive of the
+following:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	Practical Operation: 150
+hours</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	Aseptic Tattooing
+Technique: 50 hours</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	Anatomy and Physiology: 30
+hours</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">d.	Skin and Skin Disorders: 20
+hours</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">e.	Aftercare Instruction: 10
+hours</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">f.	Equipment and Supplies: 20
+hours</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">g.	Rhode Island Rules and
+Regulations for Tattoo Artists and Tattoo Parlors: 20 hours</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	Upon completion of a tattoo
+parlor&rsquo;s training program, documentation of training must be
+presented with the tattoo license application to the registration
+agency for review and processing. </font>
+</p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	Parlor patrons receiving a
+tattoo/permanent make up procedure from an apprentice must be
+informed prior to the tattoo/permanent makeup procedure in writing,
+and acknowledge via a dated signature, that they willfully accept the
+tattoo/permanent makeup procedure to be performed by an apprentice. </font>
+</p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">5.	The licensed tattoo artist
+trainer must be present at all times during procedures performed by
+the apprentice.<font color="#c00000"> </font></font>
+</p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.4.4	</font>Issuance
+and Renewal of Registration and Fee</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	The Director shall issue to
+applicants who have satisfactorily met the application and
+examination requirements of this Part, a registration to practice
+tattooing in the state. This registration, unless sooner suspended or
+revoked, shall expire on December 31st of each year.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	On or before the first day
+of December in each year, an application for online renewal of
+registration shall be mailed to every person to whom a registration
+has been issued during the current year.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">C.	Every person so registered
+who desires to renew his/her registration shall electronically file
+with the Division:</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	An online renewal
+acknowledgement of adherence to the requirements of this Part.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	The fee as set forth in the
+rules and regulations pertaining to the Fee Structure for Licensing,
+Laboratory and Administrative Services Provided by the Department of
+Health (Part 10-05-2 of this Title).</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">D.	Lapsed Registration</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Any registrant who allows
+the registration to lapse may have same reinstated by submitting to
+the registration agency, an application and accompanying documents,
+as required in &sect; 15.4.2 of this Part.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	Any registrant whose
+registration lapses for two (2) or more years shall be required to
+submit to the practical examination of aseptic tattooing technique
+administered by the registration agency.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.4</font><font color="#000000">.5	</font>Tattooing
+Practice</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	A registered tattoo artist
+shall maintain sanitary and safe practice in accordance with
+prevailing standards contained in this Part.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Dyes, Pigments, Transfer
+Paper, and Stencils:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	All dyes and pigments shall
+be manufactured for the purpose of tattooing and used according to
+the manufacturer&rsquo;s specifications.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	In preparing dyes or
+pigments, non-toxic materials shall be used.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	Single-use, sterile,
+individual containers for dyes or pigments shall be used for each
+patron.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">d.	The stencil, unless
+composed of acetate, shall be used for a single tattoo procedure
+only.  Acetate stencils may be disinfected and re-used.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">e.	Transfer paper shall be one
+time use and shall be used per manufacturer&rsquo;s specifications.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	Tattoo Procedures:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	A tattoo artist shall
+conduct his/her tattooing practice so as to prevent the transmission
+of communicable diseases from client to client and from artist to
+client. Tattoo artists shall maintain at least the following minimum
+standards in the practice of tattooing:</font></p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(1)	The area of the body to be
+tattooed, and all parts of the body which are visible, shall be
+examined for signs of intravenous drug use, open sores, lesions,
+oozing wounds, and skin diseases.  If such are found, or suspected,
+the person shall not be tattooed.</font></p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(2)	Each tattoo artist shall
+wear a clean outer garment. If the garment is visibly contaminated
+with blood, it shall be changed between clients.</font></p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(3)	Before working on each
+client, each tattoo artist shall clean his/her own fingernails with a
+brush and shall thoroughly wash and scrub hands with hot running
+water, using germicidal soap from a dispenser. Hands must also be
+washed after each rest room use, before putting on gloves and after
+taking off gloves.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	Tattoo Materials:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	All materials necessary for
+the tattooing process shall be set up on a single-use disposable
+sterile cloth (e.g., polycloth). All autoclaved/sterile packs shall
+be opened ready for use without touching the interior of the pack.
+Single-use or collapsible tubes shall be used for lubricants.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	Any shaving shall be done
+with a single use razor blade or razor.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	The skin shall be prepared
+first by thoroughly soaping with an antiseptic soap and rinsing with
+tap water. Following this cleansing, a germicidal solution (such as
+70% isopropyl alcohol) shall be applied to the skin using a sterile
+swab.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">d.	Stencil transfer medium
+shall be applied (if applicable) using sterile swabs and prepared
+clean transfer paper/stencil shall be applied to the skin.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">e.	After applying the stencil,
+the tattoo artist shall remove and discard gloves and again wash and
+scrub his/her hands with soap and water and dry hands using paper
+towels.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">f.	Prior to commencing
+application of the tattoo, the tattoo artist shall then re-glove.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">g.	If there is a need to rinse
+the tube and needle between colors, this shall be done with
+ninety-one percent (91%) isopropyl alcohol or sterile water in
+sterile single-use disposable containers or non-disposable sterilized
+containers.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">h.	As the tattoo operation
+progresses, any excess dye or pigment applied to the skin shall be
+removed with sterile, lint-free material.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">i.	The tattoo shall be allowed
+to dry. After drying, a sterile lubricant shall be applied from a
+collapsible metal or plastic tube, and the entire area covered with a
+piece of sterile gauze or similar sterile porous material.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">j.	Needles and microblades
+shall be immediately deposited into a puncture-resistant infectious
+waste sharps container.  Needles and microblades shall not be reused.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">k.	All used sharps and any
+blood soaked material shall be handled and discarded according to the
+Medical Waste Regulations (250-RICR-140-15-1). All other material
+shall be discarded appropriately.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">l.	Unless one time use and
+disposable, all tubes must be rinsed with tap water and then placed
+in a germicidal solution (e.g., Cidex) or directly into an ultrasonic
+cleaner.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">m.	Gloves shall be removed and
+discarded in accordance with the requirements of the Medical Waste
+Regulations (250-RICR-140-15-1) .</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">n.	Immediately after
+tattooing, the tattoo artist shall advise the patron, both verbally
+and in writing, on the care of the tattoo and shall instruct the
+patron to consult a physician at the first sign of infection (such as
+excessive pain, redness, swelling, or discharge) in the area of the
+tattoo.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">o.	All work surfaces and
+non-autoclaved equipment (e.g., tattoo machine and pliers) used in
+the tattoo process shall be cleaned with an EPA-approved
+bactericidal, virucidal, fungicidal, tuberculocidal surface
+disinfectant/decontaminant cleaner between clients. Gloves shall be
+used in the cleaning process. Subsequently, the artist shall wash
+his/her hands with a germicidal soap after cleaning work surfaces and
+equipment.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">p.	After tattooing, the
+remaining unused dye or pigment shall be discarded in accordance with
+the requirements of the Medical Waste Regulations
+(250-RICR-140-15-1). Non-disposable individual containers shall be
+resterilized, according to specifications in &sect; 15.4.5(A)(5) of this
+Part.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	Tattoo Equipment:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	A set of individual,
+single-use sterilized needle bars shall be used for each new patron.
+Before each use, the open end of the reusable needle tube of the
+tattooing machine shall be cleaned and sterilized in an approved
+manner as set forth in &sect; 15.4.5(A)(5) of this Part.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	Unless one time use and
+disposable, the needle tubes shall be cleaned by use of an ultrasonic
+cleaner and sterilizer. Immersion time for all equipment shall be
+five (5) minutes. Ultrasonic cleaning tank detergent shall be changed
+daily. The tank shall be scrubbed thoroughly with a ninety-one
+percent (91%) solution of isopropyl alcohol between detergent
+changes.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	Adequate numbers of
+sterilized needles, tubes and/or microblades shall be on hand for
+each operator for the entire day or night operation, based on the
+average number of clients per day. Failure to maintain an adequate
+number of sterilized needles, tubes, and/or microblades shall require
+the artist to cease operations until such time as an adequate number
+becomes available.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">d.	All items of equipment
+which may be touched during the tattoo process, such as clip cords,
+machine heads, spray bottles, etc., shall be capable of being
+sheathed easily with a disposable impervious covering.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">e.	Storage cabinets shall be
+maintained in a sanitary condition and all instruments, dyes,
+pigments, stencils and other equipment, when not in use, shall be
+stored in an orderly manner.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%"><a name="_Ref468287832"></a>
+<font size="3" style="font-size: 12pt">5.	Sterilization:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	Sterilizing of instruments:
+Operational sterilizers shall be available in each tattoo parlor
+unless all materials are one time use and disposable. All multiuse
+grips and needle tubes shall be sterilized after each use by
+autoclaving per manufacturer's specifications. </font>
+</p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	If in use, autoclave units
+shall be checked monthly, using a standard spore test, with results
+maintained on file for inspection. Autoclave units shall be
+maintained in accordance with manufacturer&rsquo;s specifications.
+Records of said monthly checks shall be maintained for a minimum of
+two (2) years.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	A log book shall be
+maintained for the results of said monthly inspections and shall
+include no less than the following items: </font>
+</p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(1)	Date of inspection;</font></p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(2)	Results of inspection; and
+</font>
+</p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(3)	The signature of the
+tattoo artist who conducted the inspection.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">d.	The sterilizing date shall
+be noted, and evidence of sterilization shall be demonstrated by
+color indicator or equivalent.  Packs shall be used within thirty
+(30) days or resterilized.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%"><a name="_Ref477943313"></a>
+<font size="3" style="font-size: 12pt">B.	Restrictions: All tattoo
+patrons must meet the age eligibility requirements of R.I. Gen. Laws
+&sect; <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE11/11-9/11-9-15.HTM">11-9-15</a>.</font></p>
+</section>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western"><a name="_Ref477942929"></a>15.5	Registration
+Requirements for Tattoo Parlors/Shops</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.</font><font color="#000000">5.</font>1<font color="#000000">	</font>Registration
+Requirements</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	No person, acting severally
+or jointly with any other person, shall conduct, maintain, or operate
+a tattoo parlor/shop in the state without a registration issued by
+the registration agency.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	No person, firm,
+partnership or corporation shall describe its services in any manner
+under the title &quot;Tattoo&quot; unless such services as defined in
+this Part are performed in a parlor/shop that is registered with the
+registration agency in accordance with the provisions of this Part.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.5.</font>2<font color="#000000">	</font>Application
+for Registration and Fee</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	Application for a
+registration to conduct, maintain, or operate a tattoo<font color="#c00000">
+</font>parlor/shop shall be made in writing on forms provided by the
+Division and shall be submitted at least ninety (90) days prior to
+the opening of the tattoo parlor/shop.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	The application for
+registration shall include:</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	The address of the place of
+business;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	The address of the owner
+and/or manager;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	The name of the manager who
+shall be registered with the registration agency;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	Written documentation that
+the owner and/or manager is at least eighteen (18) years of age;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">5.	Criminal convictions of the
+corporation, owner and/or manager, if any, except minor traffic
+violations;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">6.	A list of all owners and
+partners;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">7.	A list of owners holding
+fifty percent (50%) or more stock;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">8.	The fee as set forth in the
+rules and regulations pertaining to the Fee Structure for Licensing,
+Laboratory and Administrative Services Provided by the Department of
+Health (Part 10-05-2 of this Title).</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">9.	A list of all equipment;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">10.	A floor plan of the tattoo
+parlor/shop;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">11.	Appropriate certificates
+of compliance with all applicable local and state codes;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">12.	Written operating policies
+and procedures pertaining to such matters as hours of business
+operation, nature of services, sanitation, and safety procedures
+established for the protection of patrons and employees.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.</font><font color="#000000">5</font><font color="#000000">.</font>3<font color="#000000">	</font>Issuance
+and Renewal of Registration and Fee</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	Upon approval, the Division
+shall issue a registration. Said registration, unless sooner
+suspended or revoked, shall expire by limitation on March 31st
+following its issuance and may be renewed from year to year after
+inspection and/or approval by the registration agency, provided the
+applicant meets the appropriate statutory and regulatory requirements
+herein.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	A registration shall be
+issued only to a specific applicant for a specific location, and
+shall not be transferable.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">C.	The annual registration
+renewal fee as set forth in the rules and regulations pertaining to
+the Fee Structure for Licensing, Laboratory and Administrative
+Services Provided by the Department of Health (Part 10-05-2) shall
+accompany the application for the annual license renewal.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">D.	Any registrant who allows
+the registration to lapse may have the same reinstated by submitting
+an application, the accompanying documents, the fee as required in
+the rules and regulations pertaining to the Fee Structure for
+Licensing, Laboratory and Administrative Services Provided by the
+Department of Health (Part 10-05-2 of this Title) and other such
+documentation as deemed appropriate.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.5</font><font color="#000000">.</font>4<font color="#000000">	</font>Change
+of Ownership, Operation and/or Location</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	When a change of ownership,
+operation, location, or discontinuation of business of a tattoo
+parlor/shop is contemplated, the owner and/or manager shall notify
+the registration agency in writing prior to the proposed action.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	When there is a change in
+ownership, or in the operation or control of a registered tattoo
+parlor/shop, the registration shall immediately become void and shall
+be returned to the registration agency. However, the registration
+agency reserves the right to extend the expiration date of such
+registration, allowing the facility to operate under the same
+conditions which applied to the prior registrant for such time as
+shall be required for the processing of a new application, but not to
+exceed thirty (30) days.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.5</font><font color="#000000">.</font>5<font color="#000000">	</font>Inspections</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	Duly authorized
+representatives of the registration agency shall, at all reasonable
+times, have the authority to enter upon any and all parts of the
+premises on which any tattoo parlor/shop is located (and of the
+premises appurtenant thereto) to make any investigation or inspection
+to determine conformity with the statutory and regulatory provisions
+of this Part.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	Refusal to permit
+inspection or investigation shall constitute valid grounds for
+registration denial or revocation.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">C.	Applicants who have not
+satisfactorily met the requirements of this Part related to the
+inspection described in &sect; 15.5.5 of this Part will be given one (1)
+additional facility inspection. Failure to meet all requirements will
+result in denial of registration.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Applicants wishing to
+reapply for registration may do so after a one (1) year waiting
+period.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.5</font><font color="#000000">.</font>6<font color="#000000">	</font>General
+Operational Requirements</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	Personnel</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Each facility shall submit
+to the registration agency the name of the owner and/or manager who
+shall be responsible for:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	The management and control
+of the operation and the maintenance of the facility;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	The facility's conformity
+with state and local laws and regulations pertaining to fire, safety,
+building sanitation, personnel and other relevant statutory and
+regulatory provisions; and,</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	The establishment of
+policies and procedures, including but not limited to, the practice
+of tattooing, sanitation protocols, infection control, the nature of
+services provided and other such policies and procedures as may be
+required.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	Persons engaged in the
+practice of tattooing shall comply with the Occupational Safety and
+Health Administration's (OSHA) Blood Borne Pathogen Standards,
+incorporated above at &sect; 15.2(A) of this Part, in order to protect
+themselves (and any employees) against occupational exposure to
+bloodborne pathogens. Compliance shall include, but not be limited
+to:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	A written exposure control
+plan;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	Staff training;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	Engineering and work
+practice controls;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">d.	Adoption of universal
+precautions;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">e.	Personal protective
+equipment;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">f.	Hepatitis B vaccinations;
+and,</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">g.	A protocol for evaluation
+in the event that an exposure occurs.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	Only individuals who hold
+current Rhode Island registration as a tattoo artist or a duly
+licensed physician shall practice tattooing and use the title &quot;tattoo
+artist&quot; in accordance with the regulatory provisions of this
+Part.</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	If the owner and/or manager
+of a facility is not a registered tattoo artist, a registered tattoo
+artist shall be designated as the agent of the manager and/or owner,
+responsible for the direct supervision of all personnel and services
+related to the practice of tattooing. The name of said designated
+individual shall be submitted to the registration agency.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	Environment and Maintenance</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Each tattoo parlor/shop
+shall be required to meet the following provisions:</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">a.	The facility shall be
+maintained in a sanitary condition free from hazards.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">b.	All walls, ceilings, and
+floors shall be smooth and easily cleanable and have a non-absorbent
+surface. There shall be no carpeting in the tattooing area. Walls and
+ceilings are to be painted in a light color. Walls, ceilings and
+floors shall be kept clean and in good repair, free from dust and
+debris. Floors, walls or ceilings shall not be swept or cleaned while
+tattooing is being performed.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">c.	Adequate light and
+ventilation shall be provided.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%"><a name="_Ref477942162"></a>
+<font size="3" style="font-size: 12pt">d.	Each tattoo parlor/shop
+shall contain a hand sink in the tattooing area for the exclusive use
+of the tattoo artist. The sink shall have hot and cold running water.
+ At the sink, there shall also be available: </font>
+</p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(1)	A soap dispenser;</font></p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(2)	Disposable towels; and </font>
+</p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(3)	Refuse containers.</font></p>
+<p style="margin-left: 2in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">(4)	In facilities in which
+there are multiple tattooing workstations, there shall be a minimum
+of one (1) sink per every two (2) workstations. Each sink shall meet
+the requirements of &sect; 15.5.6(B)(1)(d) of this Part.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">e.	Toilets and hand-washing
+facilities shall conform with the Rhode Island State Building Code,
+R.I. Gen. Laws Chapter <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-27.3/INDEX.HTM">23-27.3</a>.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">f.	All work surfaces shall be
+smooth, non-porous and easily cleanable.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">g.	The facility shall be
+arranged so that work areas are separated from waiting customers by
+providing a separate room for tattooing or by providing at least ten
+(10) feet between work areas and partitioning the areas with panels
+(or other barriers) at least six (6) feet high.  The panel may be
+constructed of solid opaque plastic or similar material.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">h.	Equipment and supplies
+shall be properly stored in designated storage cabinets.</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">i.	No smoking, eating or
+drinking shall be permitted in the tattooing area.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">C.	Waste Disposal</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	Medical waste shall be
+managed in accordance with the Medical Waste Regulations
+(250-RICR-140-15-1).</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%">
+<font size="3" style="font-size: 12pt"><b><font color="#000000">15.5</font><font color="#000000">.</font>7<font color="#000000">	</font>Retention
+of Records</b></font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	The owner of a tattooing
+parlor/shop shall maintain proper records for each patron. A record
+of each patron shall include:</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">1.	The date on which he/she
+was tattooed;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">2.	His/her name, address,
+telephone number and age;</font></p>
+<p style="margin-left: 1.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%"><a name="_Ref477942407"></a>
+<font size="3" style="font-size: 12pt">a.	Photo identification as
+proof of age (e.g., driver&rsquo;s license, military identification), a
+copy of which shall be maintained for each patron;</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">3.	The location and design of
+the tattoo; and,</font></p>
+<p style="margin-left: 1in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">4.	The name of the tattoo
+artist.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	These records shall be
+permanently entered in a book with pre-numbered pages, kept solely
+for this purpose. Records that cannot be physically stored in this
+pre-numbered book (e.g., copies of proof of age as required in &sect;
+15.5.7(A)(2)(a) of this Part) may be stored elsewhere in the
+facility. These records shall be available for inspection by the
+registration agency. These records shall be maintained for a minimum
+of five (5) years after the date on which the patron was tattooed.</font></p>
+</section>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western"><a name="_Ref477942816"></a><font color="#000000">15.</font>6
+Denial, Suspension or Revocation of Registration</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	The Director is authorized
+to deny an application, revoke or suspend a registration for failure
+of an applicant or registrant to comply with the provisions of the
+rules and regulations herein.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	Whenever an action shall be
+proposed to deny an application, revoke or suspend a registration,
+the Director shall notify the person by certified mail, setting forth
+the reason(s) for the proposed action.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">C.	The applicant or registrant
+shall be given an opportunity for a prompt and fair hearing in
+accordance with the provisions of R.I. Gen. Laws Chapter <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE42/42-35/INDEX.HTM">42-35</a>,
+and the rules and regulations regarding Practices and Procedures
+Before the Department of Health (Part 10-05-4 of this Title) and
+Access to Public Records (Part 10-05-1 of this Title).</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">D.	If it is determined that a
+person is violating any provisions of this Part, the Director may
+issue an order to secure compliance in accordance with the provisions
+of R.I. Gen. Laws &sect;&sect; <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-20.HTM">23-1-20</a>
+through <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-25.HTM">23-1-25</a>.</font></p>
+</section>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western"><a name="_Ref468288037"></a><font color="#000000">15.</font>7<font color="#000000">	</font>Deficiencies
+and Plans of Correction</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	The registration agency
+shall notify the governing body or other legal authority of a
+facility of violations of this Part through a notice of deficiencies
+which shall be forwarded to the facility within fifteen (15) days of
+inspection of the facility. If the Director determines that immediate
+action is necessary to protect the health, welfare, or safety of the
+public, she/he may issue an immediate compliance order in accordance
+with R.I. Gen. Laws &sect; <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-21.HTM">23-1-21</a>.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%"><a name="_Ref477943596"></a>
+<font size="3" style="font-size: 12pt">B.	A facility that has
+received a notice of deficiencies shall submit a plan of correction
+to the registration agency within fifteen (15) days of the date of
+the notice of deficiencies. The plan of correction shall detail any
+requests for variances as well as document the reasons therefore.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">C.	The registration agency
+shall be required to approve or reject the plan of correction
+submitted by a facility in accordance with &sect; 15.7(B) of this Part
+within fifteen (15) days of receipt of the plan of correction.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">D.	If the registration agency
+rejects the plan of correction, or if the facility does not provide a
+plan of correction within the fifteen (15) day period stipulated in &sect;
+15.7(B) of this Part, or if a facility whose plan of correction has
+been approved by the registration agency fails to execute its plan
+within a reasonable time, the registration agency may invoke the
+sanctions referenced in &sect; 15.6 of this Part.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">E.	If the facility is
+aggrieved by the sanctions of the registration agency, the facility
+may appeal the decision and request a hearing in accordance with the
+provisions of R.I. Gen. Laws Chapter <a href="http://webserver.rilin.state.ri.us/Statutes/TITLE42/42-35/INDEX.HTM">42-35</a>,
+and the rules and regulations regarding Practices and Procedures
+Before the Department of Health (Part 10-05-4 of this Title) and
+Access to Public Records (Part 10-05-1)..</font></p>
+</section>
+<h1  onclick='toggleShow(this);' class="ricr-heading-1-western"><font color="#000000">15.</font>8<font color="#000000">	</font>Variance
+Procedures</h1>
+<section class='doc-block'>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">A.	The registration agency may
+grant a variance either upon its own motion or upon request of the
+applicant from the provisions of any rule or regulation in a specific
+case if it finds that a literal enforcement of such provision will
+result in unnecessary hardship to the applicant and that such a
+variance will not be contrary to the public interest, public health
+and/or health and safety of clients.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">B.	A request for a variance
+shall be filed by an applicant in writing, setting forth in detail
+the basis upon which the request is made.</font></p>
+<p style="margin-left: 0.5in;  margin-top: 0.17in; margin-bottom: 0in; line-height: 100%">
+<font size="3" style="font-size: 12pt">C.	Upon the filing of each
+request for variance with the registration agency, and within thirty
+(30) days thereafter, the registration agency shall notify the
+applicant by certified mail of its approval or in the case of a
+denial, a hearing date, time and place may be scheduled if the
+facility appeals the denial and in accordance with the provisions of
+&sect; 15.7 of this Part.</font></p>
+<div title="footer">
+	<p class="western" style="margin-top: 0.38in; margin-bottom: 0.14in; line-height: 5%">
+	<br/>
+<br/>
+
+	</p>
+</div>
+</section>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="second">
+                        <table class="unstriped meta" style="padding-bottom:20px;">
+                            <tbody>
+
+                                <tr>
+                                    <td><strong>Title</strong></td>
+                                    <td>216</td>
+                                    <td>Rhode Island Department of Health</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Chapter</strong></td>
+                                    <td>40</td>
+                                    <td>Professional Licensing and Facility Regulation</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Subchapter</strong></td>
+                                    <td>10</td>
+                                    <td>Facilities Regulation</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Part</strong></td>
+                                    <td>15</td>
+                                    <td>Tattoo Artists and Tattoo Parlors (216-RICR-40-10-15)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="unstriped meta" style="padding-bottom:20px;">
+                            <tbody>
+                                <tr>
+                                    <td width="300px"><strong>Type of Filing</strong></td>
+                                    <td>
+
+Amendment                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Regulation Status</strong></td>
+                                    <td>
+                                            <span class="">Inactive</span>
+                                                        <input type="submit" class="button float-right" id="ViewActiveRule" name="View Active Rule" value="View Active Rule" onclick="location.href='/Regulations/part/216-40-10-15'" />
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td><strong>Effective</strong></td>
+
+                                                                                <td>06/21/2018 to 01/04/2022</td>
+                                    </tr>
+                                <tr>
+                                    <td>
+                                        <strong>Additional Information</strong>
+</td>
+                                    <td colspan="2"><a class="no_load" href="" style="color: #1a73e8; " target="_blank">
+                                                        <b></b>
+                                        </td>
+                                    
+                                </tr>
+                                </tbody>
+                        </table>
+                        <div>
+                            <p>
+                                <strong style="padding-bottom:20px">Regulation Authority:</strong>
+                            </p>
+                            <p>
+R.I. Gen. Laws &#167;&#167; 23-1-39(a) and (b)<br />
+                            </p>
+                        </div>
+
+                                <div>
+                                    <p>
+                                            <strong style="padding-bottom:20px">Purpose and Reason:</strong>
+                                    </p>
+                                    <p>
+In accordance with the Administrative Procedures Act, R.I. Gen. Laws Section 42-35-3(a)(1), the following is a concise statement regarding this rulemaking for Tattoo Artists and Tattoo Parlors (216-RICR-40-10-15). This amendment to the regulations creates Authority and Incorporated Materials sections, creates procedures for tattoo artist apprenticeship, revises term utilized to refer to RIDOH and Division of Customer Services for consistency, clarifies requirements for tattooing practice, include microblading and permanent makeup in tattoo requirements, and removes superfluous language.
+
+No comments were received during the public comment period; therefore no non-technical revisions were made to the regulations posted for public comment, and no justification for not implementing suggested revisions is required.
+
+In the development of this rule, consideration was given to: 1) alternative approaches; 2) overlap or duplication with other statutory and regulatory provisions; and 3) significant economic impact on small business. No alternative approach, duplication, or overlap was identified based on available information. RIDOH has determined that the benefits of this rule justify its costs.                                     </p>
+                                </div>
+
+
+
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane " id="third">
+
+                        <div class="row">
+                            <span>To view the official Final Regulation for accessibility and readability, click Download Regulation:</span>
+                            <a style="cursor:pointer;color:white;" href="https://risos-apa-production-public.s3.amazonaws.com/DOH/REG_9705_20180806191124.pdf" class="medium button float-right">
+                                <i class="fa fa-file-pdf-o" aria-hidden="true">
+                                    <b style="color:white;"> Download Regulation</b>
+                                </i>
+                            </a>
+                        </div>
+                                <div class="pdf_div">
+                                    
+                                    <iframe class="pdf" src="https://docs.google.com/gview?url=https://risos-apa-production-public.s3.amazonaws.com/DOH/REG_9705_20180806191124.pdf&embedded=true"></iframe>
+
+                                </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="four">
+
+                                    <div class="callout ">
+                                            <span class="success label">
+                                                <strong>ACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15                               ">
+                                                    <span>Periodic Refile</span>
+
+                                                <span>- effective from 01/04/2022</span>
+
+                                                        <span></span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout primary">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=9705                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 06/21/2018</span>
+
+                                                        <span>to 01/04/2022</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=7034                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 12/10/2012</span>
+
+                                                        <span>to 06/21/2018</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=4857                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 10/18/2007</span>
+
+                                                        <span>to 12/10/2012</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=3805                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 01/11/2006</span>
+
+                                                        <span>to 10/18/2007</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=429                               ">
+                                                    <span>Periodic Refile</span>
+
+                                                <span>- effective from 01/02/2002</span>
+
+                                                        <span>to 01/11/2006</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="five">
+                        
+                        <p>
+                            Rulemaking Documents are organized by document type and are part of this rule’s rulemaking record (R.I. Gen. Laws § 42-35-2.3). If multiple documents of the same type are listed below, each is a unique document.
+                            If there are multiple Public Notice of Proposed Rulemaking documents, view each document to identify the most recently amended version, as it may be amended at any point during the Public Comment Period.
+                        </p>
+                        <ul>
+                                    <label>There are no electronic rulemaking documents for rules filed prior to  August 14, 2018. For rulemaking documents for rules filed prior to this date, please contact the appropriate agency's Rules Coordinator.</label>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="medium-3 columns">
+            <br />
+            <div class="row subscribe">
+                
+                <a class="medium button float-center" href='/Organizations'>2002-Current Regulations</a>
+            </div>
+            
+            <div class="row subscribe">
+                <a class="button float-center" href='https://catalog.sos.ri.gov/repositories/2/resources/340'>1950-2001 Regulations</a>
+            </div>
+
+            
+            <div class="row subscribe">
+                <a class="medium button float-center nowrap" href='/Organizations/help'>FAQs</a>
+            </div>
+            
+            <div class="row subscribe">
+                <a class="button float-center" href='https://rules.sos.ri.gov/Subscriptions/subscribe/all'>Subscribe to Notifications</a>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+<style>
+    .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+        background-color: #205493 !important;
+        color: #fff !important;
+    }
+
+    .tab-content {
+        border: 1px solid #e6e6e6 !important;
+        border-top: 0 !important;
+        background: #fefefe !important;
+        color: #0a0a0a !important;
+        transition: all 0.5s ease !important;
+        padding: 15px !important;
+    }
+
+
+    .tabs-title > a {
+        font-size: 1em !important;
+    }
+
+    .tabs-panel {
+        padding: 1rem !important;
+    }
+
+    a {
+        text-decoration: none !important;
+        cursor: pointer !important;
+    }
+
+    .tabs-title > a {
+        display: block;
+        padding: 1.25rem 1.2rem 1.25rem 1.5em;
+        font-size: 0.75rem;
+        line-height: 1;
+        color: #1779ba;
+    }
+
+    #example-tabs li.active, #example-tabs li.active a, #example-tabs li.tabs-title a[aria-selected="true"] {
+        background-color: #205493 !important;
+        color: #fff !important;
+    }
+
+    table tbody th, table tbody td {
+        padding: 0.5rem 0.625rem 0.625rem;
+    }
+
+    table.unstriped tbody {
+        background-color: #e6e6e6 !important;
+    }
+
+    table thead, table tbody, table tfoot, table tr, table td {
+        border: 2px solid #e6e6e6 !important;
+        background-color: #fefefe !important;
+    }
+
+    /*Public site Font style and link style issue 03022022*/
+    h1 {
+        font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
+        color: rgba(12, 61, 111,1) !important;
+        font-size: 2.0em;
+        margin-top: 0.5em;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+</style>
+
+<script type='text/javascript'>
+    function toggleShow(elm) {
+        $(elm).next().slideToggle('fast');
+    }
+</script>
+
+<style>
+    .label.alert {
+        background: #cc4b37 !important;
+        color: #fefefe !important;
+        margin-bottom: 0px !important;
+    }
+</style>
+
+
+        </div>
+    </div>
+    
+<footer role="contentinfo" id="site-footer">
+    <div id="language-select">
+        <div class="row">
+            <hr>
+            <div class="medium-8 columns text-left" style="font-size:16px">
+                <a href="#top" title="Return to the top of the page.">
+                    <span class="fa fa-caret-up fa-fw" title="Image of an arrow pointing up."></span>
+                    Return to top
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav role="navigation" id="site-quick-links">
+        <div class="row">
+            <div class="medium-8 columns">
+                <ul class="menu vertical medium-horizontal" style="font-size:16px">
+                    <li>
+                        <a href="https://www.sos.ri.gov/about-us" title="About the Department of State.">About</a>
+                    </li>
+                    <li>
+                        <a href="https://forms.sos.ri.gov/Contactus.aspx" title="Contact the Department of State.">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sos.ri.gov/news-and-events" title="Recent news from the Department of State.">News</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sos.ri.gov/divisions/notary-public" title="Notary Public information.">Notary Public</a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </div>
+    </nav>    <div id="footer-banner">
+        <div class="row">
+            <div class="medium-8 columns">
+                <div class="v-align-block site-title-block">
+                    <a href="/Admin/Login" title="Back to the Secretary of State homepage.">
+                        <img id="footer-logo" class="v-align-image" src=/Content/images/WebCoa.png alt="Image of the Rhode Island coat of arms.">
+                        <div class="v-align-text"> <span class="v-align-text-line">Rhode Island Department of State</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="medium-4 columns">
+                <ul id="social-icons" class="menu align-right">
+                    <li><a href="https://www.facebook.com/RIDepartmentOfState/?fref=ts" title="View the Secretary's Facebook page"><span class="fa fa-facebook-square fa-2x fa-fw" title="Facebook logo."></span><span class="sr-only">Facebook</span></a></li>
+                    <li><a href="https://www.linkedin.com/company/1391989" title="View the Secretary's LinkedIn page"><span class="fa fa-linkedin-square fa-2x fa-fw" title="LinkedIn Logo"></span><span class="sr-only">LinkedIn</span></a></li>
+                    <li><a href="https://twitter.com/risecstate" title="View the Secretary's Twitter page"><span class="fa fa-twitter-square fa-2x fa-fw" title="Twitter logo."></span><span class="sr-only">Twitter</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="/Scripts/chosen.jquery.js"></script>
+
+    
+</body>
+</html>

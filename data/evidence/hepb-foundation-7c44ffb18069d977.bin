@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<base href="https://www.hepb.org/"><!--[if lte IE 6]></base><![endif]-->
+	<title>Home &raquo; Hepatitis B Foundation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="A national nonprofit dedicated to finding a cure and improving the quality of life for people affected by hepatitis B worldwide" />
+
+	
+    <link rel="shortcut icon" href="/favicon.ico?v=2" />
+    <link rel="shortcut icon" href="/favicon.png?v=3" />
+    <link rel="canonical" href="https://www.hepb.org/" />
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M94NG6X');</script>
+<!-- End Google Tag Manager -->
+
+    
+    
+    <!--[if lt IE 9]>
+    <script src="/themes/mysite/javascript/html5shiv.js"></script>
+    <script src="/themes/mysite/javascript/html5shiv-printshiv.js"></script>
+    <![endif]-->
+    
+    <!-- Google tag (gtag.js) provided by elevation web (elevationweb.org) on 19 Feb 2025 --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-737875003"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-737875003'); </script>
+    <!-- End Google tag (gtag.js) --> 
+    
+    <!-- Start elevation web ad event tracking --> 
+    
+    
+    
+    
+    <script> 
+        document.addEventListener("DOMContentLoaded", function() {
+            gtag('event', 'page_view', { send_to: 'AW-737875003' }); 
+            
+            setTimeout(() => {
+                gtag('event', 'twenty_sec_engagement_time', { 
+                    send_to: 'AW-737875003'
+                }); 
+            }, "20000");
+            
+            document.querySelector('body').addEventListener('click', () => { 
+                gtag('event', 'click', { send_to: 'AW-737875003' });
+            });
+            
+            document.querySelectorAll('a[href$=".pdf"]').forEach(function(link) {
+              link.addEventListener('click', function(event) {
+                gtag('event', 'file_download', { 
+                    send_to: 'AW-737875003',
+                  event_category: 'PDF Download',
+                  event_label: link.href,
+                  value: 1
+                });
+              });
+            });
+            
+            document.querySelectorAll('a[href^="mailto"]').forEach(function(link) {
+              link.addEventListener('click', function(event) {
+                gtag('event', 'click___email', { 
+                    send_to: 'AW-737875003',
+                      event_category: 'Email Link',
+                      event_label: link.href,
+                      value: 1
+                });
+              });
+            });
+            
+            document.querySelectorAll('a[href^="https://interland3.donorperfect.net/weblink/WebLink.aspx"]').forEach(function(link) {
+                link.addEventListener('click', function(event) {
+                    gtag('event', 'click___make_monthly_gift___donate_page', { 
+                        send_to: 'AW-737875003'
+                    }); 
+                });
+            });
+        });
+
+    </script>
+    
+    <!-- End elevation web ad event tracking --> 
+<link rel="stylesheet" type="text/css" href="/themes/mysite/css/fonts.css?m=1463425472" />
+<link rel="stylesheet" type="text/css" href="/themes/mysite/combined/Base.css?m=1760608883" />
+<link rel="stylesheet" type="text/css" href="/themes/mysite/combined/HomePage.css?m=1760608883" />
+<link rel="stylesheet" type="text/css" href="/themes/mysite/combined/Responsive.css?m=1760608883" />
+</head>
+<body class="browser-ie index">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M94NG6X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    
+	<div id="alert_banner_wrap" class="wrap">
+	<div id="alert_banner" class="typography">
+		<h4 style="text-align: center;"><span>October is Liver Cancer Awareness Month. Learn more about the connection between hepatitis B and liver cancer </span><strong><span><a href="research-and-programs/liver/" target="_blank">here</a></span></strong><span>.</span></h4>
+	</div>
+</div>
+	<div id="header_wrap" class="wrap no-border">
+
+		<header class="clearfix">
+			<nav id="top_nav">
+				<ul>
+					
+						
+							<li><a href="/about-us/" target="_self" class="link" id="nav1"  heading="1">About Us</a>
+								
+									<div class="dropdown" style="display:none;">
+										<ul>
+											
+												
+													<li><a href="/about-us/mission-and-history/" target="_self" >Mission &amp; History</a></li>
+												
+													<li><a href="/about-us/board-of-directors-and-staff/" target="_self" >Board of Directors &amp; Staff</a></li>
+												
+													<li><a href="/about-us/baruch-blumberg-md-dphil/" target="_self" >Baruch Blumberg, MD, DPhil</a></li>
+												
+													<li><a href="/about-us/annual-reports/" target="_self" >Annual Reports</a></li>
+												
+													<li><a href="/about-us/our-videos/" target="_self" >Our Videos</a></li>
+												
+													<li><a href="/about-us/career-opportunities/" target="_self" >Career Opportunities </a></li>
+												
+											
+										</ul>
+									</div><!--dropdown-->
+								
+							</li>
+						
+					
+						
+					
+						
+							<li><a href="/quick-links/" target="_self" class="link" id="nav3"  heading="1">Quick Links</a>
+								
+									<div class="dropdown" style="display:none;">
+										<ul>
+											
+												
+													<li><a href="/treatment-and-management/drug-watch/" target="_self" >Drug Watch</a></li>
+												
+													<li><a href="/treatment-and-management/clinical-trials/" target="_self" >Clinical Trials</a></li>
+												
+													<li><a href="/treatment-and-management/physician-directory/" target="_self" >Physician Directory</a></li>
+												
+													<li><a href="https://www.hepbstories.org/" target="_self" >HepB Stories</a></li>
+												
+													<li><a href="/what-is-hepatitis-b/faqs/" target="_self" >FAQs &amp; Answers</a></li>
+												
+													<li><a href="https://hepbtraining.org/" target="_self" >Online Training Hub</a></li>
+												
+											
+										</ul>
+									</div><!--dropdown-->
+								
+							</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							<li><a href="/contact-us/" target="_self" class="link" id="nav10" >Contact Us</a>
+								
+							</li>
+						
+					
+						
+							<li><a href="/languages/" target="_self" class="link" id="nav11"  heading="1">Languages</a>
+								
+									<div class="dropdown dropdown_cols clearfix" style="display:none;">
+										<ul>
+											
+												
+													<li><a href="/languages/chinese-traditional/" target="_self" >Chinese Traditional</a></li>
+													
+												
+													<li><a href="/languages/chinese-simplified/" target="_self" >Chinese Simplified</a></li>
+													
+												
+													<li><a href="/languages/french/" target="_self" >French</a></li>
+													
+												
+													<li><a href="/languages/hindi/" target="_self" >Hindi</a></li>
+													
+												
+													<li><a href="/languages/japanese/" target="_self" >Japanese</a></li>
+													
+												
+													<li><a href="/languages/korean/" target="_self" >Korean</a></li>
+													
+												
+													<li><a href="/languages/laotian/" target="_self" >Laotian</a></li>
+													</ul><ul>
+												
+													<li><a href="/languages/mongolian/" target="_self" >Mongolian</a></li>
+													
+												
+													<li><a href="/languages/spanish/" target="_self" >Spanish</a></li>
+													
+												
+													<li><a href="/languages/turkish/" target="_self" >Turkish</a></li>
+													
+												
+													<li><a href="/languages/vietnamese/" target="_self" >Vietnamese</a></li>
+													
+												
+													<li><a href="/languages/tagalog/" target="_self" >Tagalog</a></li>
+													
+												
+													<li><a href="/languages/amharic/" target="_self" >Amharic</a></li>
+													
+												
+													<li><a href="/languages/arabic/" target="_self" >Arabic </a></li>
+													</ul><ul>
+												
+													<li><a href="/languages/marshallese/" target="_self" >Marshallese</a></li>
+													
+												
+													<li><a href="/languages/yoruba/" target="_self" >Yoruba</a></li>
+													
+												
+											
+										</ul>
+									</div><!--dropdown-->
+								
+							</li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</ul>
+			</nav>
+			<a href="/" id="logo"><img src="/themes/mysite/images/new-logo-2026.png" alt="Hepatitis B Foundation | Baruch S. Blumberg Institute" /></a>    
+			<div id="header_right">
+				<div id="home_search" class="clearfix">
+					<form action="/site-search/results" method="get" enctype="application/x-www-form-urlencoded">
+						<input id="search_box" type="text" name="Search" class="text nolabel" placeholder="Search" />
+						<input id="submit" class="collapsed" type="submit" value="" />
+					</form>
+				</div>
+				<a target="_blank" href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=hepb&amp;id=2" id="subscribe">Subscribe</a>
+				<a href="/donate" id="donate">Donate</a>
+			</div><!--header_right-->
+		</header>
+	</div><!--header_wrap-->
+
+	<div id="nav_wrap" class="wrap">
+		<nav class="desktop">
+			<ul>
+				
+					
+						<li class="mobile_nav_item"><a href="/about-us/" target="_self" class="link" id="nav1"  heading="1">About Us</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/about-us/mission-and-history/" target="_self" >Mission &amp; History</a></li>
+        
+            <li><a href="/about-us/board-of-directors-and-staff/" target="_self" >Board of Directors &amp; Staff</a></li>
+        
+            <li><a href="/about-us/baruch-blumberg-md-dphil/" target="_self" >Baruch Blumberg, MD, DPhil</a></li>
+        
+            <li><a href="/about-us/annual-reports/" target="_self" >Annual Reports</a></li>
+        
+            <li><a href="/about-us/our-videos/" target="_self" >Our Videos</a></li>
+        
+            <li><a href="/about-us/career-opportunities/" target="_self" >Career Opportunities </a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+				
+					
+						<li class="mobile_nav_item"><a href="/quick-links/" target="_self" class="link" id="nav3"  heading="1">Quick Links</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/treatment-and-management/drug-watch/" target="_self" >Drug Watch</a></li>
+        
+            <li><a href="/treatment-and-management/clinical-trials/" target="_self" >Clinical Trials</a></li>
+        
+            <li><a href="/treatment-and-management/physician-directory/" target="_self" >Physician Directory</a></li>
+        
+            <li><a href="https://www.hepbstories.org/" target="_self" >HepB Stories</a></li>
+        
+            <li><a href="/what-is-hepatitis-b/faqs/" target="_self" >FAQs &amp; Answers</a></li>
+        
+            <li><a href="https://hepbtraining.org/" target="_self" >Online Training Hub</a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+						<li ><a href="/what-is-hepatitis-b/" target="_self" class="link" id="nav4"  heading="1">What Is Hepatitis B?</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/what-is-hepatitis-b/what-is-hepb/" target="_self" >What Is Hepatitis B?</a></li>
+        
+            <li><a href="/what-is-hepatitis-b/the-abcs-of-viral-hepatitis/" target="_self" >The ABCs of Viral Hepatitis</a></li>
+        
+            <li><a href="/research-and-programs/liver/" target="_self" >Liver Cancer and Hepatitis B</a></li>
+        
+            <li><a href="/research-and-programs/hepdeltaconnect/" target="_self" >Hepatitis Delta Coinfection</a></li>
+        
+            <li><a href="/what-is-hepatitis-b/hepatitis-c-co-infection/" target="_self" >Hepatitis C Coinfection</a></li>
+        
+            <li><a href="/what-is-hepatitis-b/hivaids-co-infection/" target="_self" >HIV/AIDS Coinfection</a></li>
+        
+            <li><a href="/what-is-hepatitis-b/faqs/" target="_self" >Frequently Asked Questions about Hepatitis B</a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+						<li ><a href="/prevention-and-diagnosis/" target="_self" class="link" id="nav5"  heading="1">Prevention &amp; Diagnosis</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/prevention-and-diagnosis/vaccination/" target="_self" >Vaccine</a></li>
+        
+            <li><a href="/prevention-and-diagnosis/transmission/" target="_self" >Transmission</a></li>
+        
+            <li><a href="/prevention-and-diagnosis/prevention-tips/" target="_self" >Prevention Tips</a></li>
+        
+            <li><a href="/prevention-and-diagnosis/post-exposure-treatment/" target="_self" >Post-Exposure Treatment</a></li>
+        
+            <li><a href="/prevention-and-diagnosis/diagnosis/" target="_self" >Blood Tests for Diagnosis of Hepatitis B</a></li>
+        
+            <li><a href="/prevention-and-diagnosis/newly-diagnosed/" target="_self" >Newly Diagnosed</a></li>
+        
+            <li><a href="/prevention-and-diagnosis/prevention-education-resources/" target="_self" >Prevention Education Resources</a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+						<li ><a href="/treatment-and-management/" target="_self" class="link" id="nav6"  heading="1">Treatment &amp; Management	</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/treatment-and-management/patient-assistance-programs-in-the-u-s/" target="_self" >Medication Assistance Programs in the U.S.</a></li>
+        
+            <li><a href="/treatment-and-management/adults-with-hepatitis-b/" target="_self" >Adults Living with Hep B</a></li>
+        
+            <li><a href="/treatment-and-management/children-with-hepatitis-b/" target="_self" >Children Living with Hep B</a></li>
+        
+            <li><a href="/treatment-and-management/pregnancy-and-hbv/" target="_self" >Pregnancy and Hep B</a></li>
+        
+            <li><a href="/treatment-and-management/treatment/" target="_self" >Treatment Options</a></li>
+        
+            <li><a href="/treatment-and-management/clinical-trials/" target="_self" >Clinical Trials</a></li>
+        
+            <li><a href="/treatment-and-management/locating-clinical-trials/" target="_self" >Locating Clinical Trials</a></li>
+        
+            <li><a href="/treatment-and-management/physician-directory/" target="_self" >Physician Directory</a></li>
+        
+            <li><a href="/treatment-and-management/drug-watch/" target="_self" >Drug Watch</a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+						<li ><a href="/resources-and-support/" target="_self" class="link" id="nav7"  heading="1">Resources &amp; Support</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/resources-and-support/hep-b-birth-dose-media-toolkit/" target="_self" >Hep B Birth Dose Media Toolkit</a></li>
+        
+            <li><a href="/resources-and-support/liver-cancer-awareness-month/" target="_self" >Liver Cancer Awareness Month</a></li>
+        
+            <li><a href="/resources-and-support/our-blog/" target="_self" >Our Blog</a></li>
+        
+            <li><a href="/resources-and-support/patient-education-tool/" target="_self" >Patient and Provider Opportunities </a></li>
+        
+            <li><a href="/resources-and-support/hepatitis-b-foundations-discrimination-registry/" target="_self" >Hepatitis B Foundation&#039;s Discrimination Registry</a></li>
+        
+            <li><a href="/resources-and-support/know-your-rights/" target="_self" >Know Your Rights</a></li>
+        
+            <li><a href="/resources-and-support/online-support-groups/" target="_self" >Online Support Groups</a></li>
+        
+            <li><a href="/resources-and-support/fact-sheets/" target="_self" >Fact Sheets</a></li>
+        
+            <li><a href="/resources-and-support/online-training/" target="_self" >Online Training</a></li>
+        
+            <li><a href="/resources-and-support/glossary-of-terms-related-to-hepatitis-b/" target="_self" >Glossary </a></li>
+        
+            <li><a href="/resources-and-support/b-informed-conference-videos-and-information/" target="_self" >B Informed Conference Videos and Information</a></li>
+        
+            <li><a href="/resources-and-support/patient-facing-infographics/" target="_self" >Patient-facing infographics</a></li>
+        
+            <li><a href="https://bheppy.buzzsprout.com/" target="_self" >B Heppy Podcast </a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+						<li ><a href="/research-and-programs/" target="_self" class="link" id="nav8"  heading="1">Research &amp; Programs</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/research-and-programs/research-for-a-cure/" target="_self" >Our Research Institute</a></li>
+        
+            <li><a href="/research-and-programs/education-and-training/" target="_self" >Academic Programs</a></li>
+        
+            <li><a href="/research-and-programs/hep-b-united/" target="_self" >Hep B United Coalition</a></li>
+        
+            <li><a href="/research-and-programs/advocacy/" target="_self" >National Patient Advocacy</a></li>
+        
+            <li><a href="/research-and-programs/public-health-programs/" target="_self" >International Programs</a></li>
+        
+            <li><a href="/research-and-programs/patient-story-telling-project/" target="_self" >Storytelling Campaigns</a></li>
+        
+            <li><a href="/research-and-programs/hepdeltaconnect/" target="_self" >Hepatitis Delta Connect</a></li>
+        
+            <li><a href="/research-and-programs/liver/" target="_self" >Liver Cancer Connect</a></li>
+        
+            <li><a href="/research-and-programs/chipo/" target="_self" >Coalition Against Hepatitis for People of African Origin</a></li>
+        
+            <li><a href="/research-and-programs/hep-b-united-philadelphia/" target="_self" >Hep B United Philadelphia </a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+						<li ><a href="/news-and-events/" target="_self" class="link" id="nav9"  heading="1">News &amp; Events</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/news-and-events/world-hepatitis-day/" target="_self" >World Hepatitis Day </a></li>
+        
+            <li><a href="https://fundraisers.nyrr.org/teams/hepatitis-b-foundation-3?partner=a274feecba35d54406ea" target="_self" >NYC Marathon</a></li>
+        
+            <li><a href="/news-and-events/news/" target="_self" >Hep B Press Releases</a></li>
+        
+            <li><a href="/news-and-events/vaccine-recommendations-revisions-by-federal-officials-our-response/" target="_self" >Vaccine recommendations revisions by federal officials: Our response</a></li>
+        
+            <li><a href="/news-and-events/treating-hepatitis-b-position-statement/" target="_self" >Treating Hepatitis B: Position Statement</a></li>
+        
+            <li><a href="/news-and-events/in-the-news-coverage-of-our-programs-and-people/" target="_self" >News coverage of our programs</a></li>
+        
+            <li><a href="/news-and-events/reports/" target="_self" >HBF Reports and Publications</a></li>
+        
+            <li><a href="/news-and-events/free-newsletters/" target="_self" >Monthly Newsletters</a></li>
+        
+            <li><a href="/news-and-events/calendar-of-events/" target="_self" >Calendar of Events</a></li>
+        
+            <li><a href="/news-and-events/patient-focused-drug-development-meeting-virtual/" target="_self" >Externally Led Patient-Focused Drug Development</a></li>
+        
+            <li><a href="/news-and-events/witte-lecture/" target="_self" >Witte Lecture </a></li>
+        
+            <li><a href="/news-and-events/princeton-workshop/" target="_self" >Princeton Workshop</a></li>
+        
+            <li><a href="/news-and-events/awards-and-events/" target="_self" >Awards and Events</a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+						<li class="mobile_nav_item"><a href="/contact-us/" target="_self" class="link" id="nav10" >Contact Us</a></li>
+					
+				
+					
+						<li class="mobile_nav_item"><a href="/languages/" target="_self" class="link" id="nav11"  heading="1">Languages</a>
+    <ul class="dropdown" style="display:none;">
+        
+            <li><a href="/languages/chinese-traditional/" target="_self" >Chinese Traditional</a></li>
+        
+            <li><a href="/languages/chinese-simplified/" target="_self" >Chinese Simplified</a></li>
+        
+            <li><a href="/languages/french/" target="_self" >French</a></li>
+        
+            <li><a href="/languages/hindi/" target="_self" >Hindi</a></li>
+        
+            <li><a href="/languages/japanese/" target="_self" >Japanese</a></li>
+        
+            <li><a href="/languages/korean/" target="_self" >Korean</a></li>
+        
+            <li><a href="/languages/laotian/" target="_self" >Laotian</a></li>
+        
+            <li><a href="/languages/mongolian/" target="_self" >Mongolian</a></li>
+        
+            <li><a href="/languages/spanish/" target="_self" >Spanish</a></li>
+        
+            <li><a href="/languages/turkish/" target="_self" >Turkish</a></li>
+        
+            <li><a href="/languages/vietnamese/" target="_self" >Vietnamese</a></li>
+        
+            <li><a href="/languages/tagalog/" target="_self" >Tagalog</a></li>
+        
+            <li><a href="/languages/amharic/" target="_self" >Amharic</a></li>
+        
+            <li><a href="/languages/arabic/" target="_self" >Arabic </a></li>
+        
+            <li><a href="/languages/marshallese/" target="_self" >Marshallese</a></li>
+        
+            <li><a href="/languages/yoruba/" target="_self" >Yoruba</a></li>
+        
+    </ul>
+</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			</ul>
+		</nav>
+	</div><!--nav_wrap-->
+
+    <div id="banner_wrap" class="wrap">
+    	<div id="banner" class="home typography clearfix">
+			<div id="hp_banner_left">&nbsp;</div>
+        	<div id="banner_text">
+                <h1>Hear from people living with hepatitis B</h1>
+                <a href="https://www.hepbstories.org/" id="banner_link" target="_blank">Their Stories</a>
+                <a href="javascript:;" id="home_scroll" onClick="jScroll('scroll_here');"><img src="/themes/mysite/images/banner_arrow.png" /></a>
+            </div><!--banner_text-->
+			<div id="banner_news">
+                <img src="/themes/mysite/images/news_header.png" alt="Hepatitis B News">
+                 <ul id="block5_news">
+                    
+						<li>
+                            <a href="https://www.hepb.org/news-and-events/news/bepirovirsen/">FDA approval bepirovirsen (Hibsago), a new treatment option for chronic hepatitis B</a>
+						</li>
+                    
+						<li>
+                            <a href="https://www.hepb.org/news-and-events/news/guineabissaustudy/">The Hepatitis B Foundation and The African Hepatitis B Advocacy Coalition denounce the unethical HepB birth dose study in Guinea-Bissau</a>
+						</li>
+                    
+						<li>
+                            <a href="https://www.hepb.org/news-and-events/news-2/child-immunization/">Our response to proposed changes in childhood immunizations recommendations  </a>
+						</li>
+                    
+						<li>
+                            <a href="https://www.hepmag.com/article/challenges-victories-world-hepatitis-day-2026">Challenges and Victories for World Hepatitis Day 2026</a>
+						</li>
+                    
+						<li>
+                            <a href="https://www.hepb.org/news-and-events/news-2/the-hepatitis-b-foundation-introduces-an-updated-mission-statement-and-tagline-on-world-hepatitis-day-the-birthday-of-baruch-s-blumberg?stage=Stage">The Hepatitis B Foundation introduces an updated mission statement and tagline for World Hepatitis Day</a>
+						</li>
+                    
+						<li>
+                            <a href="https://www.hepb.org/news-and-events/news-2/fda-approves-first-ever-treatment-for-hepatitis-delta-offering-hope-to-80000-americans/">FDA approves first-ever treatment for hepatitis delta</a>
+						</li>
+                    
+                </ul>
+      		</div>
+        </div><!--banner-->
+    </div><!--banner_wrap-->
+
+    <div id="block1_wrap" class="wrap">
+        <a name="scroll_here"></a>
+    	<div id="block1" class="home typography">
+        	<p>We are a nonprofit organization working around the world to improve the lives of those affected by hepatitis B, hepatitis D and liver cancer; drive prevention, diagnosis and treatment and accelerate scientific research to achieve cures.</p>
+        </div><!--block1-->
+    </div><!--block1_wrap-->
+
+    <div id="block2_wrap" class="wrap dots">
+    	<div id="block2" class="home typography">
+        	<ul id="callouts" class="clearfix">
+            	<li>
+                	<img src="/themes/mysite/images/callout1_img.jpg">
+                    <a href="/prevention-and-diagnosis/newly-diagnosed/" class="callout_link"><img src="/themes/mysite/images/callout1.png" alt="Are You Newly Diagnosed? Learn More"></a>
+                </li>
+            	<li>
+                	<img src="/themes/mysite/images/callout2_img.jpg">
+                    <a href="/treatment-and-management/adults-with-hepatitis-b" class="callout_link"><img src="/themes/mysite/images/callout2.png" alt="Living with Hepatitis B"></a>
+                </li>
+            	<li>
+                	<img src="/themes/mysite/images/callout3_img.jpg">
+                    <a href="/donate" class="callout_link"><img src="/themes/mysite/images/callout3.png" alt="Support Our Programs"></a>
+                </li>
+            </ul>
+        </div><!--block2-->
+    </div><!--block2_wrap-->
+
+    <div id="block3_wrap" class="wrap">
+    	<div id="block3" class="home typography">
+        	<h2><strong>2 Billion</strong> People have been infected with Hepatitis B <strong>Worldwide</strong></h2>
+        	<p>The Hepatitis B Foundation is working on every front to improve the lives of people living with hepatitis B.</p>
+            <ul id="learn_buttons">
+            	<li><a href="/research-and-programs/research-for-a-cure/"><img src="/themes/mysite/images/learn_more1.png" alt="Learn More About Our Dedicated Research Institute"></a></li>
+            	
+				<li><a href="/research-and-programs/hepdeltaconnect/"><img src="/themes/mysite/images/learn_more2.png" alt="Learn More About Our Hepatitis Delta Connect Program"></a></li>
+            	<li><a href="/research-and-programs/patient-story-telling-project/"><img src="/themes/mysite/images/learn_more3.png" alt="Learn More About Our #justB Storytelling Campaign"></a></li>
+            </ul>
+        </div><!--block3-->
+    </div><!--block3_wrap-->
+
+    <div id="block4_wrap" class="wrap">
+    	<div id="block4" class="home typography">
+        	<h2>Learn About Hepatitis B in <strong>16 Other Languages</strong>.</h2>
+            <div id="language_block">
+				<ul class="languages clearfix">
+                    <li><a href="/languages/chinese-simplified"><img src="/themes/mysite/images/chinese_simplified.png" alt="Chinese Simplified"></a></li>
+                    <li><a href="/languages/chinese-traditional"><img src="/themes/mysite/images/chinese_traditional-2.png" alt="Chinese Traditional"></a></li>
+                    <li><a href="/languages/french"><img src="/themes/mysite/images/french.png" alt="French"></a></li>
+                    <li><a href="/languages/japanese"><img src="/themes/mysite/images/japanese.png" alt="Japanese"></a></li>
+                    <li><a href="/languages/korean"><img src="/themes/mysite/images/korean.png" alt="Korean"></a></li>
+                    <li class="last"><a href="/languages/laotian"><img src="/themes/mysite/images/laotian-2.png" alt="Laotian"></a></li>
+					<li class="divider"></li>
+                    <li><a href="/languages/mongolian"><img src="/themes/mysite/images/mongolian.png" alt="Mongolian"></a></li>
+                    <li><a href="/languages/spanish"><img src="/themes/mysite/images/spanish.png" alt="Spanish"></a></li>
+                    <li><a href="/languages/turkish"><img src="/themes/mysite/images/turkish.png" alt="Turkish"></a></li>
+					<li><a href="/languages/vietnamese"><img src="/themes/mysite/images/vietnamese-2.png" alt="Vietnamese"></a></li>
+                    <li><a href="/languages/hindi"><img src="/themes/mysite/images/hindi-2.png" alt="Hindi"></a></li>
+					<li class="last"><a href="/languages/tagalog/"><img src="/themes/mysite/images/tagalog-2.png" alt="Hindi"></a></li>
+					<li class="divider"></li>
+					<li><a href="/languages/amharic/"><img src="/themes/mysite/images/amharic.png" alt="Amharic"></a></li>
+					<li><a href="/languages/arabic/"><img src="/themes/mysite/images/arabic.png" alt="Arabic"></a></li>
+					<li><a href="/languages/yoruba/"><img src="/themes/mysite/images/yoruba.png" alt="Yoruba"></a></li>
+					<li class="last"><a href="/languages/marshallese/"><img src="/themes/mysite/images/marshallese.png" alt="Marshallese"></a></li>
+                </ul>
+            </div><!--language_block-->
+        </div><!--block4-->
+    </div><!--block4_wrap-->
+
+
+
+    <div id="block6_wrap" class="wrap">
+    	<div id="block6" class="home typography">
+        	<h3>Hepatitis B Foundation Family of Sites</h3>
+			<ul class="hepb_sites clearfix">
+                <li id="hepb_site1"><a href="/"><img src="/themes/mysite/images/hbf.png" alt="Hepatitis B Foundation: Baruch S. Blumberg Institute"></a></li>
+                <li id="hepb_site2"><a href="/livercancer" target="_blank"><img src="/themes/mysite/images/lcc.png" alt="Liver Cancer Connect"></a></li>
+                <li id="hepb_site3"><a href="https://www.hbvmeeting.org/" target="_blank"><img src="/themes/mysite/images/ihbvm.png" alt="International HBV Meeting: The Molecular Biology of Hepatitis B Viruses"></a></li>
+                <li id="hepb_site4"><a href="http://www.pabiotechbc.org" target="_blank"><img src="/themes/mysite/images/pbc.png" alt="Pennsylvania Biotechnology Center of Bucks County"></a></li>
+				<li id="hepb_site9"><a href="/research-and-programs/chipo/" target="_blank"><img src="/themes/mysite/images/chipo.png" alt="Coalition Against Hepatitus For People of African Origin"></a></li>
+				<li id="hepb_site11"><a href="https://abachepb.org" target="_blank"><img src="/themes/mysite/images/ABAC-logo-v4.png" alt="African Hepatitis B Advocacy Coalition"></a></li>
+                <li id="hepb_site5"><a href="http://blumberginstitute.org/" target="_blank"><img src="/themes/mysite/images/bsbi.png" alt="Baruch S. Blumberg Institute: Hepatitis B Foundation"></a></li>
+                <li id="hepb_site6"><a href="/blog/" target="_blank"><img src="/themes/mysite/images/Hep-B-Blog-logo-v4.png" alt="Hep B Blog"></a></li>
+                <li id="hepb_site7"><a href="http://hepbunitedphiladelphia.org/" target="_blank"><img src="/themes/mysite/images/HBU-philly-logo-v2.png" alt="Hep B United: Philadelphia"></a></li>
+                <li id="hepb_site8"><a href="http://hepbunited.org/" target="_blank"><img src="/themes/mysite/images/hbu.png" alt="Hep B United"></a></li>
+				<li id="hepb_site10"><a href="/research-and-programs/hepdeltaconnect/" target="_blank"><img src="/themes/mysite/images/hepb-delta-connect.png" alt="Hepatitus Delta Connect"></a></li>
+				<li id="hepb_site12"><a href="https://www.hepbgala.org" target="_blank"><img src="/themes/mysite/images/Gala-logo-v3.png" alt="Hepatitis B Foundation Gala"></a></li>
+            </ul> 
+        </div><!--block6-->
+    </div><!--block6_wrap-->
+
+    <div id="footer_wrap" class="wrap">
+    <footer>
+        <nav id="col1" class="clearfix">
+            <ul>
+                
+                    <li><a href="/about-us/" target="_self" class="link" >About Us</a></li>
+                    
+                
+                    <li><a href="/" target="_self" class="current" >Home</a></li>
+                    
+                
+                    <li><a href="/quick-links/" target="_self" class="link" >Quick Links</a></li>
+                    
+                
+                    <li><a href="/what-is-hepatitis-b/" target="_self" class="link" >What Is Hepatitis B?</a></li>
+                    
+                
+                    <li><a href="/prevention-and-diagnosis/" target="_self" class="link" >Prevention &amp; Diagnosis</a></li>
+                    
+                
+                    <li><a href="/treatment-and-management/" target="_self" class="link" >Treatment &amp; Management	</a></li>
+                    </ul><ul>
+                
+                    <li><a href="/resources-and-support/" target="_self" class="link" >Resources &amp; Support</a></li>
+                    
+                
+                    <li><a href="/research-and-programs/" target="_self" class="link" >Research &amp; Programs</a></li>
+                    
+                
+                    <li><a href="/news-and-events/" target="_self" class="link" >News &amp; Events</a></li>
+                    
+                
+                    <li><a href="/contact-us/" target="_self" class="link" >Contact Us</a></li>
+                    
+                
+                    <li><a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=hepb&amp;id=2" target="_blank" class="link" >Subscribe</a></li>
+                    
+                
+                    <li><a href="/disclaimer/" target="_self" class="link" >Disclaimer &amp; Terms of Use</a></li>
+                    </ul><ul>
+                
+                    <li><a href="/privacy-policy/" target="_self" class="link" >Privacy Policy</a></li>
+                    
+                
+                    <li><a href="/financial-conflict-of-interest-policy/" target="_self" class="link" >Corporate Ethics &amp; FCOI Policies</a></li>
+                    
+                
+            </ul>
+        </nav><!--col1-->
+
+        <div id="col3">
+            <ul id="social">
+                <li><a href="https://www.facebook.com/hepbfoundation" id="icon_fb" target="_blank"><img src="/themes/mysite/images/facebook.png" alt="Like us on Facebook"></a></li>
+                <li><a href="https://twitter.com/hepbfoundation" id="icon_tw" target="_blank"><img src="/themes/mysite/images/twitter.png" alt="Follow us on Twitter"></a></li>
+                <li><a href="/blog" id="icon_bl"><img src="/themes/mysite/images/blog.png" alt="Check out our Blog"></a></li>
+                <li><a href="https://www.youtube.com/user/HepBFoundation" id="icon_yt" target="_blank"><img src="/themes/mysite/images/youtube.png" alt="Check our our YouTube Channel"></a></li>
+				<li><a href="https://www.linkedin.com/company/hepatitis-b-foundation" id="icon_li" target="_blank"><img src="/themes/mysite/images/linkedin.png" alt="Connect with us on LinkedIn"></a></li>
+				<li><a href="https://www.instagram.com/hepbfoundation" id="icon_in" target="_blank"><img src="/themes/mysite/images/instagram.png" alt="Follow us on Instagram"></a></li>
+				<li><a href="https://bheppy.buzzsprout.com/" id="icon_bs" target="_blank"><img src="/themes/mysite/images/buzzsprout.png" alt="Listen to us on Buzz Sprout"></a></li>
+            </ul><!--social-->
+            <address>
+            	<a href="/" id="footer_logo"><img src="/themes/mysite/images/new-logo-2026.png" alt="Hepatitis B Foundation | Baruch S. Blumberg Institute" /></a>
+                <p>
+                	3805 Old Easton Road<br />
+                    Doylestown, PA 18902<br />
+                    USA<br />
+                    Phone: 215.489.4900<br />
+                    Fax: 215-489-4920<br />
+                    <a href="/contact-us" id="footer_contact">Contact Us</a>
+                </p>
+            </address>
+        </div><!--col3-->
+        <p id="copyright">
+            Copyright &copy; 2026 hepb.org<br />
+			
+	            <a href="http://www.iqnection.com" target="_blank">Website Design &amp; Website Hosting by IQnection</a>
+			
+        </p>
+    </footer>
+</div><!--footer_wrap-->
+
+
+
+
+
+<script type="text/javascript" src="/themes/mysite/combined/Base.js?m=1760608883"></script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "address": {
+    "@type": "3805 Old Easton Road",
+    "addressLocality": "Doylestown",
+    "addressRegion": "PA",
+    "postalCode": "18902",
+    "email": "montana.mcalorum@hepb.org" 
+  },
+  "name": "Hepatitis B Foundation",
+  "telephone": "215-489-4900",
+  "url": "hepb.org",
+  "logo": "https://www.hepb.org/themes/mysite/images/logo.png",
+  }
+}
+</script>
+</body>
+</html>

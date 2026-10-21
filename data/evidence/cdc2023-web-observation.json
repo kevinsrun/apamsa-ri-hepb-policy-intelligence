@@ -1,0 +1,17 @@
+{
+  "id": "cdc-chronic-2023-web",
+  "url": "https://www.cdc.gov/hepatitis-surveillance-2023/hepatitis-b/table-2-5.html",
+  "retrievedAt": "2026-10-21T02:37:21.547749+00:00",
+  "publicationDate": "2025-04-15",
+  "method": "Official CDC page independently opened with web tool; Rhode Island table row transcribed. This is a tool-mediated observation, not original HTTP bytes. Direct raw capture returned 403.",
+  "row": {
+    "State or jurisdiction": "Rhode Island",
+    "No.": 216,
+    "Rate": 19.7
+  },
+  "source": "CDC National Notifiable Diseases Surveillance System",
+  "limitations": [
+    "Reported confirmed newly reported chronic cases; rate per 100,000. Exact denominator absent.",
+    "Manual transcription must not be represented as a raw downloadable official dataset."
+  ]
+}

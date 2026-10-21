@@ -5,6 +5,12 @@ import { fileURLToPath } from 'node:url';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const routes = new Map([
   ['/', ['src/web/index.html','text/html; charset=utf-8']],
+  ['/policy', ['src/web/policy.html','text/html; charset=utf-8']],
+  ['/src/web/policy.css', ['src/web/policy.css','text/css; charset=utf-8']],
+  ['/src/web/policy-app.mjs', ['src/web/policy-app.mjs','text/javascript; charset=utf-8']],
+  ['/src/policy/export.mjs', ['src/policy/export.mjs','text/javascript; charset=utf-8']],
+  ['/src/policy/brief.mjs', ['src/policy/brief.mjs','text/javascript; charset=utf-8']],
+  ['/api/policy', ['data/processed/policy-intelligence.json','application/json; charset=utf-8']],
   ['/index.html', ['src/web/index.html','text/html; charset=utf-8']],
   ['/src/web/app.mjs', ['src/web/app.mjs','text/javascript; charset=utf-8']],
   ['/api/data', ['data/processed/ri_hepb_analytical_dataset.json','application/json; charset=utf-8']],
