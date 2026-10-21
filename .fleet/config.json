@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "RI Hepatitis B Policy Intelligence",
+    "languages": [
+      "JavaScript"
+    ],
+    "metadata": {}
+  },
+  "repository": {
+    "provider": "github",
+    "remote": "https://github.com/kevinsrun/apamsa-ri-hepb-policy-intelligence.git"
+  },
+  "instructions": {
+    "repository": "AGENTS.md"
+  },
+  "verification": {
+    "stopOnFailure": true,
+    "timeoutMs": 60000,
+    "maxOutputBytes": 100000,
+    "checks": [
+      {
+        "id": "existing",
+        "label": "Existing science and HTTP tests",
+        "command": "npm",
+        "args": [
+          "test"
+        ],
+        "required": true
+      },
+      {
+        "id": "policy",
+        "label": "Independent policy data and brief integrity",
+        "command": "node",
+        "args": [
+          "--test",
+          "src/tests/policy.test.mjs"
+        ],
+        "required": true
+      },
+      {
+        "id": "export-contract",
+        "label": "Independent new research export contract",
+        "command": "node",
+        "args": [
+          "contracts/export-contract.mjs"
+        ],
+        "required": true
+      }
+    ]
+  },
+  "tools": [
+    {
+      "id": "github",
+      "adapter": "github-cli",
+      "enabled": true,
+      "mode": "read-only",
+      "capabilities": [
+        "repository-discovery",
+        "pr-inspect",
+        "ci-inspect",
+        "diff-retrieval"
+      ]
+    }
+  ],
+  "capabilities": {
+    "codex": [
+      "architecture",
+      "implementation",
+      "final-review",
+      "branch-create",
+      "commit",
+      "pr-create",
+      "pr-inspect",
+      "ci-inspect",
+      "task-write",
+      "task-publish",
+      "task-close",
+      "workflow-write",
+      "process-execute",
+      "process-stop",
+      "live-acceptance-record",
+      "policy-override"
+    ],
+    "copilot": [
+      "trace",
+      "test",
+      "audit",
+      "bounded-implementation"
+    ],
+    "gemini": [
+      "independent-review",
+      "large-context-investigation"
+    ],
+    "antigravity": [
+      "independent-review",
+      "adversarial-review",
+      "architecture-investigation",
+      "defect-analysis",
+      "test-gap-analysis",
+      "large-context-investigation"
+    ],
+    "sentry": [
+      "runtime-error-evidence"
+    ],
+    "datadog": [
+      "telemetry-evidence"
+    ],
+    "blackfire": [
+      "performance-evidence"
+    ],
+    "camber": [
+      "compute-job"
+    ]
+  },
+  "deployment": {
+    "environments": [],
+    "productionPolicy": "approval-required",
+    "metadata": {}
+  },
+  "risk": {
+    "paths": [
+      {
+        "pattern": ".github/workflows/**",
+        "level": "high",
+        "reason": "CI and release control plane"
+      },
+      {
+        "pattern": "**/migrations/**",
+        "level": "high",
+        "reason": "Persistent data changes"
+      },
+      {
+        "pattern": "**/*secret*",
+        "level": "high",
+        "reason": "Potential credential material"
+      },
+      {
+        "pattern": "**/auth/**",
+        "level": "high",
+        "reason": "Authentication and authorization boundary"
+      },
+      {
+        "pattern": "**/billing/**",
+        "level": "high",
+        "reason": "Financial behavior"
+      },
+      {
+        "pattern": "**/queues/**",
+        "level": "medium",
+        "reason": "Queue delivery semantics"
+      },
+      {
+        "pattern": "**/adapters/**",
+        "level": "medium",
+        "reason": "Provider abstraction boundary"
+      }
+    ],
+    "operations": {
+      "production-deploy": "approval-required",
+      "destructive-migration": "approval-required",
+      "secret-mutation": "approval-required",
+      "branch-delete": "approval-required",
+      "force-push": "approval-required",
+      "production-data-mutation": "approval-required",
+      "credential-change": "approval-required"
+    }
+  },
+  "context": {
+    "include": [
+      "src/policy/export-contract.md",
+      "src/policy/brief.mjs"
+    ],
+    "exclude": [
+      "node_modules/**",
+      "dist/**",
+      "coverage/**",
+      ".git/**",
+      ".fleet/state/**",
+      "data/raw/**",
+      "acceptance/**",
+      "data/evidence/**",
+      "contracts/**",
+      "src/tests/**"
+    ],
+    "maxBytes": 16000
+  },
+  "ci": {
+    "setup": []
+  },
+  "integrations": {
+    "checks": []
+  },
+  "processes": [],
+  "telemetry": {
+    "estimatedBytesPerToken": 4
+  },
+  "providers": [
+    {
+      "id": "codex",
+      "adapter": "codex-existing",
+      "capabilities": [
+        "coding"
+      ],
+      "enabled": true
+    }
+  ],
+  "providerConfig": {
+    "codex": {
+      "executionMode": "bounded-source",
+      "model": "gpt-6-sol",
+      "economicClass": "subscription-quota"
+    }
+  },
+  "executionControl": {
+    "enabled": true,
+    "defaultTaskBudget": {
+      "maxInvocations": 1,
+      "maxRetries": 0,
+      "maxProviderFailures": 1,
+      "maxWallClockMs": 180000,
+      "maxProviderOutputBytes": 32768,
+      "maxArtifactBytes": 1048576,
+      "maxTotalTokens": 40000
+    },
+    "hostBudget": {
+      "maxInvocations": 3,
+      "maxRetries": 0,
+      "maxProviderFailures": 1,
+      "maxWallClockMs": 540000,
+      "maxProviderOutputBytes": 32768,
+      "maxArtifactBytes": 1048576,
+      "maxTotalTokens": 120000
+    },
+    "concurrency": {
+      "maxActiveWorkers": 1,
+      "maxCodingPerRepository": 1,
+      "byProvider": {
+        "codex": 1
+      }
+    },
+    "queue": {
+      "mode": "reject",
+      "maxWaitMs": 1000,
+      "pollIntervalMs": 100
+    },
+    "leases": {
+      "durationMs": 30000,
+      "heartbeatMs": 10000
+    },
+    "retry": {
+      "maxAttemptsPerExecution": 1,
+      "baseDelayMs": 500,
+      "maxDelayMs": 500,
+      "retryableCategories": []
+    },
+    "accounting": {
+      "codex": {
+        "tokenTelemetry": "reported"
+      }
+    },
+    "terminalHistoryLimit": 1000
+  }
+}

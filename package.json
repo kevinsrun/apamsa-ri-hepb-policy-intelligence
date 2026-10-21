@@ -8,7 +8,9 @@
     "pipeline": "node src/pipeline/ingest.mjs",
     "serve": "node scripts/serve.mjs",
     "test:unit": "node --test src/tests/*.test.mjs",
-    "test:browser": "node scripts/acceptance-browser.mjs"
+    "test:browser": "node scripts/acceptance-browser.mjs",
+    "policy:build": "python3 scripts/build-policy-dataset.py",
+    "test:policy": "node --test src/tests/policy.test.mjs"
   },
   "keywords": [
     "apamsa",

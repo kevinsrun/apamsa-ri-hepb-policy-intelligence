@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tattoo Artists and Tattoo Parlors (216-RICR-40-10-15) - Rhode Island Department of State</title>
+
+    
+    <link rel="shortcut icon" type="image/ico" href="/Content/Images/logo.jpg" />
+    
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="/Content/Site.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-3.6.0.min.js"></script>
+
+    
+    
+    <script src="/Scripts/dataTables/jquery.dataTables.min.js"></script>
+    <script src="/Scripts/dataTables/dataTables.responsive.min.js"></script>
+
+
+    <script src="/Scripts/bootstrap.min.js"></script>
+    
+    
+    <link rel="shortcut icon" type="image/ico" href="/Content/Images/logo.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css files -->
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700.css' media='screen' />
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700.css' media='screen' />
+
+    <link href="/Content/themes/sos_front/css/combined.min.css" rel="stylesheet" />
+    <link href="/Content/themes/sos_front/css/mod.min.css" rel="stylesheet" />
+    <link href="/Content/themes/sos_front/css/layout.css" rel="stylesheet" />
+    <link href="/Content/themes/sos_front/css/styling.css" rel="stylesheet" />
+
+
+    <style>
+        .panel-custom-public {
+            margin-right: 4%;
+            margin-left: 4%;
+            width: 92%;
+            border: 0px;
+            box-shadow: 0px 0px 0px #c9c9c9;
+        }
+
+        .body-content {
+            background-color: white;
+        }
+    </style>
+
+    <script src="/Scripts/common.js"></script>
+</head>
+<body>
+    
+
+<div role="banner" id="site-header" style="background:#205493" >
+    <div id="site-disclaimer-banner">
+        <div class="row">
+            <div id="site-official" class="small-12 medium-6 columns">
+                <div class="v-align-block">
+                    <a href="" title="Rhode Island state website.">
+                        <img class="v-align-image" src="/Content/Images/statecoabw-footer.png" alt="Image of the Rhode Island coat of arms.">
+                        <div class="v-align-text">
+                            <div class="v-align-text-line">
+                                An Official Rhode Island State Website.
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="site-banner" class="row column hide-for-small-only ">
+        <div class="small-10 medium-9 large-9 columns v-align-block site-title-block">
+            <a href="/Admin/Login" title="Back to the Secretary of State homepage.">
+                
+                <img id="site-logo" class="v-align-image" src=/Content/images/WebCoa.png alt="An image of Gregg M. Amore with the Rhode Island coat of arms in the background.">
+                <div id="site-title" class="v-align-text">
+                    <div class="v-align-text-line agency-name">
+                        Rhode Island Department of State
+                    </div>
+                    <div class="v-align-text-line agency-head-name">
+                        Gregg M. Amore
+                    </div>
+                    <div class="v-align-text-line agency-head-title">
+                        Secretary of State
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="large-3 columns" id="google_translate_element">
+            <div class="large-3 columns" title="Google Translate" id="google_translate_element"></div>
+            
+        </div>
+    </div>
+    <!-- SITE NAVIGATION -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+            <div class="top-bar" style="padding-left: 0;">
+                <div class="row column">
+                    <div class="navbar-header">
+                        
+                        <button class="menu-icon" type="button" data-toggle="collapse" data-target="#myNavbar"></button>
+                        <div class="title-bar-title">Menu</div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar" style="background: #112e51;">
+                        <div>
+                            <ul class="vertical menu medium-horizontal dropdown PublicHeader" data-responsive-menu="drilldown medium-dropdown" role="menubar" data-dropdown-menu="gyqcis-dropdown-menu" data-mutate="83wlrr-responsive-menu">
+                                
+                                <li role="menuitem">
+                                    <a href="https://www.sos.ri.gov/divisions/business-services" title="Business Services homepage.">Business Services</a>
+                                </li>
+                                <li role="menuitem"><a href="https://vote.sos.ri.gov" title="Elections homepage.">Elections</a></li>
+                                <li role="menuitem"><a href="https://www.sos.ri.gov/divisions/civics-and-education" title="Civics and Education homepage.">Civics and Education</a></li>
+                                <li role="menuitem"><a href="http://www.sos.ri.gov/divisions/open-government-center" title="Open Government homepage.">Open Government</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav role="navigation" id="site-breadcrumbs" class="show-for-medium">
+            <div class="row column">
+                <ol class="breadcrumbs">
+                    <li>You are here:</li>
+                    <li><a href="https://www.sos.ri.gov">Home</a></li>
+                    <li><a href="https://www.sos.ri.gov/divisions/open-government-center">Open Government</a></li>
+                    
+                    <li><a href="https://www.sos.ri.gov/divisions/open-government-center/rules-and-regulations">Rules and Regulations</a></li>
+                    <li><a href="/Organizations">Code of Regulations</a></li>
+                </ol>
+            </div>
+        </nav>
+    </nav>
+</div>
+
+<style>
+
+    .PublicHeader {
+        font-family: "Arial","Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 17.6px;
+    }
+</style>
+
+<script type="text/javascript" alt="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', autoDisplay: false }, 'google_translate_element');
+    }
+</script>
+    <div class="row column">
+        <div class="row column">
+            
+
+
+<div role="main" id="site-content" tabindex="0">
+    <div class="row column">
+            <h1>Tattoo Artists and Tattoo Parlors (216-RICR-40-10-15)</h1>
+        <hr>
+        <div class="small-12 medium-9 columns">
+
+            <div>
+                <h3>
+
+                    <!--  Do not show the chapter and subchapter for old regulations (XXX)  -->
+                        <span class="ricr_label label">216-RICR-40-10-15</span>
+                        <span class="                            success
+ label">
+                            <strong>
+                                ACTIVE RULE
+                            </strong>
+                        </span>
+                </h3>
+            </div>
+
+
+            
+
+                <!-- Nav tabs -->
+                <ul class="tabs" data-tabs="w6pedt-tabs" id="example-tabs" role="tablist">
+                        <li role="presentation" class="tabs-title active"><a href="#first" aria-controls="first" role="tab" data-toggle="tab">Regulation Text</a></li>
+                    <li class="tabs-title" role="presentation"><a href="#second" aria-controls="second" role="tab" data-toggle="tab">Overview</a></li>
+                    <li class="tabs-title
+            "
+                        role="presentation"><a href="#third" aria-controls="third" role="tab" data-toggle="tab">Regulation</a></li>
+                    <li class="tabs-title" role="presentation"><a href="#four" aria-controls="four" role="tab" data-toggle="tab">History</a></li>
+                    <li class="tabs-title" role="presentation"><a href="#five" aria-controls="five" role="tab" data-toggle="tab">Rulemaking Documents</a></li>
+                </ul>
+
+            <!-- Tab panes -->
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="first">
+                                <div class="row">
+                                    <span>To view the official Final Regulation for accessibility and readability, click Download Regulation:</span>
+                                    <a style="cursor:pointer;color:white;" href="https://risos-apa-production-public.s3.amazonaws.com/DOH/REG_12220_20211223094510.pdf" class="medium button float-right">
+                                        <i class="fa fa-file-pdf-o" aria-hidden="true">
+                                            <b style="color:white;"> Download Regulation</b>
+                                        </i>
+                                    </a>
+                                </div>
+                        <!-- Generated by opnexml --><head><meta charset="UTF-8" /><title>My Page Title</title><meta name="Generator" content="PowerTools for Open XML" /><style>span { white-space: pre-wrap; }p.pt-RICRNumber {margin-top: 12pt;line-height: 115.0%;margin-bottom: 10pt;    font-family: Arial, sans-serif;font-size: 12pt;margin-left: 0;margin-right: 0;}span.pt-DefaultParagraphFont {    font-family: Arial, sans-serif;font-size: 12pt;text-transform: uppercase;font-style: normal;font-weight: bold;margin: 0;padding: 0;}p.pt-RICRTitleNumber {margin-top: 12pt;margin-bottom: 0;    font-family: Arial, sans-serif;font-size: 14pt;line-height: 108%;margin-left: 0;margin-right: 0;}span.pt-DefaultParagraphFont-000000 {    font-family: Arial, sans-serif;font-size: 14pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;}p.pt-RICRChapterNumber {margin-top: 12pt;margin-bottom: 6pt;    font-family: Arial, sans-serif;font-size: 12pt;line-height: 108%;margin-left: 0;margin-right: 0;}span.pt-DefaultParagraphFont-000001 {    font-family: Arial, sans-serif;font-size: 12pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;}p.pt-RICRSubheadingSubchapter {margin-top: 12pt;margin-bottom: 6pt;margin-left: 0.50in;text-indent: -0.50in;    font-family: Arial, sans-serif;font-size: 12pt;line-height: 108%;margin-right: 0;}p.pt-RICRPart {margin-top: 12pt;margin-bottom: 6pt;    font-family: Arial, sans-serif;font-size: 12pt;line-height: 108%;margin-left: 0;margin-right: 0;}span.pt-DefaultParagraphFont-000002 {    font-family: Arial, sans-serif;font-size: 12pt;font-style: normal;font-weight: normal;margin: 0;padding: 0;}p.pt-RICRHeading1 {margin-top: 12pt;margin-bottom: 3pt;margin-left: 0.50in;text-indent: -0.50in;    font-family: Arial, sans-serif;font-size: 14pt;line-height: 108%;margin-right: 0;}span.pt-DefaultParagraphFont-000003 {color: black;    font-family: Arial, sans-serif;font-size: 14pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;display: inline-block;text-indent: 0;width: 0.500in;}span.pt-DefaultParagraphFont-000004 {color: black;    font-family: Arial, sans-serif;font-size: 14pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;}p.pt-RICRParagraph1 {margin-top: 12pt;margin-bottom: 0;margin-left: 0.50in;text-indent: -0.50in;    font-family: Arial, sans-serif;font-size: 12pt;line-height: 108%;margin-right: 0;}span.pt-DefaultParagraphFont-000005 {    font-family: Arial, sans-serif;font-size: 12pt;font-style: normal;font-weight: normal;margin: 0;padding: 0;display: inline-block;text-indent: 0;width: 0.500in;}p.pt-RICRParagraph2 {margin-top: 12pt;margin-bottom: 0;margin-left: 1.00in;text-indent: -0.50in;    font-family: Arial, sans-serif;font-size: 12pt;line-height: 108%;margin-right: 0;}p.pt-RICRParagraph3 {margin-top: 12pt;margin-bottom: 0;margin-left: 1.50in;text-indent: -0.50in;    font-family: Arial, sans-serif;font-size: 12pt;line-height: 108%;margin-right: 0;}span.pt-DefaultParagraphFont-000006 {color: #C00000;    font-family: Arial, sans-serif;font-size: 12pt;font-style: normal;font-weight: normal;margin: 0;padding: 0;}span.pt-DefaultParagraphFont-000007 {color: #C00000;    font-family: Arial, sans-serif;font-size: 14pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;}span.pt-DefaultParagraphFont-000008 {color: #000000;    font-family: Arial, sans-serif;font-size: 12pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;display: inline-block;text-indent: 0;width: 0.500in;}p.pt-RICRParagraph1-000009 {margin-top: 0;line-height: 107.9%;margin-bottom: 0;margin-left: 0.50in;text-indent: -0.50in;    font-family: Arial, sans-serif;font-size: 12pt;margin-right: 0;}span.pt-DefaultParagraphFont-000010 {color: #C00000;    font-family: Arial, sans-serif;font-size: 12pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;}span.pt-DefaultParagraphFont-000011 {color: #FF0000;    font-family: Arial, sans-serif;font-size: 12pt;font-style: normal;font-weight: normal;margin: 0;padding: 0;}p.pt-RICRParagraph4 {margin-top: 12pt;margin-bottom: 0;margin-left: 2.00in;text-indent: -0.50in;    font-family: Arial, sans-serif;font-size: 12pt;line-height: 108%;margin-right: 0;}a.pt-000012 {text-decoration: none;}span.pt-DefaultParagraphFont-000013 {color: #000000;    font-family: Arial, sans-serif;font-size: 14pt;font-style: normal;font-weight: bold;margin: 0;padding: 0;}</style></head><body><div><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><span class="pt-DefaultParagraphFont-000003">15.1</span><span class="pt-DefaultParagraphFont-000004">Authority</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRParagraph1"><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">These regulations are promulgated pursuant to the authority conferred under R.I. Gen. Laws §§ </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-39.HTM"><span class="pt-DefaultParagraphFont-000002">23-1-39</span></a><span class="pt-DefaultParagraphFont-000002">(a) and 23-1-39(b), and are established for the purpose of adopting minimum requirements for the registration of tattoo artists and tattoo parlors in this state.</span></p></section><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><span class="pt-DefaultParagraphFont-000003">15.2</span><span class="pt-DefaultParagraphFont-000004">Incorporated Materials</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000002">These regulations hereby adopt and incorporate 29 C.F.R. § 1910.1030 (1994) by reference, not including any further editions or amendments thereof and only to the extent that the provisions therein are not inconsistent with these regulations.</span></p></section><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><span class="pt-DefaultParagraphFont-000003">15.3</span><span class="pt-DefaultParagraphFont-000004">Definitions</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">Wherever used in these rules and regulations, the terms listed below shall be construed as follows:</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">"Act" means R.I. Gen. Laws § </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-39.HTM"><span class="pt-DefaultParagraphFont-000002">23-1-39</span></a><span class="pt-DefaultParagraphFont-000002">, entitled "Tattooing and/or Body Piercing"</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">“Apprentice” means a trainee tattoo/permanent makeup artist working under the supervision of a Rhode Island licensed tattoo/permanent makeup artist within a Rhode Island licensed tattoo parlor.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span class="pt-DefaultParagraphFont-000002">"Aseptic technique" means the practice of preventing the transmission of infectious agents into the human body by using standard aseptic procedures.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span class="pt-DefaultParagraphFont-000002">"Communicable disease" means any disease caused by an infectious agent which may be transmitted directly or indirectly from one individual to another.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">5.</span><span class="pt-DefaultParagraphFont-000002">"Director" means the Director of the Rhode Island Department of Health.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">6.</span><span class="pt-DefaultParagraphFont-000002">"Division" means the Division of Customer Services at the Rhode Island Department of Health.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">7.</span><span class="pt-DefaultParagraphFont-000002">"Person" means any individual, trust or estate, partnership, corporation (including but not limited to associations, joint stock companies,) state, or political subdivision or instrumentality of the state.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">8.</span><span class="pt-DefaultParagraphFont-000002">"Registration agency" means the Rhode Island Department of Health.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">9.</span><span class="pt-DefaultParagraphFont-000002">“Repigmentation” means recoloration of the skin as a result of the following:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">Dermabrasion, chemical peels, removal or resolution of birthmarks, vitiligo or other skin conditions which result in the loss of melanin to the skin;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">Scars as a result of surgical procedures, such as cosmetic facial surgery, mole or wart removal, cauterization, etc.;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">Recoloration to burn grafts and other skin irregularities as a result of burns or photo- damage;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span class="pt-DefaultParagraphFont-000002">Recreation of an areola or nipple, following mastectomy; or</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">e.</span><span class="pt-DefaultParagraphFont-000002">Irregularly pigmented skin which may require cheek blush or other blending of pigments into the skin to camouflage.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">10.</span><span class="pt-DefaultParagraphFont-000002">"Tattoo" means to mark or color the skin by introduction of non-toxic dyes or pigments into the skin. For the purposes of these rules and regulations, “tattooing” includes cosmetic procedures such as eye lining, lip lining, microblading, or repigmentation, as defined in this Part.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">11.</span><span class="pt-DefaultParagraphFont-000002">"Tattoo artist" means an individual who is registered in this state to practice tattooing or permanent makeup</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000006"> </span><span class="pt-DefaultParagraphFont-000002">in accordance with the requirements of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">12.</span><span class="pt-DefaultParagraphFont-000002">"Tattoo parlor/shop" means any establishment operated by any person for the purpose of offering or conducting tattooing and/or permanent makeup procedures.</span></p></section><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><span class="pt-DefaultParagraphFont-000003">15.4</span><span class="pt-DefaultParagraphFont-000004">Registration Requirements for Tattoo/Permanent Makeup</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000007"> </span><span class="pt-DefaultParagraphFont-000004">Artists</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRParagraph1"><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Pursuant to R.I. Gen. Laws § </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-39.HTM"><span class="pt-DefaultParagraphFont-000002">23-1-39</span></a><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">, no person shall engage in the practice of tattooing or hold himself/herself as a tattoo artist in this state unless he/she is registered in this state under the statutory and regulatory provisions of this Part. Provided, that physicians duly licensed to practice medicine in the state of Rhode Island under the provisions of R.I. Gen Laws Chapter </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE5/5-37/INDEX.HTM"><span class="pt-DefaultParagraphFont-000002">5-37</span></a><span class="pt-DefaultParagraphFont-000002">, shall be exempt from this registration requirement. However, a physician engaged in the practice of tattooing in his/her private office shall be required to register the site as a tattoo parlor/shop and meet the requirements of § 15.5 of this Part.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span class="pt-DefaultParagraphFont-000008">15.4.1</span><span class="pt-DefaultParagraphFont-000001">Qualifications</span></p><p dir="ltr" class="pt-RICRParagraph1-000009"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">Any applicant seeking registration in this state must:</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Be over 18 years of age;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">Be of good moral character;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span class="pt-DefaultParagraphFont-000002">Demonstrate knowledge of aseptic tattooing technique via inspection, as indicated in § 15.4.3 of this Part; and</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span class="pt-DefaultParagraphFont-000002">Have completed an apprenticeship program as outlined in this Part or has shown equivalent documentation of education/experience in the art of tattooing/permanent makeup.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.</span><span>4.2</span><span class="pt-DefaultParagraphFont-000001">Application and Registration Fee</span></p><p dir="ltr" class="pt-RICRParagraph1-000009"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">Application for registration shall be made on forms provided by the Division including, if applicable, a request for inspection form, which shall be completed and submitted to the Division. Such application shall be accompanied by the following documents:</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">For U.S citizens: a certified copy of birth certificate; </span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">For non-U.S. citizens: proof of lawful entry into the United States and proof of lawful eligibility for employment in the United States;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span class="pt-DefaultParagraphFont-000002">A registration fee as set forth in the rules and regulations pertaining to the Fee Structure for Licensing, Laboratory and Administrative Services Provided by the Department of Health (Part 10-05-2 of this Title);</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span class="pt-DefaultParagraphFont-000002">A recent identification photograph of the applicant, head and shoulders, front view, approximately 2x3 inches in size; and,</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">5.</span><span class="pt-DefaultParagraphFont-000002">A completed "Inspection Request" form.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">Said inspection will be completed within ninety (90) days of application.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">Any applicant who has not previously been issued a registration by the registration agency will be required to submit to a technique inspection, as set forth in § 15.4.3 of this Part, before a registration shall be issued.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span class="pt-DefaultParagraphFont-000008">15.4.3</span><span class="pt-DefaultParagraphFont-000001">Registration of Tattoo/ Permanent Makeup</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000010"> </span><span class="pt-DefaultParagraphFont-000001">Artists</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000001"> and Apprentices</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">By Examination</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Applicants</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000006"> </span><span class="pt-DefaultParagraphFont-000002">and apprentices who have completed an apprenticeship program, seeking registration as a tattoo/permanent makeup</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000011"> </span><span class="pt-DefaultParagraphFont-000002">artist, shall be required to demonstrate aseptic tattooing technique via an examination administered by the registration agency, to test the applicant's fitness to engage in the practice of tattooing/permanent makeup. Such examination shall test the applicant's knowledge and practices of infection control and such other areas as may be deemed necessary, and shall be administered upon completion and review of the application.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">Applicants who have not satisfactorily met the application requirements of this Part relating to the examination described in § 15.4.3(A)(1) of this Part will be given two (2) additional opportunities to demonstrate tattooing technique. Failure to meet all technique requirements will result in denial of registration.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">Applicants wishing to reapply for registration may do so after a six (6) month waiting period between attempts at the examination.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">Apprenticeships</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Persons wishing to begin an apprenticeship program at an established tattoo parlor must register with the registration agency within thirty (30) days of beginning a tattoo parlor’s apprenticeship training program.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">A tattoo parlor’s apprenticeship training program must span eighteen (18) months from the apprentice registration date and should be inclusive of the following:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">Practical Operation: 150 hours</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">Aseptic Tattooing Technique: 50 hours</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">Anatomy and Physiology: 30 hours</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span class="pt-DefaultParagraphFont-000002">Skin and Skin Disorders: 20 hours</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">e.</span><span class="pt-DefaultParagraphFont-000002">Aftercare Instruction: 10 hours</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">f.</span><span class="pt-DefaultParagraphFont-000002">Equipment and Supplies: 20 hours</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">g.</span><span class="pt-DefaultParagraphFont-000002">Rhode Island Rules and Regulations for Tattoo Artists and Tattoo Parlors: 20 hours</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Upon completion of a tattoo parlor’s training program, documentation of training must be presented with the tattoo license application to the registration agency for review and processing. </span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Parlor patrons receiving a tattoo/permanent make up procedure from an apprentice must be informed prior to the tattoo/permanent makeup procedure in writing, and acknowledge via a dated signature, that they willfully accept the tattoo/permanent makeup procedure to be performed by an apprentice. </span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">5.</span><span class="pt-DefaultParagraphFont-000002">The licensed tattoo artist trainer must be present at all times during procedures performed by the apprentice.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000006"> </span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span class="pt-DefaultParagraphFont-000008">15.4.4</span><span class="pt-DefaultParagraphFont-000001">Issuance and Renewal of Registration and Fee</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">The Director shall issue to applicants who have satisfactorily met the application and examination requirements of this Part, a registration to practice tattooing in the state. This registration, unless sooner suspended or revoked, shall expire on December 31st of each year.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">On or before the first day of December in each year, an application for online renewal of registration shall be mailed to every person to whom a registration has been issued during the current year.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">C.</span><span class="pt-DefaultParagraphFont-000002">Every person so registered who desires to renew his/her registration shall electronically file with the Division:</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">An online renewal acknowledgement of adherence to the requirements of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">The fee as set forth in the rules and regulations pertaining to the Fee Structure for Licensing, Laboratory and Administrative Services Provided by the Department of Health (Part 10-05-2 of this Title).</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">D.</span><span class="pt-DefaultParagraphFont-000002">Lapsed Registration</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Any registrant who allows the registration to lapse may have same reinstated by submitting to the registration agency, an application and accompanying documents, as required in § 15.4.2 of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">Any registrant whose registration lapses for two (2) or more years shall be required to submit to the practical examination of aseptic tattooing technique administered by the registration agency.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.4</span><span>.5</span><span class="pt-DefaultParagraphFont-000001">Tattooing Practice</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">A registered tattoo artist shall maintain sanitary and safe practice in accordance with prevailing standards contained in this Part.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Dyes, Pigments, Transfer Paper, and Stencils:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">All dyes and pigments shall be manufactured for the purpose of tattooing and used according to the manufacturer’s specifications.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">In preparing dyes or pigments, non-toxic materials shall be used.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">Single-use, sterile, individual containers for dyes or pigments shall be used for each patron.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span class="pt-DefaultParagraphFont-000002">The stencil, unless composed of acetate, shall be used for a single tattoo procedure only.  Acetate stencils may be disinfected and re-used.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">e.</span><span class="pt-DefaultParagraphFont-000002">Transfer paper shall be one time use and shall be used per manufacturer’s specifications.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">Tattoo Procedures:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">A tattoo artist shall conduct his/her tattooing practice so as to prevent the transmission of communicable diseases from client to client and from artist to client. Tattoo artists shall maintain at least the following minimum standards in the practice of tattooing:</span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(1)</span><span class="pt-DefaultParagraphFont-000002">The area of the body to be tattooed, and all parts of the body which are visible, shall be examined for signs of intravenous drug use, open sores, lesions, oozing wounds, and skin diseases.  If such are found, or suspected, the person shall not be tattooed.</span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(2)</span><span class="pt-DefaultParagraphFont-000002">Each tattoo artist shall wear a clean outer garment. If the garment is visibly contaminated with blood, it shall be changed between clients.</span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(3)</span><span class="pt-DefaultParagraphFont-000002">Before working on each client, each tattoo artist shall clean his/her own fingernails with a brush and shall thoroughly wash and scrub hands with hot running water, using germicidal soap from a dispenser. Hands must also be washed after each rest room use, before putting on gloves and after taking off gloves.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span class="pt-DefaultParagraphFont-000002">Tattoo Materials:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">All materials necessary for the tattooing process shall be set up on a single-use disposable sterile cloth (e.g., polycloth). All autoclaved/sterile packs shall be opened ready for use without touching the interior of the pack. Single-use or collapsible tubes shall be used for lubricants.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">Any shaving shall be done with a single use razor blade or razor.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">The skin shall be prepared first by thoroughly soaping with an antiseptic soap and rinsing with tap water. Following this cleansing, a germicidal solution (such as 70% isopropyl alcohol) shall be applied to the skin using a sterile swab.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span class="pt-DefaultParagraphFont-000002">Stencil transfer medium shall be applied (if applicable) using sterile swabs and prepared clean transfer paper/stencil shall be applied to the skin.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">e.</span><span class="pt-DefaultParagraphFont-000002">After applying the stencil, the tattoo artist shall remove and discard gloves and again wash and scrub his/her hands with soap and water and dry hands using paper towels.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">f.</span><span class="pt-DefaultParagraphFont-000002">Prior to commencing application of the tattoo, the tattoo artist shall then re-glove.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">g.</span><span class="pt-DefaultParagraphFont-000002">If there is a need to rinse the tube and needle between colors, this shall be done with ninety-one percent (91%) isopropyl alcohol or sterile water in sterile single-use disposable containers or non-disposable sterilized containers.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">h.</span><span class="pt-DefaultParagraphFont-000002">As the tattoo operation progresses, any excess dye or pigment applied to the skin shall be removed with sterile, lint-free material.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">i.</span><span class="pt-DefaultParagraphFont-000002">The tattoo shall be allowed to dry. After drying, a sterile lubricant shall be applied from a collapsible metal or plastic tube, and the entire area covered with a piece of sterile gauze or similar sterile porous material.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">j.</span><span class="pt-DefaultParagraphFont-000002">Needles and microblades shall be immediately deposited into a puncture-resistant infectious waste sharps container.  Needles and microblades shall not be reused.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">k.</span><span class="pt-DefaultParagraphFont-000002">All used sharps and any blood soaked material shall be handled and discarded according to the Medical Waste Regulations (250-RICR-140-15-1). All other material shall be discarded appropriately.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">l.</span><span class="pt-DefaultParagraphFont-000002">Unless one time use and disposable, all tubes must be rinsed with tap water and then placed in a germicidal solution (e.g., Cidex) or directly into an ultrasonic cleaner.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">m.</span><span class="pt-DefaultParagraphFont-000002">Gloves shall be removed and discarded in accordance with the requirements of the Medical Waste Regulations (250-RICR-140-15-1) .</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">n.</span><span class="pt-DefaultParagraphFont-000002">Immediately after tattooing, the tattoo artist shall advise the patron, both verbally and in writing, on the care of the tattoo and shall instruct the patron to consult a physician at the first sign of infection (such as excessive pain, redness, swelling, or discharge) in the area of the tattoo.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">o.</span><span class="pt-DefaultParagraphFont-000002">All work surfaces and non-autoclaved equipment (e.g., tattoo machine and pliers) used in the tattoo process shall be cleaned with an EPA-approved bactericidal, virucidal, fungicidal, tuberculocidal surface disinfectant/decontaminant cleaner between clients. Gloves shall be used in the cleaning process. Subsequently, the artist shall wash his/her hands with a germicidal soap after cleaning work surfaces and equipment.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">p.</span><span class="pt-DefaultParagraphFont-000002">After tattooing, the remaining unused dye or pigment shall be discarded in accordance with the requirements of the Medical Waste Regulations (250-RICR-140-15-1). Non-disposable individual containers shall be resterilized, according to specifications in § 15.4.5(A)(5) of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span class="pt-DefaultParagraphFont-000002">Tattoo Equipment:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">A set of individual, single-use sterilized needle bars shall be used for each new patron. Before each use, the open end of the reusable needle tube of the tattooing machine shall be cleaned and sterilized in an approved manner as set forth in § 15.4.5(A)(5) of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">Unless one time use and disposable, the needle tubes shall be cleaned by use of an ultrasonic cleaner and sterilizer. Immersion time for all equipment shall be five (5) minutes. Ultrasonic cleaning tank detergent shall be changed daily. The tank shall be scrubbed thoroughly with a ninety-one percent (91%) solution of isopropyl alcohol between detergent changes.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">Adequate numbers of sterilized needles, tubes and/or microblades shall be on hand for each operator for the entire day or night operation, based on the average number of clients per day. Failure to maintain an adequate number of sterilized needles, tubes, and/or microblades shall require the artist to cease operations until such time as an adequate number becomes available.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span class="pt-DefaultParagraphFont-000002">All items of equipment which may be touched during the tattoo process, such as clip cords, machine heads, spray bottles, etc., shall be capable of being sheathed easily with a disposable impervious covering.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">e.</span><span class="pt-DefaultParagraphFont-000002">Storage cabinets shall be maintained in a sanitary condition and all instruments, dyes, pigments, stencils and other equipment, when not in use, shall be stored in an orderly manner.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">5.</span><span class="pt-DefaultParagraphFont-000002">Sterilization:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Sterilizing of instruments: Operational sterilizers shall be available in each tattoo parlor unless all materials are one time use and disposable. All multiuse grips and needle tubes shall be sterilized after each use by autoclaving per manufacturer's specifications. </span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">If in use, autoclave units shall be checked monthly, using a standard spore test, with results maintained on file for inspection. Autoclave units shall be maintained in accordance with manufacturer’s specifications. Records of said monthly checks shall be maintained for a minimum of two (2) years.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">A log book shall be maintained for the results of said monthly inspections and shall include no less than the following items: </span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(1)</span><span class="pt-DefaultParagraphFont-000002">Date of inspection;</span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(2)</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Results of inspection; and </span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(3)</span><span class="pt-DefaultParagraphFont-000002">The signature of the tattoo artist who conducted the inspection.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span class="pt-DefaultParagraphFont-000002">The sterilizing date shall be noted, and evidence of sterilization shall be demonstrated by color indicator or equivalent.  Packs shall be used within thirty (30) days or resterilized.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Restrictions: All tattoo patrons must meet the age eligibility requirements of R.I. Gen. Laws § </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE11/11-9/11-9-15.HTM"><span class="pt-DefaultParagraphFont-000002">11-9-15</span></a><span class="pt-DefaultParagraphFont-000002">.</span></p></section><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><span class="pt-DefaultParagraphFont-000003">15.5</span><span class="pt-DefaultParagraphFont-000004">Registration Requirements for Tattoo Parlors/Shops</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.</span><span>5.</span><span>1</span><span class="pt-DefaultParagraphFont-000001">Registration Requirements</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">No person, acting severally or jointly with any other person, shall conduct, maintain, or operate a tattoo parlor/shop in the state without a registration issued by the registration agency.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">No person, firm, partnership or corporation shall describe its services in any manner under the title "Tattoo" unless such services as defined in this Part are performed in a parlor/shop that is registered with the registration agency in accordance with the provisions of this Part.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.5.</span><span>2</span><span class="pt-DefaultParagraphFont-000001">Application for Registration and Fee</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">Application for a registration to conduct, maintain, or operate a tattoo</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000006"> </span><span class="pt-DefaultParagraphFont-000002">parlor/shop shall be made in writing on forms provided by the Division and shall be submitted at least ninety (90) days prior to the opening of the tattoo parlor/shop.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">The application for registration shall include:</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">The address of the place of business;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">The address of the owner and/or manager;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span class="pt-DefaultParagraphFont-000002">The name of the manager who shall be registered with the registration agency;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span class="pt-DefaultParagraphFont-000002">Written documentation that the owner and/or manager is at least eighteen (18) years of age;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">5.</span><span class="pt-DefaultParagraphFont-000002">Criminal convictions of the corporation, owner and/or manager, if any, except minor traffic violations;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">6.</span><span class="pt-DefaultParagraphFont-000002">A list of all owners and partners;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">7.</span><span class="pt-DefaultParagraphFont-000002">A list of owners holding fifty percent (50%) or more stock;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">8.</span><span class="pt-DefaultParagraphFont-000002">The fee as set forth in the rules and regulations pertaining to the Fee Structure for Licensing, Laboratory and Administrative Services Provided by the Department of Health (Part 10-05-2 of this Title).</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">9.</span><span class="pt-DefaultParagraphFont-000002">A list of all equipment;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">10.</span><span class="pt-DefaultParagraphFont-000002">A floor plan of the tattoo parlor/shop;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">11.</span><span class="pt-DefaultParagraphFont-000002">Appropriate certificates of compliance with all applicable local and state codes;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">12.</span><span class="pt-DefaultParagraphFont-000002">Written operating policies and procedures pertaining to such matters as hours of business operation, nature of services, sanitation, and safety procedures established for the protection of patrons and employees.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.</span><span>5</span><span>.</span><span>3</span><span class="pt-DefaultParagraphFont-000001">Issuance and Renewal of Registration and Fee</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">Upon approval, the Division shall issue a registration. Said registration, unless sooner suspended or revoked, shall expire by limitation on March 31st following its issuance and may be renewed from year to year after inspection and/or approval by the registration agency, provided the applicant meets the appropriate statutory and regulatory requirements herein.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">A registration shall be issued only to a specific applicant for a specific location, and shall not be transferable.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">C.</span><span class="pt-DefaultParagraphFont-000002">The annual registration renewal fee as set forth in the rules and regulations pertaining to the Fee Structure for Licensing, Laboratory and Administrative Services Provided by the Department of Health (Part 10-05-2) shall accompany the application for the annual license renewal.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">D.</span><span class="pt-DefaultParagraphFont-000002">Any registrant who allows the registration to lapse may have the same reinstated by submitting an application, the accompanying documents, the fee as required in the rules and regulations pertaining to the Fee Structure for Licensing, Laboratory and Administrative Services Provided by the Department of Health (Part 10-05-2 of this Title) and other such documentation as deemed appropriate.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.5</span><span>.</span><span>4</span><span class="pt-DefaultParagraphFont-000001">Change of Ownership, Operation and/or Location</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">When a change of ownership, operation, location, or discontinuation of business of a tattoo parlor/shop is contemplated, the owner and/or manager shall notify the registration agency in writing prior to the proposed action.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">When there is a change in ownership, or in the operation or control of a registered tattoo parlor/shop, the registration shall immediately become void and shall be returned to the registration agency. However, the registration agency reserves the right to extend the expiration date of such registration, allowing the facility to operate under the same conditions which applied to the prior registrant for such time as shall be required for the processing of a new application, but not to exceed thirty (30) days.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.5</span><span>.</span><span>5</span><span class="pt-DefaultParagraphFont-000001">Inspections</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">Duly authorized representatives of the registration agency shall, at all reasonable times, have the authority to enter upon any and all parts of the premises on which any tattoo parlor/shop is located (and of the premises appurtenant thereto) to make any investigation or inspection to determine conformity with the statutory and regulatory provisions of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">Refusal to permit inspection or investigation shall constitute valid grounds for registration denial or revocation.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">C.</span><span class="pt-DefaultParagraphFont-000002">Applicants who have not satisfactorily met the requirements of this Part related to the inspection described in § 15.5.5 of this Part will be given one (1) additional facility inspection. Failure to meet all requirements will result in denial of registration.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Applicants wishing to reapply for registration may do so after a one (1) year waiting period.</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.5</span><span>.</span><span>6</span><span class="pt-DefaultParagraphFont-000001">General Operational Requirements</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">Personnel</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Each facility shall submit to the registration agency the name of the owner and/or manager who shall be responsible for:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">The management and control of the operation and the maintenance of the facility;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">The facility's conformity with state and local laws and regulations pertaining to fire, safety, building sanitation, personnel and other relevant statutory and regulatory provisions; and,</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">The establishment of policies and procedures, including but not limited to, the practice of tattooing, sanitation protocols, infection control, the nature of services provided and other such policies and procedures as may be required.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">Persons engaged in the practice of tattooing shall comply with the Occupational Safety and Health Administration's (OSHA) Blood Borne Pathogen Standards, incorporated above at § 15.2(A) of this Part, in order to protect themselves (and any employees) against occupational exposure to bloodborne pathogens. Compliance shall include, but not be limited to:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">A written exposure control plan;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">Staff training;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">Engineering and work practice controls;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span class="pt-DefaultParagraphFont-000002">Adoption of universal precautions;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">e.</span><span class="pt-DefaultParagraphFont-000002">Personal protective equipment;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">f.</span><span class="pt-DefaultParagraphFont-000002">Hepatitis B vaccinations; and,</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">g.</span><span class="pt-DefaultParagraphFont-000002">A protocol for evaluation in the event that an exposure occurs.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span class="pt-DefaultParagraphFont-000002">Only individuals who hold current Rhode Island registration as a tattoo artist or a duly licensed physician shall practice tattooing and use the title "tattoo artist" in accordance with the regulatory provisions of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span class="pt-DefaultParagraphFont-000002">If the owner and/or manager of a facility is not a registered tattoo artist, a registered tattoo artist shall be designated as the agent of the manager and/or owner, responsible for the direct supervision of all personnel and services related to the practice of tattooing. The name of said designated individual shall be submitted to the registration agency.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">Environment and Maintenance</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Each tattoo parlor/shop shall be required to meet the following provisions:</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">The facility shall be maintained in a sanitary condition free from hazards.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">b.</span><span class="pt-DefaultParagraphFont-000002">All walls, ceilings, and floors shall be smooth and easily cleanable and have a non-absorbent surface. There shall be no carpeting in the tattooing area. Walls and ceilings are to be painted in a light color. Walls, ceilings and floors shall be kept clean and in good repair, free from dust and debris. Floors, walls or ceilings shall not be swept or cleaned while tattooing is being performed.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">c.</span><span class="pt-DefaultParagraphFont-000002">Adequate light and ventilation shall be provided.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">d.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Each tattoo parlor/shop shall contain a hand sink in the tattooing area for the exclusive use of the tattoo artist. The sink shall have hot and cold running water.  At the sink, there shall also be available: </span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(1)</span><span class="pt-DefaultParagraphFont-000002">A soap dispenser;</span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(2)</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Disposable towels; and </span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(3)</span><span class="pt-DefaultParagraphFont-000002">Refuse containers.</span></p><p dir="ltr" class="pt-RICRParagraph4"><span class="pt-DefaultParagraphFont-000005">(4)</span><span class="pt-DefaultParagraphFont-000002">In facilities in which there are multiple tattooing workstations, there shall be a minimum of one (1) sink per every two (2) workstations. Each sink shall meet the requirements of § 15.5.6(B)(1)(d) of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">e.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">Toilets and hand-washing facilities shall conform with the Rhode Island State Building Code, R.I. Gen. Laws Chapter </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-27.3/INDEX.HTM"><span class="pt-DefaultParagraphFont-000002">23-27.3</span></a><span class="pt-DefaultParagraphFont-000002">.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">f.</span><span class="pt-DefaultParagraphFont-000002">All work surfaces shall be smooth, non-porous and easily cleanable.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">g.</span><span class="pt-DefaultParagraphFont-000002">The facility shall be arranged so that work areas are separated from waiting customers by providing a separate room for tattooing or by providing at least ten (10) feet between work areas and partitioning the areas with panels (or other barriers) at least six (6) feet high.  The panel may be constructed of solid opaque plastic or similar material.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">h.</span><span class="pt-DefaultParagraphFont-000002">Equipment and supplies shall be properly stored in designated storage cabinets.</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">i.</span><span class="pt-DefaultParagraphFont-000002">No smoking, eating or drinking shall be permitted in the tattooing area.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">C.</span><span class="pt-DefaultParagraphFont-000002">Waste Disposal</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">Medical waste shall be managed in accordance with the Medical Waste Regulations (250-RICR-140-15-1).</span></p><p dir="ltr" class="pt-RICRSubheadingSubchapter"><span>15.5</span><span>.</span><span>7</span><span class="pt-DefaultParagraphFont-000001">Retention of Records</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">The owner of a tattooing parlor/shop shall maintain proper records for each patron. A record of each patron shall include:</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">1.</span><span class="pt-DefaultParagraphFont-000002">The date on which he/she was tattooed;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">2.</span><span class="pt-DefaultParagraphFont-000002">His/her name, address, telephone number and age;</span></p><p dir="ltr" class="pt-RICRParagraph3"><span class="pt-DefaultParagraphFont-000005">a.</span><span class="pt-DefaultParagraphFont-000002">Photo identification as proof of age (e.g., driver’s license, military identification), a copy of which shall be maintained for each patron;</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">3.</span><span class="pt-DefaultParagraphFont-000002">The location and design of the tattoo; and,</span></p><p dir="ltr" class="pt-RICRParagraph2"><span class="pt-DefaultParagraphFont-000005">4.</span><span class="pt-DefaultParagraphFont-000002">The name of the tattoo artist.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">These records shall be permanently entered in a book with pre-numbered pages, kept solely for this purpose. Records that cannot be physically stored in this pre-numbered book (e.g., copies of proof of age as required in § 15.5.7(A)(2)(a) of this Part) may be stored elsewhere in the facility. These records shall be available for inspection by the registration agency. These records shall be maintained for a minimum of five (5) years after the date on which the patron was tattooed.</span></p></section><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><a id="_Ref477942816" class="pt-000012"></a><span class="pt-DefaultParagraphFont-000013">15.</span><span class="pt-DefaultParagraphFont-000004">6 Denial, Suspension or Revocation of Registration</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">The Director is authorized to deny an application, revoke or suspend a registration for failure of an applicant or registrant to comply with the provisions of the rules and regulations herein.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">Whenever an action shall be proposed to deny an application, revoke or suspend a registration, the Director shall notify the person by certified mail, setting forth the reason(s) for the proposed action.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">C.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">The applicant or registrant shall be given an opportunity for a prompt and fair hearing in accordance with the provisions of R.I. Gen. Laws Chapter </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE42/42-35/INDEX.HTM"><span class="pt-DefaultParagraphFont-000002">42-35</span></a><span class="pt-DefaultParagraphFont-000002">, and the rules and regulations regarding Practices and Procedures Before the Department of Health (Part 10-05-4 of this Title) and Access to Public Records (Part 10-05-1 of this Title).</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">D.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">If it is determined that a person is violating any provisions of this Part, the Director may issue an order to secure compliance in accordance with the provisions of R.I. Gen. Laws §§ </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-20.HTM"><span class="pt-DefaultParagraphFont-000002">23-1-20</span></a><span xml:space="preserve" class="pt-DefaultParagraphFont-000002"> through </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-25.HTM"><span class="pt-DefaultParagraphFont-000002">23-1-25</span></a><span class="pt-DefaultParagraphFont-000002">.</span></p></section><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><span>15.</span><span>7</span><span class="pt-DefaultParagraphFont-000004">Deficiencies and Plans of Correction</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">The registration agency shall notify the governing body or other legal authority of a facility of violations of this Part through a notice of deficiencies which shall be forwarded to the facility within fifteen (15) days of inspection of the facility. If the Director determines that immediate action is necessary to protect the health, welfare, or safety of the public, she/he may issue an immediate compliance order in accordance with R.I. Gen. Laws § </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE23/23-1/23-1-21.HTM"><span class="pt-DefaultParagraphFont-000002">23-1-21</span></a><span class="pt-DefaultParagraphFont-000002">.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">A facility that has received a notice of deficiencies shall submit a plan of correction to the registration agency within fifteen (15) days of the date of the notice of deficiencies. The plan of correction shall detail any requests for variances as well as document the reasons therefore.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">C.</span><span class="pt-DefaultParagraphFont-000002">The registration agency shall be required to approve or reject the plan of correction submitted by a facility in accordance with § 15.7(B) of this Part within fifteen (15) days of receipt of the plan of correction.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">D.</span><span class="pt-DefaultParagraphFont-000002">If the registration agency rejects the plan of correction, or if the facility does not provide a plan of correction within the fifteen (15) day period stipulated in § 15.7(B) of this Part, or if a facility whose plan of correction has been approved by the registration agency fails to execute its plan within a reasonable time, the registration agency may invoke the sanctions referenced in § 15.6 of this Part.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">E.</span><span xml:space="preserve" class="pt-DefaultParagraphFont-000002">If the facility is aggrieved by the sanctions of the registration agency, the facility may appeal the decision and request a hearing in accordance with the provisions of R.I. Gen. Laws Chapter </span><a href="http://webserver.rilin.state.ri.us/Statutes/TITLE42/42-35/INDEX.HTM"><span class="pt-DefaultParagraphFont-000002">42-35</span></a><span class="pt-DefaultParagraphFont-000002">, and the rules and regulations regarding Practices and Procedures Before the Department of Health (Part 10-05-4 of this Title) and Access to Public Records (Part 10-05-1)..</span></p></section><p dir="ltr" class="pt-RICRHeading1" onclick="toggleShow(this);"><span>15.</span><span>8</span><span class="pt-DefaultParagraphFont-000004">Variance Procedures</span></p><section class="doc-block" style="display: none;"></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">A.</span><span class="pt-DefaultParagraphFont-000002">The registration agency may grant a variance either upon its own motion or upon request of the applicant from the provisions of any rule or regulation in a specific case if it finds that a literal enforcement of such provision will result in unnecessary hardship to the applicant and that such a variance will not be contrary to the public interest, public health and/or health and safety of clients.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">B.</span><span class="pt-DefaultParagraphFont-000002">A request for a variance shall be filed by an applicant in writing, setting forth in detail the basis upon which the request is made.</span></p><p dir="ltr" class="pt-RICRParagraph1"><span class="pt-DefaultParagraphFont-000005">C.</span><span class="pt-DefaultParagraphFont-000002">Upon the filing of each request for variance with the registration agency, and within thirty (30) days thereafter, the registration agency shall notify the applicant by certified mail of its approval or in the case of a denial, a hearing date, time and place may be scheduled if the facility appeals the denial and in accordance with the provisions of § 15.7 of this Part.</span></p></div></body>                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="second">
+                            <div>
+                                <input type="submit" class="button float-right" id="Notify" name="Notify Me" value="Notify Me" onclick="location.href='https://rules.sos.ri.gov/Subscriptions/subscribe/216-40-10-15'" />
+                            </div>
+                            <br />
+                        <table class="unstriped meta" style="padding-bottom:20px;">
+                            <tbody>
+
+                                <tr>
+                                    <td><strong>Title</strong></td>
+                                    <td>216</td>
+                                    <td>Department of Health</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Chapter</strong></td>
+                                    <td>40</td>
+                                    <td>Professional Licensing and Facility Regulation</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Subchapter</strong></td>
+                                    <td>10</td>
+                                    <td>Facilities Regulation</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Part</strong></td>
+                                    <td>15</td>
+                                    <td>Tattoo Artists and Tattoo Parlors (216-RICR-40-10-15)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="unstriped meta" style="padding-bottom:20px;">
+                            <tbody>
+                                <tr>
+                                    <td width="300px"><strong>Type of Filing</strong></td>
+                                    <td>
+
+                                            <span>Periodic Refile</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Regulation Status</strong></td>
+                                    <td>
+                                            <span class="">Active</span>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td><strong>Effective</strong></td>
+
+                                                                                <td>01/04/2022</td>
+                                    </tr>
+                                <tr>
+                                    <td>
+                                        <strong>Additional Information</strong>
+</td>
+                                    <td colspan="2"><a class="no_load" href="https://health.ri.gov" style="color: #1a73e8; " target="_blank">
+                                                        <b>https://health.ri.gov</b>
+                                        </td>
+                                    
+                                </tr>
+                                </tbody>
+                        </table>
+                        <div>
+                            <p>
+                                <strong style="padding-bottom:20px">Regulation Authority:</strong>
+                            </p>
+                            <p>
+R.I. Gen. Laws &#167;&#167; 23-1-39(a) and (b)<br />
+                            </p>
+                        </div>
+
+                                <div>
+                                    <p>
+                                            <strong style="padding-bottom:20px">Purpose and Reason:</strong>
+                                    </p>
+                                    <p>
+This rule is being refiled by the agency pursuant to R.I. Gen. Laws § 42-35-4.1.&nbsp; No changes were made to the text of this rule.                                     </p>
+                                </div>
+
+
+
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane " id="third">
+
+                        <div class="row">
+                            <span>To view the official Final Regulation for accessibility and readability, click Download Regulation:</span>
+                            <a style="cursor:pointer;color:white;" href="https://risos-apa-production-public.s3.amazonaws.com/DOH/REG_12220_20211223094510.pdf" class="medium button float-right">
+                                <i class="fa fa-file-pdf-o" aria-hidden="true">
+                                    <b style="color:white;"> Download Regulation</b>
+                                </i>
+                            </a>
+                        </div>
+                                <div class="pdf_div">
+                                    
+                                    <iframe class="pdf" src="https://docs.google.com/gview?url=https://risos-apa-production-public.s3.amazonaws.com/DOH/REG_12220_20211223094510.pdf&embedded=true"></iframe>
+
+                                </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="four">
+
+                                    <div class="callout primary">
+                                            <span class="success label">
+                                                <strong>ACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15                               ">
+                                                    <span>Periodic Refile</span>
+
+                                                <span>- effective from 01/04/2022</span>
+
+                                                        <span>to Current</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=9705                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 06/21/2018</span>
+
+                                                        <span>to 01/04/2022</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=7034                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 12/10/2012</span>
+
+                                                        <span>to 06/21/2018</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=4857                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 10/18/2007</span>
+
+                                                        <span>to 12/10/2012</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=3805                               ">
+                                                    <span>Amendment</span>
+
+                                                <span>- effective from 01/11/2006</span>
+
+                                                        <span>to 10/18/2007</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                                        <div>
+                                            <img class="img_center history_arw" src="/Content/Images/uparrow.png" />
+                                        </div>
+                                    <div class="callout ">
+                                            <span class="secondary label">
+                                                <strong>INACTIVE RULE</strong>
+                                            </span>
+
+
+                                        <b>
+                                            <a href="/Regulations/part/216-40-10-15?reg_id=429                               ">
+                                                    <span>Periodic Refile</span>
+
+                                                <span>- effective from 01/02/2002</span>
+
+                                                        <span>to 01/11/2006</span>
+                                            </a>
+                                        </b>
+
+                                        <!--To display supersedes history-->
+
+
+                                        <!--To display reference history-->
+
+                                    </div>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="five">
+                        
+                        <p>
+                            Rulemaking Documents are organized by document type and are part of this rule’s rulemaking record (R.I. Gen. Laws § 42-35-2.3). If multiple documents of the same type are listed below, each is a unique document.
+                            If there are multiple Public Notice of Proposed Rulemaking documents, view each document to identify the most recently amended version, as it may be amended at any point during the Public Comment Period.
+                        </p>
+                        <ul>
+                                    <label>There are no rulemaking documents associated with this filing.</label>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="medium-3 columns">
+            <br />
+            <div class="row subscribe">
+                
+                <a class="medium button float-center" href='/Organizations'>2002-Current Regulations</a>
+            </div>
+            
+            <div class="row subscribe">
+                <a class="button float-center" href='https://catalog.sos.ri.gov/repositories/2/resources/340'>1950-2001 Regulations</a>
+            </div>
+
+            
+            <div class="row subscribe">
+                <a class="medium button float-center nowrap" href='/Organizations/help'>FAQs</a>
+            </div>
+            
+            <div class="row subscribe">
+                <a class="button float-center" href='https://rules.sos.ri.gov/Subscriptions/subscribe/all'>Subscribe to Notifications</a>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+<style>
+    .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+        background-color: #205493 !important;
+        color: #fff !important;
+    }
+
+    .tab-content {
+        border: 1px solid #e6e6e6 !important;
+        border-top: 0 !important;
+        background: #fefefe !important;
+        color: #0a0a0a !important;
+        transition: all 0.5s ease !important;
+        padding: 15px !important;
+    }
+
+
+    .tabs-title > a {
+        font-size: 1em !important;
+    }
+
+    .tabs-panel {
+        padding: 1rem !important;
+    }
+
+    a {
+        text-decoration: none !important;
+        cursor: pointer !important;
+    }
+
+    .tabs-title > a {
+        display: block;
+        padding: 1.25rem 1.2rem 1.25rem 1.5em;
+        font-size: 0.75rem;
+        line-height: 1;
+        color: #1779ba;
+    }
+
+    #example-tabs li.active, #example-tabs li.active a, #example-tabs li.tabs-title a[aria-selected="true"] {
+        background-color: #205493 !important;
+        color: #fff !important;
+    }
+
+    table tbody th, table tbody td {
+        padding: 0.5rem 0.625rem 0.625rem;
+    }
+
+    table.unstriped tbody {
+        background-color: #e6e6e6 !important;
+    }
+
+    table thead, table tbody, table tfoot, table tr, table td {
+        border: 2px solid #e6e6e6 !important;
+        background-color: #fefefe !important;
+    }
+
+    /*Public site Font style and link style issue 03022022*/
+    h1 {
+        font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif !important;
+        color: rgba(12, 61, 111,1) !important;
+        font-size: 2.0em;
+        margin-top: 0.5em;
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+</style>
+
+<script type='text/javascript'>
+    function toggleShow(elm) {
+        $(elm).next().slideToggle('fast');
+    }
+</script>
+
+<style>
+    .label.alert {
+        background: #cc4b37 !important;
+        color: #fefefe !important;
+        margin-bottom: 0px !important;
+    }
+</style>
+
+
+        </div>
+    </div>
+    
+<footer role="contentinfo" id="site-footer">
+    <div id="language-select">
+        <div class="row">
+            <hr>
+            <div class="medium-8 columns text-left" style="font-size:16px">
+                <a href="#top" title="Return to the top of the page.">
+                    <span class="fa fa-caret-up fa-fw" title="Image of an arrow pointing up."></span>
+                    Return to top
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav role="navigation" id="site-quick-links">
+        <div class="row">
+            <div class="medium-8 columns">
+                <ul class="menu vertical medium-horizontal" style="font-size:16px">
+                    <li>
+                        <a href="https://www.sos.ri.gov/about-us" title="About the Department of State.">About</a>
+                    </li>
+                    <li>
+                        <a href="https://forms.sos.ri.gov/Contactus.aspx" title="Contact the Department of State.">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sos.ri.gov/news-and-events" title="Recent news from the Department of State.">News</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sos.ri.gov/divisions/notary-public" title="Notary Public information.">Notary Public</a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </div>
+    </nav>    <div id="footer-banner">
+        <div class="row">
+            <div class="medium-8 columns">
+                <div class="v-align-block site-title-block">
+                    <a href="/Admin/Login" title="Back to the Secretary of State homepage.">
+                        <img id="footer-logo" class="v-align-image" src=/Content/images/WebCoa.png alt="Image of the Rhode Island coat of arms.">
+                        <div class="v-align-text"> <span class="v-align-text-line">Rhode Island Department of State</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="medium-4 columns">
+                <ul id="social-icons" class="menu align-right">
+                    <li><a href="https://www.facebook.com/RIDepartmentOfState/?fref=ts" title="View the Secretary's Facebook page"><span class="fa fa-facebook-square fa-2x fa-fw" title="Facebook logo."></span><span class="sr-only">Facebook</span></a></li>
+                    <li><a href="https://www.linkedin.com/company/1391989" title="View the Secretary's LinkedIn page"><span class="fa fa-linkedin-square fa-2x fa-fw" title="LinkedIn Logo"></span><span class="sr-only">LinkedIn</span></a></li>
+                    <li><a href="https://twitter.com/risecstate" title="View the Secretary's Twitter page"><span class="fa fa-twitter-square fa-2x fa-fw" title="Twitter logo."></span><span class="sr-only">Twitter</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="/Scripts/chosen.jquery.js"></script>
+
+    
+</body>
+</html>

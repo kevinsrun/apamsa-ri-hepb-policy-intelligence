@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';import{claimsToTsv}from'../src/policy/export.mjs';
+const valid={id:'c1',claim:'Published services',status:'VERIFIED WITH QUALIFICATIONS',eligibleForBrief:true,value:236,unit:'services',datasetYear:2023,population:'RI rendering-provider records',numerator:236,denominator:null,sourceUrl:'https://data.cms.gov/example',evidenceTimestamp:'2026-10-21T00:00:00Z',limitations:['Not unique patients','Suppressed rows excluded']};
+const history={...valid,id:'h1',claim:'Disputed services',value:767,status:'NOT REPRODUCIBLE',eligibleForBrief:false};
+const headers=['id','claim','status','value','unit','datasetYear','population','numerator','denominator','sourceUrl','evidenceTimestamp','limitations'];
+const tsv=claimsToTsv([valid,history]);assert.equal(typeof tsv,'string');const rows=tsv.trimEnd().split('\n');assert.deepEqual(rows[0].split('\t'),headers);assert.equal(rows.length,2);assert.equal(rows[1].split('\t')[3],'236');assert.equal(rows[1].split('\t')[8],'');assert.ok(!tsv.includes('767'));assert.ok(tsv.includes('Not unique patients; Suppressed rows excluded'));
+assert.equal(claimsToTsv([valid,history],{includeHistory:true}).trimEnd().split('\n').length,3);
+for(const bad of ['=HYPERLINK("https://example.org")',' +SUM(1,2)','-2+3','@IMPORTXML','\t=1+1']){const s=claimsToTsv([{...valid,claim:bad}]);const cell=s.trimEnd().split('\n')[1].split('\t')[1];assert.ok(cell.startsWith("'"),'Spreadsheet formula must be neutralized');}
+const normalized=claimsToTsv([{...valid,claim:'one\ttwo\r\nthree'}]);assert.ok(normalized.includes('one two three'));assert.equal(normalized.trimEnd().split('\n').length,2);
+assert.equal(claimsToTsv([]),headers.join('\t')+'\n');
+assert.throws(()=>claimsToTsv([valid,{...valid}]));assert.throws(()=>claimsToTsv([{...valid,status:'CERTIFIED'}]));assert.throws(()=>claimsToTsv([{...valid,sourceUrl:'javascript:alert(1)'}]));assert.throws(()=>claimsToTsv([{...valid,value:NaN}]));assert.throws(()=>claimsToTsv(null));assert.throws(()=>claimsToTsv([valid],{includeHistory:'yes'}));
+console.log('Research export contract: passed source eligibility, schema, null, duplicate, URL and spreadsheet-injection checks');

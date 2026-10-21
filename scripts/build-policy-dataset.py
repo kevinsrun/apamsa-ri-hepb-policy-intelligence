@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""Offline reproducible policy data builder. Network capture is a separate step.
+Null is unknown. Raw sources and disputed history are never promoted by shape alone.
+"""
+import collections,datetime,hashlib,json,pathlib
+from openpyxl import load_workbook
+ROOT=pathlib.Path(__file__).resolve().parent.parent
+read=lambda p:json.loads((ROOT/p).read_text())
+sha=lambda p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()
+STATES={'VERIFIED','VERIFIED WITH QUALIFICATIONS','INCONSISTENT','UNVERIFIED','NOT REPRODUCIBLE'}
+def build():
+ sources={}
+ for path in sorted((ROOT/'data/evidence').glob('retrievals-*.json')):
+  for row in json.loads(path.read_text())['sources']:
+   if row.get('path'):
+    assert sha(row['path'])==row['sha256'],'Source bytes changed: '+row['id']
+   sources[row['id']]={**row,'manifest':str(path.relative_to(ROOT)),'sourceClass':'PRIMARY','datasetVerified':False}
+ old=read('acceptance/scientific-claims.json');claims=[]
+ for i,c in enumerate(old['claims']):
+  prior=c['classification'];grade={'VERIFIED':'VERIFIED','CONTRADICTED':'INCONSISTENT','PROTOTYPE':'NOT REPRODUCIBLE','DERIVED':'VERIFIED WITH QUALIFICATIONS','ESTIMATED':'UNVERIFIED'}.get(prior,'UNVERIFIED')
+  if c['claim'].startswith('Medicare procedure'):grade='NOT REPRODUCIBLE'
+  claims.append({**c,'id':f'history-{i+1:02}','status':grade,'historicalClassification':prior,'value':c.get('reproduced'),'sourceIds':[],'eligibleForBrief':False,'evidenceTimestamp':None,'extractionMethod':'Retained prior scientific audit; see original history; not a fresh source certification','transformationCode':'scripts/reproduce-scientific-claims.py','limitations':[c.get('note') or 'Historical-only audit record; excluded from policy summaries.'],'auditHistory':{'path':'acceptance/scientific-claims.json','sha256':sha('acceptance/scientific-claims.json'),'index':i}})
+ def add(ident,title,value,sourceId,**kwargs):
+  s=sources[sourceId]
+  claims.append({**dict(id=ident,claim=title,value=value,claimed=None,reproduced=value,status='VERIFIED WITH QUALIFICATIONS',eligibleForBrief=True,sourceIds=[sourceId],sourceUrl=s['url'],publicationYear=None,datasetYear=None,datasetIdentifier=None,field=None,population=None,numerator=None,denominator=None,unit=None,extractionMethod=None,transformationCode='scripts/build-policy-dataset.py',evidenceTimestamp=s['retrievedAt'],limitations=[]),**kwargs})
+ # Published provider/service rows: validate both server filters locally and prove
+ # pagination ends. A 5000-row page would require additional capture, never a sum.
+ geography=collections.defaultdict(lambda:collections.defaultdict(float))
+ for code in ['87340','86704','86706']:
+  sid='cms-ri-2023-'+code;s=sources[sid]; rows=read(s['path'])
+  assert isinstance(rows,list) and 0<len(rows)<5000
+  assert all(x['HCPCS_Cd']==code and x['Rndrng_Prvdr_State_Abrvtn']=='RI' for x in rows)
+  total=sum(float(x['Tot_Srvcs']) for x in rows)
+  assert all(float(x['Tot_Srvcs'])>=0 for x in rows)
+  s['datasetVerified']=True
+  limitations=['Published Original Medicare FFS provider-service records; low-volume suppression applies.','RI is rendering-provider address, not beneficiary residence; out-of-state laboratory billing is excluded.','Services can repeat per person and do not identify completed triple panels, screening-only indications, prevalence, noncompliance or all-payer use.','Not the original extract behind the disputed prototype counts; no statewide patient screening denominator.']
+  add('cms-'+code,'Published RI-provider '+code+' services, 2023',int(total),sid,publicationYear=2025,datasetYear=2023,datasetIdentifier='0e9f2f2b-7bf9-451a-912c-e02e654dd725',field='Tot_Srvcs',population='2023 published Original Medicare Part B FFS rendering-provider/HCPCS/place-of-service rows; provider state RI',numerator=int(total),unit='billed services',extractionMethod=f'GET official CMS API; filter Rndrng_Prvdr_State_Abrvtn=RI and HCPCS_Cd={code}; size=5000 offset=0; verify all returned fields; sum Tot_Srvcs',limitations=limitations)
+  for x in rows:geography[x['Rndrng_Prvdr_City']][code]+=float(x['Tot_Srvcs'])
+ proof=read('acceptance/raw/cdc2022-extraction.json');xlsx='acceptance/raw/cdc2022-table-2.5.xlsx';assert sha(xlsx)==proof['sha256']
+ sheet=load_workbook(ROOT/xlsx,data_only=True)['Tab2.5'];assert sheet['B42'].value=='Rhode Island'
+ sources['cdc-chronic-2022-retained']={'id':'cdc-chronic-2022-retained','url':'https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html','path':xlsx,'sha256':sha(xlsx),'retrievedAt':proof['retrievedAt'],'sourceClass':'PRIMARY','datasetVerified':True,'retrieval':'RETAINED HISTORICAL','topic':'surveillance'}
+ for ident,title,value,field,unit in [('cdc-2022-count','RI newly reported chronic hepatitis B cases, 2022',int(str(sheet['C42'].value).strip()),'Tab2.5!C42','reported confirmed cases'),('cdc-2022-rate','RI newly reported chronic hepatitis B rate, 2022',float(str(sheet['D42'].value).strip()),'Tab2.5!D42','per 100,000 population')]:
+  add(ident,title,value,'cdc-chronic-2022-retained',publicationYear=2024,datasetYear=2022,datasetIdentifier='CDC/NNDSS Viral Hepatitis Surveillance 2022 Table 2.5',field=field,population='Rhode Island newly reported confirmed chronic HBV cases, 2022',numerator=364,unit=unit,extractionMethod='openpyxl; exact Rhode Island row and retained XLSX SHA-256',limitations=['Historical surveillance notifications; not total prevalence or newly acquired infections.','Exact population denominator is absent from the source table; never reverse-engineered from a rounded rate.'])
+ # Tool-mediated observations are separately retained and never described as raw
+ # downloaded source bytes or an automatically reproduced dataset.
+ observation=read('data/evidence/cdc2023-web-observation.json')
+ sources['cdc-chronic-2023-web']={**observation,'datasetVerified':False,'sourceClass':'PRIMARY VIA WEB OBSERVATION','topic':'surveillance','retrieval':'TOOL OBSERVED; RAW HTTP CAPTURE BLOCKED'}
+ for ident,title,value,field,unit in [('cdc-2023-count','RI newly reported chronic hepatitis B cases, 2023',216,'Rhode Island / No.','reported confirmed cases'),('cdc-2023-rate','RI newly reported chronic hepatitis B rate, 2023',19.7,'Rhode Island / Rate','per 100,000 population')]:
+  assert observation['row'][field.split(' / ')[1]]==value
+  add(ident,title,value,'cdc-chronic-2023-web',publicationYear=2025,datasetYear=2023,datasetIdentifier='CDC/NNDSS Viral Hepatitis Surveillance 2023 Table 2.5',field=field,population='Rhode Island newly reported confirmed chronic HBV cases, 2023',numerator=216,unit=unit,extractionMethod='Independent official-table web-tool observation transcribed into retained observation; offline JSON reproduction; raw download returned 403',limitations=['Not an original HTTP response capture; raw-byte re-extraction remains pending.','Notifications, not prevalence or incident acquisition. Exact rate denominator absent.'])
+ assert all(c['status'] in STATES for c in claims)
+ policy=[
+  dict(id='tattoo-current',kind='EXISTING REGULATION',title='Tattoo Artists and Tattoo Parlors',citation='216-RICR-40-10-15, §15.5.6(A)(2)',session=None,billNumber=None,sponsor=None,committee=None,sourceId='tattoo-active',effectiveDate='2022-01-04',status='ACTIVE as shown by official registry',latestAction='Periodic refile effective January 4, 2022',relationship='Occupational bloodborne-pathogen protections include hepatitis B vaccination; applies to regulated tattoo practice, not a general population screening mandate.',barriers='Implementation and compliance data are not measured here.'),
+  dict(id='tattoo-old',kind='HISTORICAL REGULATION',title='Superseded tattoo regulation',citation='216-RICR-40-10-15, reg_id=9705',session=None,billNumber=None,sponsor=None,committee=None,sourceId='tattoo-inactive-9705',effectiveDate='2018-06-21',status='INACTIVE; ended January 4, 2022',latestAction='Superseded by current periodic refile',relationship='Historical text retained to prevent use of an inactive version.',barriers='Do not cite this version as current law.'),
+  dict(id='first-responders',kind='EXISTING STATUTE',title='Occupational infectious-disease exposure notification',citation='R.I. Gen. Laws §23-28.36-1',session=None,billNumber=None,sponsor=None,committee=None,sourceId='ri-hbv-statute',effectiveDate=None,status='Published codified statute',latestAction=None,relationship='Legislative findings explicitly include HBV exposure among first responders; review operative sections before interpreting duties.',barriers='This finding section alone does not establish the complete notification procedure.'),
+  dict(id='needle-exchange',kind='EXISTING STATUTE',title='Needle and syringe exchange',citation='R.I. Gen. Laws §23-11-19',session=None,billNumber=None,sponsor=None,committee=None,sourceId='ri-needle-statute',effectiveDate=None,status='Published codified statute',latestAction=None,relationship='Authorizes a state exchange program and viral-hepatitis education/referral component.',barriers='No observed participation or HBV outcome denominator in this registry.'),
+  dict(id='s0751',kind='HISTORICAL PROPOSAL',title='First-responder infectious-disease exposure notification amendments',citation='2025 S0751',session=2025,billNumber='S0751',sponsor='Bissaillon, Ciccone, Dimitri, Felag, Urso',committee='Senate Labor & Gaming (introduced text)',sourceId='s0751-2025',effectiveDate=None,status='Final disposition UNVERIFIED; not assumed active in 2026',latestAction='Introduced March 7, 2025; referred to Senate Labor & Gaming (latest action supported by captured text only)',relationship='Would amend HBV-inclusive occupational notification provisions.',barriers='Official status/history endpoint unavailable in capture; introduced text does not prove enactment.'),
+  dict(id='h6472',kind='HISTORICAL RESOLUTION',title='Viral Hepatitis Awareness Month, May 2005',citation='2005 H6472',session=2005,billNumber='H6472',sponsor='McNamara, Davey, Watson, Singleton, Mumford',committee='House read and passed (document header)',sourceId='h6472-2005',effectiveDate=None,status='Historical commemorative resolution; no current mandate inferred',latestAction='May 10, 2005; header says House read and passed',relationship='Historical awareness initiative; statements about then-current treatments are not current medical evidence.',barriers='Not an active screening bill or coverage requirement.'),
+ ]
+ for p in policy:p.update(sourceUrl=sources[p['sourceId']]['url'],evidenceTimestamp=sources[p['sourceId']]['retrievedAt'],sourceSha256=sources[p['sourceId']].get('sha256'),asOf='2026-10-21')
+ # Status metadata must actually be present in the retained official HTML.
+ for ident,required in [('tattoo-active',['Active','01/04/2022']),('tattoo-inactive-9705',['Inactive','01/04/2022'])]:
+  text=(ROOT/sources[ident]['path']).read_text();assert all(x in text for x in required)
+ directory=[]
+ for ident,organization,role,sid,contact in [
+  ('ridoh','RIDOH Center for HIV, Hepatitis, STD and TB Epidemiology','Surveillance and public-health program coordination','ridoh-report-2024','401-222-2577 (published program office)'),
+  ('perinatal','RIDOH Perinatal Hepatitis Prevention Program','Perinatal screening referral and case management','ridoh-perinatal','Use official program contact page'),
+  ('brown','Brown Warren Alpert Medical School Student Affairs','Institutional route to the medical-school APAMSA chapter','brown-med-groups','medstudentaffairs@brown.edu; chapter-specific contact not independently verified'),
+  ('rihca','Rhode Island Health Center Association','Community health center organizational directory','rihca','Use official association directory; individual clinics and payer access require verification'),
+  ('hbf','Hepatitis B Foundation','Public education and policy resources','hepb-foundation','Use official contact form')]:
+  directory.append(dict(id=ident,organization=organization,role=role,sourceId=sid,sourceUrl=sources[sid]['url'],contact=contact,evidenceTimestamp=sources[sid]['retrievedAt'],outreachStatus='NOT CONTACTED; separate approval required',referralEndorsement=False))
+ gaps=[('census','Official ACS denominators and margins of error unavailable','API returned HTML Missing Key; no demographic rankings or foreign-born denominator released.'),('perinatal','98.4% screening claim lacks eligible pregnancy cohort','Program existence does not validate screening coverage.'),('age-share','78.3% joint foreign-born/age claim lacks original case table','No numerator, denominator, age band or case definition established.'),('chronic138','138 chronic cases lacks original row and reconciled definition','Neither 364 (2022) nor 216 (2023) silently substitutes for the disputed claim.'),('lab-share','68.4% reference-laboratory share lacks reference classification and denominator','Clinical Laboratory specialty is not automatically a reference-lab billing classification.'),('county-need','County need scores are unvalidated demographic proxies','No observed county HBV burden, access denominator or validated weights.'),('bill-status','S0751 final legislative disposition unavailable','Introduced bill text is not enactment or an active current bill.'),('cdc-raw','Fresh CDC raw downloads returned HTTP 403','Historical XLSX retained; current official web observation labeled separately.'),('access','Patient-level Medicaid/Medicare barriers unmeasured','Coverage policies do not establish actual access, adherence or uninsured burden.')]
+ queue=[dict(id=ident,front='A',objective=title,status='BLOCKED_SOURCE',detail=detail,executor='Unassigned; no independent executor implied') for ident,title,detail in gaps]
+ queue += [dict(id='copilot-home',front='B',objective='Reproduce confined Copilot version-probe home resolution failure',status='CANDIDATE_REPAIR',detail='Native preflight failure captured; active runtime remains pinned.',executor='Codex desktop supervisor; not a claimed Fleet-generated repair'),dict(id='fleet-dispatch',front='B',objective='Bounded real research engineering through Fleet',status='AWAITING_ADMISSION',detail='Budget approved: <=3 subscription invocations. Existing isolation and token controls still required.',executor='Only freshly eligible configured provider may execute')]
+ dataset=dict(schemaVersion=1,purpose='Internal policy research; draft materials only; no clinical or referral use',builtAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),researchBaseline='a0d3036b11675c89dcfc8c2390709a7dcd119bdf',sources=list(sources.values()),claims=claims,legislation=policy,stakeholders=directory,geography=[dict(municipality=city,geographyType='Rendering-provider city; not resident county',datasetYear=2023,services={k:int(v) for k,v in values.items()},sourceIds=['cms-ri-2023-'+c for c in values],limitations='Published billing location only. No resident rates, need score, provider quality or unique-patient inference.') for city,values in sorted(geography.items())],workQueue=queue,gaps=[dict(id=i,title=t,detail=d) for i,t,d in gaps],warnings=['Disputed and prototype records remain audit-only and are excluded from generated briefs.','Null denominators are unknown, never zero. No national-to-RI substitution.','All findings refer to specified historical data years, not current infection prevalence.','No outreach, public publication, production deployment or treatment recommendation authorized.'])
+ return dataset
+if __name__=='__main__':
+ d=build();p=ROOT/'data/processed/policy-intelligence.json';p.write_text(json.dumps(d,indent=2)+'\n')
+ print(json.dumps({'claims':len(d['claims']),'sources':len(d['sources']),'legislation':len(d['legislation']),'geographies':len(d['geography']),'stakeholders':len(d['stakeholders']),'statuses':dict(collections.Counter(c['status'] for c in d['claims'])),'cmsServiceCounts':{c['id']:c['value'] for c in d['claims'] if c['id'].startswith('cms-')}}))
