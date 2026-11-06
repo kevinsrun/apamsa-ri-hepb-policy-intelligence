@@ -1,6 +1,6 @@
 # Rhode Island Hepatitis B Policy Evidence Prototype
 
-A private research prototype for reviewing Rhode Island hepatitis B screening and
+A research prototype for reviewing Rhode Island hepatitis B screening and
 advocacy evidence. It includes a provenance-aware data pipeline, a local web
 interface, reviewed JSON export, and an educational serology interpreter.
 
