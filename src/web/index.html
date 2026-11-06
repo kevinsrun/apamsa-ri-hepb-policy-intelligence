@@ -1,11 +1,264 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rhode Island Hepatitis B Evidence & Screening Platform</title><style>
-body{font:16px/1.6 system-ui;background:#f5f7fb;color:#15283b;margin:0}main,header{max-width:1080px;margin:auto;padding:24px}h1{font-size:28px}nav{display:flex;gap:8px;flex-wrap:wrap}button,input,select{font:inherit;padding:8px;border:1px solid #627992;border-radius:5px}button{cursor:pointer;background:#fff}button[aria-selected=true]{background:#164566;color:white}section{padding:24px;background:white;margin:18px 0;border:1px solid #cad4dd;border-radius:8px}[hidden]{display:none!important}.warning{padding:16px;background:#fff0cd;border-left:5px solid #906619}label{display:inline-block;margin:10px}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#125389}table{border-collapse:collapse}td,th{padding:10px;border-bottom:1px solid #ddd}
-</style></head><body><header><h1>Rhode Island Hepatitis B Evidence & Screening Platform</h1><p>Independent evidence review — historical research, not clinical decision support.</p><div class="warning" id="data-status" role="status">Loading evidence…</div><button id="reload">Reload evidence</button><nav role="tablist" aria-label="Research sections">
-<button role="tab" id="nav-btn-overview" aria-controls="tab-overview" aria-selected="true">Overview</button><button role="tab" id="nav-btn-screening" aria-controls="tab-screening" aria-selected="false">Screening</button><button role="tab" id="nav-btn-geography" aria-controls="tab-geography" aria-selected="false">Geography</button><button role="tab" id="nav-btn-providers" aria-controls="tab-providers" aria-selected="false">Providers</button><button role="tab" id="nav-btn-evidence" aria-controls="tab-evidence" aria-selected="false">Evidence</button><button role="tab" id="nav-btn-export" aria-controls="tab-export" aria-selected="false">Export</button></nav></header><main>
-<section role="tabpanel" id="tab-overview" aria-labelledby="nav-btn-overview"><h2>Surveillance — historical 2022 data</h2><div id="overview-data">Unavailable until evidence loads.</div><h3>Prevalence Distinction</h3><p>Newly reported chronic cases are not total prevalent infections or incidence of newly acquired infection. No statewide prevalence estimate is established here.</p><p class="warning">CMS counts are PROTOTYPE fixtures. Demographic percentages, county need rankings and laboratory billing shares are UNVERIFIED. No screening-gap or provider-performance conclusion is supported.</p></section>
-<section role="tabpanel" hidden id="tab-screening" aria-labelledby="nav-btn-screening"><h2>Educational serology patterns</h2><p>CDC 2023 recommends initial HBsAg, anti-HBs and total anti-HBc screening for adults. This tool describes typical patterns, not a diagnosis. Negative IgM, recent negative HBsAg or ALT &gt;10× ULN alone do not establish chronicity.</p><form id="serology"><label>HBsAg <select id="hbsag"><option value="negative">Negative</option><option value="positive">Positive</option></select></label><label>Anti-HBs <select id="antihbs"><option value="negative">Negative</option><option value="positive">Positive</option></select></label><label>Total anti-HBc <select id="antihbc"><option value="negative">Negative</option><option value="positive">Positive</option></select></label><label>IgM anti-HBc <select id="igm"><option value="unknown">Unknown</option><option value="negative">Negative</option><option value="positive">Positive</option></select></label><label><input id="prior-negative" type="checkbox">Documented negative HBsAg within 6 months</label><label><input id="persistent" type="checkbox">Documented HBsAg persistence ≥6 months</label><label><input id="dna" type="checkbox">HBV DNA detected</label><label>ALT multiple of ULN <input id="alt" type="number" min="0" step="any" placeholder="Unknown"></label></form><div id="serology-result" role="status"></div><p><a href="https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm">CDC 2023 screening recommendations</a> · <a href="https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html">CDC surveillance laboratory interpretation</a></p></section>
-<section role="tabpanel" hidden id="tab-geography" aria-labelledby="nav-btn-geography"><h2>Geography</h2><p class="warning">UNVERIFIED demographics and unvalidated need-score proxies are quarantined. County modeled cases are not observed surveillance. Rankings and referral recommendations are withheld.</p><div id="geography-data"></div></section>
-<section role="tabpanel" hidden id="tab-providers" aria-labelledby="nav-btn-providers"><h2>Provider provenance</h2><p class="warning">Not a clinical provider directory. All 12 claimed identities are quarantined: nine invalid NPI checksums, one registry no-result and two mismatched registry identities.</p><label>Search verified providers <input id="provider-search" type="search"></label><div id="provider-results"></div></section>
-<section role="tabpanel" hidden id="tab-evidence" aria-labelledby="nav-btn-evidence"><h2>Evidence & limitations</h2><p><a href="https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html">CDC 2022 Table 2.5 (page dated October 21, 2024)</a></p><p>Only the Rhode Island statewide chronic notification count and rate have been independently extracted from that table. This is not certification of other data or clinical readiness.</p><pre id="provenance"></pre></section>
-<section role="tabpanel" hidden id="tab-export" aria-labelledby="nav-btn-export"><h2>Reviewed dataset export</h2><p>JSON includes source URL, hash, historical freshness warning and quarantine status. Unsupported raw identities and prototype measurements are excluded. Never use this research export as clinical guidance.</p><button id="download" disabled>Download reviewed JSON</button></section>
-</main><script type="module" src="/src/web/app.mjs"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Rhode Island Hepatitis B Evidence & Screening Platform</title>
+<style>.skip-link{position:absolute;left:-10000px;background:#fffefa;padding:12px;z-index:10}
+.skip-link:focus{left:12px;top:12px}
+:root{color-scheme:light;--ink:#20383e;--muted:#53676b;--teal:#17665f;--line:#d9dfda;--paper:#fffefa}
+*{box-sizing:border-box}
+body{font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f3ed;color:var(--ink);margin:0}
+button,input,select{font:inherit}
+button,a,input,select,summary{touch-action:manipulation}
+button{cursor:pointer}
+button:disabled{cursor:not-allowed;opacity:.55}
+button,input,select{border:1px solid #81928f;border-radius:6px;padding:10px 14px;background:var(--paper);color:var(--ink)}
+button:hover:enabled{background:#e5efeb}
+a{color:#17665f;text-underline-offset:4px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid #b66d17;outline-offset:4px}
+[hidden]{display:none!important}
+.sidebar{position:fixed;inset:0 auto 0 0;width:220px;background:#15383e;color:#e5efea;padding:32px 22px;display:flex;flex-direction:column}
+.brand{font-weight:650;font-size:24px;letter-spacing:-1px}
+.brand span{color:#9dc8bf}
+.sidebar small{color:#b9ceca;font-size:12px}
+.sidebar nav{display:flex;flex-direction:column;gap:8px;margin-top:46px}
+.sidebar button{border:1px solid transparent;text-align:left;background:transparent;color:#dbe7e3;padding:11px 14px}
+.sidebar button[aria-selected=true]{background:#2c5558;border-color:#648682;color:white}
+.sidebar button:hover{background:#254b50}
+.nav-index{font-size:11px;color:#a2c5bc;display:inline-block;width:26px;font-variant-numeric:tabular-nums}
+.sidebar footer{margin-top:auto;border-top:1px solid #456166;padding-top:18px;font-size:12px;color:#b9ceca}
+.workspace{margin-left:220px;padding:38px 44px;max-width:1500px}
+.page-header{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:24px}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--teal);margin:0 0 8px}
+h1{font-size:34px;line-height:1.2;font-weight:600;letter-spacing:-1px;margin:0 0 12px}
+h2{font-size:25px;line-height:1.3;font-weight:600;letter-spacing:-.5px;margin:0 0 16px}
+h3{font-size:17px;margin:0 0 10px}
+p{margin:0 0 16px}
+.subtitle{color:var(--muted);max-width:650px;margin:0;font-size:14px}
+.warning{padding:18px 20px;background:#fbefd5;border:1px solid #dbc698;border-left:4px solid #9a6a20;border-radius:6px;color:#654719;font-size:14px}
+.persistent{margin-bottom:12px}
+.status-row{display:flex;gap:18px;justify-content:space-between;align-items:center;padding:16px 0 22px;border-bottom:1px solid var(--line)}
+#data-status{font-size:13px;color:#654719;max-width:700px}
+#reload{flex-shrink:0;font-size:13px;font-weight:600}
+.source-strip{display:flex;gap:24px;flex-wrap:wrap;font-size:12px;color:var(--muted);padding:18px 0}
+.source-strip a{margin-left:auto}
+main{min-width:0}
+section[role=tabpanel]{padding:30px;background:var(--paper);border:1px solid var(--line);border-radius:10px;margin:6px 0 24px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;line-height:1.7;background:#f1f3ef;padding:18px;border-radius:6px}
+details{margin-top:24px}
+summary{cursor:pointer;font-weight:600}
+#overview-data{font-size:13px;color:var(--muted);margin-bottom:24px}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0}
+.metric{padding:24px;background:#f2f5ef;border:1px solid var(--line);border-radius:8px}
+.metric-value{display:block;font-size:46px;letter-spacing:-2px;line-height:1.2;font-weight:550;font-variant-numeric:tabular-nums;color:#174d49;margin:12px 0}
+.metric p{font-size:13px;color:var(--muted);margin:0}
+.scope{border-top:1px solid var(--line);padding-top:24px;margin-top:24px}
+.scope p{color:var(--muted);font-size:14px}
+.section-kicker{font-size:12px;color:var(--teal);margin-bottom:8px}
+fieldset{border:1px solid var(--line);border-radius:8px;padding:20px;margin:22px 0}
+legend{font-size:14px;font-weight:650;padding:0 8px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+label{display:flex;flex-direction:column;gap:7px;font-size:14px}
+input,select{min-width:0;max-width:100%;width:100%}
+label.check{flex-direction:row;align-items:flex-start;padding:8px 0}
+input[type=checkbox]{width:18px;height:18px;flex-shrink:0;margin:4px 6px 0 0;accent-color:var(--teal)}
+.result{background:#eaf1ed;border:1px solid #b9ccc2;border-radius:8px;padding:22px;margin:24px 0}
+#serology-result{white-space:pre-line;font-size:14px}
+#provider-results,#geography-data{padding:24px;border:1px dashed #9dacaa;border-radius:8px;background:#f4f5f0;margin-top:24px}
+#provider-search{max-width:460px}
+.links{font-size:13px}
+.export-scope{padding:20px;background:#f2f5ef;border-radius:8px;margin:24px 0}
+.export-scope p:last-child{margin:0}
+#download{background:var(--teal);color:white;font-weight:600}
+#download:hover:enabled{background:#124f49}
+.page-footer{font-size:12px;color:var(--muted);padding-bottom:24px}
+ @media(min-width:1400px){.workspace{margin-right:auto}
+}
+@media(max-width:800px){.sidebar{position:static;width:auto;padding:18px 20px}
+.brand{font-size:21px}
+.sidebar nav{margin-top:18px;flex-direction:row;flex-wrap:wrap;gap:5px}
+.sidebar button{font-size:13px;padding:8px 10px}
+.nav-index,.sidebar footer{display:none}
+.workspace{margin-left:0;padding:24px 18px}
+.page-header{display:block}
+h1{font-size:29px}
+section[role=tabpanel]{padding:22px 18px}
+.status-row{align-items:flex-start;flex-direction:column;gap:12px}
+.metrics,.form-grid{grid-template-columns:1fr}
+.source-strip{gap:8px 16px}
+.source-strip a{margin-left:0;width:100%}
+.warning{padding:14px 16px}
+.metric-value{font-size:42px}
+fieldset{padding:16px}
+h2{font-size:23px}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to workspace</a>
+<aside class="sidebar">
+<div class="brand">HepB<span> / RI</span>
+</div>
+<small>RESEARCH NOTEBOOK</small>
+<nav role="tablist" aria-label="Research sections">
+<button role="tab" id="nav-btn-overview" aria-controls="tab-overview" aria-selected="true" tabindex="0">
+<span class="nav-index" aria-hidden="true">01</span>Overview</button>
+<button role="tab" id="nav-btn-screening" aria-controls="tab-screening" aria-selected="false" tabindex="-1">
+<span class="nav-index" aria-hidden="true">02</span>Screening</button>
+<button role="tab" id="nav-btn-geography" aria-controls="tab-geography" aria-selected="false" tabindex="-1">
+<span class="nav-index" aria-hidden="true">03</span>Geography</button>
+<button role="tab" id="nav-btn-providers" aria-controls="tab-providers" aria-selected="false" tabindex="-1">
+<span class="nav-index" aria-hidden="true">04</span>Providers</button>
+<button role="tab" id="nav-btn-evidence" aria-controls="tab-evidence" aria-selected="false" tabindex="-1">
+<span class="nav-index" aria-hidden="true">05</span>Evidence</button>
+<button role="tab" id="nav-btn-export" aria-controls="tab-export" aria-selected="false" tabindex="-1">
+<span class="nav-index" aria-hidden="true">06</span>Export</button>
+</nav>
+<footer>Rhode Island · Historical evidence<br>Research prototype<br>Remediation required</footer>
+</aside>
+<div class="workspace">
+<header class="page-header">
+<div>
+<p class="eyebrow">Rhode Island / Evidence review</p>
+<h1>Hepatitis B research workspace</h1>
+<p class="subtitle">Explore retained surveillance evidence and educational serology patterns, with source limitations in view.</p>
+</div>
+</header>
+<div class="warning persistent">
+<strong>Research prototype · Remediation required</strong>
+<br>Historical evidence only. Not accepted for policy or clinical use; not clinical decision support. Unsupported datasets remain quarantined.</div>
+<div class="status-row">
+<div id="data-status" role="status">Loading evidence…</div>
+<button id="reload">↻ Reload evidence</button>
+</div>
+<div class="source-strip">
+<span>Source scope: CDC Table 2.5</span>
+<span>Observation year: 2022</span>
+<span>Statewide notifications only</span>
+<a href="#tab-evidence" data-open-tab="evidence">Review source & provenance →</a>
+</div>
+<main id="main-content" tabindex="-1">
+<section role="tabpanel" id="tab-overview" aria-labelledby="nav-btn-overview">
+<p class="eyebrow">01 / Overview</p>
+<h2>Surveillance — historical 2022 data</h2>
+<p class="subtitle">Two retained statewide measures. Read their definitions before drawing conclusions.</p>
+<div class="metrics">
+<article class="metric">
+<h3>Newly reported chronic cases</h3>
+<strong class="metric-value" id="metric-count">—</strong>
+<p>2022 · Rhode Island notifications<br>Not total prevalent infections</p>
+</article>
+<article class="metric">
+<h3>Notification rate</h3>
+<strong class="metric-value" id="metric-rate">—</strong>
+<p>Per 100,000 population · 2022<br>Newly reported chronic cases</p>
+</article>
+</div>
+<div id="overview-data">Unavailable until evidence loads.</div>
+<div class="scope">
+<h3>What this does not establish</h3>
+<p>Newly reported chronic cases are not total prevalent infections or incidence of newly acquired infection. No statewide prevalence estimate is established here.</p>
+<p class="warning">CMS counts are PROTOTYPE fixtures. Demographic percentages, county need rankings and laboratory billing shares are UNVERIFIED. No screening-gap or provider-performance conclusion is supported.</p>
+<p class="links">
+<a href="#tab-evidence" data-open-tab="evidence">Read evidence & limitations →</a>
+</p>
+</div>
+</section>
+<section role="tabpanel" hidden id="tab-screening" aria-labelledby="nav-btn-screening">
+<h2>Educational serology patterns</h2>
+<p>CDC 2023 recommends initial HBsAg, anti-HBs and total anti-HBc screening for adults. This tool describes typical patterns, not a diagnosis. Negative IgM, recent negative HBsAg or ALT &gt;10× ULN alone do not establish chronicity.</p>
+<form id="serology">
+<fieldset>
+<legend>Laboratory markers</legend>
+<div class="form-grid">
+<label>HBsAg <select id="hbsag">
+<option value="negative">Negative</option>
+<option value="positive">Positive</option>
+</select>
+</label>
+<label>Anti-HBs <select id="antihbs">
+<option value="negative">Negative</option>
+<option value="positive">Positive</option>
+</select>
+</label>
+<label>Total anti-HBc <select id="antihbc">
+<option value="negative">Negative</option>
+<option value="positive">Positive</option>
+</select>
+</label>
+<label>IgM anti-HBc <select id="igm">
+<option value="unknown">Unknown</option>
+<option value="negative">Negative</option>
+<option value="positive">Positive</option>
+</select>
+</label>
+</div>
+</fieldset>
+<fieldset>
+<legend>Documented history & supporting results</legend>
+<p class="subtitle">Use dated records for the history fields. Leave unknown results unset.</p>
+<label class="check">
+<input id="prior-negative" type="checkbox">Documented negative HBsAg within 6 months</label>
+<label class="check">
+<input id="persistent" type="checkbox">Documented HBsAg persistence ≥6 months</label>
+<label class="check">
+<input id="dna" type="checkbox">HBV DNA detected</label>
+<label>ALT multiple of ULN <input id="alt" type="number" min="0" step="any" placeholder="Unknown">
+</label>
+</fieldset>
+</form>
+<div class="result">
+<p class="eyebrow">Educational only · Not a diagnosis</p>
+<div id="serology-result" role="status">
+</div>
+</div>
+<p>
+<a href="https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm">CDC 2023 screening recommendations</a> · <a href="https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html">CDC surveillance laboratory interpretation</a>
+</p>
+</section>
+<section role="tabpanel" hidden id="tab-geography" aria-labelledby="nav-btn-geography">
+<h2>Geography</h2>
+<p class="warning">UNVERIFIED demographics and unvalidated need-score proxies are quarantined. County modeled cases are not observed surveillance. Rankings and referral recommendations are withheld.</p>
+<div id="geography-data">
+</div>
+</section>
+<section role="tabpanel" hidden id="tab-providers" aria-labelledby="nav-btn-providers">
+<h2>Provider provenance</h2>
+<p class="warning">Not a clinical provider directory. All 12 claimed identities are quarantined: nine invalid NPI checksums, one registry no-result and two mismatched registry identities.</p>
+<label>Search verified providers <input id="provider-search" type="search">
+</label>
+<div id="provider-results">
+</div>
+</section>
+<section role="tabpanel" hidden id="tab-evidence" aria-labelledby="nav-btn-evidence">
+<h2>Evidence & limitations</h2>
+<p>
+<a href="https://www.cdc.gov/hepatitis-surveillance-2022/hepatitis-b/table-2-5.html">CDC 2022 Table 2.5 (page dated October 21, 2024)</a>
+</p>
+<p>Only the Rhode Island statewide chronic notification count and rate have been independently extracted from that table. This is not certification of other data or clinical readiness.</p>
+<details open>
+<summary>Full machine provenance & quarantine record</summary>
+<pre id="provenance">
+</pre>
+</details>
+</section>
+<section role="tabpanel" hidden id="tab-export" aria-labelledby="nav-btn-export">
+<h2>Reviewed dataset export</h2>
+<p>JSON includes source URL, hash, historical freshness warning and quarantine status. Unsupported raw identities and prototype measurements are excluded. Never use this research export as clinical guidance.</p>
+<div class="export-scope">
+<h3>Export scope</h3>
+<p>Includes: active reviewed dataset, historical statewide summary, source metadata and quarantine record.</p>
+<p>Excludes: unsupported raw identities and prototype measurements. Available only after evidence passes validation.</p>
+</div>
+<button id="download" disabled>Download reviewed JSON</button>
+</section>
+</main>
+<footer class="page-footer">Research evidence requires context. Software verification does not establish scientific or clinical validity.</footer>
+</div>
+<script type="module" src="/src/web/app.mjs">
+</script>
+</body>
+</html>
