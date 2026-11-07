@@ -2,8 +2,27 @@ import { interpretTriplePanel } from '../clinical/guidelines.mjs';
 const el=id=>document.getElementById(id);
 let dataset=null;
 const tabs=['overview','screening','geography','providers','evidence','export'];
-for (const id of tabs) el('nav-btn-'+id).addEventListener('click',()=>{
-  for (const other of tabs){el('tab-'+other).hidden=other!==id;el('nav-btn-'+other).setAttribute('aria-selected',String(other===id));}
+function selectTab(id,{focus=false}={}){
+  for(const other of tabs){
+    const active=other===id,button=el('nav-btn-'+other);
+    el('tab-'+other).hidden=!active;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;
+  }
+  if(focus)el('nav-btn-'+id).focus();
+}
+for(const [index,id] of tabs.entries()){
+  const button=el('nav-btn-'+id);
+  button.addEventListener('click',()=>selectTab(id));
+  button.addEventListener('keydown',event=>{
+    let next;
+    if(event.key==='Home')next=0;
+    if(event.key==='End')next=tabs.length-1;
+    if(['ArrowRight','ArrowDown'].includes(event.key))next=(index+1)%tabs.length;
+    if(['ArrowLeft','ArrowUp'].includes(event.key))next=(index+tabs.length-1)%tabs.length;
+    if(next!==undefined){event.preventDefault();selectTab(tabs[next],{focus:true});}
+  });
+}
+for(const link of document.querySelectorAll('[data-open-tab]'))link.addEventListener('click',event=>{
+  event.preventDefault();selectTab(link.dataset.openTab,{focus:true});
 });
 function renderProviders(){
   const query=el('provider-search').value.trim().toLowerCase();
@@ -11,7 +30,7 @@ function renderProviders(){
   el('provider-results').textContent=matches.length?matches.map(p=>p.name).join('\n'):'0 verified providers. Claimed identities are not searchable referrals.';
 }
 function invalidate(message){
-  dataset=null;el('download').disabled=true;el('data-status').textContent=message;
+  dataset=null;el('metric-count').textContent='—';el('metric-rate').textContent='—';el('download').disabled=true;el('data-status').textContent=message;
   el('overview-data').textContent='Unavailable; prior data cleared.';el('provenance').textContent='';el('geography-data').textContent='';renderProviders();
 }
 export async function loadEvidence(){
@@ -27,6 +46,8 @@ export async function loadEvidence(){
        !Number.isFinite(data.statewide_summary?.chronic_hepb_newly_reported_cases_2022) ||
        !Number.isFinite(data.statewide_summary?.chronic_hepb_newly_reported_rate_per_100k_2022))throw Error('Unsupported evidence schema');
     dataset=data;
+    el('metric-count').textContent=String(data.statewide_summary.chronic_hepb_newly_reported_cases_2022);
+    el('metric-rate').textContent=String(data.statewide_summary.chronic_hepb_newly_reported_rate_per_100k_2022);
     el('data-status').textContent='HISTORICAL — NOT CURRENT. Only CDC 2022 statewide count/rate verified; other datasets quarantined.';
     el('overview-data').textContent=`${data.statewide_summary.chronic_hepb_newly_reported_cases_2022} newly reported chronic cases; ${data.statewide_summary.chronic_hepb_newly_reported_rate_per_100k_2022} per 100,000 (2022). VERIFIED: CDC Table 2.5 only.`;
     el('provenance').textContent=JSON.stringify({sources:data.metadata.sources,warnings:data.metadata.warnings,quarantine:data.quarantine},null,2);
